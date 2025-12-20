@@ -11,7 +11,6 @@
 git update-index --skip-worktree instance.cfg
 git update-index --skip-worktree minecraft/kubejs/config/client.properties
 git update-index --skip-worktree minecraft/kubejs/config/common.properties
-git update-index --skip-worktree minecraft/config/xaerominimap_entities.json
 ```
 
 - To undo it, do:

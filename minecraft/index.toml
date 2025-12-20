@@ -1793,10 +1793,6 @@ file = "config/xaerominimap.txt"
 hash = "f7aa8751fc1e3ba087b92cb3ff178efa5433f232ed19f340017c3a324b400c8f"
 
 [[files]]
-file = "config/xaerominimap_entities.json"
-hash = "479acb30cdeed071943b4be5d556794464bc81030ec71c41383bee9c07677194"
-
-[[files]]
 file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
