@@ -3,91 +3,22 @@
 	default_quest_shape: ""
 	filename: "hi_chat"
 	group: "1A1DF8B77E8F858C"
+	icon: "akashictome:tome"
 	id: "58EACA00B9FFAA4E"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		can_repeat: true
-		description: [
-			"The Akashic Tome holds all modded guides. With it in your hand:"
-			"- Right-click to choose a guide book to read"
-			"- Once a book has been selected, you can right-click to read it"
-			"- Switch back to the Akashic Tome by punching into the air"
-			""
-			"Some mods have their guides in the advancements (press L)."
-		]
-		icon: {
-			Count: 1
-			id: "akashictome:tome"
-			tag: {
-				"akashictome:data": {
-					ae2: {
-						Count: 1
-						id: "ae2:guide"
-						tag: {
-							"akashictome:displayName": {
-								text: "{\"translate\":\"item.ae2.guide\"}"
-							}
-							"akashictome:is_morphing": 1b
-							display: {
-								Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.guide\"}]}"
-							}
-						}
-					}
-					alexsmobs: {
-						Count: 1
-						id: "alexsmobs:animal_dictionary"
-					}
-					goety: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "goety:black_book"
-						}
-					}
-					goety_0: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"akashictome:definedMod": "goety_0"
-							"akashictome:displayName": {
-								text: "{\"translate\":\"info.goety.witch_brew.title\"}"
-							}
-							"akashictome:is_morphing": 1b
-							display: {
-								Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"info.goety.witch_brew.title\"}]}"
-							}
-							"patchouli:book": "goety:witches_brew"
-						}
-					}
-					malum: {
-						Count: 1
-						id: "malum:encyclopedia_arcana"
-						tag: {
-							"akashictome:displayName": {
-								text: "{\"translate\":\"item.malum.encyclopedia_arcana\"}"
-							}
-							"akashictome:is_morphing": 1b
-							display: {
-								Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.malum.encyclopedia_arcana\"}]}"
-							}
-						}
-					}
-					unusual_prehistory: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "unusual_prehistory:paleopedia"
-						}
-					}
-				}
-				"akashictome:is_morphing": 1b
-			}
-		}
-		id: "443A3AEF88769CAB"
-		rewards: [{
-			id: "367594DC9BA1DDD9"
-			item: {
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"The Akashic Tome holds all modded guides. With it in your hand:"
+				"- Right-click to choose a guide book to read"
+				"- Once a book has been selected, you can right-click to read it"
+				"- Switch back to the Akashic Tome by punching into the air"
+				""
+				"Some mods have their guides in the advancements (press L)."
+			]
+			icon: {
 				Count: 1
 				id: "akashictome:tome"
 				tag: {
@@ -155,16 +86,149 @@
 					"akashictome:is_morphing": 1b
 				}
 			}
-			type: "item"
-		}]
-		subtitle: "Get your goodies :)"
-		tasks: [{
-			id: "76BD0CFE49F324AD"
-			title: "Welcome!"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+			id: "443A3AEF88769CAB"
+			rewards: [{
+				id: "367594DC9BA1DDD9"
+				item: {
+					Count: 1
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							ae2: {
+								Count: 1
+								id: "ae2:guide"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ae2.guide\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.guide\"}]}"
+									}
+								}
+							}
+							alexsmobs: {
+								Count: 1
+								id: "alexsmobs:animal_dictionary"
+							}
+							goety: {
+								Count: 1
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "goety:black_book"
+								}
+							}
+							goety_0: {
+								Count: 1
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:definedMod": "goety_0"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"info.goety.witch_brew.title\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"info.goety.witch_brew.title\"}]}"
+									}
+									"patchouli:book": "goety:witches_brew"
+								}
+							}
+							malum: {
+								Count: 1
+								id: "malum:encyclopedia_arcana"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.malum.encyclopedia_arcana\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.malum.encyclopedia_arcana\"}]}"
+									}
+								}
+							}
+							unusual_prehistory: {
+								Count: 1
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "unusual_prehistory:paleopedia"
+								}
+							}
+						}
+						"akashictome:is_morphing": 1b
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Get your goodies :)"
+			tasks: [{
+				id: "76BD0CFE49F324AD"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ACC97553A682B1C"]
+			description: ["You might have noticed that there are no Enchanted Books anymore! Do some exploring and you might find an 'Ancient Book'.  &lTry adding it to a Chiseled Bookshelf near your enchanting table.&r"]
+			icon: {
+				Count: 1
+				id: "immersiveenchanting:ancient_book"
+				tag: {
+					"immersiveenchanting:ancient_book_enchantment_type": "minecraft:protection"
+				}
+			}
+			id: "6EFD95A3C68C08C3"
+			subtitle: "this took too much effort :c"
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				icon: "minecraft:experience_bottle"
+				id: "32B80592097E8BD5"
+				type: "advancement"
+			}]
+			title: "Enchantment Overhaul"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"h"
+				""
+				"{image:alexsmobs:item/elastic_tendon width:100 height:100 align:center}"
+			]
+			id: "5ACC97553A682B1C"
+			subtitle: "i probably missed a lot"
+			tasks: [{
+				id: "0196238AA3E1CA1C"
+				title: "i changed a lot of stuff"
+				type: "checkmark"
+			}]
+			title: "top 10 things that are good to know"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ACC97553A682B1C"]
+			description: [
+				"You can capture something with the cage as long as it:"
+				"- Has 33% or less of its health"
+				"- Isn't Hostile (i.e. Zombies, Creepers, Skeletons, etc.)"
+				"- Isn't Aquatic (just use a bucket instead)"
+				""
+				"Some things might meet this criteria but aren't captureable. Let me know so I can fix that :)"
+			]
+			id: "3CCD090500AE4B26"
+			subtitle: "how cruel"
+			tasks: [{
+				id: "71DD8D20EF123EDC"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			title: "Capturing Mobs"
+			x: -1.0d
+			y: 5.0d
+		}
+	]
 	title: "Welcome!"
 }

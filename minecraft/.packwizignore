@@ -18,6 +18,7 @@ config/packetfixer.properties
 config/structurify/*backup*
 config/oculus.properties
 config/ftbqoptimizer.snbt
+config/ftbxmodcompat.snbt
 
 # mods
 mods/.connector/

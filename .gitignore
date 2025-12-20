@@ -19,6 +19,7 @@ minecraft/config/structurify/*backup*
 minecraft/kubejs/config/probe-settings.json
 minecraft/config/oculus.properties
 minecraft/config/ftbqoptimizer.snbt
+minecraft/config/ftbxmodcompat.snbt
 
 # mods
 minecraft/mods/.connector/

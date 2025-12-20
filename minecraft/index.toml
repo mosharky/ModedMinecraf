@@ -814,7 +814,7 @@ hash = "62a4be7e196c3922d27e11ed34cfa11311c1c7b665889ceb7da128b35d623aa7"
 
 [[files]]
 file = "config/emi.css"
-hash = "0e1e82727e41720231b5410335ba299cb3d33c4083b9c23a225e3e42b2ca696e"
+hash = "987959df18bbd8f12690be4e124d11005c02d6bbb3cb883b7dc38739e3f1b496"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -986,7 +986,7 @@ hash = "f63bf315e4ca64806c37bed2258182693d3a4852a021468d72c996a280427267"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hi_chat.snbt"
-hash = "8f6cded2159121d1b0c5434296f45a0ee7eaf5f47d33e22dbc66e53b503efc07"
+hash = "9460bf5884c20a25ecfb196db05a46f1487a01dbe70d0643a88ecf321c4ae387"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
@@ -994,7 +994,7 @@ hash = "8b5944e558d0ba18031f0b324d68e9d139414b03ad368b878a134a0e9b8a4d7c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_end.snbt"
-hash = "2dcfa1a3bdce705bedf20f2652e185c98a01d0674f07ded62457d43a680e3ff6"
+hash = "185e43205dccb10b888d3052a9cf5504ef9f68361953876002d21674959aef14"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1015,10 +1015,6 @@ hash = "340443965459dd06ef0c643af9755b7d1714c305522f7d7e9eed78a109aa795d"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/common.snbt"
 hash = "971cefd16e97710443cae1d39c956ef4637ac9b6ed75ed821ebd0e3d1e592404"
-
-[[files]]
-file = "config/ftbxmodcompat.snbt"
-hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
@@ -1798,7 +1794,7 @@ hash = "f7aa8751fc1e3ba087b92cb3ff178efa5433f232ed19f340017c3a324b400c8f"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "19e74c37aa28585387c195c9ae4dc38880851b2473d6ddc0e03748759cdd9f65"
+hash = "479acb30cdeed071943b4be5d556794464bc81030ec71c41383bee9c07677194"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -2066,7 +2062,7 @@ hash = "859b6113943be5159f47d22dacc6278c02a11f3383a60c342f8b481eca99acf6"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/_server_main.js"
-hash = "79c9e56ecc10b5094057daee6a07803adf5ec9822729ed57ae59859bb3f42ae6"
+hash = "c2d5e57979610e1ce68387e379504290277da1bb6aa349eaa30ca9ad41589899"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/advancements.js"
@@ -2094,7 +2090,7 @@ hash = "484dec72bf642cf2aaa3061cf29bf40e4684fbd205e0412921449b1bcefef8f8"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/tags.js"
-hash = "64788538dfd9a73bb39c70d54d8800f76069e0fd2f8cf1e863ab6cadf8beebb1"
+hash = "5757e9d3319f9541de635e62e699e220aa721ca51759f82a4714290c3963c145"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/trades.js"
@@ -2175,6 +2171,10 @@ hash = "e3f9105fe6e93ba9839da1000d22c40b77b333a12b110e3eac578c5dfbeebf9d"
 [[files]]
 file = "kubejs/server_scripts/src/biomancy/enchants.js"
 hash = "98dd712ce5589fec61bceab2c5cf5e6067998377678d31ada0a97936d85e7d55"
+
+[[files]]
+file = "kubejs/server_scripts/src/biomancy/tags.js"
+hash = "d415b8caa62ce2fda3e61793160a69431f68f2784799ade580733d898625f872"
 
 [[files]]
 file = "kubejs/server_scripts/src/brewinandchewin/recipes.js"

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_end"
-	group: ""
+	group: "1A1DF8B77E8F858C"
 	icon: "minecraft:ender_eye"
 	id: "2274EFC0AC683218"
 	images: [
@@ -111,7 +111,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

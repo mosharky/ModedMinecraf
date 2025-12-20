@@ -21,12 +21,7 @@ ServerEvents.tags('block', e => {
 
 ServerEvents.tags('entity_type', e => {
     entityTags_Core(e)
-    entityTags_AlexsMobs(e)
-    entityTags_Atmospheric(e)
-    entityTags_Environmental(e)
-    entityTags_Galosphere(e)
-    entityTags_NumismaticOverhaul(e)
-    entityTags_Supplementaries(e)
+P
 })
 
 ServerEvents.tags('worldgen/biome', e => {

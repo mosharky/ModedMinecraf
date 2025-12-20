@@ -52,6 +52,13 @@ function blockTags_Core(e) {
 /** @param {$TagEventJS_} e */
 function entityTags_Core(e) {
     // e.add('kubejs:surface_mod_entities', /.*surface:.*/)
+    e.add('forge:bosses', [
+        '#c:bosses',
+        'alexscaves:tremorzilla',
+        'alexscaves:hullbreaker',
+        'alexscaves:luxtructosaurus',
+    ])
+    e.add('c:bosses', '#forge:bosses')
 }
 
 
