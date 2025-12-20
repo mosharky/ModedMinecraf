@@ -3192,11 +3192,6 @@ hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
 metafile = true
 
 [[files]]
-file = "mods/ftb-backups-2.pw.toml"
-hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
-metafile = true
-
-[[files]]
 file = "mods/ftb-chunks-compatibility-mod.pw.toml"
 hash = "15f148ef0e5c325aafbbda3b63bd7bf59808cf172097adde12b1cd6c113eee4d"
 metafile = true
