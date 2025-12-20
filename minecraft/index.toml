@@ -4005,7 +4005,7 @@ metafile = true
 
 [[files]]
 file = "mods/toadlib.pw.toml"
-hash = "805b884a02d16cfccad251a4b1e3357350e3f207ad61df6ad9fd5c5eb16fd441"
+hash = "cb19b08de8c335a0e69387f2f69fb0dc4652f351a09270954a6189b6171cabc9"
 metafile = true
 
 [[files]]
