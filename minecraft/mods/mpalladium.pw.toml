@@ -1,6 +1,6 @@
 name = "Palladium"
 filename = "Palladium-1.20-1.20.2-1.1.6.2.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/JNRr4jji/versions/G1RE5I57/Palladium-1.20-1.20.2-1.1.6.2.jar"

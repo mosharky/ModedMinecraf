@@ -2082,7 +2082,7 @@ hash = "859b6113943be5159f47d22dacc6278c02a11f3383a60c342f8b481eca99acf6"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/_server_main.js"
-hash = "80b6da98273024d2211eae6d89fa147c75f9449d46e92c70e4b8905b294569a5"
+hash = "e1668f3e326215cdc6abbb6808b72150a5172504db0a151f514e233e6b25bd1d"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/advancements.js"
@@ -3623,7 +3623,7 @@ metafile = true
 
 [[files]]
 file = "mods/mpalladium.pw.toml"
-hash = "f8a7285b7a1764d9673bb3a09a2e18dfd9b15540703cd990c6baceb267f9f717"
+hash = "fe877f9d4ce5ac4a479750f7900f610c7a609799018035a7b1d4e3a42bd5afa2"
 metafile = true
 
 [[files]]
