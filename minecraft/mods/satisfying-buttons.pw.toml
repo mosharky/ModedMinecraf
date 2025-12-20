@@ -1,6 +1,6 @@
 name = "Satisfying Buttons"
 filename = "satisfying_buttons-forge-1.1.2-1.20.1.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Zf8HMFM5/versions/1hVdykqq/satisfying_buttons-forge-1.1.2-1.20.1.jar"

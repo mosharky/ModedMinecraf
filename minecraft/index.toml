@@ -3323,7 +3323,7 @@ metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "c1d1a0476c58e3c011de6f750f48eb4f48493a1b9cef7bd59c008e87e0c0984c"
+hash = "c21d061d9c22b9bcdad2ac9f9823355fcab00f2ea05469b76d5ddf6ccf518479"
 metafile = true
 
 [[files]]
@@ -3808,7 +3808,7 @@ metafile = true
 
 [[files]]
 file = "mods/satisfying-buttons.pw.toml"
-hash = "5449183ef8b3c4855e5b061c7151b28c68d89c3bb0ef138ee4680f363eb28930"
+hash = "dced852cfef8561c1cefc2c765fd905a6e8ccc5938b343af783f7b2701288349"
 metafile = true
 
 [[files]]

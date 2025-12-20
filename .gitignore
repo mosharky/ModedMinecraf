@@ -82,6 +82,7 @@ minecraft/emi.json
 minecraft/irisUpdateInfo.json
 minecraft/.qmenu_opened.marker
 minecraft/snr_favorite_styles.nbt
+minecraft/servers.dat_old
 
 # dev environment stuff
 .probe/
