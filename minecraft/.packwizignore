@@ -61,6 +61,7 @@ mod_data/
 xaero/
 ESM/
 backups/
+Distant_Horizons_server_data/
 
 # root files
 knownkeys.txt
