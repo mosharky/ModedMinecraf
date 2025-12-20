@@ -21,7 +21,6 @@ ServerEvents.tags('block', e => {
 
 ServerEvents.tags('entity_type', e => {
     entityTags_Core(e)
-P
 })
 
 ServerEvents.tags('worldgen/biome', e => {

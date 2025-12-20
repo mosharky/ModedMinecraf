@@ -2058,7 +2058,7 @@ hash = "859b6113943be5159f47d22dacc6278c02a11f3383a60c342f8b481eca99acf6"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/_server_main.js"
-hash = "c2d5e57979610e1ce68387e379504290277da1bb6aa349eaa30ca9ad41589899"
+hash = "80b6da98273024d2211eae6d89fa147c75f9449d46e92c70e4b8905b294569a5"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/advancements.js"
