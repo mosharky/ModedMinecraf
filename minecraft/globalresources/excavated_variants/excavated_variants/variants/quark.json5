@@ -1,0 +1,16 @@
+{
+    mod_id: 'quark',
+    provided_stones: [
+        {
+            id: 'quark_jasper',
+            lang: {
+                en_us: 'Jasper'
+            },
+            block_id: 'quark:jasper',
+            types: [
+                'stone'
+            ]
+        }
+    ],
+    provided_ores: []
+}

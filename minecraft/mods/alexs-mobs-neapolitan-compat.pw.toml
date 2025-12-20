@@ -1,0 +1,13 @@
+name = "Alex's Mobs - Neapolitan Compat"
+filename = "Compat_AlexsMobs-Neapolitan.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NBb3xMaq/versions/dTly6UlC/Compat_AlexsMobs-Neapolitan.jar"
+hash-format = "sha512"
+hash = "fc932b9124f86985a563468ade206d211bf1176cca10139dce72f1ebdbecd2d0404f76965fd6a60e7db8cec9a8c9ff3e7eb9c919ec0ea965ff5e192a414bf8d8"
+
+[update]
+[update.modrinth]
+mod-id = "NBb3xMaq"
+version = "dTly6UlC"

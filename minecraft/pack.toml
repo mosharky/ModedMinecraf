@@ -1,0 +1,12 @@
+name = "Moded Minecraf"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "364db3a76bc0d21310a5caed042cf7f96fc4d556e360e8cf729ec6bf5a711fb5"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"

@@ -1,0 +1,36 @@
+{
+    mod_id: 'natures_spirit',
+    provided_stones: [
+        {
+            id: 'natures_spirit_kaolin',
+            lang: {
+                en_us: 'Kaolin'
+            },
+            block_id: 'natures_spirit:kaolin',
+            types: [
+                'stone'
+            ]
+        },
+        {
+            id: 'natures_spirit_travertine',
+            lang: {
+                en_us: 'Travertine'
+            },
+            block_id: 'natures_spirit:travertine',
+            types: [
+                'stone'
+            ]
+        },
+        {
+            id: 'natures_spirit_chert',
+            lang: {
+                en_us: 'Chert'
+            },
+            block_id: 'natures_spirit:chert',
+            types: [
+                'stone'
+            ]
+        }
+    ],
+    provided_ores: []
+}
