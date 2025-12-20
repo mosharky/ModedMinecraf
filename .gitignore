@@ -17,8 +17,8 @@ minecraft/config/asyncparticles/asyncparticles-mixin.properties
 minecraft/config/packetfixer.properties
 minecraft/config/structurify/*backup*
 minecraft/kubejs/config/probe-settings.json
-minecraft/kubejs/config/oculus.properties
-minecraft/kubejs/config/ftbqoptimizer.snbt
+minecraft/config/oculus.properties
+minecraft/config/ftbqoptimizer.snbt
 
 # mods
 minecraft/mods/.connector/
