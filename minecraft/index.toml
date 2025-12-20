@@ -814,7 +814,7 @@ hash = "62a4be7e196c3922d27e11ed34cfa11311c1c7b665889ceb7da128b35d623aa7"
 
 [[files]]
 file = "config/emi.css"
-hash = "987959df18bbd8f12690be4e124d11005c02d6bbb3cb883b7dc38739e3f1b496"
+hash = "aeb7aa564d703c7247b0947dd1b3e58e1bd3ee072f9f91069f7144c5342ee942"
 
 [[files]]
 file = "config/emi_loot_config.toml"
