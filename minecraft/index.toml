@@ -2857,11 +2857,6 @@ hash = "3f356a958e4e34d15ec7fac9b881f2ca914ad46c8f067e467c12de8f072a9768"
 metafile = true
 
 [[files]]
-file = "mods/chunk-sending-forge-fabric.pw.toml"
-hash = "86252c4e6701b798dac5ddef4b0fa6b6f5bdb280e83945b5b98d7c0be4441a35"
-metafile = true
-
-[[files]]
 file = "mods/citadel.pw.toml"
 hash = "0c8838dba7d2090968ca9ec633260d42ca16f1df186a780bd5965994541d9f74"
 metafile = true
