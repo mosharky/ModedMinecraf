@@ -742,7 +742,7 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "fdadb39e6876d7a467a828db75aaab0f94ff9456e8526b1237bcce53220483f4"
+hash = "9e7f45d90e1ca9eb264b67c167411d8a3ed8d577fc1b6d2df584ae42adebb7f2"
 
 [[files]]
 file = "config/defaultresources.json"
@@ -1610,7 +1610,7 @@ hash = "b9226f3edabcf1a4198240cc2b2b602d0ccd2a1111d5f17948cea4ce057b16ad"
 
 [[files]]
 file = "config/sodiumextras-client.toml"
-hash = "d0b8962fb998ac3f455ba49f99dfb593104f5f612bddf01e468f1f4b082d353f"
+hash = "360a6bbbe8181e6a3c9c736b20ecbff8761560c39b88d7120f5edb4d17f0de77"
 
 [[files]]
 file = "config/sootychimneys-common.toml"
@@ -1619,6 +1619,26 @@ hash = "d39d3641850b488a6b31a93c5ce1088d9184aa734272ab57e188085967881125"
 [[files]]
 file = "config/soulbound-common.toml"
 hash = "288c97a95c4f8feb29173622d6fdc0497c9df2482af79d5e9e1d0f974e64f137"
+
+[[files]]
+file = "config/sound_physics_remastered/occlusion.properties"
+hash = "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb"
+
+[[files]]
+file = "config/sound_physics_remastered/reflectivity.properties"
+hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
+
+[[files]]
+file = "config/sound_physics_remastered/sound_rates.properties"
+hash = "ac755e8a0984d54354f9b22c5d9f13561c0b37a7e585a3e1e6a3a4ab16719c43"
+
+[[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d"
+
+[[files]]
+file = "config/soundofrain-client.toml"
+hash = "1efee908bf3357f62342ea799f6220c2def389e2756994f2be4d283219d3bb7a"
 
 [[files]]
 file = "config/sounds/chat.json"
@@ -1815,6 +1835,10 @@ hash = "ff138354d3d5ccd839b38956530041b80ea9b5aa81d9f8614750908ac66588d2"
 [[files]]
 file = "config/zeta-common.toml"
 hash = "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
+
+[[files]]
+file = "config/zetter-client.toml"
+hash = "6d5b86eb3a3a5b7f1c8c9724e5f81c30d816c1ea48f725c64ff5769fbf025fb6"
 
 [[files]]
 file = "defaultconfigs/backpacked-server.toml"
@@ -3848,6 +3872,11 @@ hash = "b0f50d157e73529dc1ba9bad47720ea7528322fac7a87b33f2b4d006a546a496"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "0324b0503dc44b437c1cde0787927c30685963ee4cb3919267db9c0bd52a6f95"
+metafile = true
+
+[[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "9b59e9b08c1281a521777e9924dab6c258e42c5d1c06852b9ebe9304021aec42"
 metafile = true
@@ -3890,6 +3919,11 @@ metafile = true
 [[files]]
 file = "mods/soul-bound-enchantment.pw.toml"
 hash = "8d06ca9749824d442a7b6396a0abc4d6d4cfa22dfa22221c882a0c3d2f0abd81"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "416bb6449da951ec1a04156348c502b9e47a947212becc173d277faaddaaaccd"
 metafile = true
 
 [[files]]
@@ -3955,8 +3989,18 @@ hash = "31883f2697767614c5b0671e9600c4e584c8e60be8062867667ddfc9d2624e23"
 metafile = true
 
 [[files]]
+file = "mods/swashbucklers.pw.toml"
+hash = "8caf00d48a3b884c1e7b20173681250ec04aec2f0bc8b410e8a9192b4e0d52c1"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
+metafile = true
+
+[[files]]
+file = "mods/the-sound-of-rain.pw.toml"
+hash = "cf9a32d0d56c2578af904d232f16b8a223598c4e5011dfb7a755227a2e627e80"
 metafile = true
 
 [[files]]
@@ -4112,6 +4156,11 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "a9421a7a29ac8ee6e0598ea20025ad2c30e6198b796324184600621743437c91"
+metafile = true
+
+[[files]]
+file = "mods/zetter-painting-mod.pw.toml"
+hash = "517ae1dacbe30711b7abccb4c2b4904eb0f1611454eb5836a7071c3a5a7b8996"
 metafile = true
 
 [[files]]

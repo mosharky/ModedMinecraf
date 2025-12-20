@@ -2,9 +2,8 @@
 minecraft/config/jei/world/
 minecraft/config/blockswap/known_states/
 minecraft/config/voicechat/username-cache.json
-minecraft/config/voicechat/voicechat-volumes.properties
-minecraft/config/voicechat/voicechat-server.properties
-minecraft/config/voicechat/voicechat-client.properties
+minecraft/config/voicechat/
+minecraft/config/voicechat-client.toml
 minecraft/config/Obscuria/Data/
 minecraft/config/indium-renderer.properties
 minecraft/config/fabric/indigo-renderer.properties

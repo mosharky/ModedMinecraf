@@ -2,9 +2,8 @@
 config/jei/world/
 config/blockswap/known_states/
 config/voicechat/username-cache.json
-config/voicechat/voicechat-volumes.properties
-config/voicechat/voicechat-server.properties
-config/voicechat/voicechat-client.properties
+config/voicechat/
+config/voicechat-client.toml
 config/Obscuria/Data/
 config/indium-renderer.properties
 config/fabric/indigo-renderer.properties

@@ -1,0 +1,13 @@
+name = "Swashbucklers"
+filename = "swashbucklers! 2.6.6B 1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/g6bnDQis/versions/3hJ1FdZB/swashbucklers%21%202.6.6B%201.20.1.jar"
+hash-format = "sha512"
+hash = "de9eeac2858ed333db7bb4293a70bd06567127346a0f79c7d8e18726f925fbaa8c77ce7646ceb01a3197070cb94a75682e429574f7bc9d99fe238bba9e9c4039"
+
+[update]
+[update.modrinth]
+mod-id = "g6bnDQis"
+version = "3hJ1FdZB"
