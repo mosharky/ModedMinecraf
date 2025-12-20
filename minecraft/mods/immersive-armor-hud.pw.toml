@@ -1,13 +1,13 @@
 name = "Immersive Armor HUD"
 filename = "immersivearmorhud-forge-1.0.1-1.20.1.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "25dda23e60775a43aa0706c3cf8c88eb5e614ebe"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/EyJFr6Vw/versions/4xrEXgqo/immersivearmorhud-forge-1.0.1-1.20.1.jar"
+hash-format = "sha512"
+hash = "59e7e34d1701dae5d5a28adda4c08a7328de1238011f2d5be5f1aefb5a028507384a66e09e7d79897712cfb35a9ba1809a509e03b39294aff07b6c9ed215084c"
 
 [update]
-[update.curseforge]
-file-id = 6380200
-project-id = 1228923
+[update.modrinth]
+mod-id = "EyJFr6Vw"
+version = "4xrEXgqo"

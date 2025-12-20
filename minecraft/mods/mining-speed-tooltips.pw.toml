@@ -1,13 +1,13 @@
 name = "Mining Speed Tooltips"
 filename = "miningspeedtooltips-forge-1.0.0-1.20.1.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "774bd9c6f659a96a83b3ddbb97ba36b048003bdb"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/aMctJ87u/versions/eB3mS3AK/miningspeedtooltips-forge-1.0.0-1.20.1.jar"
+hash-format = "sha512"
+hash = "e9707ea4d0c8cd06b3fe85e3473863e2072a64157ff60bfea9dc819d4cfa0e24cd1ff9a7f8183b85e79821fa94c39862bc2e1a68f20d16240604a9012e59efa0"
 
 [update]
-[update.curseforge]
-file-id = 6463952
-project-id = 1251740
+[update.modrinth]
+mod-id = "aMctJ87u"
+version = "eB3mS3AK"
