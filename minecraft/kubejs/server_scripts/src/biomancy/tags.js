@@ -3,5 +3,8 @@ function entityTags_Biomancy(e) {
         'alexscaves:tremorzilla',
         'alexscaves:hullbreaker',
         'alexscaves:luxtructosaurus',
+        'alexscaves:gum_worm',
+        'alexscaves:forsaken',
+        'alexsmobs:void_worm',
     ])
 }
