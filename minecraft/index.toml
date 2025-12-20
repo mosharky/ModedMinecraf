@@ -2061,18 +2061,6 @@ file = "kubejs/client_scripts/src/quark/attribute_tooltips.js"
 hash = "d5fe2cab3148841057cb4ada19d43116c55bf04aa273c0a8a288a13c784f7948"
 
 [[files]]
-file = "kubejs/config/client.properties"
-hash = "402fbd049c4d61c94f5ff13d62dec863bda3e4c5ae6d891543dabd1ed4ed5d8d"
-
-[[files]]
-file = "kubejs/config/common.properties"
-hash = "84d4bad292c97c599680cf04ce581b2b9200afc0faa9286c5ffbfbb1a5d5a880"
-
-[[files]]
-file = "kubejs/config/swaps.json"
-hash = "6c982b17729f24715442025ca03e9d279f6a6361ea47afa2d2169e29ff521b66"
-
-[[files]]
 file = "kubejs/server_scripts/jsconfig.json"
 hash = "859b6113943be5159f47d22dacc6278c02a11f3383a60c342f8b481eca99acf6"
 
