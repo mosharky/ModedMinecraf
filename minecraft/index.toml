@@ -3920,6 +3920,10 @@ file = "mods/special-Bettertab-1.0.0.jar"
 hash = "2fc565d6445ea898d7a8324955f430fb0a2f0a51b13174424ea6739963ac9779"
 
 [[files]]
+file = "mods/special-blueprint-c2mefix-1.20.1-7.1.3.jar"
+hash = "af5ad1503083ce88a6e269f5aa334c22b8246941c8b40f87fbd25bfe25d4aafc"
+
+[[files]]
 file = "mods/stone-zone.pw.toml"
 hash = "d619f8882dc9f93de3e22cdbeed255fe178d3c60f5df033d249fd079efdfbb73"
 metafile = true
