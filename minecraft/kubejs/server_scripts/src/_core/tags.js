@@ -57,6 +57,9 @@ function entityTags_Core(e) {
         'alexscaves:tremorzilla',
         'alexscaves:hullbreaker',
         'alexscaves:luxtructosaurus',
+        'alexscaves:gum_worm',
+        'alexscaves:forsaken',
+        'alexsmobs:void_worm',
     ])
     e.add('c:bosses', '#forge:bosses')
 }

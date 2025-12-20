@@ -2090,7 +2090,7 @@ hash = "484dec72bf642cf2aaa3061cf29bf40e4684fbd205e0412921449b1bcefef8f8"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/tags.js"
-hash = "5757e9d3319f9541de635e62e699e220aa721ca51759f82a4714290c3963c145"
+hash = "ccbdbc317c3dd3ab489737a7200b82622e5297ba00997568222a26c6f70abe48"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/trades.js"
@@ -2174,7 +2174,7 @@ hash = "98dd712ce5589fec61bceab2c5cf5e6067998377678d31ada0a97936d85e7d55"
 
 [[files]]
 file = "kubejs/server_scripts/src/biomancy/tags.js"
-hash = "62b1b1b2504dec4bc4021a5cb3690febcd355e7ad3e41ed277bb6267ba087d80"
+hash = "a69940658a4405efbf7dbb05e9b8e18fafa681b6bbf04eaabb14e7db9518cd5b"
 
 [[files]]
 file = "kubejs/server_scripts/src/brewinandchewin/recipes.js"
