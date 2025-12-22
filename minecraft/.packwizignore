@@ -62,6 +62,7 @@ xaero/
 ESM/
 backups/
 Distant_Horizons_server_data/
+emojiful/
 
 # root files
 knownkeys.txt
@@ -99,6 +100,7 @@ minecraftinstance.json
 # packwiz related
 kubejs/wip_data/
 kubejs/config/
+kubejs/startup_scripts/src/_core/dev.js
 globalresources/excavated_variants/
 # assets
 kubejs/assets/*.zip

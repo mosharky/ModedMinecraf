@@ -83,7 +83,7 @@ ServerEvents.recipes(e => {
 ServerEvents.loaded(e => {
     // Default game rules
     if (e.server.persistentData.gameRules) return
-    e.server.gameRules.set("playersSleepingPercentage", 50)
+    e.server.gameRules.set("playersSleepingPercentage", 1)
     e.server.gameRules.set("spawnRadius", 0)
     e.server.persistentData.gameRules = true 
 })

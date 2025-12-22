@@ -1,3 +1,22 @@
+# [1.0.2] - 22/12/2025
+- Added mods:
+	- Create: Jetpack
+	- Create: Power Loader
+	- Emojiful
+	- FTB Essentials
+- Added commands: 
+	- `/kickme`
+	- `/leaderboard`
+	- `/nick`
+	- `/tpa` 
+- Fixed the bot
+- Added better quests for Create
+- Adjusted some quests
+
+
+***
+
+
 # [1.0.1] - 22/12/2025
 - Added mods:
   - AllTheLeaks (memory leak fix)
