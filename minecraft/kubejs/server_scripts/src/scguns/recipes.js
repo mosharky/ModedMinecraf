@@ -1,10 +1,10 @@
 /** @param {$RecipesEventJS_} e */
 function recipes_ScGuns(e) {
-    e.remove({type: 'scguns:macerating'})
-    e.remove({type: 'scguns:powered_macerating'})
-    e.remove({type: 'scguns:mechanical_pressing'})
-    e.remove({type: 'scguns:powered_mechanical_pressing'})
-    e.remove({type: 'scguns:gun_bench', mod: 'scguns'})  // caverns and chasms addon doesn't have create support yet
+    e.remove({ type: 'scguns:macerating' })
+    e.remove({ type: 'scguns:powered_macerating' })
+    e.remove({ type: 'scguns:mechanical_pressing' })
+    e.remove({ type: 'scguns:powered_mechanical_pressing' })
+    e.remove({ type: 'scguns:gun_bench' })
 
     e.replaceInput({}, 'scguns:sulfur_dust', '#forge:dusts/sulfur')
     e.replaceInput({}, 'scguns:sulfur_chunk', '#forge:dusts/sulfur')

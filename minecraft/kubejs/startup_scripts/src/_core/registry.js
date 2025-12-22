@@ -14,3 +14,8 @@ StartupEvents.registry('item', e => {
         .rarity('uncommon')
         .texture('quark:item/ravager_hide')
 })
+
+/** @param {$ItemModificationEventJS_} e */
+function itemModification_Core(e) {
+    e.modify('minecraft:suspicious_stew', item => item.maxStackSize = 16)
+}

@@ -169,29 +169,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5ACC97553A682B1C"]
-			description: ["You might have noticed that there are no Enchanted Books anymore! Do some exploring and you might find an 'Ancient Book'.  &lTry adding it to a Chiseled Bookshelf near your enchanting table.&r"]
-			icon: {
-				Count: 1
-				id: "immersiveenchanting:ancient_book"
-				tag: {
-					"immersiveenchanting:ancient_book_enchantment_type": "minecraft:protection"
-				}
-			}
-			id: "6EFD95A3C68C08C3"
-			subtitle: "this took too much effort :c"
-			tasks: [{
-				advancement: "minecraft:story/enchant_item"
-				criterion: ""
-				icon: "minecraft:experience_bottle"
-				id: "32B80592097E8BD5"
-				type: "advancement"
-			}]
-			title: "Enchantment Overhaul"
-			x: 1.0d
-			y: 5.0d
-		}
-		{
 			description: [
 				"h"
 				""
@@ -227,6 +204,18 @@
 			}]
 			title: "Capturing Mobs"
 			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5ACC97553A682B1C"]
+			description: ["I've changed the mod around a lot. The progression is exclusive to Create now, and Sulfur can only be obtained from Alex's Caves. The advancements lie to you because i couldnt be bothered to change it lol"]
+			id: "0AF1E5E91EBBCCDB"
+			tasks: [{
+				id: "1C35DC779642F570"
+				title: "Scorched Guns"
+				type: "checkmark"
+			}]
+			x: 1.0d
 			y: 5.0d
 		}
 	]

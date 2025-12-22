@@ -18,6 +18,7 @@ function postInit() {
     removals_AlexsMobs()
     removals_Atmospheric()
     removals_Autumnity()
+    removals_BerryGood()
     removals_Cataclysm()
     removals_CavernsAndChasms()
     removals_CollectorsReap()
@@ -30,8 +31,10 @@ function postInit() {
     removals_Galosphere()
     removals_Goety()
     removals_ImmersiveWeathering()
+    removals_Incubation()
     removals_Malum()
     removals_MoreMinecarts()
+    removals_MowziesMobs()
     removals_NaturesSpirit()
     removals_Neapolitan()
     removals_Oreganized()
@@ -44,7 +47,6 @@ function postInit() {
     removals_UpgradeAquatic()
     removals_Windswept()
     removals_Woodworks()
-    removals_MowziesMobs()
     // removals_EvenBetterNether()
 
     // Changing blockswap config with KubeJS!
@@ -99,4 +101,18 @@ StartupEvents.postInit(e => {
     postInit()
     // portals()
     global.INITIALIZED = true
+})
+
+
+ItemEvents.modification(e => {
+    itemModification_Core(e)
+    itemModification_AlexsCaves(e)
+    itemModification_AlexsMobs(e)
+    itemModification_Atmospheric(e)
+    itemModification_BerryGood(e)
+    itemModification_CollectorsReap(e)
+    itemModification_Incubation(e)
+    itemModification_Neapolitan(e)
+    itemModification_Respiteful(e)
+    itemModification_UnusualEnd(e)
 })
