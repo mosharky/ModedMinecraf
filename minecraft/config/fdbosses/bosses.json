@@ -57,6 +57,7 @@
     "malkuthMaxHits": 10,
     "malkuthWarriorDamage": 10.0,
     "malkuthWarriorEarthSlamDamage": 10.0,
-    "malkuthFloorDamage": 20.0
+    "malkuthFloorDamage": 20.0,
+    "chainpunchCooldown": 150
   }
 }

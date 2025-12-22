@@ -1,6 +1,13 @@
 // priority: -1
 ItemEvents.tooltip(e => {
     e.add(global.REMOVALS.getAsArray(), Text.red('DISABLED. Report to momo if you obtained this.').append(Text.darkGray('\nThis item is supposed to be replaced; ignore if found in a menu').italic()))
+    e.add([
+        'scguns:gun_bench',
+        'scguns:macerator',
+        'scguns:mechanical_press',
+        'scguns:powered_macerator',
+        'scguns:powered_mechanical_press',
+    ], Text.darkGray('Use Create instead ;)'))
 })
 
 JEIEvents.information(e => {

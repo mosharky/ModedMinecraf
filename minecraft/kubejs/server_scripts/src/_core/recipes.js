@@ -35,6 +35,6 @@ function recipes_Core(e) {
         A: 'kubejs:ravager_hide',
         B: '#c:string',
         C: '#forge:ingots/iron',
-        D: 'minecraft:rabbit_hide'
+        D: 'minecraft:leather'
     }).id('backpacked:backpack')
 }

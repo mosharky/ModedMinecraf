@@ -2,7 +2,7 @@ function removals_Quark() {
     global.REMOVALS.add([
         /quark:.*(dirt_bricks|chest|ladder|bookshelf|leaf_carpet|thatch|blossom|permafrost|cobblestone_brick|limestone|andesite_brick|dripstone_bricks|tuff|calcite|shale).*/,
         /quark:.*(crab|foxhound|shiba|wraith).*/,
-        /quark:.*ancient(?!_fruit).*/,
+        /quark:.*ancient(?!_tome|_fruit).*/,
         /quark:.*azalea(?!_hedge).*/,
         'quark:gold_bars',
         'quark:chute',
@@ -14,13 +14,10 @@ function removals_Quark() {
         'quark:golden_carrot_crate',
         'quark:beetroot_crate',
         'quark:pipe',
-        'quark:pathfinders_quill'
     ])
 
     global.ITEM_SWAPPER.set('quark:crab_leg', 'minecraft:cod')
     global.ITEM_SWAPPER.set('quark:crab_shell', 'minecraft:cod')
-    global.ITEM_SWAPPER.set('quark:pathfinders_quill', 'minecraft:map')
-    global.ITEM_SWAPPER.set('quark:ancient_tome', 'minecraft:book')
 
     // IDAS structures need these swapped out
     global.BLOCK_SWAPPER.set('quark:thatch', 'packedup:grass_thatch')

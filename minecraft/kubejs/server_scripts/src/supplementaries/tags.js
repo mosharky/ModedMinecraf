@@ -122,13 +122,14 @@ function entityTags_Supplementaries(e) {
         'galosphere:sparkle',
         'galosphere:specterpillar',
         'railways:conductor',
-        /environmental:.*/,
         'windswept:frostbiter',
         /environmental:(?!duck_egg|mud_ball).*/,
         /unusual_prehistory:(?!diplocaulus|dunkleosteus|jawless_fish|kimmeridgebrachypteraeschnidium_nymph|stethacanthus).*/,
         'upgrade_aquatic:goose',
         'upgrade_aquatic:great_thrasher',
         'upgrade_aquatic:thrasher',
+        'autumnity:snail',
+        'autumnity:turkey'
     ])
 
     e.remove('supplementaries:cage_catchable', [

@@ -2,6 +2,7 @@
 
 ServerEvents.tags('item', e => {
     itemTags_Core(e)
+    itemTags_AlexsMobs(e)
     itemTags_CallOfYucutan(e)
     itemTags_Neapolitan(e)
 
@@ -21,6 +22,13 @@ ServerEvents.tags('block', e => {
 
 ServerEvents.tags('entity_type', e => {
     entityTags_Core(e)
+    entityTags_AlexsMobs(e)
+    entityTags_Atmospheric(e)
+    entityTags_Biomancy(e)
+    entityTags_Environmental(e)
+    entityTags_Galosphere(e)
+    entityTags_NumismaticOverhaul(e)
+    entityTags_Supplementaries(e)
 })
 
 ServerEvents.tags('worldgen/biome', e => {
@@ -49,6 +57,7 @@ ServerEvents.recipes(e => {
     recipes_Atmospheric(e)
     recipes_BrewinAndChewin(e)
     recipes_Cataclysm(e)
+    recipes_CavernsAndChasms(e)
     recipes_CreateDeco(e)
     recipes_Embers(e)
     recipes_Everycomp(e)
@@ -86,22 +95,21 @@ ServerEvents.highPriorityData(e => {
     moonlightTrades_Supplementaries(e)
     moonlightTrades_Sawmill(e)
 
-    enchants_ImmersiveEnchanting(e)
-    // enchants_Aileron(e)
-    enchants_AlexsMobs(e)
-    enchants_Allurement(e)
-    enchants_Backpacked(e)
-    enchants_Biomancy(e)
-    enchants_CallOfYucutan(e)
-    enchants_Create(e)
-    enchants_Galosphere(e)
-    enchants_Goety(e)
-    enchants_Malum(e)
-    enchants_ScGuns(e)
-    enchants_Supplementaries(e)
-    enchants_UnusualEnd(e)
-    enchants_VeinMining(e)
-    enchants_Soulbound(e)
+    // enchants_ImmersiveEnchanting(e)
+    // enchants_AlexsMobs(e)
+    // enchants_Allurement(e)
+    // enchants_Backpacked(e)
+    // enchants_Biomancy(e)
+    // enchants_CallOfYucutan(e)
+    // enchants_Create(e)
+    // enchants_Galosphere(e)
+    // enchants_Goety(e)
+    // enchants_Malum(e)
+    // enchants_ScGuns(e)
+    // enchants_Supplementaries(e)
+    // enchants_UnusualEnd(e)
+    // enchants_VeinMining(e)
+    // enchants_Soulbound(e)
 
     worldgen_Core(e)
     worldgen_Atmospheric(e)
@@ -110,7 +118,6 @@ ServerEvents.highPriorityData(e => {
     worldgen_CavernsAndChasms(e)
     worldgen_Environmental(e)
     worldgen_Embers(e)
-    // worldgen_EvenBetterNether(e)
     worldgen_Galosphere(e)
     worldgen_Goety(e)
     worldgen_Idas(e)
@@ -124,15 +131,21 @@ ServerEvents.highPriorityData(e => {
     worldgen_ScGuns(e)
 })
 
+
 LootJS.modifiers(e => {
     // Replacements
     const all = e.addLootTableModifier(/.*/)
     lootReplacements_Core(all)
-    lootReplacements_ImmersiveEnchanting(all)
+    // lootReplacements_ImmersiveEnchanting(all)
     lootRemovals_EndRem(all)
 
     lootTables_Core(e)
     lootTables_EndRem(e)
-    lootTables_ImmersiveEnchanting(e)
+    // lootTables_ImmersiveEnchanting(e)
     lootTables_SootyChimneys(e)
+})
+
+
+EntityEvents.spawned(e => {
+    entitySpawned_Core(e)
 })

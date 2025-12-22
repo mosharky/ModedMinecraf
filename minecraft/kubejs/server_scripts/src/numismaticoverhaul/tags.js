@@ -11,6 +11,7 @@ function entityTags_NumismaticOverhaul(e) {
         'goety:stormcaster',
         'goety:crusher',
         'scguns:blunderer',
-        '#forge:bosses'
+        '#forge:bosses',
+        '#c:bosses',
     ])
 }
