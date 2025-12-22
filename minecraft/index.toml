@@ -705,6 +705,14 @@ file = "config/create_hypertube-client.toml"
 hash = "758713575b187195367bcc8f0459b5e079c689eaa846556df5d452f1411a5555"
 
 [[files]]
+file = "config/create_jetpack-client.toml"
+hash = "3ef10cf780e735b417be86d1ef29bb72fc9257250a4d5224bf9168d4978e93c9"
+
+[[files]]
+file = "config/create_jetpack-common.toml"
+hash = "7137572d1cd7562933ae555cfe3c973eb30f4e6600171e996b202d56df0076b8"
+
+[[files]]
 file = "config/create_new_age-client.toml"
 hash = "6c43ef83a82c7bfb82f3f5fc39bcdd9fe1cf56c76ca035971cc067f99153fbad"
 
@@ -835,6 +843,10 @@ hash = "4858af45414f86cc72eac5973c211b66048f311e6c0da7a83014c249a3f8d644"
 [[files]]
 file = "config/emitrades.json5"
 hash = "1ed0ed3da45ed6bc11cdb624218f76f8e52b63818703b25e717bbbec615e6e92"
+
+[[files]]
+file = "config/emojiful-client.toml"
+hash = "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
 
 [[files]]
 file = "config/enchancement.json"
@@ -986,7 +998,7 @@ hash = "f803d4d6793302aa200831ef95f5cc84fce0e85f5ba0a9cec10e0ebd02a50e59"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "17c762b1e6b534c23dfd301c94ac5251150accf10f66ef67d61588600f4e1554"
+hash = "31aac4fd9f0d9440405faf8dc1b15e95f43e15bc90fd722b62b370fa98b5a45d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
@@ -994,23 +1006,31 @@ hash = "9f64805d54eb27274805f1d7b0dc4971c3f19261fc142817ffa44eacc2e5d3c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
-hash = "b5c08bfd3087dd7a776ab4ed01ba218a1faf66a73afeb765506452562224b163"
+hash = "e8e5b36377a367fee2bd9f3371a9a66028d1902c011ce2242c8de0dc8f9edd8a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "f63bf315e4ca64806c37bed2258182693d3a4852a021468d72c996a280427267"
+hash = "215ff71b12d85fe2636a086494476bc3b635c522d7f1e0cb0fe417edae74898c"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/hi_chat.snbt"
-hash = "6f2eb176d1c6d8c4dccb61e0f72d7397584aa537fafc150f3a6740d0b3d287fd"
+file = "config/ftbquests/quests/chapters/create_contraptions.snbt"
+hash = "af41759f3a13403be16ad9e81cf8ecd5ec76ea34c55f7b87cc49ae3a91e2b2d8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_trains.snbt"
+hash = "8eb1a2ebdba6de46e2945d167643d74bfac3274dd78158e62374254a7654e1a9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
-hash = "8b5944e558d0ba18031f0b324d68e9d139414b03ad368b878a134a0e9b8a4d7c"
+hash = "7f06b9296355201542ed04a78aacee942ca88c642edfcb5ab3e1dbbf88b036a3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_end.snbt"
 hash = "185e43205dccb10b888d3052a9cf5504ef9f68361953876002d21674959aef14"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "51b7b127e38a632e9eb8161330f934d9e958ee9fc41ed9645d5a481efaf800c6"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1586,7 +1606,7 @@ hash = "70bba512c19c9883541dc9eebbb2d66c2a31db025a2bc183b731581582aa60a5"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "ce7365ee4adaa38d674b7bda5ac8f302a56b3851536dcfa0b2ad1777f68c02c4"
+hash = "b13b84a076c380f0e20403636b63d32ef9581d91cb55d130c2141a8c8f83ea70"
 
 [[files]]
 file = "config/simplerecall-common.toml"
@@ -1650,7 +1670,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "ac755e8a0984d54354f9b22c5d9f13561c0b37a7e585a3e1e6a3a4ab16719c43"
+hash = "88e095b40e87150453b54c97d392740745bedf3c23bc7315a2b6fe1d1423dd78"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -1897,6 +1917,10 @@ file = "defaultconfigs/create_hypertube-server.toml"
 hash = "84fb232549cedc836f20ee9a8dfe5b9ee38f88ca238228f715e301b36d6ab948"
 
 [[files]]
+file = "defaultconfigs/create_power_loader-server.toml"
+hash = "a50b7024c2aee5243580e0ed74bf86fdadc2c552f041eb101c6df2055cf5b18b"
+
+[[files]]
 file = "defaultconfigs/curios-server.toml"
 hash = "31818944254f689e486489e6ca4fb63a8a409e099e5f3ef99bab39c4d6e8008a"
 
@@ -1915,6 +1939,10 @@ hash = "1fd7f9ef60d75001034847a4e699f01befdcae865e2c14e40f2dca3a2b12cf1c"
 [[files]]
 file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
 hash = "1625518d71f77fe988e0196eba24e8ee2747be3eb38247b8a51153e0ad8868bb"
+
+[[files]]
+file = "defaultconfigs/ftbessentials-server.snbt"
+hash = "61be32c86d1f4af6234ae0a1d679794bcb571d9fb4c18634c03b74c6fecf41bf"
 
 [[files]]
 file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
@@ -2005,6 +2033,86 @@ hash = "4039cb1b61586b268c05d40f75f352e2abae4da2aa75fab827c61df2a6fb1641"
 file = "kubejs/assets/emi-create-cobble-gen-compat.pw.toml"
 hash = "ce8343e483f2783a5a11b3b6ff49460a3cdd2f37b5aa95717154e61094a290df"
 metafile = true
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/lang/en_us.json"
+hash = "84ff7ca3a8e2412fe8a8b5b7ce9eb5b490f164e16b557616f12c05520761246f"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/belt_turn.png"
+hash = "7756a04305301afaf3572c9cfd467cfec87c9e63a5651c854887f71a31b4fbaf"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/block_attachment.png"
+hash = "26d61744b2077919944326f9419d84dee7b49edcf0eaafb2f2626e6301e662ad"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/contraption_actors.png"
+hash = "bce0686450fea61faacf28e25bf13e3e3ba71b9a13b7143801740f00e73aa8d2"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/create_pipes.png"
+hash = "a0850c376b07b141bc25bb0f6bb568b614684f09144712d4dc4eaf158a6881f3"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/credits.txt"
+hash = "177f1cffd28f1dd4511ebef9ca9dfcaefa6f77a1f05a399adf56e906303b4d6e"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/encased_chain_drive.png"
+hash = "5cae33daa4d08e4a8dd4bd7eb1623800a22ead7e4479e29140c4c09c3f3490f0"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/fork.png"
+hash = "7cdcddf8df9bab27f83b08c2328453bd859078e5d0b19781373d474ba7f3f075"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/fork2.png"
+hash = "803096ef2805769a46788e5d3c3609d6c7f1b89c93dbf29ca9c4995dba9a1fcb"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/hose_pulley.png"
+hash = "50a154a9ea443c46ed30565dd2308d757e01cd5e7b7648adc6f1798dc94dfc31"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/junction.png"
+hash = "37e35820d83c1cc438435f31f88832c2645b06bd4194ec177ccf48187fe335f0"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/kinetic_appliances.png"
+hash = "1afa7dd63f23a66f76b4f0a44441c48042375dc38489a314c6c448388db1c39b"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/kinetic_blocks.png"
+hash = "91dd1d452962b3afdc772efa74eb2c36c06700582c67e3b5360563be824b7db0"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/kinetic_sources.png"
+hash = "a11654372622ab3f78837e2d9aa79e4f73006034daad608b1c235aae3c19aa27"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/misc.png"
+hash = "33699abc868c931b9421f284c59a60b393ca028971c4e9cadbd77f4e203d0b16"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/movement_anchors.png"
+hash = "3a1dd82efba48f9701be45f82ac537e8846555c5276dfe76ff969e5b4ab213df"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/sideways_waterwheel.png"
+hash = "e59419dae1985e81a8bf58220fd2c3a9e263dab07009bf309f92a7502f0b9ab5"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/simple_transportation.png"
+hash = "0d158acd63eac79d56ce0532dc731088666630b446fa76eea2bd9b77f7463532"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/single_track.png"
+hash = "2a41b3311cf2552d0594fdb493bf6d7ba2a41a0d3a331816e64837fcf97123c0"
+
+[[files]]
+file = "kubejs/assets/ftbuniversity/textures/quests/create/train_schedule.png"
+hash = "9f535ee36ebebc1fadc52874bb903f4bc90872d715dbbe25e0621a2b3c2f41d4"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
@@ -2115,7 +2223,7 @@ hash = "859b6113943be5159f47d22dacc6278c02a11f3383a60c342f8b481eca99acf6"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/_server_main.js"
-hash = "c007efd89e0b784b8dec75a3ba049c7ee4705d64270beac986ea3abcd471409d"
+hash = "76c6270f0d322f13e2facf152db0c922950acbcdd46a83b7815f6910320593a8"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/advancements.js"
@@ -2539,7 +2647,7 @@ hash = "065678f9d1585f26f3f3b6cccee7a15797168b8381ce05323b85c6d1625c24f1"
 
 [[files]]
 file = "kubejs/startup_scripts/src/_core/vars.js"
-hash = "42977cabf5113cffd35727fe78fd43e0a346ddb42d33d425146f8ab8ca5d5213"
+hash = "8678ceb960cce6b7a8584a77b11d9920deda0f5a1341f28db6d9442f055dbe56"
 
 [[files]]
 file = "kubejs/startup_scripts/src/_core/wood_types.js"
@@ -2596,6 +2704,10 @@ hash = "13cdcffee8e48b15c6079809f16a2b52abb5018096dd5f4472499bbc81e94d33"
 [[files]]
 file = "kubejs/startup_scripts/src/collectorsreap/removals.js"
 hash = "fd093d9f772d82661e78dcc065a1273f8e4f1ad9596dc1bda07086e24140a712"
+
+[[files]]
+file = "kubejs/startup_scripts/src/create_power_loader/removals.js"
+hash = "2124d8466ef275206c1681256a24ea675345b2993d6c626bbe87478b5860473a"
 
 [[files]]
 file = "kubejs/startup_scripts/src/createdeco/removals.js"
@@ -3048,6 +3160,11 @@ hash = "fee58a333eaf51d4862fee34fe8ba7cb70140500023e06aca3c9fcf0e0f34719"
 metafile = true
 
 [[files]]
+file = "mods/create-jetpack.pw.toml"
+hash = "0a0533fddd34d04fd6551f5c352081b711662d12f2f2051fe7232a53172edf0e"
+metafile = true
+
+[[files]]
 file = "mods/create-new-age-alexs-caves-integration.pw.toml"
 hash = "7af72d7a97da0797b0bc16625c46b76dfffbbe22004f4eeafc1ba08f8cc2769e"
 metafile = true
@@ -3058,13 +3175,18 @@ hash = "699f49b4680e62cde79a3964b840f5e6eb7f58c1cd0cd9c61582dff71c16a0d2"
 metafile = true
 
 [[files]]
+file = "mods/create-power-loader.pw.toml"
+hash = "255864fc7aa8e28619e5ddbf9094623bfcc9d6caa260bc0cd3d32b39d45a532f"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "0971029a9e6cbc93c8fd694f97942c566979973f3d98023b730b1d436f617220"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
+hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
 metafile = true
 
 [[files]]
@@ -3193,6 +3315,11 @@ hash = "f0b4372343e873512d57e5ee877f37362f8dde8e75771075abe44686509294b9"
 metafile = true
 
 [[files]]
+file = "mods/emojiful.pw.toml"
+hash = "df875bdbabfd623724c54a4eccc023dbaec5027e19b9c68e34a70538f510e16e"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "a6a4662e99c4013864ac4f6a388a3dd98c2ad715f7bd4651c181fac58a6d7ea8"
 metafile = true
@@ -3315,6 +3442,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "0e753f0aea9277eba730d4a55929f244f9d7c9d15cc5e9bd96b4669e531f6de2"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "8cf91dcad4590fed49069cdae47b211bdbee7da6e0c175ae802421ec6a961ae1"
 metafile = true
 
 [[files]]

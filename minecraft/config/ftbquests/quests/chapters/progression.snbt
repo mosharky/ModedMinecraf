@@ -11,7 +11,6 @@
 		{
 			icon: "supplementaries:sack"
 			id: "313E04066EAC1559"
-			subtitle: "sorry.."
 			tasks: [
 				{
 					consume_items: false
@@ -25,7 +24,7 @@
 					type: "item"
 				}
 			]
-			title: "Early Storage"
+			title: "Portable Storage"
 			x: 0.5d
 			y: 0.0d
 		}
@@ -73,18 +72,19 @@
 				consume_items: false
 				count: 3L
 				id: "4BAE51B5D27AC8E3"
-				item: "minecraft:rabbit_hide"
+				item: "minecraft:leather"
 				type: "item"
 			}]
-			title: "Murder Some Rabbits"
+			title: "Murder Innocent Animals"
 			x: 2.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["5C620D77D02AF6E7"]
+			dependencies: ["21B368EFACFB4ED7"]
+			description: ["See the dedicated quest page to get started."]
 			icon: "ae2:charged_certus_quartz_crystal"
 			id: "3F7B52ED2AD12576"
-			subtitle: "im lazy"
+			subtitle: "Mass digital storage"
 			tasks: [
 				{
 					consume_items: false
@@ -116,35 +116,71 @@
 					type: "item"
 				}
 			]
-			title: "Applied Energistics"
-			x: 6.5d
-			y: 1.5d
+			title: "Applied Energistics 2"
+			x: 4.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["5C620D77D02AF6E7"]
+			dependencies: ["21B368EFACFB4ED7"]
+			description: [
+				"&l{create.ponder.item_vault_sizes.header}&r"
+				""
+				"{create.ponder.item_vault_sizes.text_1}"
+				"{create.ponder.item_vault_sizes.text_2}"
+				"{create.ponder.item_vault_sizes.text_3}"
+				"{@pagebreak}"
+				"&l{create.ponder.item_vault_storage.header}&r"
+				"{create.ponder.item_vault_storage.text_1}"
+				"{create.ponder.item_vault_storage.text_2}"
+				"{create.ponder.item_vault_storage.text_3}"
+				"{create.ponder.item_vault_storage.text_4}"
+			]
 			id: "18FE95855224E7FB"
+			subtitle: "Can be used with AE2!"
 			tasks: [{
 				consume_items: false
 				id: "55F889E141C8B98D"
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"3F7B52ED2AD12576"
-				"18FE95855224E7FB"
-			]
+			dependencies: ["5C620D77D02AF6E7"]
 			id: "794F0E0186F158BE"
 			tasks: [{
 				id: "28FAB4D130AA1277"
 				item: "minecraft:shulker_box"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["21B368EFACFB4ED7"]
+			description: ["Can hold up to 640 items, regardless of their stack size. Not that great for bulk storage, but fantastic for unstackables or a large variety of random items."]
+			id: "40EECDAD25EDF3A1"
+			subtitle: "Great for unstackables!"
+			tasks: [{
+				id: "17AEAD2EB3258433"
+				item: "quark:crate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "21B368EFACFB4ED7"
+			subtitle: "Permanent solutions"
+			tasks: [{
+				id: "5794AB52A7113CCB"
+				title: "Base Storage"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.0d
 		}
 	]
 	title: "Storage"

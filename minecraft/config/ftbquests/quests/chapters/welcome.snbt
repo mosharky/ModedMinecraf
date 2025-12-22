@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "hi_chat"
+	filename: "welcome"
 	group: "1A1DF8B77E8F858C"
 	icon: "akashictome:tome"
 	id: "58EACA00B9FFAA4E"
