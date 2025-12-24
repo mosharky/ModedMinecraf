@@ -1176,6 +1176,22 @@
 			pink_book_bundle = false
 			grass_thatch = true
 
+		[types.cut_block_type.bits_n_bobs]
+			granite_tile = true
+			diorite_tile = true
+			andesite_tile = true
+			calcite_tile = true
+			dripstone_tile = true
+			deepslate_tile = true
+			tuff_tile = true
+			asurine_tile = true
+			crimsite_tile = true
+			limestone_tile = true
+			ochrum_tile = true
+			scoria_tile = true
+			scorchia_tile = true
+			veridium_tile = true
+
 #Disables specific entries
 [entries]
 
@@ -1205,6 +1221,9 @@
 			polished_vertical_slab = true
 			pillar = true
 			vertical_slab = true
+
+		[entries.stone_type.decorative_blocks]
+			pillar = false
 
 	[entries.mud_type]
 
@@ -1253,6 +1272,16 @@
 
 		[entries.wood_type.backpacked]
 			backpack_shelf = true
+
+		[entries.wood_type.decorative_blocks]
+			beam = false
+			support = true
+			seat = true
+			palisade = true
+
+		[entries.wood_type.dramaticdoors]
+			short_door = true
+			tall_door = true
 
 	[entries.leaves_type]
 

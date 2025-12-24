@@ -42,7 +42,7 @@
 	#    ]
 	#    NOTE: This excluded one entryset from all WoodTypes/LeavesTypes
 	#
-	blacklist = ["quark:chest", "quark:trapped_chest", "quark:ladder", "quark:bookshelf", "quark:leaf_carpet", "woodworks:leaf_pile"]
+	blacklist = ["quark:chest", "quark:trapped_chest", "quark:ladder", "quark:bookshelf", "quark:leaf_carpet", "woodworks:leaf_pile", "decorative_blocks:beam"]
 
 [module]
 	#Exclude Module From Wood-Good, Stone-Zone & Gems-Realm

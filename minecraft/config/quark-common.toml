@@ -1516,7 +1516,7 @@
 
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[mobs.toretoise.spawn_config.biomes.tags]
-					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end"]
+					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end", "abyssal_chasm", "candy_cavity", "forlorn_hollows", "magnetic_caves", "primordial_caves", "toxic_caves"]
 					"Is Blacklist" = true
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.

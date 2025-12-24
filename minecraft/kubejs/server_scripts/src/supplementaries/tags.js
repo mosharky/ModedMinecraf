@@ -117,6 +117,8 @@ function entityTags_Supplementaries(e) {
         'alexscaves:trilocaris',
         'alexscaves:tremorsaurus',
         'alexscaves:relicheirus',
+        'alexscaves:candicorn',
+        'alexscaves:gingerbread_man',
         'cataclysm:endermaptera',
         'galosphere:spectre',
         'galosphere:sparkle',

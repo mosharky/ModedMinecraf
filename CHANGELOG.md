@@ -1,3 +1,32 @@
+# [1.0.3] - 22/12/2025
+- Added mods:
+  - Charm of Undying
+  - Create: Bits 'n' Bobs
+  - Decorative Blocks
+  - Draggable Lists
+  - Dramatic Doors
+  - Iron Chests
+- Removed mods:
+  - Death Count (didn't work)
+- Updated mods:
+  - Connectivity
+  - Distant Horizons
+  - Extreme Sound Muffler
+  - Leaky
+  - Schematic Energistics
+- Added commands: 
+  - `/sethome`, `/home`
+- Fixed not being able to pick up death items in someone else's claims
+- Fixed Toretoise spawning in Alexs Caves biomes
+- Reduced chance for mobs to spawn with guns by 66%
+- Halved chance for nightly raids
+- More animals are cageable
+- Disabled leaves falling to the ground after chopping a tree
+
+
+***
+
+
 # [1.0.2] - 22/12/2025
 - Added mods:
   - Create: Jetpack

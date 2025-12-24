@@ -545,11 +545,13 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["598E570C9259DA20"]
 			description: [
 				"{university.createchunk.desc1}"
 				""
 				"{university.createchunk.desc2}"
 			]
+			hide_dependency_lines: true
 			id: "0B31AA433F893270"
 			subtitle: "{university.createchunk.subtitle}"
 			tasks: [{

@@ -29,6 +29,7 @@ ServerEvents.tags('entity_type', e => {
     entityTags_Galosphere(e)
     entityTags_NumismaticOverhaul(e)
     entityTags_Supplementaries(e)
+    entityTags_FtbChunks(e)
 })
 
 ServerEvents.tags('worldgen/biome', e => {
@@ -71,6 +72,7 @@ ServerEvents.recipes(e => {
     recipes_SootyChimneys(e)
     recipes_Supplementaries(e)
     recipes_Windswept(e)
+    recipes_Woodworks(e)
 
     // Fully removing any recipe tied to items in REMOVALS
     global.REMOVALS.all.forEach(removal => {
@@ -85,6 +87,8 @@ ServerEvents.loaded(e => {
     if (e.server.persistentData.gameRules) return
     e.server.gameRules.set("playersSleepingPercentage", 1)
     e.server.gameRules.set("spawnRadius", 0)
+    e.server.gameRules.set("disableElytraMovementCheck", true)
+    e.server.gameRules.set("decorative_blocks:disableThatch", true)
     e.server.persistentData.gameRules = true 
 })
 
