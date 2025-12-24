@@ -52,6 +52,7 @@ function constructWoodTypes() {
             let snowySpiritCompatId             = `snowyspirit:${mod}/`
             let anotherFurnitureCompatId        = `everycomp:af/${mod}/`
             let backpackedCompatId              = `everycomp:bp/${mod}/`
+            let decorativeBlocksCompatId        = `everycomp:db/${mod}/`
 
             switch (mod) {
                 case 'minecraft': {
@@ -68,6 +69,7 @@ function constructWoodTypes() {
                         snowySpiritCompatId           = 'snowyspirit:'
                         anotherFurnitureCompatId      = 'another_furniture:'
                         backpackedCompatId            = 'backpacked:'
+                        backpackedCompatId            = 'decorative_blocks:'
                     }
                     break
                 }
@@ -166,6 +168,11 @@ function constructWoodTypes() {
                 },
                 backpacked: {
                     backpack_shelf:         backpackedCompatId + woodType + '_backpack_shelf'
+                },
+                decorative_blocks: {
+                    support:                decorativeBlocksCompatId + woodType + '_support',
+                    seat:                   decorativeBlocksCompatId + woodType + '_seat',
+                    palisade:               decorativeBlocksCompatId + woodType + '_palisade',
                 }
             }
 

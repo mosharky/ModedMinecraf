@@ -108,7 +108,7 @@
 		#Base chance for progression-based gunner mobs to spawn (0.0 = never, 1.0 = always).
 		#This is the spawn chance on NORMAL difficulty. Thematic mobs use their own config.
 		#Range: 0.0 ~ 1.0
-		gunnerSpawnChance = 0.3
+		gunnerSpawnChance = 0.1
 		#If enabled, spawn chances scale with game difficulty.
 		#PEACEFUL: 50% of base chance, EASY: 75%, NORMAL: 100%, HARD: 150%
 		scaleToDifficulty = true
@@ -117,7 +117,7 @@
 		#Base chance for Elite Gunners to spawn (0.0 = never, 1.0 = always).
 		#This is the spawn chance on NORMAL difficulty.
 		#Range: 0.0 ~ 1.0
-		eliteChance = 0.2
+		eliteChance = 0.05
 
 	#Properties relating to mob aggression from gunfire
 	[common.aggro_mobs]
@@ -236,13 +236,13 @@
 		#Chance each night for a raid to spawn near a valid player (0.0 = never, 1.0 = always).
 		#Set to 0.0 to effectively disable raids without turning off the system entirely.
 		#Range: 0.0 ~ 1.0
-		nightlyRaidChance = 0.2
+		nightlyRaidChance = 0.1
 		#Minimum number of days that must pass between natural raid spawns.
 		#Set to 0 to allow raids every night (if chance succeeds).
 		#Set to 1 to allow raids every other night.
 		#Set to 2 or higher to space out raids further.
 		#Range: 0 ~ 100
-		minDaysBetweenRaids = 2
+		minDaysBetweenRaids = 4
 		#Time in minutes before a raid automatically fails if the boss is not defeated.
 		#Default: 10 minutes
 		#Range: 0 ~ 60

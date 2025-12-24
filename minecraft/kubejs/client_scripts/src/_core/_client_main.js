@@ -7,7 +7,11 @@ ItemEvents.tooltip(e => {
         'scguns:mechanical_press',
         'scguns:powered_macerator',
         'scguns:powered_mechanical_press',
-    ], Text.darkGray('Use Create instead ;)'))
+    ], Text.gray('Use Create instead ;)').italic())
+})
+
+JEIEvents.removeCategories(e => {
+    e.remove('woodworks:sawmill')
 })
 
 JEIEvents.information(e => {
