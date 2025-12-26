@@ -15,7 +15,6 @@ function numismaticTrades_Core(e) {
                 { type: SELL_STACK, price: 800, sell: Item.of('quark:seed_pouch', 1).toJson(), max_uses: 8, villager_experience: 5 },
             ],
             apprentice: [
-                // TODO: replace with ancient book
                 { type: 'numismaticoverhaul:enchant_item', base_price: 3000, allow_treasure: true, level: 60, item: { item: 'book' }, max_uses: 5, villager_experience: 15 },
                 { type: SELL_STACK, price: 2000, sell: { item: 'backpacked:backpack', count: 1 }, max_uses: 1, villager_experience: 5 },
             ]
