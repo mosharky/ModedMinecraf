@@ -846,7 +846,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "4d2d4066ac677fccc328decad23bdb17b577f2a80b4dde3284bc7a1c37a5aeb7"
+hash = "c048ad7a3f71cd113be83942f769fff88ee0fdce7bd28b48bede2faf11cd5d4c"
 
 [[files]]
 file = "config/embers-client.toml"
@@ -1235,10 +1235,6 @@ hash = "8af4ff52a38624cc10403bdc5e4f769c1f2c9e0776131964d7f35d279412d2a6"
 [[files]]
 file = "config/ironchests/chests/obsidian.json"
 hash = "89f297cf6f1f8b36ca54e414d3c434949799568a989417908fb5af9cea5fb43f"
-
-[[files]]
-file = "config/ironchests/defaults.properties"
-hash = "62aa5de0291716927b2667a0c2404251a16387dac82099d55c27aee78f3a021d"
 
 [[files]]
 file = "config/ironchests/upgrade_types/copper.json"
@@ -1766,7 +1762,7 @@ hash = "b9226f3edabcf1a4198240cc2b2b602d0ccd2a1111d5f17948cea4ce057b16ad"
 
 [[files]]
 file = "config/sodiumextras-client.toml"
-hash = "206d3b0cd64c31a30ccadd4f8c7278babba8bfff27c8e5cc4560d451fea0dcd3"
+hash = "360a6bbbe8181e6a3c9c736b20ecbff8761560c39b88d7120f5edb4d17f0de77"
 
 [[files]]
 file = "config/sootychimneys-common.toml"
@@ -3283,6 +3279,11 @@ hash = "76c45d397433d35d337e4a7ff523800b9d39a3c9b5e3dd56e3db6d7cfd31e675"
 metafile = true
 
 [[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "44185f49c8abec33d8a5d47d19a039b3c535e182d9f721fdd7bad4d5deb54804"
+metafile = true
+
+[[files]]
 file = "mods/create-compatible-storage.pw.toml"
 hash = "1656364454d2e9c9cd65bc0a729b30e67c23fd26566ff4135439a4196bc71f06"
 metafile = true
@@ -3565,11 +3566,6 @@ metafile = true
 [[files]]
 file = "mods/flw-vanillin.pw.toml"
 hash = "c9a9a660c0887f3f218a4dbfedb20d4ddf1f1c72b07e6575da3fb2902019a56b"
-metafile = true
-
-[[files]]
-file = "mods/force-fair-play.pw.toml"
-hash = "a45002266072a8a7ce81f5245c714ebff692261d882ff9e3c61b7b42bf125e57"
 metafile = true
 
 [[files]]

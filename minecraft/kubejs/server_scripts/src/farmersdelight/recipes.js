@@ -1,7 +1,11 @@
 /** @param {$RecipesEventJS_} e */
 function recipes_FarmersDelight(e) {
+    e.replaceInput({}, 'farmersdelight:wheat_dough', '#forge:dough')
     e.replaceInput({}, 'farmersdelight:rope', 'supplementaries:rope')
     e.replaceOutput({}, 'farmersdelight:rope', 'supplementaries:rope')
+
+    e.remove({ id: 'farmersdelight:bread_from_smelting' })
+    e.remove({ id: 'farmersdelight:bread_from_smoking' })
 
 
     e.stonecutting('farmersdelight:rope', 'supplementaries:rope')

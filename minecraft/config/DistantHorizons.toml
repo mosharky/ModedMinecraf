@@ -673,7 +673,7 @@ _version = 3
 				# Note:
 				# Some DH settings will be disabled and/or changed to improve 
 				# visuals when DH rendering is disabled.
-				ignoredDimensionCsv = ""
+				ignoredDimensionCsv = "minecraft:the_nether,minecraft:the_end,ae2:spatial_storage"
 
 			[client.advanced.graphics.genericRendering]
 				#
