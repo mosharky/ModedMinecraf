@@ -1,3 +1,11 @@
+# [1.0.4] - 04/01/2026
+- Added mods:
+  - FTB: Ultimine
+
+
+***
+
+
 # [1.0.3] - 22/12/2025
 - Added mods:
   - Charm of Undying

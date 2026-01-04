@@ -1978,7 +1978,7 @@ hash = "f02ca95d7246bd4b9c7de895c46108fff42fd5fcf9d56816b7bdba821597b58f"
 
 [[files]]
 file = "config/xaeroworldmap.txt"
-hash = "b7b61e98b72b05710d4a4f15faa00dbed13d37c90dc54f9b0a9b278ac05d3108"
+hash = "8e5fa81000d849a40ef01b4b5ee665c6f240f1437c2aa179670f2024a0175fe4"
 
 [[files]]
 file = "config/yacl.json5"
@@ -3611,6 +3611,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "450e23b3e692360eee6fd55fc640b391eff8f4e5714ccc69bafb837685ae8e96"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "1c383e66311b5edd6d7116ae0544108d60450f58e94853126665d75d85561d68"
 metafile = true
 
 [[files]]
