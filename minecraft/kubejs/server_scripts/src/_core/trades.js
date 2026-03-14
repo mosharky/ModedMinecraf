@@ -23,6 +23,7 @@ MoreJSEvents.playerStartTrading(e => {
             o.setOutput(currencyItem(outputCount * 125))
         }
 
+        // TODO: doesnt work on wandering trader? maybe just for the alexs mobs elephant trader?
         if (global.REMOVALS.all.has(outputId)) o.setDisabled(true)
     })
 })

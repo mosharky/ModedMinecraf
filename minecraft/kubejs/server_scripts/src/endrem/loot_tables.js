@@ -15,7 +15,7 @@ function lootTables_EndRem(e) {
     e.addEntityLootModifier('mowziesmobs:frostmaw').addLoot('endrem:cold_eye')
 
     // Corrupted Eye (raids)
-    e.addEntityLootModifier('scguns:blunderer').randomChance(0.5).addLoot('endrem:corrupted_eye')
+    e.addEntityLootModifier('minecraft:pillager').randomChance(0.05).addLoot('endrem:corrupted_eye')
 
     // Lost Eye (structure: goety:ominous_blacksmith)
     e.addLootTableModifier('goety:chests/blacksmith_treasure').addLoot('endrem:lost_eye')

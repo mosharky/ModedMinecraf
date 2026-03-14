@@ -1,0 +1,13 @@
+name = "Jappafied Aethers"
+filename = "Jappafied Aethers 1.20.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/NxpNOKEe/versions/NCYyTWSf/Jappafied%20Aethers%201.20.zip"
+hash-format = "sha512"
+hash = "f2685d43f3be2e8bbeec13ddf0c5d8210df0c189d8c6c7717505df61eeda4dd24931bdfd43ba99bc12c086341460adbcca59e0b716be0ec865806fa3dbfe2542"
+
+[update]
+[update.modrinth]
+mod-id = "NxpNOKEe"
+version = "NCYyTWSf"

@@ -21,6 +21,7 @@ config/ftbqoptimizer.snbt
 config/ftbxmodcompat.snbt
 config/xaerominimap_entities.json
 config/ironchests/defaults.properties
+config/resourceful-config-web.json
 
 # mods
 mods/.connector/
@@ -64,6 +65,7 @@ ESM/
 backups/
 Distant_Horizons_server_data/
 emojiful/
+showdown/
 
 # root files
 knownkeys.txt
@@ -101,8 +103,10 @@ minecraftinstance.json
 # packwiz related
 kubejs/wip_data/
 kubejs/config/
+kubejs/_mod_data/
 kubejs/startup_scripts/src/_core/dev.js
 globalresources/excavated_variants/
+
 # assets
 kubejs/assets/*.zip
 !kubejs/assets/special-*.zip

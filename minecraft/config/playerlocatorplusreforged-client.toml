@@ -21,7 +21,7 @@
 	#Show arrows indicating large height differences?
 	showHeight = true
 	#Always show player heads on markers? (overrides TAB behaviour)
-	alwaysShowHeads = false
+	alwaysShowHeads = true
 	#Show player heads when the Tab list key is pressed?
 	showHeadsOnTab = true
 	#Show player name plaques when the Tab list key is pressed?

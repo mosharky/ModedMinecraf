@@ -107,8 +107,17 @@
 			gloopslate = true
 			warped_stone = true
 
-		[types.stone_type.scguns]
-			phosphorite = true
+		[types.stone_type.aether_redux]
+			driftshale = true
+			sentrite = true
+
+		[types.stone_type.deep_aether]
+			clorite = true
+			raw_clorite = true
+			aseterite = true
+
+		[types.stone_type.aether]
+			holystone = true
 
 	[types.wood_type]
 
@@ -214,6 +223,27 @@
 
 		[types.wood_type.minecraft]
 			pale_oak = true
+
+		[types.wood_type.cobblemon]
+			apricorn = true
+
+		[types.wood_type.aether]
+			skyroot = true
+
+		[types.wood_type.deep_aether]
+			roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.wood_type.aether_redux]
+			fieldsproot = true
+			blightwillow = true
+			cloudcap = true
+			jellyshroom = true
+			crystal = true
+			glacia = true
 
 	[types.leaves_type]
 
@@ -325,6 +355,35 @@
 
 		[types.leaves_type.minecraft]
 			pale_oak = true
+
+		[types.leaves_type.cobblemon]
+			apricorn = true
+
+		[types.leaves_type.aether]
+			skyroot = true
+			golden_oak = true
+			crystal = true
+			crystal_fruit = true
+			holiday = true
+			decorated_holiday = true
+
+		[types.leaves_type.deep_aether]
+			roseroot = true
+			flowering_roseroot = true
+			blue_roseroot = true
+			flowering_blue_roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.leaves_type.aether_redux]
+			fieldsproot = true
+			blightwillow = true
+			glacia = true
+			purple_glacia = true
+			gilded_oak = true
+			blighted_skyroot = true
 
 	[types.cake]
 
@@ -1047,15 +1106,6 @@
 			cracked_blue_brick = true
 			mossy_blue_brick = true
 
-		[types.cut_block_type.call_of_yucutan]
-			red_limestone = true
-			polished_red_limestone = true
-			red_limestone_tile = true
-			ritual_rock = true
-			polished_ritual_rock = true
-			jade_tile = true
-			ancient_gold = true
-
 		[types.cut_block_type.alexscaves]
 			galena = true
 			galena_brick = true
@@ -1145,17 +1195,6 @@
 			quartz_brick = true
 			quartz_pillar = true
 
-		[types.cut_block_type.scguns]
-			cut_diamond_steel = true
-			diamond_steel_tiles = true
-			cut_anthralite = true
-			anthralite_tiles = true
-			cut_treated_iron = true
-			phosphorite_brick = true
-			asgharian_brick = true
-			cut_treated_brass = true
-			treated_brass_tiles = true
-
 		[types.cut_block_type.packedup]
 			book_bundle = false
 			white_book_bundle = false
@@ -1191,6 +1230,62 @@
 			scoria_tile = true
 			scorchia_tile = true
 			veridium_tile = true
+
+		[types.cut_block_type.cobblemon]
+			apricorn = true
+
+		[types.cut_block_type.aether]
+			skyroot = true
+			holystone = true
+			mossy_holystone = true
+			icestone = true
+			holystone_brick = true
+			aerogel = true
+
+		[types.cut_block_type.deep_aether]
+			roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+			cobbled_aseterite = true
+			aseterite = true
+			polished_aseterite = true
+			aseterite_bricks = true
+			raw_clorite = true
+			clorite = true
+			polished_clorite = true
+			holystone_tile = true
+			mossy_holystone_brick = true
+			mossy_holystone_tile = true
+			big_holystone_bricks = true
+			aether_mud_bricks = true
+			gilded_holystone_brick = true
+			blightmoss_holystone_brick = true
+			gilded_holystone_tile = true
+			blightmoss_holystone_tile = true
+
+		[types.cut_block_type.aether_redux]
+			polished_driftshale = true
+			divinite = true
+			sentrite = true
+			polished_sentrite = true
+			sentrite_brick = true
+			shell_shingle = true
+			enchanted_shell_shingle = true
+			gilded_holystone = true
+			blightmoss_holystone = true
+			fieldsproot = true
+			blightwillow = true
+			cloudcap = true
+			jellyshroom = true
+			crystal = true
+			glacia = true
+
+	[types.mud_type]
+
+		[types.mud_type.deep_aether]
+			aether_mud = true
 
 #Disables specific entries
 [entries]
@@ -1282,6 +1377,11 @@
 		[entries.wood_type.dramaticdoors]
 			short_door = true
 			tall_door = true
+
+		[entries.wood_type.functionalstorage]
+			1 = true
+			4 = true
+			2 = true
 
 	[entries.leaves_type]
 

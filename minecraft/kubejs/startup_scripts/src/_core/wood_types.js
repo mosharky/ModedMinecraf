@@ -69,7 +69,7 @@ function constructWoodTypes() {
                         snowySpiritCompatId           = 'snowyspirit:'
                         anotherFurnitureCompatId      = 'another_furniture:'
                         backpackedCompatId            = 'backpacked:'
-                        backpackedCompatId            = 'decorative_blocks:'
+                        decorativeBlocksCompatId      = 'decorative_blocks:'
                     }
                     break
                 }
@@ -241,7 +241,7 @@ function constructWoodTypes() {
                 for (const [entryName, entryId] of Object.entries(entries)) {
                     if (entryId != undefined && !Item.exists(entryId)) {
                         if (global.DEBUG_MODE && woodTypesToConstruct[mod][woodType]) {
-                            console.warn(`DOESN'T EXIST: ${entryName}: ${entryId}`)
+                            console.warn(`    DOESN'T EXIST: ${entryName}: "${entryId}"`)
                         }
                         
                         woodTypeObj[entrySetMod][entryName] = undefined
@@ -257,7 +257,7 @@ function constructWoodTypes() {
                 global.REMOVALS.add(woodTypeObj)
             }
 
-            if (global.DEBUG_MODE) console.log(`Constructed ${mod}:${woodType}`)
+            if (global.DEBUG_MODE) console.log(`    Constructed ${mod}:${woodType}`)
         })
     })
     if (global.DEBUG_MODE) console.log('Finished constructing wood types!')

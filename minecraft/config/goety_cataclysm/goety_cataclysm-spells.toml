@@ -472,3 +472,19 @@
 		#Range: > 0
 		urchinkinCoolDown = 100
 
+	[Spells."Battlefield Spell"]
+		#Battlefield Spell Cost, Default: 48
+		#Range: > 0
+		battlefieldCost = 128
+		#Battlefield Spell Cooldown, Default: 250
+		#Range: > 0
+		battlefieldCoolDown = 250
+		#Battlefield Spell Damage, Default: 10.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		battlefieldDamage = 10.0
+
+[General]
+	#How many ticks water attacks, ie. drench, gives Wet effect, set to 0 to disable, Default: 100
+	#Range: > 0
+	waterAttackWet = 100
+

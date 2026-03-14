@@ -21,6 +21,7 @@ minecraft/config/ftbqoptimizer.snbt
 minecraft/config/ftbxmodcompat.snbt
 minecraft/config/xaerominimap_entities.json
 minecraft/config/ironchests/defaults.properties
+minecraft/config/resourceful-config-web.json
 
 # mods
 minecraft/mods/.connector/
@@ -62,6 +63,7 @@ minecraft/ESM/
 minecraft/backups/
 minecraft/Distant_Horizons_server_data/
 minecraft/emojiful/
+minecraft/showdown/
 
 # root files
 minecraft/knownkeys.txt
@@ -92,6 +94,7 @@ minecraft/servers.dat_old
 mod_data/__pycache__/
 mod_data/mod_data.log
 mod_data/generated/
+minecraft/kubejs/_mod_data/
 
 # launcher-related
 minecraft/.curseclient

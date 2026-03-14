@@ -13,4 +13,11 @@ function removals_Core() {
         ['minecraft:chest', 'woodworks:crimson_chest'],
         ['minecraft:trapped_chest', 'woodworks:crimson_chest'],
     ]))
+
+    // vanilla backport
+    global.REMOVALS.add([
+        'minecraft:leaf_litter',
+        'minecraft:short_dry_grass',
+        'minecraft:tall_dry_grass',
+    ])
 }

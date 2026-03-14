@@ -43,7 +43,7 @@ function postInit() {
     removals_Quark()
     removals_Railways()
     removals_Relics()
-    removals_ScGuns()
+    // removals_ScGuns()
     removals_SnowySpirit()
     removals_UnusualPrehistory()
     removals_UpgradeAquatic()

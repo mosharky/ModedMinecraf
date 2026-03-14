@@ -1,0 +1,13 @@
+name = "Cobblemon Poképedia: Cobblepedia"
+filename = "Cobblepedia-Forge-0.6.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2obPz7jf/versions/FwTTYv9x/Cobblepedia-Forge-0.6.8.jar"
+hash-format = "sha512"
+hash = "36fb729053d7c1bd262adbe630b3375342fcf1a483478c774ac493e5149eb4be3e214913e1d452f5f07e1a20abe86c2d0408979457b95b1f8da2c051dd5c050b"
+
+[update]
+[update.modrinth]
+mod-id = "2obPz7jf"
+version = "FwTTYv9x"
