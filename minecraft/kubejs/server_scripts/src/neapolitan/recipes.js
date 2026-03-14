@@ -1,6 +1,7 @@
 /** @param {$RecipesEventJS_} e */
 function recipes_Neapolitan(e) {
     e.remove({id: 'collectorsreap:food/chocolate_arils'})
+    e.remove({id: 'neapolitan:milk/milk_bottles_from_bucket'})
 
     e.replaceInput({}, 'neapolitan:chocolate_bar', 'create:bar_of_chocolate')
 

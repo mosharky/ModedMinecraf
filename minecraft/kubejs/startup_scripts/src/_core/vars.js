@@ -230,4 +230,28 @@ const woodTypesToConstruct = {
     unusualend: {
         chorus_nest: true,
     },
+    cobblemon: {
+        apricorn: true
+    },
+    aether: {
+        skyroot: true
+    },
+    deep_aether: {
+        roseroot: true,
+        yagroot: true,
+        cruderoot: true,
+        conberry: true,
+        sunroot: true,
+    },
+    aether_redux: {
+        fieldsproot: true,
+        blightwillow: true,
+        cloudcap: true,
+        jellyshroom: true,
+        crystal: true,
+        glacia: true,
+    },
+    oddsnends: {
+        ciderine: true,
+    },
 }

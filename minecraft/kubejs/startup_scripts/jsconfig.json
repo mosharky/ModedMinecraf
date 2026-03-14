@@ -1,20 +1,26 @@
 {
+    "include": [
+        "./**/*.js"
+    ],
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "ES2015",
+        "skipDefaultLibCheck": true,
+        "moduleResolution": "classic",
+        "composite": true,
+        "isolatedModules": true,
         "lib": [
             "ES5",
             "ES2015"
         ],
-        "rootDir": "./src",
-        "typeRoots": [
-            "../../.probe/startup/probe-types"
+        "types": [
+            "../../.probe/startup/packages",
+            "../../.probe/startup/global",
+            "../../.probe/shared"
         ],
-        "baseUrl": "../../.probe/startup/probe-types",
-        "skipLibCheck": true
-    },
-    "include": [
-        "./src/**/*",
-        null
-    ]
+        "incremental": true,
+        "target": "ES2015",
+        "skipLibCheck": true,
+        "rootDir": ".",
+        "allowJs": true,
+        "module": "commonjs"
+    }
 }

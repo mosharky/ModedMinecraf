@@ -101,7 +101,8 @@ function biomeTags_Core(e) {
         'windswept:snowy_pine_barrens'
     ])
     e.add('kubejs:has_feature/spotted_maple_tree/yellow', [
-        'minecraft:forest'
+        'minecraft:birch_forest',
+        'minecraft:old_growth_birch_forest',
     ])
     e.add('kubejs:has_feature/stone_cliff', [
         'natures_spirit:blooming_sugi_forest',
@@ -139,5 +140,10 @@ function biomeTags_Core(e) {
         'minecraft:birch_forest',
         'minecraft:old_growth_birch_forest',
         'windswept:chestnut_forest',
+    ])
+
+    // Vanilla Backport
+    e.add('minecraft:spawns_wildflowers', [
+        '#natures_spirit:is_autumn'
     ])
 }

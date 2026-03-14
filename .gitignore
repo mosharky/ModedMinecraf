@@ -22,6 +22,7 @@ minecraft/config/ftbxmodcompat.snbt
 minecraft/config/xaerominimap_entities.json
 minecraft/config/ironchests/defaults.properties
 minecraft/config/resourceful-config-web.json
+minecraft/config/crash_assistant/modlist.json
 
 # mods
 minecraft/mods/.connector/
@@ -89,12 +90,13 @@ minecraft/snr_favorite_styles.nbt
 minecraft/servers.dat_old
 
 # dev environment stuff
-.probe/
 .vscode/probe.code-snippets
 mod_data/__pycache__/
 mod_data/mod_data.log
 mod_data/generated/
 minecraft/kubejs/_mod_data/
+minecraft/.probe/*
+!minecraft/.probe/probe-settings.json
 
 # launcher-related
 minecraft/.curseclient

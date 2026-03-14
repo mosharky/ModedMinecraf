@@ -1,0 +1,13 @@
+name = "Odds N' Ends"
+filename = "oddsnends-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3HuR45TX/versions/MwI5tFtQ/oddsnends-1.0.1.jar"
+hash-format = "sha512"
+hash = "d9c999e99cad991f60a663b5be0db71852f8ee0ed40a2f06efad28b1c3de2b15c602e391e5ee57582d65501fda3fd74d0ac378b18871968f6edc255f83ccd775"
+
+[update]
+[update.modrinth]
+mod-id = "3HuR45TX"
+version = "MwI5tFtQ"

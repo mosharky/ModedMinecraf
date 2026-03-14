@@ -1,5 +1,7 @@
+/** @param {$TagEventJS_} e */
 function entityTags_NumismaticOverhaul(e) {
     e.add('numismaticoverhaul:the_bourgeoisie', [
+        '#minecraft:raiders',
         'savage_and_ravage:executioner',
         'savage_and_ravage:griefer',
         'savage_and_ravage:iceologer',

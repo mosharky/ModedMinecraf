@@ -119,6 +119,11 @@
 		[types.stone_type.aether]
 			holystone = true
 
+		[types.stone_type.oddsnends]
+			manastone = true
+			shale = false
+			shorestone = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -244,6 +249,9 @@
 			jellyshroom = true
 			crystal = true
 			glacia = true
+
+		[types.wood_type.oddsnends]
+			ciderine = true
 
 	[types.leaves_type]
 
@@ -385,6 +393,10 @@
 			gilded_oak = true
 			blighted_skyroot = true
 
+		[types.leaves_type.oddsnends]
+			ciderine = true
+			flowering_ciderine = true
+
 	[types.cake]
 
 		[types.cake.natures_spirit]
@@ -417,6 +429,9 @@
 			pomegranate_cake = true
 			pink_dragon_fruit_cake = true
 			lucuma_cake = true
+
+		[types.cake.oddsnends]
+			anthesi_cake = true
 
 	[types.cut_block_type]
 
@@ -1281,6 +1296,21 @@
 			jellyshroom = true
 			crystal = true
 			glacia = true
+
+		[types.cut_block_type.embers_extended]
+			ember_crystal_bricks = true
+
+		[types.cut_block_type.oddsnends]
+			ciderine = true
+			laco_tile = true
+			manastone = true
+			manastone_brick = true
+			small_manastone_brick = true
+			smooth_manastone = true
+			polished_shale = false
+			shale_brick = false
+			rough_quartz = true
+			shorestone_brick = true
 
 	[types.mud_type]
 

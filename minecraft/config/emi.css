@@ -167,12 +167,12 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites, craftables;
+	left-sidebar-pages: craftables, favorites;
 
 	/**
 	 * The subpanels in the left sidebar
 	 */
-	left-sidebar-subpanels: none;
+	left-sidebar-subpanels: craft-history 1;
 
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
@@ -187,7 +187,7 @@
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: left, top;
+	left-sidebar-align: right, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
@@ -197,7 +197,7 @@
 	/**
 	 * Which theme to use for the left sidebar
 	 */
-	left-sidebar-theme: transparent;
+	left-sidebar-theme: vanilla;
 
 	/**
 	 * The pages in the right sidebar
@@ -212,7 +212,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 20, 100;
+	right-sidebar-size: 12, 100;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
@@ -468,7 +468,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
 
 	/**
 	 * Whether to display additional widgets added to recipes from other mods.

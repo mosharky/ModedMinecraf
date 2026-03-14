@@ -15,6 +15,19 @@ StartupEvents.registry('item', e => {
         .texture('quark:item/ravager_hide')
 })
 
+// Sounds for Origins
+StartupEvents.registry('sound_event', e => {
+    e.create('pyke_harpoon')
+    e.create('ghostwater_dive_0')
+    e.create('ghostwater_dive_1')
+    e.create('ghostwater_dive_2')
+})
+
+// origins keybind
+KeyBindEvents.register(e => {
+    e.create('Active Power (Tertiary)', 'key.origins.tertiary_active', GLFW.GLFW_KEY_V, 'category.origins')
+})
+
 /** @param {$ItemModificationEventJS_} e */
 function itemModification_Core(e) {
     e.modify('minecraft:suspicious_stew', item => item.maxStackSize = 16)

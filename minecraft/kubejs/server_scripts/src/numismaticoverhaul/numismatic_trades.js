@@ -8,7 +8,7 @@ function numismaticTrades_Core(e) {
                 { type: SELL_STACK, price: 1600, sell: Item.of('farmersdelight:onion', 2).toJson(), max_uses: 8, villager_experience: 5 },
                 { type: SELL_STACK, price: 1600, sell: Item.of('farmersdelight:rice', 2).toJson(), max_uses: 8, villager_experience: 5 },
                 { type: SELL_STACK, price: 1600, sell: Item.of('miners_delight:cave_carrot', 2).toJson(), max_uses: 8, villager_experience: 5 },
-                { type: SELL_STACK, price: 1600, sell: Item.of('supplementaries:flax_seeds', 2).toJson(), max_uses: 8, villager_experience: 5 },
+                { type: SELL_STACK, price: 1600, sell: Item.of('oddsnends:flax_seeds', 2).toJson(), max_uses: 8, villager_experience: 5 },
                 { type: SELL_STACK, price: 2999, sell: Item.of('supplementaries:sack', 1).toJson(), max_uses: 3, villager_experience: 5 },
                 { type: SELL_STACK, price: 1800, sell: Item.of('supplementaries:globe', 1).toJson(), max_uses: 3, villager_experience: 5 },
                 { type: SELL_STACK, price: 2600, sell: Item.of('supplementaries:globe_sepia', 1).toJson(), max_uses: 3, villager_experience: 5 },

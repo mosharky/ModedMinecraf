@@ -1,4 +1,12 @@
 {
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/recipe_schemas/*.json"
+            ],
+            "url": "./.vscode/recipe.json"
+        }
+    ],
     "files.exclude": {
         "**/minecraft/config/jei/world/": true,
         "**/minecraft/config/blockswap/known_states/": true,

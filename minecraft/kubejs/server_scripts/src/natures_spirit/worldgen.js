@@ -55,20 +55,51 @@ function worldgen_NaturesSpirit(e) {
         VEGETAL_DECORATION
     )
 
+    // maple tree tings
+    e.addJson('kubejs:separated_leaves/maple', {
+        leaves: ['autumnity:maple_leaves', 'natures_spirit:red_maple_leaves', 'natures_spirit:orange_maple_leaves', 'natures_spirit:yellow_maple_leaves'],
+        logs: ['#autumnity:maple_logs']
+    })
+
     // Removing/replacing cliff features
     removeFeatures(e, [
-        'natures_spirit:stone_cliff',
-        'natures_spirit:andesite_cliff',
-        'natures_spirit:granite_cliff',
-        'natures_spirit:terracotta_cliff',
+        'natures_spirit:stone_cliff',  // re-implemented in worldgen_Core
+        'natures_spirit:andesite_cliff',  // re-implemented in worldgen_Core
+        'natures_spirit:granite_cliff',  // re-implemented in worldgen_Core
+        'natures_spirit:terracotta_cliff',  // re-implemented in worldgen_Core
         'natures_spirit:travertine_cliff',
         'natures_spirit:kaolin_cliff',
         'natures_spirit:chert_cliff',
-        'natures_spirit:pink_sandstone_cliff'
+        'natures_spirit:pink_sandstone_cliff',
     ], '#minecraft:is_overworld', RAW_GENERATION)
-    addFeatures(e, registerCliff(e, 'natures_spirit:travertine'), '#kubejs:has_feature/travertine_cliff', RAW_GENERATION)
-    addFeatures(e, registerCliff(e, 'natures_spirit:kaolin'), '#kubejs:has_feature/kaolin_cliff', RAW_GENERATION)
-    addFeatures(e, registerCliff(e, 'natures_spirit:chert'), '#kubejs:has_feature/chert_cliff', RAW_GENERATION)
+
+    addFeatures(e, registerCliff(e, 'natures_spirit:chert',
+        80, -2, 2, -5, 0,
+        ['minecraft:stone'],
+        ['minecraft:grass_block', 'minecraft:dirt', 'minecraft:snow_block', 'minecraft:stone', 'natures_spirit:chert', 'minecraft:red_sand', 'natures_spirit:sandy_soil', 'minecraft:terracotta'],
+        true), '#kubejs:has_feature/chert_cliff', RAW_GENERATION)
+    addFeatures(e, registerCliff(e, 'natures_spirit:kaolin',
+        80, -2, 2, -5, 0,
+        ['minecraft:stone'],
+        ['minecraft:grass_block', 'minecraft:dirt', 'minecraft:stone', 'natures_spirit:kaolin', 'minecraft:red_sand', 'natures_spirit:sandy_soil', 'minecraft:terracotta'],
+        true), '#kubejs:has_feature/kaolin_cliff', RAW_GENERATION)
+    addFeatures(e, registerCliff(e, 'natures_spirit:travertine',
+        256, -2, 2, -16, 0,
+        ['minecraft:grass_block', 'minecraft:dirt', 'minecraft:stone', 'atmospheric:red_arid_sand', 'minecraft:coarse_dirt', 'natures_spirit:sandy_soil'],
+        ['minecraft:grass_block', 'minecraft:stone', 'minecraft:dirt', 'atmospheric:red_arid_sand', 'minecraft:coarse_dirt', 'natures_spirit:sandy_soil', 'natures_spirit:travertine'],
+        true), '#kubejs:has_feature/travertine_cliff', RAW_GENERATION)
+    addFeatures(e, registerCliff(e, 'atmospheric:red_arid_sandstone',
+        256, -2, 2, -16, 0,
+        ['minecraft:grass_block', 'minecraft:dirt', 'minecraft:stone', 'atmospheric:red_arid_sand', 'natures_spirit:sandy_soil'],
+        ['minecraft:grass_block', 'minecraft:stone', 'minecraft:dirt', 'atmospheric:red_arid_sand', 'natures_spirit:sandy_soil', 'atmospheric:red_arid_sandstone'],
+        true), '#kubejs:has_feature/red_arid_sandstone_cliff', RAW_GENERATION)
+
+    // Chert fixer pink sand to red arid sand
+    registerCliff(e, 'natures_spirit:chert',
+        80, -2, 2, -5, 0,
+        ['atmospheric:red_arid_sand'],
+        ['natures_spirit:chert', 'natures_spirit:sandy_soil', 'minecraft:terracotta', 'atmospheric:red_arid_sand'],
+        true, 'natures_spirit:chert_fixer')
 
     // Distributing/integrating NS features
     addFeatures(e, copyPasteFeature(e, 'natures_spirit', PLACED, 'natures_spirit:small_larch_placed'), '#kubejs:has_feature/natures_spirit_small_larch', VEGETAL_DECORATION)
@@ -127,9 +158,7 @@ function worldgen_NaturesSpirit(e) {
     */
     e.addJson('kubejs:lithostitched/worldgen_modifier/add_surface_rule/replace_pink_sand', {
         type: 'lithostitched:add_surface_rule',
-        levels: [
-            'minecraft:overworld'
-        ],
+        levels: ['minecraft:overworld'],
         surface_rule: {
             type: 'minecraft:sequence',
             sequence: [

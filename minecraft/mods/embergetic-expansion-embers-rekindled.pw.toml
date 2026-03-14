@@ -1,0 +1,13 @@
+name = "Embergetic Expansion (Embers Rekindled)"
+filename = "embers_extended-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea79c4f1780bd2c7496f67bbbada51c78d100de5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6983941
+project-id = 1324516

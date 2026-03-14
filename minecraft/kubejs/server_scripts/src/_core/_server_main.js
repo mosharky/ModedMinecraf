@@ -5,10 +5,12 @@ ServerEvents.tags('item', e => {
     itemTags_AlexsMobs(e)
     // itemTags_CallOfYucutan(e)
     itemTags_Neapolitan(e)
+    itemTags_Origins(e)
+    itemTags_OddsNEnds(e)
 
     if (!global.DEBUG_MODE) {
         e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
-            /excavated_variants:.*/,
+            /excavated_variants:.*/,  // excavated variants' item models are fucked
         ]))
     }
 })
@@ -49,6 +51,8 @@ ServerEvents.tags('worldgen/biome', e => {
     biomeTags_UpgradeAquatic(e)
     biomeTags_Windswept(e)
     // biomeTags_ScGuns(e)
+    biomeTags_Oreganized(e)
+    biomeTags_OddsNEnds(e)
 })
 
 
@@ -136,6 +140,12 @@ ServerEvents.highPriorityData(e => {
     worldgen_SnowySpirit(e)
     worldgen_Windswept(e)
     // worldgen_ScGuns(e)
+    worldgen_OddsNEnds(e)
+
+    origins_Layer(e)
+    origins_Overrides(e)
+    origins_Dwarf(e)
+    origins_Pyke(e)
 })
 
 
