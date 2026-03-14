@@ -6,13 +6,6 @@ function removals_Atmospheric() {
         /atmospheric:.*travertine.*/,
     ])
 
-    global.STRUCTURE_BLOCK_SWAPPER.set(/atmospheric:arid_garden.*/, new Map([
-        ['minecraft:chest', 'atmospheric:laurel_chest'],
-        ['minecraft:trapped_chest', 'atmospheric:trapped_laurel_chest'],
-    ]))
-
-    global.STRUCTURE_BLOCK_SWAPPER.set('atmospheric:kousa_sanctum', new Map([
-        ['minecraft:chest', 'atmospheric:kousa_chest'],
-        ['minecraft:trapped_chest', 'atmospheric:trapped_kousa_chest'],
-    ]))
+    structureSwapChest(/atmospheric:arid_garden.*/, 'atmospheric:laurel')
+    structureSwapChest('atmospheric:kousa_sanctum', 'atmospheric:kousa')
 }

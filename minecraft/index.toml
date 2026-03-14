@@ -3915,6 +3915,11 @@ hash = "610f503efd40d471552a9abceb56ea0d2c98982f186e1a68b6b832961b3a26d8"
 metafile = true
 
 [[files]]
+file = "mods/im-fast.pw.toml"
+hash = "4dc83c085535269866b53b97a8482f4cb6badb0ab58f27a3be20132f69b0147f"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "eb089373d47632a85bb7596b1143b719d7675f5e2782586aa0c340069d699700"
 metafile = true

@@ -15,7 +15,9 @@ function lootTables_EndRem(e) {
     e.addEntityLootModifier('mowziesmobs:frostmaw').addLoot('endrem:cold_eye')
 
     // Corrupted Eye (raids)
-    e.addEntityLootModifier('minecraft:pillager').randomChance(0.05).addLoot('endrem:corrupted_eye')
+    raiders.forEach(raider => {
+        e.addEntityLootModifier(raider).randomChance(0.05).addLoot('endrem:corrupted_eye')
+    })
 
     // Lost Eye (structure: goety:ominous_blacksmith)
     e.addLootTableModifier('goety:chests/blacksmith_treasure').addLoot('endrem:lost_eye')
@@ -48,7 +50,7 @@ function lootTables_EndRem(e) {
     // e.addEntityLootModifier('').addLoot('endrem:witch_eye')
 
     // Undead Eye (structure: )
-    e.addEntityLootModifier('cataclysm:aptrgangr').addLoot('endrem:undead_eye')
+    e.addEntityLootModifier('cataclysm:aptrgangr').addLoot('endrem:undead_soul')
 
     // Exotic Eye (structure: )
     e.addEntityLootModifier('cataclysm:scylla').addLoot('endrem:exotic_eye')

@@ -39,8 +39,8 @@
 [XP] Map Art Grid Color:0
 [XP] Min Lava Column Height:5.0
 [XP] Min WorldMap Zoom:0.1
-[XP] Minimap FPS Limit:60.0
-[XP] Minimap FPS Limiter:false
+[XP] Minimap FPS Limit:30.0
+[XP] Minimap FPS Limiter:true
 [XP] Minimap Render Z:0.0
 [XP] Minimap Scaling Factor:1.0
 [XP] Minimap Size Multiplier:1.0

@@ -7,7 +7,7 @@ function removals_Cataclysm() {
         'cataclysm:chiseled_end_stone_bricks',
         /cataclysm:.*chorus.*/,
         'cataclysm:stone_tile_slab',
-        'cataclysm:stone_tile_stair',
+        'cataclysm:stone_tile_stairs',
         'cataclysm:stone_tile_wall',
         'cataclysm:stone_tiles',
         /cataclysm:(?!.*void.*).*purpur.*/,

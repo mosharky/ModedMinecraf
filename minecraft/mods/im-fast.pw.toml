@@ -1,0 +1,13 @@
+name = "I'm Fast"
+filename = "imfast-FORGE-1.20.1-1.0.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/PaUMOeP0/versions/4h9uIxyK/imfast-FORGE-1.20.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "b6e57e91933db8eb4bbb658429858725e6b9e50045ae0cc60282d4a1a8c8ba16a9bfa77901cf983dd36488ddd4e45411a5374556149abf9f95c02562901ece7d"
+
+[update]
+[update.modrinth]
+mod-id = "PaUMOeP0"
+version = "4h9uIxyK"

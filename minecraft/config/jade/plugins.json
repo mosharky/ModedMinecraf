@@ -113,8 +113,8 @@
     "info": true
   },
   "item-descriptions": {
-    "block_descriptions": true,
-    "entity_descriptions": true
+    "block_descriptions": false,
+    "entity_descriptions": false
   },
   "aether_redux": {
     "logicator": true

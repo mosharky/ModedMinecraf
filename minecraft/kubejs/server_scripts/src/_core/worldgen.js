@@ -13,4 +13,21 @@ function worldgen_Core(e) {
         'minecraft:ore_andesite_upper',
         'minecraft:ore_diorite_upper',
     ], '#minecraft:is_overworld', UNDERGROUND_ORES)
+
+    registerFeature(e, PLACED, 'minecraft:ore_gravel', {
+        feature: 'minecraft:ore_gravel',
+        placement: [
+            { type: 'minecraft:count', count: 2 },
+            { type: 'minecraft:in_square' },
+            {
+                type: 'minecraft:height_range',
+                height: {
+                    type: 'minecraft:uniform',
+                    max_inclusive: { absolute: 60 },
+                    min_inclusive: { absolute: 0 }
+                }
+            },
+            { type: 'minecraft:biome' }
+        ]
+    })
 }

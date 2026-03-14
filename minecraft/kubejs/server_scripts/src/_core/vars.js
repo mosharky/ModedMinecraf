@@ -1,9 +1,7 @@
 // priority: 100
 
-let overworldBiomes
-ServerEvents.tags('worldgen/biome', e => {
-    overworldBiomes = e.get('minecraft:is_overworld').getObjectIds()
-})
+let overworldBiomes = []
+let raiders = []
 
 // Numismatic Overhaul stuff shortened
 const SELL_STACK = 'numismaticoverhaul:sell_stack'
