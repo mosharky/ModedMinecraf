@@ -70,4 +70,13 @@ function worldgen_OddsNEnds(e) {
             { type: 'minecraft:biome' }
         ]
     })
+    registerFeature(e, PLACED, 'oddsnends:wild_laco', {
+        feature: 'oddsnends:patch_wild_laco',
+        placement: [
+            { type: 'minecraft:rarity_filter', chance: 16 },
+            { type: 'minecraft:in_square' },
+            { type: 'minecraft:heightmap', heightmap: 'MOTION_BLOCKING' },
+            { type: 'minecraft:biome' }
+        ]
+    })
 }

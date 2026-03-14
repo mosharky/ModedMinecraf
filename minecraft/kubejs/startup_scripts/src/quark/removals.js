@@ -39,6 +39,8 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:acacia_leaf_carpet', 'immersive_weathering:acacia_leaf_pile')
     global.BLOCK_SWAPPER.set('quark:nether_brick_trapped_chest', 'woodworks:trapped_crimson_chest')
     global.BLOCK_SWAPPER.set('quark:nether_brick_chest', 'woodworks:crimson_chest')
+    global.BLOCK_SWAPPER.set('quark:purpur_trapped_chest', 'woodworks:trapped_crimson_chest')
+    global.BLOCK_SWAPPER.set('quark:purpur_chest', 'woodworks:crimson_chest')
     global.BLOCK_SWAPPER.set('quark:prismarine_trapped_chest', 'woodworks:trapped_warped_chest')
     global.BLOCK_SWAPPER.set('quark:prismarine_chest', 'woodworks:warped_chest')
     global.BLOCK_SWAPPER.set('quark:chute', 'create:chute')

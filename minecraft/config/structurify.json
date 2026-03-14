@@ -1,19 +1,138 @@
 {
   "config_version": "2.0.19",
-  "config_datetime": "2026-03-14_10-11-22",
+  "config_datetime": "2026-03-14_12-55-17",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
     "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 2.0
+    "global_spacing_and_separation_modifier": 1.5
   },
   "structure_namespaces": [
+    {
+      "name": "ae2",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "aether",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "alexscaves",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "atmospheric",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "autumnity",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "betteroceanmonuments",
+      "is_disabled": false,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "environmental",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
+    },
     {
       "name": "global",
       "is_disabled": false,
       "override_global_distance_from_world_center": false,
       "min_distance_from_world_center": 500,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "integrated_stronghold",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "lost_aether_content",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "malum",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "oreganized",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
       "max_distance_from_world_center": 0
+    },
+    {
+      "name": "underground_rooms",
+      "is_disabled": false,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
     }
   ],
   "structures": [
