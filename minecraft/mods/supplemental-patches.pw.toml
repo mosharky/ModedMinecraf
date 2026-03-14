@@ -1,18 +1,17 @@
 name = "SHADERS - Supplemental Patches"
-filename = "supplemental_patches-0.7.1-beta.jar"
+filename = "supplemental_patches-0.8.0-beta.jar"
 side = "client"
 
-[option]
-optional = true
-default = false
-description = "Enable all mods labeled with 'SHADERS' if you select this. Leave disabled for performance."
-
 [download]
-url = "https://cdn.modrinth.com/data/7G5M8xtj/versions/UnQ0Hx8D/supplemental_patches-0.7.1-beta.jar"
+url = "https://cdn.modrinth.com/data/7G5M8xtj/versions/Fw4hS7eH/supplemental_patches-0.8.0-beta.jar"
 hash-format = "sha512"
-hash = "d640bccbbd4034a8d48ddb225bfda4004c4f67c7f38689c82e52f30cda9ff06aa5e864468406ed84cd2eba11adc1c5517c1f20176588d8bd20591fab422510d1"
+hash = "afa803b085c36e296a022567479de2cb3903c67c7dc753a681663ad2c414127caae22cb37caa01cd4a16a21c598de720fdaeb621fc862d40d217867fefd2b8e0"
 
 [update]
 [update.modrinth]
 mod-id = "7G5M8xtj"
-version = "UnQ0Hx8D"
+version = "Fw4hS7eH"
+
+[option]
+optional = true
+description = "Enable all mods labeled with 'SHADERS' if you select this. Leave disabled for performance."

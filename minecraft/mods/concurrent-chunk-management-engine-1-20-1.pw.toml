@@ -1,13 +1,13 @@
 name = "Concurrent Chunk Management Engine OLDER VERSION!"
-filename = "c2meF-0.2.0+alpha.12-all.jar"
+filename = "c2meF-0.2.0+alpha.11-all.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ad44f615a4b15afd1d6a4d907ccab1c3855451a1"
+hash = "4147baed1aa25a48b66458a202e669fab95b3adc"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7116688
+file-id = 7413264
 project-id = 1366864
