@@ -4165,6 +4165,11 @@ hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
 metafile = true
 
 [[files]]
+file = "mods/keybindjs.pw.toml"
+hash = "b167b41029ca23f5ef555d051b817c521e8147546154abacac294c8c56d9d69c"
+metafile = true
+
+[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "41ccf0ad69630060d38686ff155c73446be62b2c77cf5c25707f880c9802c697"
 metafile = true
