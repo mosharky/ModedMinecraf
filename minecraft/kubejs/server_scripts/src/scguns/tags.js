@@ -1,4 +1,4 @@
-function biomeeTags_ScGuns(e) {
+function biomeTags_ScGuns(e) {
     e.removeAll('scguns:asgharian_tower')
     e.add('scguns:asgharian_tower', [
         '#minecraft:has_structure/pillager_outpost'

@@ -22,8 +22,8 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
-mouseSensitivity:0.5019091109154928
-fov:0.5
+mouseSensitivity:0.5
+fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -43,9 +43,9 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","netherexp:jne_emissive","netherexp:jne_retextures"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","netherexp:jne_emissive","netherexp:jne_retextures","builtin/client/golden_swet_ball/DAGoldenSwetBallFixClient","builtin/resource/overrides_pack"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:localhost
 lang:en_us
 soundDevice:""
 chatVisibility:0
@@ -73,7 +73,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
@@ -86,7 +86,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 soundCategory_master:0.5
-soundCategory_music:0.20590338908450703
+soundCategory_music:0.5066076144366196
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

@@ -5,6 +5,5 @@ function removals_EndRem() {
         'endrem:magical_eye',
         'endrem:witch_eye',
         'endrem:witch_pupil',
-        'endrem:dead_soul',
     ])
 }

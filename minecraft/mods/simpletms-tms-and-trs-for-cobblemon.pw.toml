@@ -1,0 +1,13 @@
+name = "SimpleTMs: TMs and TRs for Cobblemon"
+filename = "SimpleTMsForge-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yFqR0DNc/versions/l3rUJL9l/SimpleTMsForge-1.1.2.jar"
+hash-format = "sha512"
+hash = "a3ff2a8950e4c04cd516c424cca348c3f9f8240d177f92d747ad31bb3f45a3656fb096fc72a093a32a4578151bc668f8701983ed55786287f0446bd814270495"
+
+[update]
+[update.modrinth]
+mod-id = "yFqR0DNc"
+version = "l3rUJL9l"

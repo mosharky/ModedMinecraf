@@ -1,0 +1,13 @@
+name = "Integrated Seven Seas"
+filename = "ISS-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xmx7meIV/versions/nE5EHpnj/ISS-1.20.1.jar"
+hash-format = "sha512"
+hash = "b9425dd1512e0782666e960795aad6c418a6ac3b5e6f5de674c7c038008287783a7d348569e96de5495e57a5852dcbfbb8fe4d1be487613f932586561ffb4db9"
+
+[update]
+[update.modrinth]
+mod-id = "Xmx7meIV"
+version = "nE5EHpnj"

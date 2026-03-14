@@ -43,38 +43,28 @@ function postInit() {
     removals_Quark()
     removals_Railways()
     removals_Relics()
-    removals_ScGuns()
+    // removals_ScGuns()
     removals_SnowySpirit()
     removals_UnusualPrehistory()
     removals_UpgradeAquatic()
     removals_Windswept()
     removals_Woodworks()
     // removals_EvenBetterNether()
+    removals_Supplementaries()
+    removals_OddsNEnds()
 
     // Changing blockswap config with KubeJS!
     processBlockswapConfig()
     // Virtual blockwsap (without using the blockswap mod)
     processSwappers()
 
-    // Because not all KubeJS methods support regex
-    if (global.DEBUG_MODE) console.log('Processing RegExp removals..')
-    global.REMOVALS.all.forEach(entry => {
-        if (entry instanceof RegExp) {
-            Ingredient.of(entry).itemIds.forEach(match => {
-                if (global.DEBUG_MODE) console.log(`${entry} has matched: ${match}`)
-                global.REMOVALS.add(match)
-            })
-            global.REMOVALS.all.delete(entry)
-        }
-    })
-
     if (global.DEBUG_MODE) {
         console.log('Processed RegExp removals!')
         console.log('Final removals set:')
-        console.log(global.REMOVALS.getAsArray())
+        console.log(global.REMOVALS.arr)
 
         let configObj = {
-            removals: global.REMOVALS.getAsArray(),
+            removals: global.REMOVALS.arr,
             item_swapper: {},
             block_swapper: {},
             entity_swapper: {},

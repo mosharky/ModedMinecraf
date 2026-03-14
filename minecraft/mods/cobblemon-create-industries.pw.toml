@@ -1,0 +1,13 @@
+name = "Cobblemon: Create Industries (3D Production Models)"
+filename = "cobblemon_industries-forge-1.2.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7BX9lbH9/versions/oxJZbBz7/cobblemon_industries-forge-1.2.6.jar"
+hash-format = "sha512"
+hash = "32110b616e943d430bbc9f64666a9b9f33beb12a5ba8321949786f5017d2564ac7cd2923d4ccfae439fd151b336cdddae343982368cd3e166c71e8aef27f97b4"
+
+[update]
+[update.modrinth]
+mod-id = "7BX9lbH9"
+version = "oxJZbBz7"

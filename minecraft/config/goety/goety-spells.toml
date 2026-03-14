@@ -1,6 +1,6 @@
 
 ["Servant Limits"]
-	#Number of Bound Illager Servants that an individual player can have in total, Default: 2
+	#Number of Bound Illager Servants that an individual player can have in total, Default: 8
 	#Range: > 1
 	boundIllagerLimit = 2
 	#Number of Brood Mother Servants that an individual player can have in total, Default: 2
@@ -43,7 +43,7 @@
 		#Killing Spell Cost, Default: 444
 		#Range: > 0
 		killingCost = 444
-		#How much damage percentage multiplier of the target's health is applied back to caster, Default: 1.25
+		#How much damage percentage multiplier of the target's health is applied back to caster, Default: 1.1
 		#Range: 0.0 ~ 1.7976931348623157E308
 		killingFeedback = 1.25
 		#Killing Spell Cooldown, Default: 200
@@ -94,6 +94,12 @@
 		#How much base damage Soul Bolts deals, Default: 4.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		soulBoltDamage = 4.0
+		#How much base damage Poison Bolts deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		poisonBoltDamage = 3.0
+		#How much base damage Wither Bolts deals directly, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		witherBoltDamage = 4.0
 
 	[Spells."Magma Bomb Spell"]
 		#Magma Bomb Spell Cost, Default: 16
@@ -147,6 +153,9 @@
 		#Time to cast Frost Nova Spell, Default: 0
 		#Range: 0 ~ 72000
 		frostNovaTime = 0
+		#Frost Nova Spell Cooldown when cast on a target, Default: 160
+		#Range: > 0
+		frostNovaTargetCoolDown = 160
 
 	[Spells."Bouncy Bubble Spell"]
 		#Bouncy Bubble Spell Cost, Default: 8
@@ -192,6 +201,9 @@
 		#Bulwark Spell Cooldown, Default: 6000
 		#Range: > 0
 		bulwarkCoolDown = 6000
+		#If damage received exceeds this amount, an additional shield will be broken per exceeded amount. Set to 0.0 to disable, Default: 15.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		bulwarkShieldBreakExtra = 15.0
 
 	[Spells."Poison Dart Spell"]
 		#Poison Dart Spell Cooldown, Default: 20
@@ -899,7 +911,7 @@
 		#Time to cast Hail Spell, Default: 40
 		#Range: 0 ~ 72000
 		hailTime = 40
-		#Hail Spell Cooldown, Default: 20
+		#Hail Spell Cooldown, Default: 100
 		#Range: > 0
 		hailCoolDown = 20
 		#How much base damage Hail deals, Default: 1.0
@@ -1493,23 +1505,6 @@
 		#Range: 1.0 ~ 1.7976931348623157E308
 		blossomDamage = 6.0
 
-	[Spells."Bubble Stream Spell"]
-		#How much base damage Bubble Stream deals, Default: 1.0
-		#Range: 1.0 ~ 1.7976931348623157E308
-		bubbleStreamDamage = 1.0
-		#Bubble Stream Spell Cost per second, Default: 2
-		#Range: > 0
-		bubbleStreamCost = 2
-		#Bubble Stream Spell Cooldown, Default: 100
-		#Range: 0 ~ 72000
-		bubbleStreamCoolDown = 100
-		#How long the Bubble Stream Spell can be casted, setting it to 0 will allow the spell to be cast indefinitely, Default: 100
-		#Range: 0 ~ 72000
-		bubbleStreamTime = 100
-		#How many ticks the Bubble Stream Spell much charge before casting, Default: 0
-		#Range: > 0
-		bubbleStreamChargeUp = 0
-
 	[Spells."Blasting Spell"]
 		#Blasting Spell Cooldown, Default: 400
 		#Range: > 0
@@ -1623,7 +1618,7 @@
 		#Bombardment Spell Cost, Default: 8
 		#Range: > 0
 		bombardmentCost = 8
-		#Time to cast Bombardment Spell per second, Default: 6
+		#Time to cast Bombardment Spell per tick, Default: 6
 		#Range: 0 ~ 72000
 		bombardmentTime = 6
 		#How many shots are allowed to be fired before spell ends, set 0 to allow spell to be cast indefinitely, Default: 6
@@ -1683,6 +1678,77 @@
 		#Range: 1.0 ~ 1.7976931348623157E308
 		waterWhipDamage = 4.0
 
+	[Spells."Water Jet Spell"]
+		#Water Jet Spell Cost per second, Default: 2
+		#Range: > 0
+		waterJetCost = 2
+		#How many ticks the Water Jet Spell much charge before casting, Default: 0
+		#Range: > 0
+		waterJetChargeUp = 0
+		#How long the Water Jet Spell can be casted, setting it to 0 will allow the spell to be cast indefinitely, Default: 100
+		#Range: 0 ~ 72000
+		waterJetTime = 100
+		#Water Jet Spell Cooldown, Default: 100
+		#Range: 0 ~ 72000
+		waterJetCoolDown = 100
+		#How much base damage Water Jet deals, Default: 2.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		waterJetDamage = 2.0
+
+	[Spells."Ministrous Spell"]
+		#Ministrous Spell Cost, Default: 8
+		#Range: > 0
+		ministrousCost = 8
+		#Time to cast Ministrous Spell, Default: 20
+		#Range: 0 ~ 72000
+		ministrousTime = 20
+		#Ministrous Spell Cooldown, Default: 200
+		#Range: > 0
+		ministrousCoolDown = 200
+		#Ministrous Spell Summon Down, Default: 100
+		#Range: 0 ~ 72000
+		ministrousSummonDown = 100
+		#Number of Ministrosities that can exist around the player, Default: 16
+		#Range: > 1
+		ministrousLimit = 16
+
+	[Spells."Carrion Spell"]
+		#Carrion Spell Cost, Default: 16
+		#Range: > 0
+		carrionCost = 16
+		#Time to cast Carrion Spell, Default: 100
+		#Range: 0 ~ 72000
+		carrionTime = 100
+		#Carrion Spell Cooldown, Default: 300
+		#Range: > 0
+		carrionCoolDown = 300
+		#Carrion Spell Summon Down, Default: 200
+		#Range: 0 ~ 72000
+		carrionSummonDown = 200
+		#Number of Carrion Maggots and Flies a player can have, Default: 32
+		#Range: > 1
+		carrionLimit = 32
+
+	[Spells."Surging Spell"]
+		#Surging Spell Cost, Default: 24
+		#Range: > 0
+		surgingCost = 24
+		#How many ticks the Surging Spell much charge before casting, Default: 80
+		#Range: > 0
+		surgingChargeUp = 80
+		#How many shots are allowed to be fired before spell ends, set 0 to allow spell to be cast indefinitely, Default: 0
+		#Range: 0 ~ 72000
+		surgingShots = 0
+		#Time to cast Surging Spell per tick, Default: 6
+		#Range: 0 ~ 72000
+		surgingTime = 6
+		#Surging Spell Cooldown, Default: 200
+		#Range: 0 ~ 72000
+		surgingCoolDown = 200
+		#How much base damage Surging Orbs deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		surgingDamage = 3.0
+
 [Enchantments]
 	#Soul Eater Maximum Enchantment Level, Default: 5
 	#Range: 1 ~ 10
@@ -1736,4 +1802,6 @@
 	spellDamageMultiplier = 1
 	#Whether Servants change navigation modes by hitting them, put false to make them change by right-clicking on them, Default: true
 	ownerHitCommand = true
+	#Whether explosions made by SpellExplosion class has double the radius, Default: false
+	spellExplosionDouble = false
 

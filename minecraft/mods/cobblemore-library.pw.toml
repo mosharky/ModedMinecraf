@@ -1,0 +1,13 @@
+name = "Cobblemore Lib"
+filename = "cobblemore_lib-forge-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VYP2vmDS/versions/r1MO3V2Y/cobblemore_lib-forge-1.2.0.jar"
+hash-format = "sha512"
+hash = "275371e0173a15799b28844440bceb54f0ff549c496c6974ba75a6a7d9385efcc46296daf0b98e5ad7213e05a5733bbb11266f3a19aeee8e2612e415a95eb385"
+
+[update]
+[update.modrinth]
+mod-id = "VYP2vmDS"
+version = "r1MO3V2Y"

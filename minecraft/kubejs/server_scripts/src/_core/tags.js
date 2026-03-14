@@ -1,14 +1,10 @@
 /** @param {$TagEventJS_} e */
 function itemTags_Core(e) {
-    e.removeAllTagsFrom(global.REMOVALS.getAsArray())
+    e.removeAllTagsFrom(global.REMOVALS.arr)
 }
 
 /** @param {$TagEventJS_} e */
 function blockTags_Core(e) {
-    e.add('snowrealmagic:containables', [
-        // /geocluster:.*sample/
-    ])
-
     // used for Panda's Falling Trees compat
     e.add('kubejs:extra_tree_blocks_whitelist', [
         /natures_spirit:.*wisteria_vines/
@@ -51,6 +47,8 @@ function blockTags_Core(e) {
 
 /** @param {$TagEventJS_} e */
 function entityTags_Core(e) {
+    raiders = e.get('minecraft:raiders').getObjectIds()
+
     // e.add('kubejs:surface_mod_entities', /.*surface:.*/)
     e.add('forge:bosses', [
         '#c:bosses',
@@ -67,6 +65,8 @@ function entityTags_Core(e) {
 
 /** @param {$TagEventJS_} e */
 function biomeTags_Core(e) {
+    overworldBiomes = e.get('minecraft:is_overworld').getObjectIds()
+
     e.add('forge:is_sandy', [
         '#atmospheric:is_dunes',
         '#natures_spirit:is_adobe',
@@ -101,7 +101,8 @@ function biomeTags_Core(e) {
         'windswept:snowy_pine_barrens'
     ])
     e.add('kubejs:has_feature/spotted_maple_tree/yellow', [
-        'minecraft:forest'
+        'minecraft:birch_forest',
+        'minecraft:old_growth_birch_forest',
     ])
     e.add('kubejs:has_feature/stone_cliff', [
         'natures_spirit:blooming_sugi_forest',
@@ -139,5 +140,10 @@ function biomeTags_Core(e) {
         'minecraft:birch_forest',
         'minecraft:old_growth_birch_forest',
         'windswept:chestnut_forest',
+    ])
+
+    // Vanilla Backport
+    e.add('minecraft:spawns_wildflowers', [
+        '#natures_spirit:is_autumn'
     ])
 }

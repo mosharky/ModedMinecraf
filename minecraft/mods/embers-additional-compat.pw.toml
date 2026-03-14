@@ -1,0 +1,13 @@
+name = "Embers Additional Compat"
+filename = "embersaddcompat-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/BQPKNTFS/versions/wzbp2w6z/embersaddcompat-1.0.0.jar"
+hash-format = "sha512"
+hash = "b4fade4fe07226e7e060f4fc8114c3d755c75d26760b2d93bfc8e878418443f785f0487f2c29a410ea60404251a6605639e5e6fe1394e699b65e69978987a0bb"
+
+[update]
+[update.modrinth]
+mod-id = "BQPKNTFS"
+version = "wzbp2w6z"

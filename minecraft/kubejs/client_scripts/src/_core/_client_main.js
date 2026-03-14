@@ -1,6 +1,7 @@
 // priority: -1
 ItemEvents.tooltip(e => {
-    e.add(global.REMOVALS.getAsArray(), Text.red('DISABLED. Report to momo if you obtained this.').append(Text.darkGray('\nThis item is supposed to be replaced; ignore if found in a menu').italic()))
+    e.add(global.REMOVALS.arr, Text.red('DISABLED. Report to momo if you obtained this.').append(Text.darkGray('\nThis item is supposed to be replaced; ignore if found in a menu').italic()))
+    /*
     e.add([
         'scguns:gun_bench',
         'scguns:macerator',
@@ -8,6 +9,7 @@ ItemEvents.tooltip(e => {
         'scguns:powered_macerator',
         'scguns:powered_mechanical_press',
     ], Text.gray('Use Create instead ;)').italic())
+    */
 })
 
 JEIEvents.removeCategories(e => {
@@ -58,11 +60,11 @@ JEIEvents.information(e => {
     ])
 
     e.addItem('alexscaves:enigmatic_engine', [
-        'The Enigmatic Engine is a unique item that cannot be crafted. It is found exclusively within the belly of the Hullbreaker, a formidable monster that roams the depths of the Abyssal Chasm dimension.',
+        'The Enigmatic Engine is a unique item that cannot be crafted. It is found exclusively within the belly of the Hullbreaker, a formidable monster that roams the depths of the Abyssal Chasm.',
     ])
 
     e.addItem('alexscaves:sweet_tooth',
-        ['Drops after defeating the Gum Worm, a formidable monster that burrows beneath the surface of the Candy Cavities dimension.']
+        ['Drops after defeating the Gum Worm, a formidable monster that burrows beneath the surface of the Candy Cavities cave.']
     )
 })
 

@@ -1,0 +1,13 @@
+name = "0Pack2Reload"
+filename = "0Pack2Reload-Forge-1.20.1-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2hl2n0xu/versions/kKMQHO2i/0Pack2Reload-Forge-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "ee664043aa7743940c4923724bde3020f6481752b2ca3851fc98f4aee606d1874ca027abc4389310a3e089f9b69467db93f737d5ea75dc7021dcbc86c0cda718"
+
+[update]
+[update.modrinth]
+mod-id = "2hl2n0xu"
+version = "kKMQHO2i"

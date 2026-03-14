@@ -3,12 +3,14 @@
 ServerEvents.tags('item', e => {
     itemTags_Core(e)
     itemTags_AlexsMobs(e)
-    itemTags_CallOfYucutan(e)
+    // itemTags_CallOfYucutan(e)
     itemTags_Neapolitan(e)
+    itemTags_Origins(e)
+    itemTags_OddsNEnds(e)
 
     if (!global.DEBUG_MODE) {
-        e.add('c:hidden_from_recipe_viewers', global.REMOVALS.getAsArray().concat([
-            /excavated_variants:.*/,
+        e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
+            /excavated_variants:.*/,  // excavated variants' item models are fucked
         ]))
     }
 })
@@ -36,7 +38,7 @@ ServerEvents.tags('worldgen/biome', e => {
     biomeTags_Core(e)
     biomeTags_Atmospheric(e)
     biomeTags_Autumnity(e)
-    biomeTags_CallOfYucutan(e)
+    // biomeTags_CallOfYucutan(e)
     biomeTags_CavernsAndChasms(e)
     biomeTags_CollectorsReap(e)
     biomeTags_Environmental(e)
@@ -48,6 +50,9 @@ ServerEvents.tags('worldgen/biome', e => {
     biomeTags_Neapolitan(e)
     biomeTags_UpgradeAquatic(e)
     biomeTags_Windswept(e)
+    // biomeTags_ScGuns(e)
+    biomeTags_Oreganized(e)
+    biomeTags_OddsNEnds(e)
 })
 
 
@@ -68,14 +73,15 @@ ServerEvents.recipes(e => {
     recipes_MoreMinecarts(e)
     recipes_Neapolitan(e)
     recipes_Quark(e)
-    recipes_ScGuns(e)
+    // recipes_ScGuns(e)
     recipes_SootyChimneys(e)
     recipes_Supplementaries(e)
     recipes_Windswept(e)
     recipes_Woodworks(e)
+    recipes_EndRem(e)
 
     // Fully removing any recipe tied to items in REMOVALS
-    global.REMOVALS.all.forEach(removal => {
+    global.REMOVALS.set.forEach(removal => {
         e.remove({ input: removal })
         e.remove({ output: removal })
     })
@@ -85,10 +91,11 @@ ServerEvents.recipes(e => {
 ServerEvents.loaded(e => {
     // Default game rules
     if (e.server.persistentData.gameRules) return
-    e.server.gameRules.set("playersSleepingPercentage", 1)
+    e.server.gameRules.set("playersSleepingPercentage", 0)
     e.server.gameRules.set("spawnRadius", 0)
     e.server.gameRules.set("disableElytraMovementCheck", true)
     e.server.gameRules.set("decorative_blocks:disableThatch", true)
+    e.server.gameRules.set("doShinyStarters", true)
     e.server.persistentData.gameRules = true 
 })
 
@@ -118,7 +125,7 @@ ServerEvents.highPriorityData(e => {
     worldgen_Core(e)
     worldgen_Atmospheric(e)
     worldgen_Autumnity(e)
-    worldgen_CallOfYucutan(e)
+    // worldgen_CallOfYucutan(e)
     worldgen_CavernsAndChasms(e)
     worldgen_Environmental(e)
     worldgen_Embers(e)
@@ -132,7 +139,13 @@ ServerEvents.highPriorityData(e => {
     worldgen_Oreganized(e)
     worldgen_SnowySpirit(e)
     worldgen_Windswept(e)
-    worldgen_ScGuns(e)
+    // worldgen_ScGuns(e)
+    worldgen_OddsNEnds(e)
+
+    origins_Layer(e)
+    origins_Overrides(e)
+    origins_Dwarf(e)
+    origins_Pyke(e)
 })
 
 

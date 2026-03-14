@@ -5,7 +5,11 @@ function worldgen_ImmersiveWeathering(e) {
     removeBiomeModifier(e, 'immersive_weathering:has_lakebed')
     removeBiomeModifier(e, 'immersive_weathering:has_earthen_clay')
 
-    addFeatures(e, registerCliff(e, 'immersive_weathering:permafrost'), '#kubejs:has_feature/permafrost_cliff', RAW_GENERATION)
+    addFeatures(e, registerCliff(e, 'immersive_weathering:permafrost',
+        256, -2, 2, -8, 0,
+        ['minecraft:grass_block', 'natures_spirit:red_moss_block', 'windswept:dry_moss_block', 'minecraft:dirt', 'minecraft:snow_block', 'minecraft:stone', 'minecraft:coarse_dirt', 'minecraft:andesite'],
+        ['minecraft:grass_block', 'natures_spirit:red_moss_block', 'windswept:dry_moss_block', 'minecraft:dirt', 'minecraft:snow_block', 'minecraft:stone', 'minecraft:coarse_dirt', 'minecraft:andesite']
+    ), '#kubejs:has_feature/permafrost_cliff', RAW_GENERATION)
 
     registerFeature(e, CONFIGURED, 'immersive_weathering:permafrost', {
         type: 'minecraft:ore',

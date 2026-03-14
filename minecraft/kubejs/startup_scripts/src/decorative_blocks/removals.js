@@ -6,7 +6,6 @@ function removals_DecorativeBlocks() {
         'decorative_blocks:soul_brazier',
         'decorative_blocks:stone_pillar',
         'decorative_blocks:rocky_dirt',
-        'decorative_blocks:thatch',
         /decorative_blocks:.*beam/,
     ])
 }

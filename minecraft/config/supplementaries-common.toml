@@ -220,7 +220,7 @@
 
 	[functional.flax]
 		enabled = true
-		wild_flax = true
+		wild_flax = false
 
 	[functional.lumisene]
 		enabled = true

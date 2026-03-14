@@ -4,6 +4,8 @@ ClientEvents.lang('en_us', e => {
         else if (!Item.of(id).isBlock()) e.renameItem(id, name)
     }
 
+    e.add('origins', 'key.origins.tertiary_active', 'Active Power (Tertiary)')
+
     // Rope unification
     rename('farmersdelight:rope', 'Fisherman\'s Rope')
     rename('quark:rope', 'Rigid Rope')

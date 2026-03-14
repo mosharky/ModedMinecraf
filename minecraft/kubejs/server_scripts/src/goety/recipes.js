@@ -1,6 +1,6 @@
 /**@param {$RecipesEventJS_} e  */
 function recipes_Goety(e) {
-    e.replaceInput({}, 'goety:jade_tiles', 'call_of_yucutan:jade_tiles')
+    // e.replaceInput({}, 'goety:jade_tiles', 'call_of_yucutan:jade_tiles')
 
     e.custom({
         type: 'goety:pulverize',
