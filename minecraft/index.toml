@@ -1926,7 +1926,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "4ecc6ed17d526154937725ffac6fbdbbd580c53cd17b469543b90624a4e1ecd4"
+hash = "a92cdcf603bf6c8ecbdeef1cbb0db8dd70ef2254d56915496d7693ab819d5b5a"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -2921,7 +2921,7 @@ hash = "0c3c3a5f07d36932efe0d45459231cc7be1aefe388f482f450fd61a609681ec9"
 
 [[files]]
 file = "kubejs/server_scripts/src/oddsnends/worldgen.js"
-hash = "2cb89139216f00926f0b1b7adc9c7eb5dfb8a3ed4130f3a3f92ce04cd75d30d2"
+hash = "442293acc49464a06319b45139d536d797c6ca47bb332d6c9232b5233da00a77"
 
 [[files]]
 file = "kubejs/server_scripts/src/oreganized/tags.js"
@@ -3149,7 +3149,7 @@ hash = "2afb61e8cdc6c667eea479d796654a60b86841165a989baca41c1c9276578af1"
 
 [[files]]
 file = "kubejs/startup_scripts/src/environmental/removals.js"
-hash = "87e2e272f507b15af2b9d09d14362ae485c3b0a985d8ecd38c4592a941d6ddfd"
+hash = "8b76bd2363eb2b843a31493c9a467d12d8ca6ee86461f6358d203e3d3f0f0c2e"
 
 [[files]]
 file = "kubejs/startup_scripts/src/evenbetternether/removals.js"
@@ -3177,7 +3177,7 @@ hash = "6b6eb6cdd7b0781044b5635e8489d753416c53209551dab2e316d81dadc0cff9"
 
 [[files]]
 file = "kubejs/startup_scripts/src/incubation/removals.js"
-hash = "4f3a1b833979bd4082e732e7f54c2e2e4bc3b1bd279f2551f478514628b091bb"
+hash = "815ed7ba9f9f22232f4c109efb7e0ccb3507da7781ff4e7e9bf7c7f55358deab"
 
 [[files]]
 file = "kubejs/startup_scripts/src/malum/removals.js"
@@ -3213,7 +3213,7 @@ hash = "38fb3cf54ad32db09ac96ae98f72fb38555dca126e1ee652378c57e3c26004d3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/quark/removals.js"
-hash = "6df32a804bbf8c9159b479005bac739452738c1d7ac98ffef117f0f34ff9e403"
+hash = "6f31a8b1f1d40525111f1d9db34bd2ea518766347c5ab2cb1aaf9025ee549038"
 
 [[files]]
 file = "kubejs/startup_scripts/src/railways/removals.js"
@@ -3233,11 +3233,11 @@ hash = "023460e48ac6ab3e46d26d0718dc67355490ca2ff4d20d62fc141a2621c5ede3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/snowyspirit/removals.js"
-hash = "bf41a2cd4f2505399b1cf7bec2ca6d558b0687a038ad1ff88a56fc82bba60310"
+hash = "26340fbf31c72c90438ee3cf8b193623378472a424a1058e2a50a0454f4fe5e4"
 
 [[files]]
 file = "kubejs/startup_scripts/src/supplementaries/removals.js"
-hash = "bf1ebf2d61cc8392d512eba308c2a62aca96acaa0e951816ae95dfa318967a4d"
+hash = "5e25b65e948bea4c866838afb951a19aa079a247a2bdf3dc43da153913c1aace"
 
 [[files]]
 file = "kubejs/startup_scripts/src/unusual_prehistory/removals.js"
