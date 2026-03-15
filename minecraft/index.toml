@@ -1097,16 +1097,8 @@ file = "config/forge-client.toml"
 hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 
 [[files]]
-file = "config/fossil-client.toml"
-hash = "3f40422a98b59594d8e66e11a0777815c96ef89897a52690cc4d58683acf5616"
-
-[[files]]
-file = "config/fossil-common.toml"
-hash = "230eecc36c73698cf4b0b8c2afd405244fb382beef76ddd03f6b73738d8b2ba6"
-
-[[files]]
 file = "config/ftbbackups2.json"
-hash = "e08af00669da03a61ab96e8203cea65a42ea46076d1fac50d58351df8c4ddb4c"
+hash = "f803d4d6793302aa200831ef95f5cc84fce0e85f5ba0a9cec10e0ebd02a50e59"
 
 [[files]]
 file = "config/functionalstorage/functionalstorage-client.toml"
@@ -1123,14 +1115,6 @@ hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 [[files]]
 file = "config/galena_hats.json"
 hash = "c427871edf0f085393425997b7ffcd0c2e54278376dc9f7390619a21bc3264d7"
-
-[[files]]
-file = "config/gallery-client.toml"
-hash = "eeab80e57d3f768fd91bf953a41003ad123d98cd7be0686ea8d3b109b925fa6c"
-
-[[files]]
-file = "config/gallery-common.toml"
-hash = "099fdfcfb5fe8c4fe0faabe9fef0e35deef90a8a2a3d84c8cca630348ef3a604"
 
 [[files]]
 file = "config/galosphere-common.toml"
@@ -1782,7 +1766,7 @@ hash = "70bba512c19c9883541dc9eebbb2d66c2a31db025a2bc183b731581582aa60a5"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "b13b84a076c380f0e20403636b63d32ef9581d91cb55d130c2141a8c8f83ea70"
+hash = "e73394c9de10452ead6e074445efbc8db1ac9de6626d37afa5bb15b84131615a"
 
 [[files]]
 file = "config/simplerecall-common.toml"
@@ -1918,7 +1902,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "a92cdcf603bf6c8ecbdeef1cbb0db8dd70ef2254d56915496d7693ab819d5b5a"
+hash = "b695acd5337037e75c26140d2f3441e893c35a5854ffa37076f534b2934cd1c0"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -1947,10 +1931,6 @@ hash = "565e7782790d656fd31350ef9d90cb8ff8b4f38d1fb2418072829fb404195e58"
 [[files]]
 file = "config/toadlib_config.toadcfg"
 hash = "58bf90d0d1dfa6bdba54eddd6b76273872a472b26066ee2aa7009222af0f32cc"
-
-[[files]]
-file = "config/toadlib_config.txt"
-hash = "100833c4e7c5d4610e03cbc33ad91dfe1ed99c1fb588b01223a038cc59dde5e7"
 
 [[files]]
 file = "config/toastcontrol-common.toml"
@@ -2154,7 +2134,11 @@ hash = "e2c32c27453033ef3910d5b6a24ae1a8c1fd224c2ac0a97388d5aa27a6a00ad1"
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
-hash = "61be32c86d1f4af6234ae0a1d679794bcb571d9fb4c18634c03b74c6fecf41bf"
+hash = "3dee41dd0de3430b343dd31a3f196ae30ed66833ab6a9335bbf709246aa140f3"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "ab6bcad040f138406197f70cfe9a041832feaddf7e87954d9a5f4b13b6a962f9"
 
 [[files]]
 file = "defaultconfigs/getittogetherdrops-server.toml"
@@ -3321,11 +3305,11 @@ hash = "4042a8531d37a79c8be172afa8bc5cdd9e4f52c69707dd1d100ba06897c8021c"
 
 [[files]]
 file = "kubejs/server_scripts/src/oddsnends/tags.js"
-hash = "0c3c3a5f07d36932efe0d45459231cc7be1aefe388f482f450fd61a609681ec9"
+hash = "0d4d485246176d0c39e66d6d787b02274221e1f6b86085bc30cadd58a8c43a5c"
 
 [[files]]
 file = "kubejs/server_scripts/src/oddsnends/worldgen.js"
-hash = "442293acc49464a06319b45139d536d797c6ca47bb332d6c9232b5233da00a77"
+hash = "a5c63deacdb9859ccf5c1afbaad1602265fb685945634d28ca5be7fe8065dc66"
 
 [[files]]
 file = "kubejs/server_scripts/src/oreganized/tags.js"
@@ -3445,7 +3429,7 @@ hash = "46510c65bf2ac3b55e06dd8656a53450743b876a602f9c37c6d83f6b686408c0"
 
 [[files]]
 file = "kubejs/startup_scripts/src/_core/_startup_main.js"
-hash = "014ee51539cabd6a07d00f5d680dd8463433024e53ab25a430036209adea92a1"
+hash = "71be5f32c65a495880f8fcb8c97d85219ee5b5b57b2838835322a0973e176fb3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/_core/blockswap.js"
