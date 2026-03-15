@@ -45,7 +45,8 @@ crash-reports/
 screenshots/
 saves/
 logs/
-data/
+/data/
+/kubejs/data/!
 local/
 patchouli_books/
 schematics/

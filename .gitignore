@@ -46,11 +46,13 @@ minecraft/screenshots/
 minecraft/saves/
 minecraft/logs/
 minecraft/data/
+minecraft/kubejs/data/!
 minecraft/local/
 minecraft/patchouli_books/
 minecraft/schematics/
 minecraft/XaeroWorldMap/
 minecraft/XaeroWaypoints*/
+minecraft/xaero/
 minecraft/modernfix/
 minecraft/worldicons/
 minecraft/.lazyyyyy/
@@ -59,7 +61,6 @@ minecraft/.cache/
 minecraft/.vscode/
 minecraft/mod_data/
 minecraft/.mixin.out/
-minecraft/xaero/
 minecraft/ESM/
 minecraft/backups/
 minecraft/Distant_Horizons_server_data/

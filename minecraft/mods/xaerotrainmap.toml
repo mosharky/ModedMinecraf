@@ -1,0 +1,8 @@
+name = "xaerotrainmap"
+filename = "xaerotrainmap-1.1.0-mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://github.com/DN2048/XaeroMap-CreateMod-Train-Map/releases/download/release/xaerotrainmap-1.1.0-mc1.20.1.jar"
+hash-format = "sha512"
+
