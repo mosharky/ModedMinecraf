@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".probe/probe-settings.json"
-hash = "9a7c75da9507ca204c740629b2890dea5a5066d3c476bbed706357c05af63de9"
-
-[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
