@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_Neapolitan(e) {
     e.removeAll('neapolitan:has_animal/chimpanzee')
 
@@ -45,7 +45,7 @@ function biomeTags_Neapolitan(e) {
     ])
 }
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function itemTags_Neapolitan(e) {
     e.add('forge:ice_cube', '#forge:ice_cubes')
     e.add('neapolitan:chocolate_bar', '#supplementaries:chocolate_bars')

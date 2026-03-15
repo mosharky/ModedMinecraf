@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_Windswept(e) {
     e.add('kubejs:has_feature/windswept_tundra_moss', 'natures_spirit:tundra')
     e.add('kubejs:has_feature/windswept_lavender', 'natures_spirit:lavender_fields')

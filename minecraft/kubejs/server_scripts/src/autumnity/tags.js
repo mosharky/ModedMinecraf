@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_Autumnity(e) {
     e.add('autumnity:has_animal/turkey', [
         '#natures_spirit:is_autumn',

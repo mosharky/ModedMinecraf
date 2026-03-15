@@ -1,4 +1,4 @@
-/** @param {$RecipesEventJS_} e */
+/** @param {$RecipesEventJS} e */
 function recipes_Neapolitan(e) {
     e.remove({id: 'collectorsreap:food/chocolate_arils'})
     e.remove({id: 'neapolitan:milk/milk_bottles_from_bucket'})

@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_ScGuns(e) {
     e.addJson('immersiveenchanting:enchantment_costs/scguns/quick_hands', {
         levels: {

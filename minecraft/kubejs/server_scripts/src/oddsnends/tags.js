@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function itemTags_OddsNEnds(e) {
     e.add('forge:seeds/flax', 'oddsnends:flax_seeds')
     e.add('forge:crops/flax', 'oddsnends:flax_fibers')
@@ -13,7 +13,7 @@ function itemTags_OddsNEnds(e) {
     ])
 }
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_OddsNEnds(e) {
     e.add('oddsnends:spawns_ciderine_trees', [
         'natures_spirit:aspen_forest',

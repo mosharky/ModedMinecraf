@@ -1,10 +1,10 @@
-/** @param {$LootActionsBuilderJS_} all */
+/** @param {$LootActionsBuilderJS} all */
 function lootRemovals_EndRem(all) {
     all.removeLoot(/enderem:.*/)
 }
 
 
-/** @param {$LootModificationEventJS_} e */
+/** @param {$LootModificationEventJS} e */
 function lootTables_EndRem(e) {
     e.removeGlobalModifier('@endrem')
 

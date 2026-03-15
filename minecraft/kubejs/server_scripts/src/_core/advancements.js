@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function advancements_Core(e) {
     const removals = [
         'lootr:1barrel',

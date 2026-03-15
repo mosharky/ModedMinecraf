@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function worldgen_Environmental(e) {
     // Disable Marsh and Pine biome
     e.addJson('environmental:blueprint/modded_biome_slices/marsh', disableBiomeSliceJson)

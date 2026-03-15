@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_Soulbound(e) {
     e.addJson('immersiveenchanting:enchantment_costs/soulbound/soulbound', {
         levels: {

@@ -1,4 +1,4 @@
-/** @param {$RecipesEventJS_} e */
+/** @param {$RecipesEventJS} e */
 function recipes_FarmersDelight(e) {
     e.replaceInput({}, 'farmersdelight:wheat_dough', '#forge:dough')
     e.replaceInput({}, 'farmersdelight:rope', 'supplementaries:rope')

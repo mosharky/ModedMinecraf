@@ -1,4 +1,4 @@
-/**@param {$RecipesEventJS_} e  */
+/**@param {$RecipesEventJS} e  */
 function recipes_Goety(e) {
     // e.replaceInput({}, 'goety:jade_tiles', 'call_of_yucutan:jade_tiles')
 

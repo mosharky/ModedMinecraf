@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function itemTags_AlexsMobs(e) {
     e.add('alexsmobs:anacondas_foodstuffs', [
         'autumnity:turkey',
@@ -33,12 +33,12 @@ function itemTags_AlexsMobs(e) {
     ])
 }
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function entityTags_AlexsMobs(e) {
 
 }
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function blockTags_AlexsMobs(e) {
     e.removeAll('alexsmobs:orca_breakables')
     e.removeAll('alexsmobs:cachalot_whales_breakables')

@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function itemTags_Origins(e) {
     let caveDwarfFoods = Ingredient.of('@miners_delight').itemIds.toArray().filter(item => Item.of(item).isEdible())
         .concat(Ingredient.of('@embersdelight').itemIds.toArray().filter(item => Item.of(item).isEdible()))

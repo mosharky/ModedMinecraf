@@ -1,4 +1,4 @@
-/** @param {$RecipesEventJS_} e */
+/** @param {$RecipesEventJS} e */
 function recipes_Core(e) {
     e.replaceInput({ not: { id: 'woodworks:trapped_chest' } }, 'minecraft:chest', '#forge:chests/wooden')
 

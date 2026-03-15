@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function worldgen_CallOfYucutan(e) {
     removeBiomeModifier(e, 'call_of_yucutan:jade_ore_biome_modifier')
     removeBiomeModifier(e, 'call_of_yucutan:deepslate_jade_ore_biome_modifier')

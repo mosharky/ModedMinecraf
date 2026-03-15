@@ -79,6 +79,7 @@ ServerEvents.recipes(e => {
     recipes_Windswept(e)
     recipes_Woodworks(e)
     recipes_EndRem(e)
+    recipes_OddsNEnds(e)
 
     // Fully removing any recipe tied to items in REMOVALS
     global.REMOVALS.set.forEach(removal => {

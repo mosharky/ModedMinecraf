@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_VeinMining(e) {
     e.addJson('immersiveenchanting:enchantment_costs/veinmining/vein_mining', {
         levels: {

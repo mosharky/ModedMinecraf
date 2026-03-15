@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_Allurement(e) {
     e.addJson('immersiveenchanting:enchantment_costs/allurement/alleviating', {
         '1': { item: 'create:experience_nugget', amount: 64 },

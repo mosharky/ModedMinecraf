@@ -1,5 +1,17 @@
 // priority: 100
 
+// JSDoc IntelliSense
+/**
+ * Base KJS events
+ * @import {$TagEventJS} from "dev.latvian.mods.kubejs.server.tag.TagEventJS"
+ * @import {$RecipesEventJS} from "dev.latvian.mods.kubejs.recipe.RecipesEventJS"
+ * @import {$DataPackEventJS} from "dev.latvian.mods.kubejs.script.data.DataPackEventJS"
+ * LootJS events/builders
+ * @import {LootModificationEventJS} from "com.almostreliable.lootjs.kube.LootModificationEventJS"
+ * @import {LootActionsBuilderJS} from "com.almostreliable.lootjs.kube.builder.LootActionsBuilderJS"
+ * MoreJS events
+ */
+
 let overworldBiomes = []
 let raiders = []
 
@@ -82,7 +94,7 @@ function antiLoser(e, activationItem, sound, minPlayers, advancement) {
 }
 
 
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function autoImmersiveEnchanting(e, enchantment, levels) {
     const modId = enchantment.split(':')[0]
     const enchantmentId = enchantment.split(':')[1]

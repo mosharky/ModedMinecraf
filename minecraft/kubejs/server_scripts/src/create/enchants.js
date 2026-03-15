@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_Create(e) {
     e.addJson('immersiveenchanting:enchantment_costs/create/potato_recovery', {
         levels: {

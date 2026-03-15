@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function entityTags_Atmospheric(e) {
     e.add('atmospheric:yucca_immune', [
         // TODO: add mobs that should be immune to yucca
@@ -9,7 +9,7 @@ function entityTags_Atmospheric(e) {
     ])
 }
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_Atmospheric(e) {
     e.add('forge:is_hot/overworld', [
         '#atmospheric:is_dunes',

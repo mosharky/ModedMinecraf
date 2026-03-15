@@ -1,4 +1,4 @@
-/** @param {$RecipesEventJS_} e */
+/** @param {$RecipesEventJS} e */
 function recipes_Embers(e) {
     e.remove({ id: /embers:.*plate_hammering/ })
     e.remove({ id: 'embers:lead_adhesive' })

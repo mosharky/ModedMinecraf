@@ -1,4 +1,4 @@
-/** @param {$RecipesEventJS_} e */
+/** @param {$RecipesEventJS} e */
 function recipes_ImmersiveWeathering(e) {
     e.shaped(Item.of('immersive_weathering:plate_iron', 64),
         ['AA', 'AA'],
