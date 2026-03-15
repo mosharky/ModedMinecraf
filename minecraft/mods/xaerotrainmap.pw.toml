@@ -4,5 +4,5 @@ side = "client"
 
 [download]
 url = "https://github.com/DN2048/XaeroMap-CreateMod-Train-Map/releases/download/release/xaerotrainmap-1.1.0-mc1.20.1.jar"
-hash-format = "sha512"
-
+hash-format = "sha256"
+hash = "adb7d191b6a28803652f98917fdf671019af150f752c30c620c9b4df1724770f"
