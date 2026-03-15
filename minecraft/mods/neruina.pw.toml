@@ -3,11 +3,11 @@ filename = "neruina-3.2.2+1.20.1-forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8155b7b81f829d33a4ccdcaa2158b3b64846c396"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/1s5x833P/versions/Ysts364x/neruina-3.2.2%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "cd83cae7974cc6ccd78ef5b36fbc1d32ed35ba5cceca383a9cca8fc286aebfc68347c74ff315ca3464f6d57751603c369d2c70ce665191718c966cf5c06edbc8"
 
 [update]
-[update.curseforge]
-file-id = 7695429
-project-id = 851046
+[update.modrinth]
+mod-id = "1s5x833P"
+version = "Ysts364x"

@@ -45,20 +45,7 @@ function biomeTags_OddsNEnds(e) {
         'neapolitan:strawberry_fields',
     ])
     e.add('oddsnends:spawns_flax_flowers', [
-        'natures_spirit:prairie',
-        'natures_spirit:marigold_meadows',
-        'natures_spirit:carnation_fields',
-        'natures_spirit:flowering_shrubland',
-        'natures_spirit:shrubland',
-        'natures_spirit:oak_savanna',
-        'natures_spirit:chaparral',
-        'natures_spirit:drylands',
-        'natures_spirit:wooded_drylands',
-        'natures_spirit:xeric_plains',
-        'natures_spirit:heather_fields',
-        'natures_spirit:floral_ridges',
-        'neapolitan:strawberry_fields',
-        'minecraft:plains'
+        '#minecraft:is_overworld'
     ])
     e.add('oddsnends:spawns_giant_padmas', [
         'natures_spirit:marsh',
@@ -74,7 +61,7 @@ function biomeTags_OddsNEnds(e) {
         'atmospheric:sparse_rainforest_basin'
     ])
     e.add('oddsnends:spawns_rusty_basalt', [
-
+        'darkerdepths:sandy_catacombs'
     ])
     e.add('oddsnends:spawns_rusty_clovers', [
         'natures_spirit:prairie',

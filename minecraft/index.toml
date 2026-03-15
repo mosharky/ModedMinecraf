@@ -1093,10 +1093,6 @@ file = "config/fml.toml"
 hash = "eb6e8b8eda9682889a83d55262ef96cf37153d58fe7f0fa5d5cb1da5d9f7dd9b"
 
 [[files]]
-file = "config/foglooksmodernnow.toml"
-hash = "f4c50ee67a308bde619ed1ac84e58d378cb990d1f680bf42e7ae635cc9d790ca"
-
-[[files]]
 file = "config/forge-client.toml"
 hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 
@@ -1107,6 +1103,10 @@ hash = "3f40422a98b59594d8e66e11a0777815c96ef89897a52690cc4d58683acf5616"
 [[files]]
 file = "config/fossil-common.toml"
 hash = "230eecc36c73698cf4b0b8c2afd405244fb382beef76ddd03f6b73738d8b2ba6"
+
+[[files]]
+file = "config/ftbbackups2.json"
+hash = "e08af00669da03a61ab96e8203cea65a42ea46076d1fac50d58351df8c4ddb4c"
 
 [[files]]
 file = "config/functionalstorage/functionalstorage-client.toml"
@@ -1769,14 +1769,6 @@ file = "config/sawmill-common.toml"
 hash = "cc6efb237cb63d0875fa22cb442a04d3bd728f525fb46ec6e8fd91bbec9f14da"
 
 [[files]]
-file = "config/scguns-client.toml"
-hash = "c1cc083bd2831d79b3a3ce372f6ffe6388cfb8156e6b4e6957f49f964e40ba0d"
-
-[[files]]
-file = "config/scguns-common.toml"
-hash = "7a3671357490cce71bcd3b673c481ed7d93a6b7aefd294a6e054b83c28866f4e"
-
-[[files]]
 file = "config/scholar-client.toml"
 hash = "06fa8c3f0fb91da5d8ed5a35a7beca70470ce6f425504f2c9f2d89f8cdad3e1d"
 
@@ -2159,6 +2151,10 @@ hash = "58104311603080ba3784d65db6fb8840f10b95a3cfaaa3d0df7c189d8397511e"
 [[files]]
 file = "defaultconfigs/forge-server.toml"
 hash = "e2c32c27453033ef3910d5b6a24ae1a8c1fd224c2ac0a97388d5aa27a6a00ad1"
+
+[[files]]
+file = "defaultconfigs/ftbessentials-server.snbt"
+hash = "61be32c86d1f4af6234ae0a1d679794bcb571d9fb4c18634c03b74c6fecf41bf"
 
 [[files]]
 file = "defaultconfigs/getittogetherdrops-server.toml"
@@ -3753,6 +3749,11 @@ hash = "8e9376087852491eb52037279506fefc45e174303530630e8b8afa571b1bd697"
 metafile = true
 
 [[files]]
+file = "mods/altorigingui.pw.toml"
+hash = "17318ef5ef0121949acfccca9c76c160395dfa1722a8935375a04fffe04689f9"
+metafile = true
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "420f60e542e731334fc62fc16a9945a60dfa8f6c5a647c71b2cf9217d50ea7f5"
 metafile = true
@@ -4003,6 +4004,11 @@ hash = "541ed5025e526f075984bbf7653b18724d0bf254dcc5d1464e60dd5bb82f7651"
 metafile = true
 
 [[files]]
+file = "mods/cobblemonrider1.5.pw.toml"
+hash = "614b9997972e60fa8abd7bf9d6a584992192dfdb2292dbebf60111b6c3dc5527"
+metafile = true
+
+[[files]]
 file = "mods/cobblemore-library.pw.toml"
 hash = "9c36e7b964c60a504f440ac6c75b43882e0ad2f0d71dc39e9f27f2b535b07377"
 metafile = true
@@ -4045,6 +4051,11 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "eb0a4706616b3cd750f2fcfaae9ee8777a0618f79b1bc1f29c11307cbf07206d"
 metafile = true
 
 [[files]]
@@ -4130,6 +4141,11 @@ metafile = true
 [[files]]
 file = "mods/darker-depths.pw.toml"
 hash = "b836bb9c9ab3776926af93073eb49145f4a4a356bcde59a17312d9d8612d4f31"
+metafile = true
+
+[[files]]
+file = "mods/death-count.pw.toml"
+hash = "afcb51fed6ac6291227864474b94bff71d9546e3bab9057c82904b07bfb0ef83"
 metafile = true
 
 [[files]]
@@ -4243,6 +4259,11 @@ hash = "80e53e3854ee715aab72ce43bfecb138eee93a805019e36ee7a49a4e092c3cf0"
 metafile = true
 
 [[files]]
+file = "mods/embers-underground-rooms.pw.toml"
+hash = "78d48716f0851cfa0d65c1bc26783a6133ba9856bdde02198ad0fa0427a5da09"
+metafile = true
+
+[[files]]
 file = "mods/emi-loot.pw.toml"
 hash = "5778d6227c0522780c1736b62f7407e8bb733e7d41ceac8885a7a45224aa11a8"
 metafile = true
@@ -4344,7 +4365,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-paintings.pw.toml"
-hash = "180ca9ed174ae6685ef8e692bdeb46e6ac4df42a073fc1f278d24e5b816da18d"
+hash = "dc0d8e54793e901169ffe51e57e2c0e7ab0220ce92fc8ef141ba9dfe5ae12a6d"
 metafile = true
 
 [[files]]
@@ -4370,6 +4391,21 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "9e2175476f720e0b2d21b28e91873cecf5555648e2137310e1b7cf98f6b98ab8"
+metafile = true
+
+[[files]]
+file = "mods/ftb-backups-2.pw.toml"
+hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "8a185af41fb24e83e4497c9362943723b6afee585cf8a3bf280ac155d29bf593"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
 metafile = true
 
 [[files]]
@@ -4449,7 +4485,7 @@ metafile = true
 
 [[files]]
 file = "mods/ice-boat-fix.pw.toml"
-hash = "15cef6de0e6f6294ce4f951f104dd90f0326565b3ae05ad7023a5e565d596edf"
+hash = "e12f4b5f58776edcf7e7309a7758102e4a58a95b6f19a7110a549aafdd636e18"
 metafile = true
 
 [[files]]
@@ -4574,7 +4610,7 @@ metafile = true
 
 [[files]]
 file = "mods/keybindjs.pw.toml"
-hash = "86580de0bebe8ad3462c3e8dcb953b215badbb862db7951cf812335aeaae2908"
+hash = "b167b41029ca23f5ef555d051b817c521e8147546154abacac294c8c56d9d69c"
 metafile = true
 
 [[files]]
@@ -4604,7 +4640,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
+hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
 metafile = true
 
 [[files]]
@@ -4809,7 +4845,7 @@ metafile = true
 
 [[files]]
 file = "mods/neruina.pw.toml"
-hash = "04038d068ae795a3da682fd1e73f26c96ae9545e19ddc050abf44be0d0eae20c"
+hash = "02fd6b180671716ee1f3d04db224a98e10bbeddade792a11b7a473c3877d2224"
 metafile = true
 
 [[files]]
@@ -4845,6 +4881,11 @@ metafile = true
 [[files]]
 file = "mods/oreganized.pw.toml"
 hash = "17bad10c2832a5a0846a816e97aa48f9464cec1bbb1c1c69bc6f20c8878cfaa7"
+metafile = true
+
+[[files]]
+file = "mods/origins-dietary-delights.pw.toml"
+hash = "fd3fb2ee43cbb460ad137f59698835d8b68e06245add068ffb75ba5100ce1fd7"
 metafile = true
 
 [[files]]
@@ -5005,6 +5046,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
+metafile = true
+
+[[files]]
+file = "mods/selectable-painting.pw.toml"
+hash = "12ad7ee492bb0e9f9ba853d72bce96b15f7050cc997108c8ab8be834b0775147"
 metafile = true
 
 [[files]]
@@ -5201,6 +5247,11 @@ metafile = true
 [[files]]
 file = "mods/too-fast.pw.toml"
 hash = "c24febd1fd6db1cf87dc4ba9caf9ecedba0e7326c06456dcce71c390ba98b424"
+metafile = true
+
+[[files]]
+file = "mods/toomanyorigins.pw.toml"
+hash = "1ec4dd2f799fc11d14d26040b6ca4a59ebb93add10ed7cc6714d8cd5f280c1fd"
 metafile = true
 
 [[files]]

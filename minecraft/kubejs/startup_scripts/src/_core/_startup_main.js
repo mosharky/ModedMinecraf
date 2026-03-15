@@ -64,7 +64,7 @@ function postInit() {
         console.log(global.REMOVALS.arr)
 
         let configObj = {
-            removals: global.REMOVALS.arr,
+            removals: global.REMOVALS.arr.sort(),
             item_swapper: {},
             block_swapper: {},
             entity_swapper: {},

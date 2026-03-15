@@ -1,0 +1,13 @@
+name = "Selectable Painting"
+filename = "SelectablePainting-1.20.1-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NBJXn70b/versions/FiFo5Kiw/SelectablePainting-1.20.1-2.0.3.jar"
+hash-format = "sha512"
+hash = "211b5edbd6180af13a4359286b414a090d0fb40efa4c830940bab3d92be536ae7fa7453d8c2dd75616cbdf2a5ad8324c71e496fea95b1b6d53ff251e359ac92a"
+
+[update]
+[update.modrinth]
+mod-id = "NBJXn70b"
+version = "FiFo5Kiw"
