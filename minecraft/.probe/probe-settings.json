@@ -23,7 +23,7 @@
   "registryHash": {
     "//": "internal config, used for tracking registry change",
     "$default": -1,
-    "$value": -5282464201573238441
+    "$value": -3704156691956641453
   },
   "isolatedScopes": {
     "//": [
