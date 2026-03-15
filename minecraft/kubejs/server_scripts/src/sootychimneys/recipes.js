@@ -1,4 +1,4 @@
-/** @param {$RecipesEventJS_} e */
+/** @param {$RecipesEventJS} e */
 function recipes_SootyChimneys(e) {
     e.custom({
         type: 'sootychimneys:soot_scraping',

@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_CallOfYucutan(e) {
     e.addJson('immersiveenchanting:enchantment_costs/call_of_yucutan/toxic_blade', {
         levels: {

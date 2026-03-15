@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_ImmersiveWeathering(e) {
     e.removeAll('immersive_weathering:has_permafrost')
     e.add('immersive_weathering:has_permafrost', [

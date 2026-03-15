@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function worldgen_Idas(e) {
     // Replace all mentions of quark:wraith
     const idasSpawners = [

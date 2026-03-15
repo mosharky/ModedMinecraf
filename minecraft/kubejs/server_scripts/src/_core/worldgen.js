@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function worldgen_Core(e) {
     removeFeatures(e, ['minecraft:spring_lava', 'minecraft:spring_lava_frozen'], '#minecraft:is_overworld', FLUID_SPRINGS)
 

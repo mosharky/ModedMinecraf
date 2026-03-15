@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_ImmersiveEnchanting(e) {
     e.addJson('immersiveenchanting:enchantment_costs/lapis_cost', { item: 'minecraft:lapis_lazuli', amount: 3 })
 

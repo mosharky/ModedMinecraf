@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function moonlightTrades_Supplementaries(e) {
     e.addJson('supplementaries:moonlight/villager_trades/red_merchant/blue_bomb', {
         global_conditions: [{ flag: 'bomb', type: 'supplementaries:flag' }],

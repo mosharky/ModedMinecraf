@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_AlexsMobs(e) {
     e.addJson('immersiveenchanting:enchantment_costs/alexsmobs/straddle_jump', {
         levels: {

@@ -20,6 +20,7 @@ ServerEvents.tags('block', e => {
     blockTags_AlexsCaves(e)
     blockTags_AlexsMobs(e)
     blockTags_SnowRealMagic(e)
+    blockTags_Origins(e)
 })
 
 ServerEvents.tags('entity_type', e => {
@@ -79,6 +80,7 @@ ServerEvents.recipes(e => {
     recipes_Windswept(e)
     recipes_Woodworks(e)
     recipes_EndRem(e)
+    recipes_OddsNEnds(e)
 
     // Fully removing any recipe tied to items in REMOVALS
     global.REMOVALS.set.forEach(removal => {
@@ -141,11 +143,13 @@ ServerEvents.highPriorityData(e => {
     worldgen_Windswept(e)
     // worldgen_ScGuns(e)
     worldgen_OddsNEnds(e)
+    worldgen_DoomAndGloom(e)
 
     origins_Layer(e)
     origins_Overrides(e)
     origins_Dwarf(e)
     origins_Pyke(e)
+    origins_Dryad(e)
 })
 
 
@@ -160,6 +164,7 @@ LootJS.modifiers(e => {
     lootTables_EndRem(e)
     // lootTables_ImmersiveEnchanting(e)
     lootTables_SootyChimneys(e)
+    lootTables_OddsNEnds(e)
 })
 
 

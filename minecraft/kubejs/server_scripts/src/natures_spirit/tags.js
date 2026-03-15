@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_NaturesSpirit(e) {
     // Cliffs
     e.add('kubejs:has_feature/travertine_cliff', [

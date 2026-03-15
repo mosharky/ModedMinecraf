@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function origins_Layer(e) {
     e.addJson('origins:origin_layers/origin.json', {
         replace: false,
@@ -6,6 +6,7 @@ function origins_Layer(e) {
         origins: [
             'kubejs:pyke',
             'kubejs:cave_dwarf',
+            'kubejs:dryad',
             // 'kubejs:debug'
         ]
     })
@@ -39,7 +40,7 @@ function origins_Layer(e) {
 }
 
 
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function origins_Overrides(e) {
     // feline nightvision fix
     e.addJson('origin:powers/cat_vision.json', {

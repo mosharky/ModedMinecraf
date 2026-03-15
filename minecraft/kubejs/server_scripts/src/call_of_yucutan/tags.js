@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_CallOfYucutan(e) {
     e.add('kubejs:has_feature/call_of_yucutan_features', [
         '#minecraft:is_jungle',
@@ -7,7 +7,7 @@ function biomeTags_CallOfYucutan(e) {
     ])
 }
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function itemTags_CallOfYucutan(e) {
     e.add('forge:gems', 'call_of_yucutan:jade')
     e.add('forge:gems/jade', 'call_of_yucutan:jade')

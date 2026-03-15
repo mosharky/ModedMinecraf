@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function entityTags_Environmental(e) {
     e.add('environmental:scares_deer', [
         // TODO: Add mobs from Alex's Mobs when it's added
@@ -35,7 +35,7 @@ function entityTags_Environmental(e) {
     ])
 }
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_Environmental(e) {
     e.add('environmental:has_structure/log_cabin', '#windswept:is_pine_barrens')
 

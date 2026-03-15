@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function worldgen_EvenBetterNether(e) {
     removeBiomeModifier(e, 'evenbetternether:dense_lava_floe_patch_biome_modifier')
     removeBiomeModifier(e, 'evenbetternether:sparse_lava_floe_patch_biome_modifier')

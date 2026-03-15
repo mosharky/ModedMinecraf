@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function entityTags_NumismaticOverhaul(e) {
     e.add('numismaticoverhaul:the_bourgeoisie', [
         '#minecraft:raiders',

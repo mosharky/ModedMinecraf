@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function numismaticTrades_Core(e) {
     const wanderingTraderJson = {
         profession: 'wandering_trader', trades: {

@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function origins_Pyke(e) {
     // init
     e.addJson('kubejs:origins/pyke', {

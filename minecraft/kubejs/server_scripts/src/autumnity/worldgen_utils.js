@@ -3,7 +3,7 @@
 /**
  * - Requires Autumnity (source: https://github.dev/team-abnormals/autumnity/tree/1.20.x/src/generated/resources/data/autumnity)
  * - Get a spotted placed feature JSON object
- * @param {$DataPackEventJS_} event - highPriorityData event
+ * @param {$DataPackEventJS} event - highPriorityData event
  * @param {String} featureId - ID of the configured feature to be placed
  * @returns {String} Placed feature ID
  */

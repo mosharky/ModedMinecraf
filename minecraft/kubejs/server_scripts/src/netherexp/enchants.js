@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_NetherExp(e) {
     e.addJson('immersiveenchanting:enchantment_costs/netherexp/phantasm_hull', {
         levels: {

@@ -1,9 +1,9 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function itemTags_Core(e) {
     e.removeAllTagsFrom(global.REMOVALS.arr)
 }
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function blockTags_Core(e) {
     // used for Panda's Falling Trees compat
     e.add('kubejs:extra_tree_blocks_whitelist', [
@@ -45,7 +45,7 @@ function blockTags_Core(e) {
     */
 }
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function entityTags_Core(e) {
     raiders = e.get('minecraft:raiders').getObjectIds()
 
@@ -63,7 +63,7 @@ function entityTags_Core(e) {
 }
 
 
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_Core(e) {
     overworldBiomes = e.get('minecraft:is_overworld').getObjectIds()
 

@@ -1,4 +1,4 @@
-/** @param {$RecipesEventJS_} e */
+/** @param {$RecipesEventJS} e */
 function recipes_Supplementaries(e) {
     e.remove('supplementaries:rope')
 

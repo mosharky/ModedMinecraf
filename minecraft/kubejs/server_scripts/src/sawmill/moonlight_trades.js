@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function moonlightTrades_Sawmill(e) {
     e.addJson('sawmill:moonlight/villager_trades/carpenter/armor_stand', {
         type: 'simple',

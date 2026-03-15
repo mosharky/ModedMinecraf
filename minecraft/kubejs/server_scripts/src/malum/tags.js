@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_Malum(e) {
     e.add('malum:has_azure_runewood', [
         'natures_spirit:boreal_taiga',

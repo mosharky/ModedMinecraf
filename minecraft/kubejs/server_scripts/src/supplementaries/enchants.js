@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_Supplementaries(e) {
     e.addJson('immersiveenchanting:enchantment_costs/supplementaries/stasis', {
         levels: {

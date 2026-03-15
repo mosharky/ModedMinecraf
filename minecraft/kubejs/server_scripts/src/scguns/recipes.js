@@ -1,4 +1,4 @@
-/** @param {$RecipesEventJS_} e */
+/** @param {$RecipesEventJS} e */
 function recipes_ScGuns(e) {
     e.remove({ type: 'scguns:macerating' })
     e.remove({ type: 'scguns:powered_macerating' })

@@ -167,7 +167,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: craftables, favorites;
+	left-sidebar-pages: favorites, craftables;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -187,7 +187,7 @@
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: right, center;
+	left-sidebar-align: left, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar

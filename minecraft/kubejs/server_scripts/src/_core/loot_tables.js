@@ -1,4 +1,4 @@
-/** @param {$LootActionsBuilderJS_} all */
+/** @param {$LootActionsBuilderJS} all */
 function lootReplacements_Core(all) {
     global.BLOCK_SWAPPER.forEach((value, key) => {
         if (Item.exists(key) && Item.exists(value)) {
@@ -11,7 +11,7 @@ function lootReplacements_Core(all) {
     })
 }
 
-/** @param {$LootModificationEventJS_} e */
+/** @param {$LootModificationEventJS} e */
 function lootTables_Core(e) {
     e.addEntityLootModifier('minecraft:ravager').addLoot('kubejs:ravager_hide')
     e.addEntityLootModifier('goety:ravager').addLoot('kubejs:ravager_hide')

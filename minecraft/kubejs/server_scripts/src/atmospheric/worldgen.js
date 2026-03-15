@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function worldgen_Atmospheric(e) {
 
     // Disable Aspen Parkland biome

@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function worldgen_OddsNEnds(e) {
     removeBiomeModifier(e, 'oddsnends:shale_disk')
 

@@ -1,4 +1,4 @@
-/** @param {$LootActionsBuilderJS_} all */
+/** @param {$LootActionsBuilderJS} all */
 function lootReplacements_ImmersiveEnchanting(all) {
     // Replace all enchanted books with ancient_books
     all.modifyLoot(Item.of('minecraft:enchanted_book'), stack => {

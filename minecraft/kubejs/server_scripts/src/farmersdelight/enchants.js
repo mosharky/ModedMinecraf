@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function enchants_FarmersDelight(e) {
     e.addJson('immersiveenchanting:enchantment_costs/farmersdelight/backstabbing', {
         levels: {

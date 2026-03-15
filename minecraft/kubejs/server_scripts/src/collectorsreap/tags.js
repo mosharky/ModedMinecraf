@@ -1,4 +1,4 @@
-/** @param {$TagEventJS_} e */
+/** @param {$TagEventJS} e */
 function biomeTags_CollectorsReap(e) {
     e.add('collectorsreap:has_spawn/dragon_fruit', [
         'natures_spirit:lively_dunes',

@@ -1,4 +1,4 @@
-/** @param {$RecipesEventJS_} e */
+/** @param {$RecipesEventJS} e */
 function recipes_BrewinAndChewin(e) {
     e.custom({
         type: 'brewinandchewin:fermenting',

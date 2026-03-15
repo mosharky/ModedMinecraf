@@ -1,4 +1,4 @@
-/** @param {$DataPackEventJS_} e  */
+/** @param {$DataPackEventJS} e  */
 function worldgen_CavernsAndChasms(e) {
     // Replace silver ore with galopsphere's silver ore
     const ore_silver = getFeatureJson('caverns_and_chasms', CONFIGURED, 'caverns_and_chasms:ore_silver')
