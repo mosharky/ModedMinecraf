@@ -5349,8 +5349,9 @@ hash = "ceef63cdf36c1e23cc00a78aa9b81a13a34fc02cea9ccdf2ec35d0558cff72e5"
 metafile = true
 
 [[files]]
-file = "mods/xaerotrainmap.toml"
+file = "mods/xaerotrainmap.pw.toml"
 hash = "4f8e29bbc8bbb342f563eab6ebc0bb74ed7e807a9959f3ead6c6266aaf330646"
+metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
