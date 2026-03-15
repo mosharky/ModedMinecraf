@@ -329,3 +329,13 @@
 		"golemancy:light_frame" = true
 		"golemancy:deprecated/lucky" = true
 
+	[origins."kubejs:dryad"]
+		enabled = true
+		"kubejs:dryad/sunlight" = true
+		"kubejs:dryad/no_hunger" = true
+		"kubejs:dryad/vine_whip" = true
+		"kubejs:dryad/old_friends" = true
+		"kubejs:dryad/bioluminescence" = true
+		"kubejs:dryad/dryad_particles" = true
+		"kubejs:dryad/ursus_family" = true
+

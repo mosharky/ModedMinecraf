@@ -1,5 +1,51 @@
 /** @param {$TagEventJS} e */
+function blockTags_Origins(e) {
+    e.add('kubejs:vine_whip_plants', [
+        '#minecraft:mineable/hoe',
+        '#minecraft:leaves',
+        '#minecraft:flowers',
+        '#minecraft:replaceable_plants',
+        '#minecraft:replaceable_by_trees',
+        '#minecraft:saplings',
+        '#minecraft:bee_growables',
+        'minecraft:sugar_cane',
+        'minecraft:cactus',
+        'minecraft:chorus_plant',
+        'minecraft:chorus_flower',
+        'minecraft:bamboo',
+        'minecraft:melon',
+        'minecraft:pumpkin',
+        'minecraft:carved_pumpkin',
+        'minecraft:cocoa',
+        'minecraft:azalea',
+        'minecraft:flowering_azalea',
+        'minecraft:big_dripleaf'
+    ])
+    e.add('kubejs:old_friends_plants', [
+        '#minecraft:dirt',
+        'minecraft:cactus',
+        'minecraft:mangrove_roots',
+        '#mineable/hoe',
+        'minecraft:chorus_plant',
+        'minecraft:chorus_flower',
+        'minecraft:bamboo',
+        'minecraft:melon',
+        'minecraft:pumpkin',
+        'minecraft:carved_pumpkin',
+        'minecraft:cocoa',
+        'minecraft:azalea',
+        'minecraft:flowering_azalea',
+        'minecraft:big_dripleaf'
+    ])
+    e.add('kubejs:old_friends_leaves', '#minecraft:leaves')
+}
+
+/** @param {$TagEventJS} e */
 function itemTags_Origins(e) {
+    e.add('kubejs:sunlight_fill_food', [
+        'minecraft:honey_bottle',
+    ])
+
     let caveDwarfFoods = Ingredient.of('@miners_delight').itemIds.toArray().filter(item => Item.of(item).isEdible())
         .concat(Ingredient.of('@embersdelight').itemIds.toArray().filter(item => Item.of(item).isEdible()))
         .concat(Ingredient.of('@galosphere').itemIds.toArray().filter(item => Item.of(item).isEdible()))

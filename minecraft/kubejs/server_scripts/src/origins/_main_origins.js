@@ -6,6 +6,7 @@ function origins_Layer(e) {
         origins: [
             'kubejs:pyke',
             'kubejs:cave_dwarf',
+            'kubejs:dryad',
             // 'kubejs:debug'
         ]
     })

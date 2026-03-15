@@ -165,8 +165,9 @@ function removeBiomeModifier(event, modifier) {
  * @param {$DataPackEventJS} event - highPriorityData event
  * @param {String | Array.<String>} mobs - An entity ID, or entity type tag, or an array of entities
  * @param {String | Array.<String>} biomes - A biome ID, or biome tag, or an array of biomes
+ * @param {Optional | String} id - Modifier ID
  */
-function removeSpawns(event, mobs, biomes) {
+function removeSpawns(event, mobs, biomes, id) {
     let obj = {
         type: 'lithostitched:remove_biome_spawns',
         biomes: biomes,
@@ -186,8 +187,9 @@ function removeSpawns(event, mobs, biomes) {
  * @param {Number} weight - Weight/chance
  * @param {Number} min - Minimum that can spawn as a group
  * @param {Number} max - Maximum than can spawn as a group
+ * @param {Optional | String} id - Modifier ID
  */
-function addSpawn(event, biomes, entity, weight, min, max) {
+function addSpawn(event, biomes, entity, weight, min, max, id) {
     let obj = {
         type: 'lithostitched:add_biome_spawns',
         biomes: biomes,

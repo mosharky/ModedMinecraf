@@ -20,6 +20,7 @@ ServerEvents.tags('block', e => {
     blockTags_AlexsCaves(e)
     blockTags_AlexsMobs(e)
     blockTags_SnowRealMagic(e)
+    blockTags_Origins(e)
 })
 
 ServerEvents.tags('entity_type', e => {
@@ -148,6 +149,7 @@ ServerEvents.highPriorityData(e => {
     origins_Overrides(e)
     origins_Dwarf(e)
     origins_Pyke(e)
+    origins_Dryad(e)
 })
 
 
