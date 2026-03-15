@@ -13,6 +13,10 @@
 	#Casting Spell in the presence of Villagers will cause the Player to lose a number of Reputation, set 0 to disable, Default: 0
 	#Range: > 0
 	villagerHateSpells = 0
+	#Villagers have a chance of converting into Warlock Servants if they're underneath a Block of Crying Obsidian and near and a player wearing Unholy Set, Default: true
+	villagerConvertWarlockUnholy = true
+	#Villagers have a chance of converting into Heretic Servants if they're sleeping near an active Nether Portal and a player wearing Unholy Set, Default: true
+	villagerConvertToHereticUnholy = true
 
 [Spawning]
 
@@ -292,6 +296,8 @@
 	namelessSetDebuff = false
 	#Whether Servants be equipped with Carved Pumpkins, which would allow Servants to not be affected by sunlight, Default: false
 	servantsCanWearPumpkin = false
+	#Whether Servants will always give their player Soul Energy upon killing, setting to false will cause them to only give if player wears Dark Robes, Necro Cape and Crown or full Black Iron or Dark Armor set, Default: true
+	servantsAlwaysGiveSE = true
 
 	[Servants."Illager Servants"]
 		#Whether every Illager Servant type can breed or only Neollagers can, Default: true

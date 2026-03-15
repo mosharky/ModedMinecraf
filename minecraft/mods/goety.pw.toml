@@ -3,11 +3,11 @@ filename = "goety-2.5.49.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4541c03d17aec823d7ad6150d8052af4e242f24d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/4ZVIxU8x/versions/5289im3x/goety-2.5.49.3.jar"
+hash-format = "sha512"
+hash = "1b91163053e162b09f4a451e7d34f3f3a928b05b0225dd1554009513768026190df83e13d8e9d18de7aa45e5cd4a6ce847ea0c5f154d3338da929f965a5fdb09"
 
 [update]
-[update.curseforge]
-file-id = 7756316
-project-id = 586095
+[update.modrinth]
+mod-id = "4ZVIxU8x"
+version = "5289im3x"

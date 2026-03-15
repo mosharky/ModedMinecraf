@@ -81,6 +81,8 @@
 	#How many ticks until Void Frames returns back to Locked State after being used, Default: 24000
 	#Range: > 0
 	voidFrameCoolTime = 24000
+	#Whether Shrieking Obelisk can prevent Pillager Patrols, Default: true
+	ShriekObeliskPatrol = true
 
 ["Soul Taken"]
 	#Animals Killed, Default: 5

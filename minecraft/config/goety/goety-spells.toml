@@ -859,11 +859,11 @@
 		#Eruption Spell Cooldown, Default: 100
 		#Range: > 0
 		eruptionCoolDown = 100
-		#Enable Pyroclast projectile griefing, Default: true
-		pyroclastGriefing = true
 		#Time to cast Eruption Spell, Default: 60
 		#Range: 0 ~ 72000
 		eruptionTime = 60
+		#Whether Pyroclasts inflicts a 2 second Stun, Default: true
+		pyroclastStun = true
 
 	[Spells."Shredding Spell && Royal Spikes"]
 		#How much base damage Royal Spikes deals per second, Default: 1.0

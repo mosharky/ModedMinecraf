@@ -1126,23 +1126,23 @@ hash = "6a6067d92a0b30342610c54acddc1cf505b4188f471124f5b56ac48f33032de6"
 
 [[files]]
 file = "config/goety/goety-brews.toml"
-hash = "c0f15f3eac8925a647cd0853409668a9627e6e258586790161b9d8e5924d8780"
+hash = "beae34eb2adcd25baa747340c17d36a0a0be031c90979e363648823d853d6c1e"
 
 [[files]]
 file = "config/goety/goety-items.toml"
-hash = "35b767e6c2272d8627c570ade393bb2879bc704cdeb014384c08d38fcc16078c"
+hash = "5a712115b99ef52eb94ce198154b64f741dcc3569a4de28b199b37af591a474c"
 
 [[files]]
 file = "config/goety/goety-mobs.toml"
-hash = "5d30897b5e03384cd0d5fddf2be41eeb8fbfd58606697cf7f30514916f6a4307"
+hash = "028977ea18730bf7dbd86b1ad4088f2f7b1244e70d45266104cabe4f721e4904"
 
 [[files]]
 file = "config/goety/goety-spells.toml"
-hash = "7faa178d62ada55cbfc1929ba42fa5c35b62251226030796c3684eca4d578a15"
+hash = "a32825bb84ccacf9247f95deed344b5044227e55b877b22a7067780e044b7cb2"
 
 [[files]]
 file = "config/goety/goety.toml"
-hash = "59e5864a94c426715b78c3b396fb17fb0c1296dd59513df5cba935011f652451"
+hash = "a3ce1032292b39d1289d8b124222d8b858dbc9cbc1a5037fec4e67e863a08ea5"
 
 [[files]]
 file = "config/goety_cataclysm/goety_cataclysm-attributes.toml"
@@ -3997,11 +3997,6 @@ hash = "fa8421392e4c113284951d22e1a931a7cbf43bfaa8be9645b7cf648626727b59"
 metafile = true
 
 [[files]]
-file = "mods/client-crafting.pw.toml"
-hash = "4ed9d49d9b0dd26a577b1aafec4a84f21f467b81c0e4df97035f62efd0993e9b"
-metafile = true
-
-[[files]]
 file = "mods/client-tweaks.pw.toml"
 hash = "fa531ce1f4a691b784b0df60fc5b7a238d5ed9e5a69b8d547dd7eb19057e9790"
 metafile = true
@@ -4352,6 +4347,11 @@ hash = "3f63f54bf638954d1da79cacc7ab2d58e1886c98bdb2b267035abfa0ce8a5a72"
 metafile = true
 
 [[files]]
+file = "mods/enders-delight.pw.toml"
+hash = "fa850261b29dc5a7668db0b23c5d23a3f7034097124240289fa7bc805fbc1b5e"
+metafile = true
+
+[[files]]
 file = "mods/endremastered.pw.toml"
 hash = "3133aa811dfdddaf1fb5744776385bdaf13a2bf2f7ca1e750347f2cd54d8a214"
 metafile = true
@@ -4508,7 +4508,7 @@ metafile = true
 
 [[files]]
 file = "mods/goety.pw.toml"
-hash = "12340cff40b45eb37c23d30dfd2942c65ebb1fd10eb08afb6fe462f9a6fb6933"
+hash = "d1511f2fa9bdb181f0558a18c387f23a2b0c3ee94bc1403cb1c28ee78cb2aaf9"
 metafile = true
 
 [[files]]
