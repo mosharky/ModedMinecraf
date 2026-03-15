@@ -293,6 +293,9 @@
 	tesseractDurability = 16
 	#If soulRepair is enabled, the cost of Soul Energy multiplies per item's enchantments, Default: true
 	soulRepairEnchant = true
+	#How many seconds until a revival item can be used, ie, Soul Jars, Howling Souls, Default: 300
+	#Range: > 0
+	reviveSecondsCool = 300
 
 ["Tools & Weapons"]
 
