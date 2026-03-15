@@ -52,6 +52,8 @@ patchouli_books/
 schematics/
 XaeroWorldMap/
 XaeroWaypoints*/
+/xaero/
+/config/xaero/!
 modernfix/
 worldicons/
 .lazyyyyy/
@@ -60,7 +62,6 @@ cache/
 .vscode/
 mod_data/
 .mixin.out/
-xaero/
 ESM/
 backups/
 Distant_Horizons_server_data/
