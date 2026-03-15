@@ -68,7 +68,6 @@ Distant_Horizons_server_data/
 emojiful/
 showdown/
 .probe/*
-!.probe/probe-settings.json
 immersive_paintings_cache/
 
 # root files
