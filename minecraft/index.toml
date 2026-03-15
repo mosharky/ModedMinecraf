@@ -962,7 +962,7 @@ hash = "cc1d43497f2c78d2bf9ad1a988822d3c3c12fab18e87b499f918c61f472dc1ef"
 
 [[files]]
 file = "config/emi.css"
-hash = "cdf3c775f122f382daa09a311bf95bd9939dd2c5164c4e0f736c07803c4f3274"
+hash = "11989fe641aba9a569d0f4d473e105510f4f8b4c7a68d0fc7f88305da3d11dfb"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -3049,7 +3049,7 @@ hash = "097c731c2745d49ff9973e41ca5bf5cbd658ff6b192aa803efb1b133f3ad83d2"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/_server_main.js"
-hash = "350e9e8451da885db7283f9b18eabc5320fd93a6babec86ae51b30ed18adf29f"
+hash = "8e8cd4f711f50c341dccc4e6be3efbacfdcaa1d599f669e6722ece3a8a6debf3"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/advancements.js"
@@ -3089,7 +3089,7 @@ hash = "2948f97cad6a733ab88989e349209c6692ff3657f896b804ba9dbbf82bc261b8"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/vars.js"
-hash = "24d44331ffe6f6c398431d10fcad85ee549c3c5c2d36c1454f52006c7c829efe"
+hash = "c5a4b00e1ab6bf1ce04f060046e7902d4e8485bd488a536ef4da171212958bf4"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/worldgen.js"
@@ -3097,7 +3097,7 @@ hash = "2a1b9614af582094e54c87174e11096451863ece24f5c43252776d1abfdcb062"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/worldgen_utils.js"
-hash = "abd1a4d14cffa13813025ec71c6d32e9c3cec6a2550f82f8785f6d0eb07aa007"
+hash = "248468aaca490bda59798410343b171c634c81dc8fff8114d0fc38ec78a1a76f"
 
 [[files]]
 file = "kubejs/server_scripts/src/aetherworks/recipes.js"
@@ -3214,6 +3214,10 @@ hash = "315685bf74a81bb4d1d930cb7f1e2f1e6b813fc6b4b225b5378ca2a9c5ef1daa"
 [[files]]
 file = "kubejs/server_scripts/src/darkerdepths/tags.js"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/server_scripts/src/doom_and_gloom/worldgen.js"
+hash = "3d995281f83a41924b140a5889fe19d0daeec495c6d78f4b1b80a276fa210f19"
 
 [[files]]
 file = "kubejs/server_scripts/src/embers/recipes.js"
@@ -3368,12 +3372,16 @@ file = "kubejs/server_scripts/src/numismaticoverhaul/tags.js"
 hash = "2312f151a018fd1a7a3e6465418599f9e301a61795c8ac8d38680238c8bcbb2a"
 
 [[files]]
+file = "kubejs/server_scripts/src/oddsnends/loot_tables.js"
+hash = "2a259a7d7c5f9c43cd837c35b3edd52e74292226827f48da2b26010d11887310"
+
+[[files]]
 file = "kubejs/server_scripts/src/oddsnends/recipes.js"
 hash = "04252be4ef452058db35735bf0c0431afde93cb726e6362bb8d396eb17c5934a"
 
 [[files]]
 file = "kubejs/server_scripts/src/oddsnends/tags.js"
-hash = "aa363ccdcd10d5b702a524335c4ab3a573754d51e2f7c0754f3f4c07cca70db5"
+hash = "2d5eec93a57f8ee9b019a8c6235559e8b4c86e6c63ee36cf8ff453bd200189a8"
 
 [[files]]
 file = "kubejs/server_scripts/src/oddsnends/worldgen.js"

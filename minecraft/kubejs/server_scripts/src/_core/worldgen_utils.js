@@ -165,7 +165,6 @@ function removeBiomeModifier(event, modifier) {
  * @param {$DataPackEventJS} event - highPriorityData event
  * @param {String | Array.<String>} mobs - An entity ID, or entity type tag, or an array of entities
  * @param {String | Array.<String>} biomes - A biome ID, or biome tag, or an array of biomes
- * @param {Optional | String} id - Modifier ID
  */
 function removeSpawns(event, mobs, biomes) {
     let obj = {
@@ -177,6 +176,33 @@ function removeSpawns(event, mobs, biomes) {
         ? event.addJson(`kubejs:lithostitched/worldgen_modifier/remove_spawn/${nameProcess(mobs)}`, obj)
         : event.addJson(`kubejs:lithostitched/worldgen_modifier/${id}`, obj)
 }
+
+
+/**
+ * Adds entity spawn to biomes
+ * @param {$DataPackEventJS} event - highPriorityData event
+ * @param {String | Array.<String>} biomes - A biome ID, or biome tag, or an array of biomes
+ * @param {String} entity - The mob to spawn
+ * @param {Number} weight - Weight/chance
+ * @param {Number} min - Minimum that can spawn as a group
+ * @param {Number} max - Maximum than can spawn as a group
+ */
+function addSpawn(event, biomes, entity, weight, min, max) {
+    let obj = {
+        type: 'lithostitched:add_biome_spawns',
+        biomes: biomes,
+        spawners: {
+            type: entity,
+            weight: weight,
+            minCount: min,
+            maxCount: max
+        }
+    }
+    id == undefined
+        ? event.addJson(`kubejs:lithostitched/worldgen_modifier/add_spawn/${nameProcess(entity)}`, obj)
+        : event.addJson(`kubejs:lithostitched/worldgen_modifier/${id}`, obj)
+}
+
 
 /**
  * Get feature JSON object by type

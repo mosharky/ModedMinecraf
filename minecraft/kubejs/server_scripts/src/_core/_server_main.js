@@ -142,6 +142,7 @@ ServerEvents.highPriorityData(e => {
     worldgen_Windswept(e)
     // worldgen_ScGuns(e)
     worldgen_OddsNEnds(e)
+    worldgen_DoomAndGloom(e)
 
     origins_Layer(e)
     origins_Overrides(e)
@@ -161,6 +162,7 @@ LootJS.modifiers(e => {
     lootTables_EndRem(e)
     // lootTables_ImmersiveEnchanting(e)
     lootTables_SootyChimneys(e)
+    lootTables_OddsNEnds(e)
 })
 
 

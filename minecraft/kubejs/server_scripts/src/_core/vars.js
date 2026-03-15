@@ -7,8 +7,8 @@
  * @import {$RecipesEventJS} from "dev.latvian.mods.kubejs.recipe.RecipesEventJS"
  * @import {$DataPackEventJS} from "dev.latvian.mods.kubejs.script.data.DataPackEventJS"
  * LootJS events/builders
- * @import {LootModificationEventJS} from "com.almostreliable.lootjs.kube.LootModificationEventJS"
- * @import {LootActionsBuilderJS} from "com.almostreliable.lootjs.kube.builder.LootActionsBuilderJS"
+ * @import {$LootModificationEventJS} from "com.almostreliable.lootjs.kube.LootModificationEventJS"
+ * @import {$LootActionsBuilderJS} from "com.almostreliable.lootjs.kube.builder.LootActionsBuilderJS"
  * MoreJS events
  */
 

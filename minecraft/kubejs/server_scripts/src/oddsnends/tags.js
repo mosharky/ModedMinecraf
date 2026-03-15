@@ -2,7 +2,6 @@
 function itemTags_OddsNEnds(e) {
     e.add('forge:seeds/flax', 'oddsnends:flax_seeds')
     e.add('forge:crops/flax', 'oddsnends:flax_fibers')
-
     e.add('forge:crops', [
         'oddsnends:flax_fibers',
         'oddsnends:mandrake'
@@ -10,6 +9,36 @@ function itemTags_OddsNEnds(e) {
     e.add('forge:seeds', [
         'oddsnends:flax_seeds',
         'oddsnends:mandrake_seeds',
+    ])
+    e.add('minecraft:logs', '#oddsnends:ciderine_logs')
+    e.add('minecraft:logs_that_burn', '#oddsnends:ciderine_logs')
+    e.add('minecraft:planks', 'oddsnends:ciderine_planks')
+    e.add('minecraft:stairs', 'oddsnends:ciderine_stairs')
+    e.add('minecraft:wooden_stairs', 'oddsnends:ciderine_stairs')
+    e.add('minecraft:slabs', 'oddsnends:ciderine_slab')
+    e.add('minecraft:wooden_slabs', 'oddsnends:ciderine_slab')
+    e.add('minecraft:fences', 'oddsnends:ciderine_fence')
+    e.add('minecraft:wooden_fences', 'oddsnends:ciderine_fence')
+    e.add('minecraft:fence_gates', 'oddsnends:ciderine_fence_gate')
+    e.add('minecraft:doors', 'oddsnends:ciderine_door')
+    e.add('minecraft:wooden_doors', 'oddsnends:ciderine_door')
+    e.add('minecraft:trapdoors', 'oddsnends:ciderine_trapdoor')
+    e.add('minecraft:wooden_trapdoors', 'oddsnends:ciderine_trapdoor')
+    e.add('minecraft:wooden_pressure_plates', 'oddsnends:ciderine_pressure_plate')
+    e.add('minecraft:buttons', 'oddsnends:ciderine_button')
+    e.add('minecraft:wooden_buttons', 'oddsnends:ciderine_button')
+    e.add('minecraft:leaves', ['oddsnends:ciderine_leaves', 'oddsnends:flowering_ciderine_leaves'])
+    e.add('minecraft:saplings', 'oddsnends:ciderine_sapling')
+    e.add('minecraft:signs', 'oddsnends:ciderine_sign')
+    e.add('minecraft:hanging_signs', 'oddsnends:ciderine_hanging_sign')
+
+    e.add('minecraft:flowers', [
+        'oddsnends:flax_flowers',
+        'oddsnends:dried_flax_flowers',
+        'oddsnends:spineroot',
+        'oddsnends:field_clovers',
+        'oddsnends:rusty_clovers',
+        'oddsnends:wild_laco',
     ])
 }
 
