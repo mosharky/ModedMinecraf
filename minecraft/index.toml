@@ -1093,20 +1093,12 @@ file = "config/fml.toml"
 hash = "eb6e8b8eda9682889a83d55262ef96cf37153d58fe7f0fa5d5cb1da5d9f7dd9b"
 
 [[files]]
-file = "config/foglooksmodernnow.toml"
-hash = "f4c50ee67a308bde619ed1ac84e58d378cb990d1f680bf42e7ae635cc9d790ca"
-
-[[files]]
 file = "config/forge-client.toml"
 hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 
 [[files]]
-file = "config/fossil-client.toml"
-hash = "3f40422a98b59594d8e66e11a0777815c96ef89897a52690cc4d58683acf5616"
-
-[[files]]
-file = "config/fossil-common.toml"
-hash = "230eecc36c73698cf4b0b8c2afd405244fb382beef76ddd03f6b73738d8b2ba6"
+file = "config/ftbbackups2.json"
+hash = "f803d4d6793302aa200831ef95f5cc84fce0e85f5ba0a9cec10e0ebd02a50e59"
 
 [[files]]
 file = "config/functionalstorage/functionalstorage-client.toml"
@@ -1123,14 +1115,6 @@ hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 [[files]]
 file = "config/galena_hats.json"
 hash = "c427871edf0f085393425997b7ffcd0c2e54278376dc9f7390619a21bc3264d7"
-
-[[files]]
-file = "config/gallery-client.toml"
-hash = "eeab80e57d3f768fd91bf953a41003ad123d98cd7be0686ea8d3b109b925fa6c"
-
-[[files]]
-file = "config/gallery-common.toml"
-hash = "099fdfcfb5fe8c4fe0faabe9fef0e35deef90a8a2a3d84c8cca630348ef3a604"
 
 [[files]]
 file = "config/galosphere-common.toml"
@@ -1769,14 +1753,6 @@ file = "config/sawmill-common.toml"
 hash = "cc6efb237cb63d0875fa22cb442a04d3bd728f525fb46ec6e8fd91bbec9f14da"
 
 [[files]]
-file = "config/scguns-client.toml"
-hash = "c1cc083bd2831d79b3a3ce372f6ffe6388cfb8156e6b4e6957f49f964e40ba0d"
-
-[[files]]
-file = "config/scguns-common.toml"
-hash = "7a3671357490cce71bcd3b673c481ed7d93a6b7aefd294a6e054b83c28866f4e"
-
-[[files]]
 file = "config/scholar-client.toml"
 hash = "06fa8c3f0fb91da5d8ed5a35a7beca70470ce6f425504f2c9f2d89f8cdad3e1d"
 
@@ -1790,7 +1766,7 @@ hash = "70bba512c19c9883541dc9eebbb2d66c2a31db025a2bc183b731581582aa60a5"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "b13b84a076c380f0e20403636b63d32ef9581d91cb55d130c2141a8c8f83ea70"
+hash = "e73394c9de10452ead6e074445efbc8db1ac9de6626d37afa5bb15b84131615a"
 
 [[files]]
 file = "config/simplerecall-common.toml"
@@ -1926,7 +1902,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/structurify.json"
-hash = "a92cdcf603bf6c8ecbdeef1cbb0db8dd70ef2254d56915496d7693ab819d5b5a"
+hash = "b695acd5337037e75c26140d2f3441e893c35a5854ffa37076f534b2934cd1c0"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -1955,10 +1931,6 @@ hash = "565e7782790d656fd31350ef9d90cb8ff8b4f38d1fb2418072829fb404195e58"
 [[files]]
 file = "config/toadlib_config.toadcfg"
 hash = "58bf90d0d1dfa6bdba54eddd6b76273872a472b26066ee2aa7009222af0f32cc"
-
-[[files]]
-file = "config/toadlib_config.txt"
-hash = "100833c4e7c5d4610e03cbc33ad91dfe1ed99c1fb588b01223a038cc59dde5e7"
 
 [[files]]
 file = "config/toastcontrol-common.toml"
@@ -2159,6 +2131,14 @@ hash = "58104311603080ba3784d65db6fb8840f10b95a3cfaaa3d0df7c189d8397511e"
 [[files]]
 file = "defaultconfigs/forge-server.toml"
 hash = "e2c32c27453033ef3910d5b6a24ae1a8c1fd224c2ac0a97388d5aa27a6a00ad1"
+
+[[files]]
+file = "defaultconfigs/ftbessentials-server.snbt"
+hash = "3dee41dd0de3430b343dd31a3f196ae30ed66833ab6a9335bbf709246aa140f3"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "ab6bcad040f138406197f70cfe9a041832feaddf7e87954d9a5f4b13b6a962f9"
 
 [[files]]
 file = "defaultconfigs/getittogetherdrops-server.toml"
@@ -2592,6 +2572,414 @@ file = "kubejs/client_scripts/src/quark/attribute_tooltips.js"
 hash = "d5fe2cab3148841057cb4ada19d43116c55bf04aa273c0a8a288a13c784f7948"
 
 [[files]]
+file = "kubejs/data/CavsCobblemon1.2.zip"
+hash = "5e7573dce8b9aa318b528a409c2d24dea75fa1af849bac3fadf4dc5476566397"
+
+[[files]]
+file = "kubejs/data/Cobblemon Biopshere Expanded.zip"
+hash = "b245ac061ed432713774a24e713ef2086de7ba19c28009e2fc3f488524174213"
+
+[[files]]
+file = "kubejs/data/Genomons [1.5.1].zip"
+hash = "cd86260f15aef6293e09e92ac4d5015c8d2d37881bf0828fc6f36c9567caf027"
+
+[[files]]
+file = "kubejs/data/Golemancy-1.6.1.zip"
+hash = "800ccc5fdc02cb5b76f434912bf0e050c677b8ab8d653b0156f7f955c9125753"
+
+[[files]]
+file = "kubejs/data/Hydro Reanimodel Pack 0.0.5.zip"
+hash = "0d1ea66d741ecf7d492a0e34fd33a2b7f9ead27e27f83817644f4da0e11cedb5"
+
+[[files]]
+file = "kubejs/data/Missingmon [3.1 UB update].zip"
+hash = "19ae6d9fd2e81823741fb3b3938c1312dcdeb850a19945a7c85c60eaa805f4e6"
+
+[[files]]
+file = "kubejs/data/MysticMons_v2.0.1.zip"
+hash = "053657d1cc18c4141f36827e24716cb68687469b59a0955c8016c64b8c353d0d"
+
+[[files]]
+file = "kubejs/data/idasalexsmobs-1.20.zip"
+hash = "8f1182f08d3b268fbaa4dbaea170d9c01fd70d2355854b6939e03ebb46029e77"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/acdcthunderstruck_k.mid"
+hash = "38fea7ae7fed271be2f12186c067e08862f4d1fa687769ea430a3ac3eee6373a"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/after_dark_2nd_remake.mid"
+hash = "8671f7c2fab67ea336ea2b5e81f7a32f33fafeceb2d8cd4ad2247915fc53d564"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/attack_on_titan__jiyuu_no_tsubasa.mid"
+hash = "3c634d6b590babea948fd9680f5cb5158e6f865f0581ce35d2572e4bc1248763"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/attack_on_titan__vogel_im_ke4fig.mid"
+hash = "f9be401391916d0d0cb2c327be3749daa9115b014553771f50d917d10ea3ed5e"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/avicii__levels.mid"
+hash = "36a6393397e41d1c779980324eeb1b84915441b3301f94ee78fcea4772e6993e"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/avicii__waiting_for_love.mid"
+hash = "06bd0c013a27a699a4089fb4bfef0985ff965ab86de8b59ea545b48b024683e2"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/aviciiwake_me_up.mid"
+hash = "8cdcf28fa33bb79b664630a38558efd19bbdc85656d0d9c974f1e7bd8a6329c3"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/backstreet_boys__i_want_it_that_way.mid"
+hash = "0857fc1d6d0f9c9db3211d6b69719d86abd72243fbf03a806647a8c0f4976436"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/believer.mid"
+hash = "77250d7a6c7674ac1c5670efd40ea2e491136ebd8bfb731efde2c9d08b8e1d61"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/bella_ciaomid.mid"
+hash = "046ba8cff86f5e4aa9400824d6af288d31ffdda8d45873b2b4d5782649db7b78"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/boney_mrasputin_k.mid"
+hash = "30a9c304c37cbe8e7a05a05fc6bfb9b6d49480b045a77918c62ab3157f7a1fea"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/breaking_bad_theme.mid"
+hash = "ea45b86c0652c39a78338177e2b070ba3c7b83bc1bc552232901ff09e0e42b8a"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/brian_tyler__new_place_new_life_the_lazarus_project.mid"
+hash = "36feecf1077f7f475e1150935569d64ca14d1aa25a8a4c2862b86716398208e6"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/c418__danny_minecraft_ost.mid"
+hash = "cdacad387aae4067b94f224e5076ccac079840368a495d9217b63fc0e700961c"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/c418__mice_on_venus.mid"
+hash = "1cbc64d6adc6ff4f6693a48d8291e2cd5df917f1b3becf73d5ea70abd8015f7d"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/castlevania_2__simons_quest__bloody_tears.mid"
+hash = "9f0c84aae5945b1bc04ade3b070ac2990a5dd834154532de5dd6289572911da7"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/circus__theme_song.mid"
+hash = "c35f4433e0877c64c87393d0527d3a10ff7151b91f10d5e3bbb4ef28cf4d7f1c"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/cocojamboo1.mid"
+hash = "bc83a338d6023592c0c81a6ecdc0c897d6a97e2b8981681abfd7b8869555b24d"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/coldplay__viva_la_vida.mid"
+hash = "853939d6394884325abe1ad605a8aecbb284bf761299162d3616a80d7a1f3881"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/counting_stars_piano.mid"
+hash = "1aa3f0cf98fdfb8c763ff9b0dffdfa5cb2a3e5d375acaf4dd2648b56b2559fff"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/culture_beat__mr_vain.mid"
+hash = "1bda40b1a029d2ae10ba1936cb6d5284491b4c747584b61fa5c87c4a96260fdb"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/daft_punk__around_the_world.mid"
+hash = "b1c1d7bfd63657402b2ccf6a20a4000f6c06e13caa08e8ba2fe68ef18440d0e5"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/daft_punk__one_more_time.mid"
+hash = "d5020507fce6735be57f538f01db798cbdbd17c7621fcdf6f986b572d02eed0c"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/dance_till_youre_deadmid.mid"
+hash = "bc14b1a5a447943a80c23e2731413dee90beac1a71c563028ee2b35d62518c06"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/decostar_wars.mid"
+hash = "e6e4f03822b20fdf57ed7a602b14419bf5858a6f49914aaab4b82ebfe0f91073"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/eiffel_65__im_blue.mid"
+hash = "7ccbd47d5e3e9a52cb5d53712c85e79bfc2126a713d31eeb930c1eb5ae46dbb5"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/elektronomiasky_high.mid"
+hash = "bdd383a071d8b9f0d4820c9852fb3ae7d692e24c327a4887dfa0b8d22568285a"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/eminemmockingbird.mid"
+hash = "618688ca9680b16cc055bc9b1ee3b8081ad24d2748049c571ac129dbe3e318fe"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/everybody_wants_to_rule_the_world.mid"
+hash = "1840cfa8ea9483a72e0e457d6cb419dd451d4b524b5a9ec0c16a7636bef5321c"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/eyeofthetigerfromrocky.mid"
+hash = "0706a3f85d7430cd7b71dbc84db5d6608d751c7b4754320d73443bfcd6372021"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/fairytale__alexander_rybak_2.mid"
+hash = "6d5fdf6c13ae0d2ff16baf309c7018fb6cd334ee28924d9a7adbeeb4ad3e24d0"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/faithlessinsomnia.mid"
+hash = "359369666d2cc93c9a03db157210c2540828fc5f2f4074b62504f06be82db19b"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/friday_theme__roblox_3008.mid"
+hash = "d6522bf001ef21fe3acb2e33a9eea6c646c7bd3de8c23eede8da510e15690e35"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/fur_elise.mid"
+hash = "43bf22800553ead4a03e7e3307bfb72db632f3695dea2137f1f1105c98bbb985"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/gas_gas_gas.mid"
+hash = "8258953788a6ea30888c0b094c5d54b7a57b2cf6e6152467bf1ce4bc3c36d88c"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/german_anthem.mid"
+hash = "27f82fbbc8f7a676a3846dae33e71382b3176c9e920844763697f88994b54605"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/goldenbrown.mid"
+hash = "acd8fe1a86624d2f212ad92509f85279205d2988a673dc50d93a1ac61c485cb4"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/goldenbrown_1.mid"
+hash = "acd8fe1a86624d2f212ad92509f85279205d2988a673dc50d93a1ac61c485cb4"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/gravity_falls__made_me_realize.mid"
+hash = "91833577f460ce482dd4ed8378246b2b95c747af11265f19a4862f2ef2a491dd"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/gymnopedie_no_1.mid"
+hash = "dc3e34fa6a132e295b924b8d84f6d580900b94a9fbc6eb00eec51dbf8ae8aed4"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/hans_zimmer__at_worlds_end.mid"
+hash = "99e3fe91ddef12933a3adc650eae96620a94cc4eebfae1c4843261259ec012ca"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/hans_zimmer__time.mid"
+hash = "bdbec39d8ca2e683db722aaaac974067382f84765aabc64587279ffcbeac62e0"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/hans_zimmer_lisa_gerrard__now_we_are_free_from_the_film_gladiator_v2.mid"
+hash = "9f007fa94df549649345dc625ef12149edb2c538d80efb681bde364dd968e522"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/hey_brotheravicii.mid"
+hash = "e35743e9e3fd5b4f837e423cf33ecb9b2a06114e63aa094df49bd36b58d60f7b"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/hiding_in_the_blue_by_fat_rat_and_riell.mid"
+hash = "ea87b0098d4d586b9b1863ed3f072632f2c221f89a4135b66395ec6943a696be"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/hit_the_road_jack.mid"
+hash = "5468297e5d6cc0dbbde3e0f1a19fd9ef0a818f0cf7d691ba5683a42b4f283c0b"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/houseoftherisingsun2.mid"
+hash = "eef8870bbc09f67c3073d2beb0ca5f1adb04d77080405317f44b8e836c2f301d"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/i_need_your_love__initial_d_wip.mid"
+hash = "8ca65c992266e2edc3bb971d9385f78b5079b248e1fbf1e4839a3c09c0ae6f2f"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/imagine_dragons__radioactive.mid"
+hash = "d94eeaf4216b28f51c648ff486f2260980f8e9a55ace7c7775c21a76995f7309"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/imstillstanding.mid"
+hash = "8a0ef3062eeddeb550b2ceaa905be8f54f5eff0ebd4a296311ebb9c0b4bab39b"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/interstellar.mid"
+hash = "33d3c22384266cdccf0e5e2cddd682b6fae5fcfa2a29d1f8ecd9da447f03b064"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/iris_outchainsawman.mid"
+hash = "9f4b0eec131fb26f8a98705835942dded5da60689e083e26233dc387bacaf5cb"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/kavinsky__nightcall.mid"
+hash = "9c2de673420d586606734a26712779d4d0d40b85fac485dab7bed35953c83edd"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/kingkong.mid"
+hash = "6a61cf978b9bba3c92bcd940a10c79974113ad3fd8aeb822d26d308a7a1c4cee"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/kirby_super_star__gourmet_race.mid"
+hash = "8e90bce4c15a69e4a4402fa7238073fef0cf197a4c524ca2e334c9ad968fee78"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/lavender_town.mid"
+hash = "52c630ebf423548f85bf064e2005212b549bbfe5e03b21dec24fd5ef43f4c758"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/legends_never_die_final_midi_1117mid.mid"
+hash = "babe8e3037afa784e101671cc7cef29d87126e7420d5a02a7527e870d9b9d483"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/lena_raine__creator_minecraft_ost.mid"
+hash = "0a1b4cf4cf10375d831b6e19d14683804d9a19c2a59f6d30c624c3997f6bff5a"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/main_theme_animal_crossing_new_horizons.mid"
+hash = "dc1c7c11872b80a411b05e1ff1911f8371c7171ee50e9cc8a574ffebfb698514"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/mario_bros__super_mario_bros_theme.mid"
+hash = "aa562193b1aa7ac204d273adb41fb792149c294e826e5196bd47ef38069fdc29"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/maroon_5__memories.mid"
+hash = "5d1700c70cb8b58e06c7a2d54034b1532d11b4605839a46a0352e4af7b7a8738"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/maroon_5__payphone__naraka.mid"
+hash = "1be4c42f192647c1717a9d031b0a26dd8802ab906335d27bb2e8083431b48d59"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/married_life__up_2mid.mid"
+hash = "3e29488945b98b3d0b5d81b6b190647b0e6c71784940744a958cedee28792885"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/mary_on_a_cross.mid"
+hash = "797d58b59a28a29a9b6ce4dc603c9e1a046fd432046f64aa26be40e6d43e0f5b"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/modern_talking__brother_louie.mid"
+hash = "1fca9cafb862c47319c686a2356d04ebcabd92f7f34e5a0e584840795e827a49"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/modern_talking__cheri_cheri_lady.mid"
+hash = "8534a51b87b5601416c8ccd0331f80a637c8aea5a150f2d91e25f17de0ee76fd"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/modern_talking__youre_my_heart_youre_my_soul.mid"
+hash = "8578b9c33b2d4d688c56e80fea504f32ebf73d0a1a85dc2e1cd17ae7b34f5529"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/mukanjyo_midi.mid"
+hash = "d7b88dd0fffea3bf16fd86bedb5c0f17e23c774286659116d3a954b238de7fe2"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/persona_5__last_surprise.mid"
+hash = "05d60f051822268c4910b98c246bbb709d5c43120f96d0cb5bb517977eea2c61"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/radwimpssparklemid.mid"
+hash = "db38c05a74aba3558e15e01b74ebcf09ae73bfde51bb17bec3cfbcc6c519a792"
+
+[[files]]
+file = "kubejs/data/immersive_melodies/melodies/what_you_know__two_door_cinema_club.mid"
+hash = "678ca59902c0dcc3e7024d606067a8d0813f505a4340fa3c1ef787447105c04c"
+
+[[files]]
+file = "kubejs/data/intstrong_alexsmobs-1.0.0-1.20.1.zip"
+hash = "2eb5b0045b17d0988764940cf457e9eb60799e950cfb5f6eb4efa11ec537b168"
+
+[[files]]
+file = "kubejs/data/intstrong_endrem-1.0.0-1.18.2-1.19.2.zip"
+hash = "8e41b8cc5e0e255f8639c0a1ee76aa37486fa0c7d406976983c53a6c56438bbb"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/badlands.json"
+hash = "c543b82691bccf2e185c8dc3b44868d0fa75d6982bf1d7a16dfca084778178b4"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/eroded_badlands.json"
+hash = "c543b82691bccf2e185c8dc3b44868d0fa75d6982bf1d7a16dfca084778178b4"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/wooded_badlands.json"
+hash = "9c26fd0ac7e857557958c5b66947e5ea81a237ec0c43650f75614b90ad3e20be"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/arid_highlands.json"
+hash = "802974376d4e101e8f31d61c1e1b2eb033027cfdcf5fa0a4ccc4ae7a36901ee1"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/arid_savanna.json"
+hash = "e405d0ca87108b0b5df5f10a973e188b84e4e33b98e9e861a6dfa317f839b835"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/blooming_dunes.json"
+hash = "027eaa2ab5225e7eb2c67f9756f86e74feeee93b694b3245b618c377f6900932"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/blooming_highlands.json"
+hash = "5d18fc9fae64c04b8127d93bee1c655999d3806af8f8def5f8f123ae017a23e5"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/chaparral.json"
+hash = "023f78a3a7093cf61095991b98dc578a8ed128ecc1db6b6833c02569217c01e0"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/dusty_slopes.json"
+hash = "82458e62f352e445841a48dc83e121ea239b223f8a402d1fa06395e0164fa7d2"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/lively_dunes.json"
+hash = "7f863a007d6279781d1a1cde110414f4be2595c7af6fe594e7faaaf524890d09"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/red_peaks.json"
+hash = "f4e9965396e004fa859b5933c3ea2023a5b72eee6e7334ec3f1fdb57ea70596a"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/scorched_dunes.json"
+hash = "1f7dffdad97b97795ece7f6752db9cb7f12ee7070d067970a669fa25c0482e67"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/shrubby_highlands.json"
+hash = "0bef76299bcb8fc9ab144689559af50f39b64f9a5bf6cf5e49b6636604bfa8ab"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/sleeted_slopes.json"
+hash = "fe2fa8b4bf89388f514e7b217fea0bf9b39d72ccb487a2da29f8374dc8b14291"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/snowcapped_red_peaks.json"
+hash = "1b1bce907d5d139f302f027424faebeeb62c270a778d0f4d6a8505116807d860"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/stratified_desert.json"
+hash = "85729b84b5681018d15c409493df0d7d652105646854e3e66d8cc28ce92b8a7f"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/biome/woody_highlands.json"
+hash = "dc56d97e499e2b43c5cceac1a8550fe212583e7bc1d426910e548ceb5b2ae009"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/configured_feature/drylands_pond.json"
+hash = "8a620c9b48631dc1efa01db717d79672e4586e514010874516ceb1450eb40934"
+
+[[files]]
+file = "kubejs/data/natures_spirit/worldgen/processor_list/street_coconut.json"
+hash = "c26ae7a4b14ded86b5d40dffb086c6b904f365b9b82b381e9124f169e0bcd080"
+
+[[files]]
+file = "kubejs/data/pokemans_v14_creation.zip"
+hash = "e003f7e221bc29dbc50b10fc902577a50cfe6f988a4e4859b98fcb3f819efdca"
+
+[[files]]
+file = "kubejs/data/structures.zip"
+hash = "5478e777b0c1dd148043e405c5fdef68bda18fd48ecd9fa26a467da0196af2cf"
+
+[[files]]
 file = "kubejs/server_scripts/jsconfig.json"
 hash = "547b6ec05d4d567146ad51e519fb7498d097f0690662134abf66776eca3be71f"
 
@@ -2917,11 +3305,11 @@ hash = "4042a8531d37a79c8be172afa8bc5cdd9e4f52c69707dd1d100ba06897c8021c"
 
 [[files]]
 file = "kubejs/server_scripts/src/oddsnends/tags.js"
-hash = "0c3c3a5f07d36932efe0d45459231cc7be1aefe388f482f450fd61a609681ec9"
+hash = "0d4d485246176d0c39e66d6d787b02274221e1f6b86085bc30cadd58a8c43a5c"
 
 [[files]]
 file = "kubejs/server_scripts/src/oddsnends/worldgen.js"
-hash = "442293acc49464a06319b45139d536d797c6ca47bb332d6c9232b5233da00a77"
+hash = "a5c63deacdb9859ccf5c1afbaad1602265fb685945634d28ca5be7fe8065dc66"
 
 [[files]]
 file = "kubejs/server_scripts/src/oreganized/tags.js"
@@ -3041,7 +3429,7 @@ hash = "46510c65bf2ac3b55e06dd8656a53450743b876a602f9c37c6d83f6b686408c0"
 
 [[files]]
 file = "kubejs/startup_scripts/src/_core/_startup_main.js"
-hash = "014ee51539cabd6a07d00f5d680dd8463433024e53ab25a430036209adea92a1"
+hash = "71be5f32c65a495880f8fcb8c97d85219ee5b5b57b2838835322a0973e176fb3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/_core/blockswap.js"
@@ -3345,6 +3733,11 @@ hash = "8e9376087852491eb52037279506fefc45e174303530630e8b8afa571b1bd697"
 metafile = true
 
 [[files]]
+file = "mods/altorigingui.pw.toml"
+hash = "17318ef5ef0121949acfccca9c76c160395dfa1722a8935375a04fffe04689f9"
+metafile = true
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "420f60e542e731334fc62fc16a9945a60dfa8f6c5a647c71b2cf9217d50ea7f5"
 metafile = true
@@ -3595,6 +3988,11 @@ hash = "541ed5025e526f075984bbf7653b18724d0bf254dcc5d1464e60dd5bb82f7651"
 metafile = true
 
 [[files]]
+file = "mods/cobblemonrider1.5.pw.toml"
+hash = "614b9997972e60fa8abd7bf9d6a584992192dfdb2292dbebf60111b6c3dc5527"
+metafile = true
+
+[[files]]
 file = "mods/cobblemore-library.pw.toml"
 hash = "9c36e7b964c60a504f440ac6c75b43882e0ad2f0d71dc39e9f27f2b535b07377"
 metafile = true
@@ -3637,6 +4035,11 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "eb0a4706616b3cd750f2fcfaae9ee8777a0618f79b1bc1f29c11307cbf07206d"
 metafile = true
 
 [[files]]
@@ -3725,6 +4128,11 @@ hash = "b836bb9c9ab3776926af93073eb49145f4a4a356bcde59a17312d9d8612d4f31"
 metafile = true
 
 [[files]]
+file = "mods/death-count.pw.toml"
+hash = "afcb51fed6ac6291227864474b94bff71d9546e3bab9057c82904b07bfb0ef83"
+metafile = true
+
+[[files]]
 file = "mods/decorative-blocks.pw.toml"
 hash = "dc23ac7c75b3f33b93f5725c9d6cfb2e62575550f2b8b01683397e35ad1a3955"
 metafile = true
@@ -3791,7 +4199,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "acb2f4b1300c24188642c03692c6cfaf35f3edbfbffc53a32506bbc4fa930d0c"
+hash = "70eb6e1674e173285168b5b5e4a44bc2a6d588033585c66fecb5e496b734c88c"
 metafile = true
 
 [[files]]
@@ -3832,6 +4240,11 @@ metafile = true
 [[files]]
 file = "mods/embers-rekindled.pw.toml"
 hash = "80e53e3854ee715aab72ce43bfecb138eee93a805019e36ee7a49a4e092c3cf0"
+metafile = true
+
+[[files]]
+file = "mods/embers-underground-rooms.pw.toml"
+hash = "78d48716f0851cfa0d65c1bc26783a6133ba9856bdde02198ad0fa0427a5da09"
 metafile = true
 
 [[files]]
@@ -3936,7 +4349,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-paintings.pw.toml"
-hash = "180ca9ed174ae6685ef8e692bdeb46e6ac4df42a073fc1f278d24e5b816da18d"
+hash = "dc0d8e54793e901169ffe51e57e2c0e7ab0220ce92fc8ef141ba9dfe5ae12a6d"
 metafile = true
 
 [[files]]
@@ -3951,7 +4364,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "93e3eb580b44dbf652c2511d20616360735f2703fe45febee811a01a4d3cc845"
+hash = "c8cf9ae4c4fe249534d3a072b6329d559477f2aa4004447bb3ff7f1f9987e15d"
 metafile = true
 
 [[files]]
@@ -3962,6 +4375,21 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "9e2175476f720e0b2d21b28e91873cecf5555648e2137310e1b7cf98f6b98ab8"
+metafile = true
+
+[[files]]
+file = "mods/ftb-backups-2.pw.toml"
+hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "8a185af41fb24e83e4497c9362943723b6afee585cf8a3bf280ac155d29bf593"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
 metafile = true
 
 [[files]]
@@ -4041,7 +4469,7 @@ metafile = true
 
 [[files]]
 file = "mods/ice-boat-fix.pw.toml"
-hash = "15cef6de0e6f6294ce4f951f104dd90f0326565b3ae05ad7023a5e565d596edf"
+hash = "e12f4b5f58776edcf7e7309a7758102e4a58a95b6f19a7110a549aafdd636e18"
 metafile = true
 
 [[files]]
@@ -4196,7 +4624,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
+hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
 metafile = true
 
 [[files]]
@@ -4401,7 +4829,7 @@ metafile = true
 
 [[files]]
 file = "mods/neruina.pw.toml"
-hash = "04038d068ae795a3da682fd1e73f26c96ae9545e19ddc050abf44be0d0eae20c"
+hash = "02fd6b180671716ee1f3d04db224a98e10bbeddade792a11b7a473c3877d2224"
 metafile = true
 
 [[files]]
@@ -4437,6 +4865,11 @@ metafile = true
 [[files]]
 file = "mods/oreganized.pw.toml"
 hash = "17bad10c2832a5a0846a816e97aa48f9464cec1bbb1c1c69bc6f20c8878cfaa7"
+metafile = true
+
+[[files]]
+file = "mods/origins-dietary-delights.pw.toml"
+hash = "fd3fb2ee43cbb460ad137f59698835d8b68e06245add068ffb75ba5100ce1fd7"
 metafile = true
 
 [[files]]
@@ -4600,6 +5033,11 @@ hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
 metafile = true
 
 [[files]]
+file = "mods/selectable-painting.pw.toml"
+hash = "12ad7ee492bb0e9f9ba853d72bce96b15f7050cc997108c8ab8be834b0775147"
+metafile = true
+
+[[files]]
 file = "mods/selene.pw.toml"
 hash = "8c1ddc34636bfb9ab2209a4d387900f03682a65ed5fcf8b5027ffdd9ba49880f"
 metafile = true
@@ -4711,10 +5149,6 @@ file = "mods/special-nameless-1.0.0.jar"
 hash = "bf206a7146c24cf919749b0dcc5b9a072d3e5ae2033c32900c77811dbc725e26"
 
 [[files]]
-file = "mods/special-xaerotrainmap-1.1.0-mc1.20.1.jar"
-hash = "adb7d191b6a28803652f98917fdf671019af150f752c30c620c9b4df1724770f"
-
-[[files]]
 file = "mods/stone-zone.pw.toml"
 hash = "d4c650c4cdf2589768c907bdb1883e74da65c6788423c197af41bcec175ec905"
 metafile = true
@@ -4797,6 +5231,11 @@ metafile = true
 [[files]]
 file = "mods/too-fast.pw.toml"
 hash = "c24febd1fd6db1cf87dc4ba9caf9ecedba0e7326c06456dcce71c390ba98b424"
+metafile = true
+
+[[files]]
+file = "mods/toomanyorigins.pw.toml"
+hash = "1ec4dd2f799fc11d14d26040b6ca4a59ebb93add10ed7cc6714d8cd5f280c1fd"
 metafile = true
 
 [[files]]
@@ -4895,6 +5334,11 @@ hash = "bd3e31f8c53d1e7ed9c1c513d1749c0e28b5c25b5fa07000b69242e9f322a786"
 metafile = true
 
 [[files]]
+file = "mods/xaeroplus.pw.toml"
+hash = "1bdbdbe4e7b16b9c8d09ad9277c3f05aa557844ebd66ee2c9e279ac3336e5cb8"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "0f4c36a62455f7a78f36b8768f2fd980e558d9a18552c6ee00e9d090b51de341"
 metafile = true
@@ -4902,6 +5346,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "ceef63cdf36c1e23cc00a78aa9b81a13a34fc02cea9ccdf2ec35d0558cff72e5"
+metafile = true
+
+[[files]]
+file = "mods/xaerotrainmap.pw.toml"
+hash = "3eb95127cd9814db80eb9a72b678ff4bd6090196c58f968b37dd5c69a881d817"
 metafile = true
 
 [[files]]

@@ -45,7 +45,8 @@ crash-reports/
 screenshots/
 saves/
 logs/
-data/
+/data/
+/kubejs/data/!
 local/
 patchouli_books/
 schematics/
@@ -67,6 +68,7 @@ emojiful/
 showdown/
 .probe/*
 !.probe/probe-settings.json
+immersive_paintings_cache/
 
 # root files
 knownkeys.txt
