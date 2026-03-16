@@ -19,7 +19,8 @@ function blockTags_Origins(e) {
         'minecraft:cocoa',
         'minecraft:azalea',
         'minecraft:flowering_azalea',
-        'minecraft:big_dripleaf'
+        'minecraft:big_dripleaf',
+        'darkerdepths:petrified_roots',
     ])
     e.add('kubejs:old_friends_plants', [
         '#minecraft:dirt',
@@ -42,8 +43,32 @@ function blockTags_Origins(e) {
 
 /** @param {$TagEventJS} e */
 function itemTags_Origins(e) {
-    e.add('kubejs:sunlight_fill_food', [
+    e.add('kubejs:sunlight_smallest_fill_food', [
         'minecraft:honey_bottle',
+    ])
+    e.add('kubejs:sunlight_small_fill_food', [
+        'buzzier_bees:honey_apple',
+        'create:honeyed_apple',
+        'farmersdelight:honey_cookie',
+        'supplementaries:candy',
+    ])
+    e.add('kubejs:sunlight_medium_fill_food', [
+        'buzzier_bees:honey_bread',
+        'buzzier_bees:glazed_porkchop',
+        'brewinandchewin:mead',
+        'brewinandchewin:pale_jane',
+        'brewinandchewin:pickled_pickles',
+        'farmersrespite:rose_hip_pie_slice',
+        /collectorsreap:.*gummy/,
+        /abnormals_delight:passion_aloe_nectar/,
+        'windswept_delights:snow_cone',
+    ])
+    e.add('kubejs:sunlight_large_fill_food', [
+        'collectorsreap:salmon_wrapped_prawn',
+        'collectorsreap:pomegranate_pork',
+        'collectorsreap:honey_lime_chicken',
+        'farmersdelight:honey_glazed_ham',
+        'jadensnetherexpansiondelight:honey_glazed_hogham',
     ])
 
     let caveDwarfFoods = Ingredient.of('@miners_delight').itemIds.toArray().filter(item => Item.of(item).isEdible())

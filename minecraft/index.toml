@@ -3077,7 +3077,7 @@ hash = "fc4049fa80dfe11300fc62113d6c9ab8fa27f812d04ff2d9d1064c4a546ab932"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/_server_main.js"
-hash = "1a6950a496b0f9a0d41c013b17e719cf9c0e8f7c826570b002cccf5f4ace88fa"
+hash = "ec1da4bc7c3f2a153efc5c9df797ae921ecd9511376c1a57e95dca956ab7a7a7"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/advancements.js"
@@ -3230,6 +3230,10 @@ hash = "0a58dc46627eb917a791b6865f3dcc76dd518d3b046128924cb4eb563aa9fd23"
 [[files]]
 file = "kubejs/server_scripts/src/collectorsreap/tags.js"
 hash = "e655a355194e8219fbccd8c11ce116f527b5deba1a56923f1fe2d9d960d4731a"
+
+[[files]]
+file = "kubejs/server_scripts/src/collectorsreap/worldgen.js"
+hash = "6ff4dc56d433cdb5986de92b1e4f2d7b06506404a9748a9bf3c3b3e010fa76ef"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/enchants.js"
@@ -3429,7 +3433,7 @@ hash = "7c80cb6743797a183b67c5cd61e98f05b2be03ef370669a5478ae5d206aac017"
 
 [[files]]
 file = "kubejs/server_scripts/src/origins/dryad.js"
-hash = "70f8c4106cf2dc1d643f5f09eae59989d0922595c51732ce6e17ef07990894b2"
+hash = "61871022666480c6325690d01ad40ce7d0d8508abd0a47d5cc29ee400583a014"
 
 [[files]]
 file = "kubejs/server_scripts/src/origins/dwarf.js"
@@ -3441,7 +3445,7 @@ hash = "4695b7bc9e000f195ac2f316d3fb175cd2a58566f9a2df3a17ff4e306c6f7079"
 
 [[files]]
 file = "kubejs/server_scripts/src/origins/tags.js"
-hash = "17e288c21fff8b44c65de74354830f54281fbfed5e37183df180a7647cd69b5c"
+hash = "69d5cd91a0e4218534392b55d847c41776506dee138ba01a7a0d8a1d988afc8b"
 
 [[files]]
 file = "kubejs/server_scripts/src/quark/recipes.js"
@@ -3901,6 +3905,11 @@ hash = "828d571a91296e2ee3be1ec509619ea01f6a61a03958461fbe543bd377daa194"
 metafile = true
 
 [[files]]
+file = "mods/automobility.pw.toml"
+hash = "e0b0d4ffb66d813a4e6da0910d8e050bbfd8e16731dacb78fc5478029932c473"
+metafile = true
+
+[[files]]
 file = "mods/autumnity.pw.toml"
 hash = "6d2c7e84e061c516394e0f847e1b8fb81b8564fefd6d66f63fb23ac8e9527186"
 metafile = true
@@ -4031,6 +4040,11 @@ hash = "3f356a958e4e34d15ec7fac9b881f2ca914ad46c8f067e467c12de8f072a9768"
 metafile = true
 
 [[files]]
+file = "mods/chunk-sending-forge-fabric.pw.toml"
+hash = "86252c4e6701b798dac5ddef4b0fa6b6f5bdb280e83945b5b98d7c0be4441a35"
+metafile = true
+
+[[files]]
 file = "mods/citadel.pw.toml"
 hash = "5a4b03567f23fe0aac7806bd7cc9734138bf5fc098e98c1bb552d5b288bef258"
 metafile = true
@@ -4138,11 +4152,6 @@ metafile = true
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
-metafile = true
-
-[[files]]
-file = "mods/crash-assistant.pw.toml"
-hash = "eb0a4706616b3cd750f2fcfaae9ee8777a0618f79b1bc1f29c11307cbf07206d"
 metafile = true
 
 [[files]]
@@ -4946,13 +4955,18 @@ hash = "e6068a9fc08936c833e7a4b68c24891e09a5a4dd26a59b16f68c0f9a8b34f76d"
 metafile = true
 
 [[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+hash = "ee8986f0f4e5c7609da5f0f48d741bb059fefee80bda7e0a33e51dab6468cd67"
+metafile = true
+
+[[files]]
 file = "mods/numismatic-overhaul-reforged-again.pw.toml"
 hash = "703d42f656be9df6b4aa0f6b43843e8256a1d994981d15a3994392ae7e0a72ab"
 metafile = true
 
 [[files]]
 file = "mods/octo-lib.pw.toml"
-hash = "320c4d3a50b1f2f45d64d2f88c8c16473bc85b95d67e54ff93205ac9d2ead3cf"
+hash = "4ee6b38fbd604374f4703b852ebe2119c6493ae09b88f6398ab256e423bd5d4a"
 metafile = true
 
 [[files]]
