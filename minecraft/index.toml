@@ -526,7 +526,7 @@ hash = "5b5284747e68c84d70a6b5293cc572109e602e26092d5cce27309cc06db47d93"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "d04c58e709a60325ef6e2d933c0a95c8c862e976f72407fedfe50763bb85946d"
+hash = "81dd39f1a6d5e686114e112fe4084d8ce0492e1c0c5469ad0154386563426507"
 
 [[files]]
 file = "config/autumnity-common.toml"
@@ -1433,6 +1433,10 @@ file = "config/malum-common.toml"
 hash = "f71210c026f7b8376f129efc48a0bff427989364c16e2b285c2b15d8fff77f07"
 
 [[files]]
+file = "config/memorysweep.json5"
+hash = "4f3ecf4352176b8ca820e629c3e916cf6cc74491907c50902862732f0094368f"
+
+[[files]]
 file = "config/merchantmarkers-common.toml"
 hash = "bbf2b7c8c988204abf4161f1be69ad59f0cd5d85c5dcf9262e2b455c428bd16b"
 
@@ -1450,7 +1454,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "fed5c61eefff5227b81a6e95fef65ddade7fe34517030e9507b4aa6056ee8778"
+hash = "ea663a402e278684b1ef869acde5919522ac1d3fc780b1fe9d8e1c5c37e56bae"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -4891,6 +4895,16 @@ metafile = true
 [[files]]
 file = "mods/man-of-many-planes.pw.toml"
 hash = "b482e3d990ca0981e6a9204436745869b77b4870ea9c5afa95e6301da1d871b6"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "ade41e4315735aa9116a0222b332e03d3f8df6eea301764d40d0bdc40f5e8689"
+metafile = true
+
+[[files]]
+file = "mods/memorysweep.pw.toml"
+hash = "71a6790aee7a231afa7579ecfb6c0d91be904eec8f12668564a26f22619cfceb"
 metafile = true
 
 [[files]]

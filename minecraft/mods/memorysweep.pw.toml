@@ -1,0 +1,13 @@
+name = "MemorySweep"
+filename = "memorysweep-1.20.1-1.1.2-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3oJ7L0Iq/versions/PxfFjLvU/memorysweep-1.20.1-1.1.2-forge.jar"
+hash-format = "sha512"
+hash = "a992a3b2da8d06da8e6632781199e7717e6e28a2a2e7f10676150a999e5c1b5d4affbb518a9b2213155c445fa0647d3ed9eb3e28a61a521347be830b99266648"
+
+[update]
+[update.modrinth]
+mod-id = "3oJ7L0Iq"
+version = "PxfFjLvU"
