@@ -966,7 +966,7 @@ hash = "cc1d43497f2c78d2bf9ad1a988822d3c3c12fab18e87b499f918c61f472dc1ef"
 
 [[files]]
 file = "config/emi.css"
-hash = "4c3ef9a07416042e544c427cd799cef5aa0bf2ceb11e90bcc0a09acc38557962"
+hash = "9937b9408b77716edb40aae37a427242bdc73fe135821317e887d5649b680712"
 
 [[files]]
 file = "config/emi_loot_config.toml"
