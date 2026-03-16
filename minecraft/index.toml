@@ -821,6 +821,10 @@ file = "config/create_new_age-common.toml"
 hash = "2b94526494fc5aee3fb801a0e5827585d39f028b1383bae85cfb7ca18dae00bb"
 
 [[files]]
+file = "config/crunchy_crunchy_advancements.toml"
+hash = "2a6540ebe99a20ae42939562c7a56c714cd4dbf361b9c715829d34305fd6db49"
+
+[[files]]
 file = "config/cull-less-leaves.json"
 hash = "f905b94a10cd01a281b422d7eda25a6850bd8e2d50997d640f223e43b5108262"
 
@@ -3125,7 +3129,7 @@ hash = "7392ec08e67eec55afcf2d02cffe8c33ae5d92c6f048cf65202391d195709f46"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/recipes.js"
-hash = "db6b23929f52b817ea370edc80cddfb40bafa02adf687f478b2afed066d6ae37"
+hash = "8bd27ff57404fcccf2d6fa1d2ccba57dc9117f29551c031c9b963b35fd7f5d7c"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/tags.js"
@@ -3790,11 +3794,6 @@ hash = "7dd9dc01340eb4fbd334ac9d4277b403dfd1e406e0230111aed4b9210465b116"
 metafile = true
 
 [[files]]
-file = "mods/advancement-no-more.pw.toml"
-hash = "9fa4bbfbb67616f133e48fc44e6f8257b8f1c587ca029ee0977118f1348c2a24"
-metafile = true
-
-[[files]]
 file = "mods/aeroblender.pw.toml"
 hash = "3003828b74335546dab094b9e20db143f9c01fe7a22dbcb934106a904819602f"
 metafile = true
@@ -4155,6 +4154,16 @@ hash = "5b0eaf19630d6145093ae6ff9a21cf2dbdd0da53d9289673ad5ccb099afa18b7"
 metafile = true
 
 [[files]]
+file = "mods/connector-extras.pw.toml"
+hash = "d8480ee1f6ae58fa389e502108bcde4936ca326d6dc2f1608b9af9ac141cb35a"
+metafile = true
+
+[[files]]
+file = "mods/connector.pw.toml"
+hash = "68a935746aad424891dcb36fa705cdafd652ea1170ecb8144b1db0c87e30297b"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
@@ -4232,6 +4241,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+metafile = true
+
+[[files]]
+file = "mods/crunchy-crunchy-advancements.pw.toml"
+hash = "75ba8cc0a91471d83f93de6393843de80d1635e35db0d109a9fbb7a2c07cf0f8"
 metafile = true
 
 [[files]]
@@ -4512,6 +4526,11 @@ metafile = true
 [[files]]
 file = "mods/flw-vanillin.pw.toml"
 hash = "c9a9a660c0887f3f218a4dbfedb20d4ddf1f1c72b07e6575da3fb2902019a56b"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "2a2f2168bf03bfa3034ad9583588676c5d66b6f7c767df9fe259ab55350792d2"
 metafile = true
 
 [[files]]
@@ -5298,6 +5317,11 @@ hash = "1a3431385929b7d49517364a3b90f3360b5892daa685b0817c5230fdf34a09e8"
 [[files]]
 file = "mods/stone-zone.pw.toml"
 hash = "d4c650c4cdf2589768c907bdb1883e74da65c6788423c197af41bcec175ec905"
+metafile = true
+
+[[files]]
+file = "mods/stonecutter-gui-remastered.pw.toml"
+hash = "40ef1e29d4a774c6b630bf0e3d976df47eafdbcc4338158bd68d9008f6a9bb6b"
 metafile = true
 
 [[files]]
