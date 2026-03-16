@@ -320,7 +320,49 @@ function origins_Dryad(e) {
                 type: 'origins:exposed_to_sun'
             }
         },
-        fill_food: {
+        smallest_fill_food: {
+            type: 'origins:action_on_item_use',
+            entity_action: {
+                type: 'origins:change_resource',
+                resource: '*:*_res',
+                change: 20
+            },
+            item_condition: {
+                type: 'origins:ingredient',
+                ingredient: {
+                    tag: 'kubejs:sunlight_smallest_fill_food'
+                }
+            }
+        },
+        small_fill_food: {
+            type: 'origins:action_on_item_use',
+            entity_action: {
+                type: 'origins:change_resource',
+                resource: '*:*_res',
+                change: 40
+            },
+            item_condition: {
+                type: 'origins:ingredient',
+                ingredient: {
+                    tag: 'kubejs:sunlight_small_fill_food'
+                }
+            }
+        },
+        medium_fill_food: {
+            type: 'origins:action_on_item_use',
+            entity_action: {
+                type: 'origins:change_resource',
+                resource: '*:*_res',
+                change: 80
+            },
+            item_condition: {
+                type: 'origins:ingredient',
+                ingredient: {
+                    tag: 'kubejs:sunlight_medium_fill_food'
+                }
+            }
+        },
+        large_fill_food: {
             type: 'origins:action_on_item_use',
             entity_action: {
                 type: 'origins:change_resource',
@@ -330,7 +372,7 @@ function origins_Dryad(e) {
             item_condition: {
                 type: 'origins:ingredient',
                 ingredient: {
-                    tag: 'kubejs:sunlight_fill_food'
+                    tag: 'kubejs:sunlight_large_fill_food'
                 }
             }
         },
@@ -339,7 +381,7 @@ function origins_Dryad(e) {
             item_condition: {
                 type: 'origins:ingredient',
                 ingredient: {
-                    tag: 'kubejs:sunlight_fill_food'
+                    tag: 'kubejs:sunlight_smallest_fill_food'
                 }
             },
             text: {

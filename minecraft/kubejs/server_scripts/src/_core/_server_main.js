@@ -144,6 +144,7 @@ ServerEvents.highPriorityData(e => {
     // worldgen_ScGuns(e)
     worldgen_OddsNEnds(e)
     worldgen_DoomAndGloom(e)
+    worldgen_CollectorsReap(e)
 
     origins_Layer(e)
     origins_Overrides(e)
