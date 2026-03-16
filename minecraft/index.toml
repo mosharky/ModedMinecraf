@@ -706,7 +706,7 @@ hash = "e198750061411cf7fca624e38b894ca104ca2cf2c2940da0409ce4240dcc2503"
 
 [[files]]
 file = "config/chunksending.json"
-hash = "e589c5988aa0f23e08400df47ef156a61eea1978f2161ba014da278c28a60ac7"
+hash = "d5547fb66e56e6a5e7024c897afddb7084003c81112f2c913a5bdc717b386f4c"
 
 [[files]]
 file = "config/citadel-common.toml"
@@ -822,7 +822,7 @@ hash = "2b94526494fc5aee3fb801a0e5827585d39f028b1383bae85cfb7ca18dae00bb"
 
 [[files]]
 file = "config/crunchy_crunchy_advancements.toml"
-hash = "2a6540ebe99a20ae42939562c7a56c714cd4dbf361b9c715829d34305fd6db49"
+hash = "d424dfb2c65422d63ab470361caf2e2f92cf6d8c1f49bc40a5c9e2a2a510f3f8"
 
 [[files]]
 file = "config/cull-less-leaves.json"
@@ -930,7 +930,7 @@ hash = "bface7a3b7eee4c71eb7d218cb43eeb58b90ad1550e3bccd191272046cf8a817"
 
 [[files]]
 file = "config/dynamicview.json"
-hash = "305841828cd7218dd650fc2f48f01039cbfb8a914143cd79ffe11f96f31888fd"
+hash = "2edbf1a1b6af67cbc2d37e8cf3b671b5a6852476668800e30438160d702de51c"
 
 [[files]]
 file = "config/easyanvils-client.toml"
