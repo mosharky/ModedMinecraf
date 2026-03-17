@@ -27,6 +27,6 @@
 		   This will not display memory cleaning information.
 		   But it will still be displayed in the log.
 		*/
-		"silent": false
+		"silent": true
 	}
 }

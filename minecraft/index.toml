@@ -730,7 +730,7 @@ hash = "5cf51284c7995de33d82fcf3f45fbbeb8b7f25a7ae87bc67d27364fa7c44d091"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/cobblemonintegrations-common.toml"
@@ -1434,7 +1434,7 @@ hash = "f71210c026f7b8376f129efc48a0bff427989364c16e2b285c2b15d8fff77f07"
 
 [[files]]
 file = "config/memorysweep.json5"
-hash = "4f3ecf4352176b8ca820e629c3e916cf6cc74491907c50902862732f0094368f"
+hash = "7bf2601c51b18baaa2925f8d83fca27ccb07b3338ba3c9a6e2719f0016778a68"
 
 [[files]]
 file = "config/merchantmarkers-common.toml"
@@ -3469,7 +3469,7 @@ hash = "c79e461a2b67495391c8f47e0edf9149d8e25533de31136564e4553e1f478083"
 
 [[files]]
 file = "kubejs/server_scripts/src/origins/pyke.js"
-hash = "4695b7bc9e000f195ac2f316d3fb175cd2a58566f9a2df3a17ff4e306c6f7079"
+hash = "5d6767e11c308ef287614da1263896eeed1f6a8a515d6615489af870f4b57ddb"
 
 [[files]]
 file = "kubejs/server_scripts/src/origins/tags.js"
