@@ -569,6 +569,10 @@ file = "config/betteradvancements-client.toml"
 hash = "3af839058a6a042ae0313df607dd34567a6b9d785758297d1f47cd8c0401c2db"
 
 [[files]]
+file = "config/betterclouds-v1.json"
+hash = "f356532d675bc64ab1484b91b8d5398b56a75d964d33e1f9155559d3be73a0f4"
+
+[[files]]
 file = "config/betterfortresses-forge-1_20.toml"
 hash = "d7ad821ff76f0abe305017abe4f3e4aaf7acc6870bc66983eb140cf283ed0b95"
 
@@ -719,6 +723,10 @@ hash = "e95c94ca00a4d75e512aa21c77ebd94750d323123f08e6bdd831bebf025269b0"
 [[files]]
 file = "config/clienttweaks-common.toml"
 hash = "ca1aa61be9e175ca15e9039ab3b114854660f4eb5f57ee6f7cc3a53eee0b27bd"
+
+[[files]]
+file = "config/clockwork.toml"
+hash = "c5b81496950279753c1d2b3172d4c361f42e41d01d9047373f803a902d582137"
 
 [[files]]
 file = "config/cobbledex/rewards.json"
@@ -979,6 +987,10 @@ hash = "02972066845ad7ad2078c0a0eebeb0c4958dd71495ceb6993438be119630e8a6"
 [[files]]
 file = "config/emitrades.json5"
 hash = "1ed0ed3da45ed6bc11cdb624218f76f8e52b63818703b25e717bbbec615e6e92"
+
+[[files]]
+file = "config/emixx/emixx-client.toml"
+hash = "82081abc07d2ab25194822b17caf18d3384e1c14cf6376a910257123fed06740"
 
 [[files]]
 file = "config/emojiful-client.toml"
@@ -1354,7 +1366,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "8edf95cae78b32aa91b8a767d6a47c6ff4ad60c2eb52685ecf00a521cd9b4896"
+hash = "eeb21263b66be03d4a3cddf188c991ebdffdeca4883b04733abd2e4b1deb6922"
 
 [[files]]
 file = "config/kiwi-client.yaml"
@@ -1363,6 +1375,10 @@ hash = "3d404033f09609a7da72d467815b7145a9bdab5499d45080fd5a88d71fbe8df5"
 [[files]]
 file = "config/kiwi-common.yaml"
 hash = "be8ffd6a4ed69300864736280b44e2b537fef40ee69fcdf8687403d9a13b8014"
+
+[[files]]
+file = "config/knightlib.toml"
+hash = "be84c6ab344e0f0c0cbac1b2bed9d1204e4fca1206797bfc9032624f47f08740"
 
 [[files]]
 file = "config/krypton_fnp.yaml"
@@ -1858,7 +1874,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "0e8af015118a1df53368309ca0a419ce1889ae67499230f045550073c4d9a677"
+hash = "9f2a82aa19fc0aee93914d0ce911682d11363d0b7ad1a3ab3e3bd0089a3f6722"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2665,7 +2681,7 @@ metafile = true
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
-hash = "c81eee56d2b302d749e6d9d3c15988700c2599ca1af86b10422c3cf628edf706"
+hash = "6bee73fad09d618056fe3fe860588246e98bc82fd14c2bed0daf183b95f66421"
 
 [[files]]
 file = "kubejs/client_scripts/src/_core/_client_main.js"
@@ -3101,7 +3117,7 @@ hash = "5478e777b0c1dd148043e405c5fdef68bda18fd48ecd9fa26a467da0196af2cf"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
-hash = "fc4049fa80dfe11300fc62113d6c9ab8fa27f812d04ff2d9d1064c4a546ab932"
+hash = "12705212f0c48b394d88b785cf82c95ca7955b308e1180d966b5762da3b4e0c1"
 
 [[files]]
 file = "kubejs/server_scripts/src/_core/_server_main.js"
@@ -3565,7 +3581,7 @@ hash = "79e2f300c8320122c08fab891ed5734ac6ceefb6fb802741578d5d24a70685f7"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
-hash = "b1052415f6d11400e6c30a0fa78e9a24901eddef85c1819d3690e2197b2c596d"
+hash = "e680a37a83cabda8ae970e3e9a57298aef637c4dbb755089dab7ebe1b2e9d70f"
 
 [[files]]
 file = "kubejs/startup_scripts/src/_core/_startup_main.js"
@@ -3963,6 +3979,11 @@ hash = "ebbde8e5cd1fc05113f61fb32d98277292474aef5a2cb6892e3b263c9130002d"
 metafile = true
 
 [[files]]
+file = "mods/better-clouds.pw.toml"
+hash = "e6fc9a9ec6481860595801578d4efccbfe7fcd393db2f5253d41663c0265e9c4"
+metafile = true
+
+[[files]]
 file = "mods/bio-delight.pw.toml"
 hash = "5b6b208acf5aeb3c4dde3510ddb70d45a9f3d1d7da9363d897133f5387cd12ea"
 metafile = true
@@ -4085,6 +4106,11 @@ metafile = true
 [[files]]
 file = "mods/climate-rivers.pw.toml"
 hash = "a02b70b09cdff8c65664b745cfb1526c1aae1318bafaffea87f79088686f210a"
+metafile = true
+
+[[files]]
+file = "mods/clockwork_mod.pw.toml"
+hash = "fbca82989d4b051f4c1ad3f7a4da8178d70947ad9e388720b752b83f7b2c06f4"
 metafile = true
 
 [[files]]
@@ -4405,6 +4431,11 @@ metafile = true
 [[files]]
 file = "mods/emi-loot.pw.toml"
 hash = "5778d6227c0522780c1736b62f7407e8bb733e7d41ceac8885a7a45224aa11a8"
+metafile = true
+
+[[files]]
+file = "mods/emi-plus-backport.pw.toml"
+hash = "d01b5b2935318afbe81746df6a8c2b492f43873174d6aeec966fcd5270cd01b1"
 metafile = true
 
 [[files]]
@@ -4768,6 +4799,11 @@ hash = "41ccf0ad69630060d38686ff155c73446be62b2c77cf5c25707f880c9802c697"
 metafile = true
 
 [[files]]
+file = "mods/knight-lib.pw.toml"
+hash = "66d8998143e892995603eaacd2b1117dedaee83f5e8ede08e4e18931e81137c3"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
 metafile = true
@@ -5015,6 +5051,11 @@ metafile = true
 [[files]]
 file = "mods/night-config-fixes.pw.toml"
 hash = "e6068a9fc08936c833e7a4b68c24891e09a5a4dd26a59b16f68c0f9a8b34f76d"
+metafile = true
+
+[[files]]
+file = "mods/nightlights.pw.toml"
+hash = "b8cb0e090011a9d2ed6fcf7007d19efc67b8d911300531054b46d1f41d54dd9e"
 metafile = true
 
 [[files]]
@@ -5535,7 +5576,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "c08817fe8025a9d62c8f7abd5f56a54b90673e5ab60f39ae8fa1d70d5ace529b"
+hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
 metafile = true
 
 [[files]]
