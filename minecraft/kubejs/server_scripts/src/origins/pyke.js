@@ -18,7 +18,7 @@ function origins_Pyke(e) {
         ],
         impact: 2
     })
-    
+
     // Call of the Deep
     e.addJson('kubejs:powers/pyke/call_of_the_deep', {
         name: 'Call of the Deep',
@@ -529,10 +529,21 @@ function origins_Pyke(e) {
         on_villager_kill: {
             type: 'origins:self_action_on_kill',
             entity_action: {
-                type: 'origins:change_resource',
-                resource: '*:*_tier_2_resource',
-                operation: 'set',
-                change: 0
+                type: 'origins:and',
+                actions: [
+                    {
+                        type: 'origins:change_resource',
+                        resource: '*:*_tier_1_resource',
+                        operation: 'set',
+                        change: 0
+                    },
+                    {
+                        type: 'origins:change_resource',
+                        resource: '*:*_tier_2_resource',
+                        operation: 'set',
+                        change: 0
+                    }
+                ]
             },
             target_condition: {
                 type: 'origins:entity_type',

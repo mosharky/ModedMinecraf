@@ -1,0 +1,13 @@
+name = "Clockwork"
+filename = "clockwork-forge-1.20.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/h3OPQqBm/versions/KueyB6TB/clockwork-forge-1.20.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "9e1636d35bbf755f031bba8850b7cf7f7ef3b0e237b5a1f50cd8eb9d3ef9608ce2f2d5d98fff0221a252e935bf3cb0e1509035e993b0ab0e462339822a65186c"
+
+[update]
+[update.modrinth]
+mod-id = "h3OPQqBm"
+version = "KueyB6TB"

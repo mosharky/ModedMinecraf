@@ -35,14 +35,14 @@ gamma:0.5
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:0
+guiScale:3
 particles:0
 maxFps:260
 graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
-renderClouds:"false"
+renderClouds:"true"
 resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","netherexp:jne_emissive","netherexp:jne_retextures","builtin/client/golden_swet_ball/DAGoldenSwetBallFixClient","builtin/resource/overrides_pack"]
 incompatibleResourcePacks:[]
 lastServer:localhost
@@ -86,7 +86,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 soundCategory_master:0.5
-soundCategory_music:0.5066076144366196
+soundCategory_music:0.25
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
