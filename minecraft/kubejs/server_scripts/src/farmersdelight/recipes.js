@@ -3,6 +3,9 @@ function recipes_FarmersDelight(e) {
     e.replaceInput({}, 'farmersdelight:wheat_dough', '#forge:dough')
     e.replaceInput({}, 'farmersdelight:rope', 'supplementaries:rope')
     e.replaceOutput({}, 'farmersdelight:rope', 'supplementaries:rope')
+    
+    e.replaceInput({}, 'incubation:fried_egg', 'farmersdelight:fried_egg')
+    e.replaceOutput({}, 'incubation:fried_egg', 'farmersdelight:fried_egg')
 
     e.remove({ id: 'farmersdelight:bread_from_smelting' })
     e.remove({ id: 'farmersdelight:bread_from_smoking' })
