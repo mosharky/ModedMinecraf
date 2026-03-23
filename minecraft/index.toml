@@ -1470,7 +1470,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "ea663a402e278684b1ef869acde5919522ac1d3fc780b1fe9d8e1c5c37e56bae"
+hash = "13a3e26773edffccc94ff6c151c1da2908169043eb30c13967a3e769f6b9723e"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -3337,7 +3337,7 @@ hash = "cf872edac0e3654e51f5abd0e0694f920604117133d0bf50dab980705516db09"
 
 [[files]]
 file = "kubejs/server_scripts/src/farmersdelight/recipes.js"
-hash = "0d19925b8732436fa1496b6318547d288d19acb7464f9af70e7c189c3a4ed3c0"
+hash = "7fa80acd5004619df56811af5a54edae1b2ef6a8a0f48c130f541583731078bd"
 
 [[files]]
 file = "kubejs/server_scripts/src/farmersdelight/tags.js"
@@ -5367,7 +5367,7 @@ hash = "66c44b0648a3e3d4115c37593208b85668a97ce012355bad3d33f3cd8142a11f"
 
 [[files]]
 file = "mods/special-nameless-1.0.0.jar"
-hash = "d411d2982742243958288c48fd0e06ee2cb8a223375a47c9c80e9e90d22b9a33"
+hash = "3b5210d617accebc894cb8b6d60a60a0c7cab1680088eca3b18f4fd1b4ab7359"
 
 [[files]]
 file = "mods/stone-zone.pw.toml"
