@@ -222,6 +222,8 @@
 		[types.wood_type.unusual_prehistory]
 			ginkgo = true
 			lepidodendron = true
+			dryophyllum = true
+			metasequoia = true
 
 		[types.wood_type.unusualend]
 			chorus_nest = true
@@ -360,6 +362,8 @@
 			ginkgo = true
 			golden_ginkgo = true
 			lepidodendron = true
+			dryophyllum = true
+			metasequoia = true
 
 		[types.leaves_type.minecraft]
 			pale_oak = true
@@ -1182,6 +1186,11 @@
 			polished_petrified_wood = true
 			ginkgo = true
 			lepidodendron = true
+			dryophyllum = true
+			metasequoia = true
+			paleostone = true
+			mesonite = true
+			floralite = true
 
 		[types.cut_block_type.unusualend]
 			polished_purpur = true

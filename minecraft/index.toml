@@ -526,7 +526,7 @@ hash = "5b5284747e68c84d70a6b5293cc572109e602e26092d5cce27309cc06db47d93"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "81dd39f1a6d5e686114e112fe4084d8ce0492e1c0c5469ad0154386563426507"
+hash = "0316b34174529256128e343924a9ce31da436530ebe6d7f02098e1ca06849bea"
 
 [[files]]
 file = "config/autumnity-common.toml"
@@ -654,7 +654,15 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "9c31f7f00ebe4025a6a11ee6257fe672b57866f7ec6206f97656b6cdf095b0b1"
+hash = "188cda6a23a878d5149cc7d91c07e179db680ec51ad1038e3eadd30f7cfd423a"
+
+[[files]]
+file = "config/cataclysm-client.toml"
+hash = "18e55b2566207c8148f53abd48f37503703c8984b8661dbef68a9bff33533b40"
+
+[[files]]
+file = "config/cataclysm-common.toml"
+hash = "14b8862c18864c8fcea792ffef162ce64aa27b4275b3bfc5fae27c393e1dd9b9"
 
 [[files]]
 file = "config/cataclysm.toml"
@@ -1054,7 +1062,7 @@ hash = "15b54c90409aabee45afc63e59d459c378615b98355334ba5be39ae7537979ba"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "bfee18d690360f6f837e731435b3e69db7468d4a11a8842189af89f7883b79c7"
+hash = "30a046cecd525af40e95c9975529f1799fedb167a72f80c9c8ff78631b5435e3"
 
 [[files]]
 file = "config/everycomp-hazardous.toml"
@@ -1066,7 +1074,7 @@ hash = "3cf248809708f11857ef3d9424a1e2bfea06584afd20f619d993c5d42b473ba1"
 
 [[files]]
 file = "config/exposure-client.toml"
-hash = "7c90d2dcaa3daed34168278cc5d6b4457eb63195547a7fdbb0577352badb7f0e"
+hash = "7b3b5d1a47c1a2b7ff94aac218e5a38850558105ef55d11a8841930b2aa791ba"
 
 [[files]]
 file = "config/exposure-common.toml"
@@ -1150,7 +1158,7 @@ hash = "beae34eb2adcd25baa747340c17d36a0a0be031c90979e363648823d853d6c1e"
 
 [[files]]
 file = "config/goety/goety-items.toml"
-hash = "5a712115b99ef52eb94ce198154b64f741dcc3569a4de28b199b37af591a474c"
+hash = "f939782a4d8121e3182e1147b17b901cf8bdca0b69bd25b168c52e7467db176c"
 
 [[files]]
 file = "config/goety/goety-mobs.toml"
@@ -1166,7 +1174,7 @@ hash = "a3ce1032292b39d1289d8b124222d8b858dbc9cbc1a5037fec4e67e863a08ea5"
 
 [[files]]
 file = "config/goety_cataclysm/goety_cataclysm-attributes.toml"
-hash = "61a7874c01f935870797fd9547148be91e29bbe162d34eb673375e0bd588e6ec"
+hash = "068a71ec054f50731e12146306c4a3c094f2792bff04e1257ae0f04190b2cbaa"
 
 [[files]]
 file = "config/goety_cataclysm/goety_cataclysm-mobs.toml"
@@ -1174,7 +1182,7 @@ hash = "9d39c1d4fae50f3c1fbd3d2838535b32bf5a394e15ff568f4059363e08ee0bfa"
 
 [[files]]
 file = "config/goety_cataclysm/goety_cataclysm-spells.toml"
-hash = "5c0c59412a9162e4d151986e4a653fba43d2bc0b9af91f163d3d7dc189e7a099"
+hash = "a80c7225fd6d6e411d26470efbac364508e94836ee541a155b6977ace6d49604"
 
 [[files]]
 file = "config/guideme.toml"
@@ -1366,7 +1374,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "eeb21263b66be03d4a3cddf188c991ebdffdeca4883b04733abd2e4b1deb6922"
+hash = "f9b67592fd19212fecaacb842a638cfe396dc1619748c19f3e41946fd3228058"
 
 [[files]]
 file = "config/kiwi-client.yaml"
@@ -1603,6 +1611,10 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 [[files]]
 file = "config/quark-common.toml"
 hash = "7acd2ec19c9ed1d66c1e5c9b1e51bbd80208c2ae6821a0b4264163e59c4430d8"
+
+[[files]]
+file = "config/quark_ponders-client.toml"
+hash = "855f2a8b3e3cf5edefd100dd05b0ab892c55109674e4f74a81dc291a053183ec"
 
 [[files]]
 file = "config/raccompat/relics/acid_walker.yaml"
@@ -1874,7 +1886,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "9f2a82aa19fc0aee93914d0ce911682d11363d0b7ad1a3ab3e3bd0089a3f6722"
+hash = "123a744170759b6a0fe244372c2b5cf3b6f89896e1d0aafeb19e2110adabae4c"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2463,7 +2475,7 @@ hash = "a66c8373d297aa56a2e8e60180eb276c8875d9b6d011fba6ba6a4467ff372aa2"
 
 [[files]]
 file = "kubejs/assets/mod-descriptions.pw.toml"
-hash = "9a9f583b849eb7e703f46aa017abf6c193d14eeeb717b2c2638d9046686d6ba3"
+hash = "e6f13d24132521ffcf361e7bb30f35580dbfa77d714add7525b958563fd50828"
 metafile = true
 
 [[files]]
@@ -2667,7 +2679,7 @@ hash = "75b5952140ab39788f3c2600a456a951187349229600ea513b581b583c7882fa"
 
 [[files]]
 file = "kubejs/assets/special-pokemans_v14_creation.zip"
-hash = "ae236ceb1e99b693d7272623eaf58b84999e104b55eab18bbbb522cff288b98a"
+hash = "ee78f5f04e25e40fd76c0000b65206347669392e86fc1dbc079617f13ae5acdd"
 
 [[files]]
 file = "kubejs/assets/xaeros-map-frame.pw.toml"
@@ -2680,23 +2692,23 @@ hash = "3745b2a7d56f3e2f8cfccb3c47c208068f2825c3448b4fc1a41e53d3e7fae741"
 metafile = true
 
 [[files]]
+file = "kubejs/client_scripts/_core/_client_main.js"
+hash = "c0949cba7192a9b7529a02c4ca4036ad25e3d6913bd71a46af7377ebef236953"
+
+[[files]]
+file = "kubejs/client_scripts/_core/lang.js"
+hash = "2137c6e98c34747c770f4d2db1fd3fa28902711b72b44712fbafe76b82ae300c"
+
+[[files]]
+file = "kubejs/client_scripts/emi/emi.js"
+hash = "2125b132fe41fabc0ab9ceb42099406a46814684a4b4a6011cfb2f05b598e822"
+
+[[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "6bee73fad09d618056fe3fe860588246e98bc82fd14c2bed0daf183b95f66421"
 
 [[files]]
-file = "kubejs/client_scripts/src/_core/_client_main.js"
-hash = "622743d4bbc8bbbadd2c6619f7201bae57b592890bff17425a2618377dbf1343"
-
-[[files]]
-file = "kubejs/client_scripts/src/_core/lang.js"
-hash = "2137c6e98c34747c770f4d2db1fd3fa28902711b72b44712fbafe76b82ae300c"
-
-[[files]]
-file = "kubejs/client_scripts/src/emi/emi.js"
-hash = "2125b132fe41fabc0ab9ceb42099406a46814684a4b4a6011cfb2f05b598e822"
-
-[[files]]
-file = "kubejs/client_scripts/src/quark/attribute_tooltips.js"
+file = "kubejs/client_scripts/quark/attribute_tooltips.js"
 hash = "d5fe2cab3148841057cb4ada19d43116c55bf04aa273c0a8a288a13c784f7948"
 
 [[files]]
@@ -3116,691 +3128,695 @@ file = "kubejs/data/structures.zip"
 hash = "5478e777b0c1dd148043e405c5fdef68bda18fd48ecd9fa26a467da0196af2cf"
 
 [[files]]
+file = "kubejs/server_scripts/_core/_server_main.js"
+hash = "e2ef7b2f9ae1ef6481e6a17b947d7eb9d1bd19ecfa8cb215d84828034ee36afe"
+
+[[files]]
+file = "kubejs/server_scripts/_core/advancements.js"
+hash = "5fb7435dd2ffbf42df0964418981337f3926a0323b9f1546635f59ea93d44e06"
+
+[[files]]
+file = "kubejs/server_scripts/_core/commands.js"
+hash = "cfa6077c87c8e2f88402ff317d02b692be33431252f014fbbf71f8b1176788a9"
+
+[[files]]
+file = "kubejs/server_scripts/_core/entity.js"
+hash = "c5440d60b65f7f316ad34c23854eef811829d8af9817802344e977229ee205b0"
+
+[[files]]
+file = "kubejs/server_scripts/_core/events.js"
+hash = "6a1b3b52c52a7b1fa0a6f8633674ac7f22d199ede5de1fe9832a693d97c3c7a2"
+
+[[files]]
+file = "kubejs/server_scripts/_core/loot_tables.js"
+hash = "6c2e3ab5e5c641f6323d38604d63aae90b3714c0e8e701a4b6d52a8315404c09"
+
+[[files]]
+file = "kubejs/server_scripts/_core/player.js"
+hash = "7392ec08e67eec55afcf2d02cffe8c33ae5d92c6f048cf65202391d195709f46"
+
+[[files]]
+file = "kubejs/server_scripts/_core/recipes.js"
+hash = "8bd27ff57404fcccf2d6fa1d2ccba57dc9117f29551c031c9b963b35fd7f5d7c"
+
+[[files]]
+file = "kubejs/server_scripts/_core/tags.js"
+hash = "a67a85659f575ef45d9081a3936fdffdb6c755fc2b46d8f908dc330a7cb7c03a"
+
+[[files]]
+file = "kubejs/server_scripts/_core/trades.js"
+hash = "2948f97cad6a733ab88989e349209c6692ff3657f896b804ba9dbbf82bc261b8"
+
+[[files]]
+file = "kubejs/server_scripts/_core/vars.js"
+hash = "c5a4b00e1ab6bf1ce04f060046e7902d4e8485bd488a536ef4da171212958bf4"
+
+[[files]]
+file = "kubejs/server_scripts/_core/worldgen.js"
+hash = "2a1b9614af582094e54c87174e11096451863ece24f5c43252776d1abfdcb062"
+
+[[files]]
+file = "kubejs/server_scripts/_core/worldgen_utils.js"
+hash = "cb0f475f63b4332b5896536489d221a54f1fbd7ec0caac304602a3c9275c477c"
+
+[[files]]
+file = "kubejs/server_scripts/aetherworks/recipes.js"
+hash = "dd3123f80fac68181ee0f6bf067a9372a7c3849ad660a4af7fa2c1211790a45d"
+
+[[files]]
+file = "kubejs/server_scripts/alexscaves/enchants.js"
+hash = "17bbf2700cf296ecd06efd0aee8192d7aaaa1a1fb07a5520b4ae6dda9fa5dea0"
+
+[[files]]
+file = "kubejs/server_scripts/alexscaves/tags.js"
+hash = "c2adda9b7e6a0753215666c10853075a080f70e91cfdcbe48e5e6ff0ac97d26b"
+
+[[files]]
+file = "kubejs/server_scripts/alexsmobs/enchants.js"
+hash = "cb8b3f988cd41273f1ef7ed9fb71a8b629ec2b8b65aaff0ac63a30ab7327ea22"
+
+[[files]]
+file = "kubejs/server_scripts/alexsmobs/recipes.js"
+hash = "4d8c0ddc9eaaf04b93daf6479f1a180fd491dfc7fc99d711bc4ae89c11a7799a"
+
+[[files]]
+file = "kubejs/server_scripts/alexsmobs/tags.js"
+hash = "75767c176a89726b2139c022c3e2dc3064a904e5196b870c9dc385d6ee8a5571"
+
+[[files]]
+file = "kubejs/server_scripts/allurement/enchants.js"
+hash = "ab177e0c7737ca45e2e7d999802c6f187f5e4bc81206f7f096a50b4c4abf78ba"
+
+[[files]]
+file = "kubejs/server_scripts/atmospheric/recipes.js"
+hash = "5620b26df1e71312c96e8bfb04a138dddbff73fd3955e4fc808e756d218dac48"
+
+[[files]]
+file = "kubejs/server_scripts/atmospheric/tags.js"
+hash = "7c340620c7d0522d40a3915019fb53554764168478cdfe8f90863d1d3da20f7a"
+
+[[files]]
+file = "kubejs/server_scripts/atmospheric/worldgen.js"
+hash = "306b75086d19fc4b01bdb185dca5be9cb7f296d692de64ea16cebda884da6033"
+
+[[files]]
+file = "kubejs/server_scripts/autumnity/tags.js"
+hash = "6e0dd9d2b2e5e5d7338bcd56812bdfdc79ade7f47f5d6469aad71891ae424e69"
+
+[[files]]
+file = "kubejs/server_scripts/autumnity/worldgen.js"
+hash = "ab80d7a1accbe27782d522d38c1f26ed139b40517aa6fc0bdf4337276ce84447"
+
+[[files]]
+file = "kubejs/server_scripts/autumnity/worldgen_utils.js"
+hash = "f3d2f7a4e048b2617f78060c3166c10371c911c6907543f492af6ce1d8197b1b"
+
+[[files]]
+file = "kubejs/server_scripts/backpacked/enchants.js"
+hash = "504e1c0e2c4245d18ce5de510f35ce54ddec3334cc04be546d3cb8974d2f39fd"
+
+[[files]]
+file = "kubejs/server_scripts/biomancy/enchants.js"
+hash = "ba932ba04d156fb17b78011195f17b20fd9c6fe3f7b63e13c34523bd947e9cd3"
+
+[[files]]
+file = "kubejs/server_scripts/biomancy/tags.js"
+hash = "a69940658a4405efbf7dbb05e9b8e18fafa681b6bbf04eaabb14e7db9518cd5b"
+
+[[files]]
+file = "kubejs/server_scripts/brewinandchewin/recipes.js"
+hash = "d3b165f30ae53d220792376fb170c94b49b2bc2c5217e440e76e574c16067e9a"
+
+[[files]]
+file = "kubejs/server_scripts/call_of_yucutan/enchants.js"
+hash = "4569711a32a06b12f10998646d2ed6faa9de5cf6564241cd77f0d5fe1747678c"
+
+[[files]]
+file = "kubejs/server_scripts/call_of_yucutan/tags.js"
+hash = "24efbb0a1ee9d9673b41256d52c3d45c37e1f4ca7ef421a667f1f9eb66d4edfa"
+
+[[files]]
+file = "kubejs/server_scripts/call_of_yucutan/worldgen.js"
+hash = "066c37e49971b8d06a420e92ef680f96629b96f5a08255dee4997dc5ddb121c7"
+
+[[files]]
+file = "kubejs/server_scripts/cataclysm/events.js"
+hash = "48622296e1d9e02e440883d893febe42eb5262e69a4be8f37493f9b73bc22865"
+
+[[files]]
+file = "kubejs/server_scripts/cataclysm/recipes.js"
+hash = "b4edbcd2b34a60bf35802642d979dd95b75a48684776b30b32aaec8eb7e83118"
+
+[[files]]
+file = "kubejs/server_scripts/caverns_and_chasms/recipes.js"
+hash = "0d2634fac074a34b6a024b4d1b2ccb0a8fa93f9be1e89643d8f10f2d55f12519"
+
+[[files]]
+file = "kubejs/server_scripts/caverns_and_chasms/tags.js"
+hash = "52ae906f26b1e36172140725335d923457ab9a6636754f50672232c7b2866b5e"
+
+[[files]]
+file = "kubejs/server_scripts/caverns_and_chasms/worldgen.js"
+hash = "0a58dc46627eb917a791b6865f3dcc76dd518d3b046128924cb4eb563aa9fd23"
+
+[[files]]
+file = "kubejs/server_scripts/collectorsreap/tags.js"
+hash = "e655a355194e8219fbccd8c11ce116f527b5deba1a56923f1fe2d9d960d4731a"
+
+[[files]]
+file = "kubejs/server_scripts/collectorsreap/worldgen.js"
+hash = "6ff4dc56d433cdb5986de92b1e4f2d7b06506404a9748a9bf3c3b3e010fa76ef"
+
+[[files]]
+file = "kubejs/server_scripts/create/enchants.js"
+hash = "4bf251a8ed484f8458c83f2780ed7e5671c13138581f53624ece46495e2ef9f2"
+
+[[files]]
+file = "kubejs/server_scripts/createdeco/recipes.js"
+hash = "315685bf74a81bb4d1d930cb7f1e2f1e6b813fc6b4b225b5378ca2a9c5ef1daa"
+
+[[files]]
+file = "kubejs/server_scripts/darkerdepths/tags.js"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/server_scripts/doom_and_gloom/worldgen.js"
+hash = "3d995281f83a41924b140a5889fe19d0daeec495c6d78f4b1b80a276fa210f19"
+
+[[files]]
+file = "kubejs/server_scripts/embers/recipes.js"
+hash = "5aa01501fdf56d4405776b98ea19c2f400152fe9df13704f84f079e3d4bc6235"
+
+[[files]]
+file = "kubejs/server_scripts/embers/worldgen.js"
+hash = "d1486d18da79defb0db501a3b99bd9e3a68ebb7f566d8436887f3974081a33e9"
+
+[[files]]
+file = "kubejs/server_scripts/endrem/loot_tables.js"
+hash = "9d2e000007639ea985713a4eb91e45856792d9024fad30e281d6c5cc00ea2c87"
+
+[[files]]
+file = "kubejs/server_scripts/endrem/recipes.js"
+hash = "7daada0bf82b24bf9069519fd49243d4e8dcbed755672a1c57a8bdb8bb5ed9ab"
+
+[[files]]
+file = "kubejs/server_scripts/environmental/recipes.js"
+hash = "18a7c9ac9297331d3558573c557de97f471b330719b7fa3f0d26c45e97d21459"
+
+[[files]]
+file = "kubejs/server_scripts/environmental/tags.js"
+hash = "53a61950bd71cb4f1834da3acf7cfd661167d8d20cab918b44550c001e0b7e84"
+
+[[files]]
+file = "kubejs/server_scripts/environmental/worldgen.js"
+hash = "4b141f7fbf7ad16da8a967ff43bf53a64ef0a22e9ac34dc6627364480486e9b2"
+
+[[files]]
+file = "kubejs/server_scripts/evenbetternether/worldgen.js"
+hash = "c686cbad90a05373b2125673fc6753a3c8c566738bddbbbb5ffc4c6a9747973d"
+
+[[files]]
+file = "kubejs/server_scripts/everycomp/recipes.js"
+hash = "ce4552bb2b91c9ba59a1745411684b6155e1b40ab433d48d7810dfd759f684f5"
+
+[[files]]
+file = "kubejs/server_scripts/farmersdelight/enchants.js"
+hash = "cf872edac0e3654e51f5abd0e0694f920604117133d0bf50dab980705516db09"
+
+[[files]]
+file = "kubejs/server_scripts/farmersdelight/recipes.js"
+hash = "45bb5359f011c7f70cd1d8cb6ffcff0d74f1f8a75a57372f96de87ef43b8e11c"
+
+[[files]]
+file = "kubejs/server_scripts/farmersdelight/tags.js"
+hash = "48e9fab7876881ca1d5a58efd0fdc6b1d25c9a262d20df09f103cf13d9832f9b"
+
+[[files]]
+file = "kubejs/server_scripts/ftbchunks/tags.js"
+hash = "d0d56b230f32a3c63175a91b4e284050b71978a2bfb34a6ab42711f3536fb311"
+
+[[files]]
+file = "kubejs/server_scripts/galosphere/enchants.js"
+hash = "e70ec68458084f0a3ff1857cd843730293666dbbb188daa2096efec16a2ed965"
+
+[[files]]
+file = "kubejs/server_scripts/galosphere/tags.js"
+hash = "12c147e0f9828ffa0aaf58d349caa3e99b9e30539fbc927cdf44aada7906059e"
+
+[[files]]
+file = "kubejs/server_scripts/galosphere/worldgen.js"
+hash = "b51b8fab9f4a5c236b1bb52ee91cc4149179e64ab610962068ddb6e2c6bed3d8"
+
+[[files]]
+file = "kubejs/server_scripts/goety/enchants.js"
+hash = "af4949935f18af3ffaa414f73e80cd2ef4ba0888d5917d5cae81acfa090dbc59"
+
+[[files]]
+file = "kubejs/server_scripts/goety/recipes.js"
+hash = "8cb5fde5a3b6998582e031abe92d7ed1659f35b18595f9360bdfdf6970e81d8b"
+
+[[files]]
+file = "kubejs/server_scripts/goety/worldgen.js"
+hash = "c7125aef36135a21ae4f2c0ac06529137518513dbfd29416652f9193a4b3ae48"
+
+[[files]]
+file = "kubejs/server_scripts/idas/worldgen.js"
+hash = "a3fb39a04f38b40fccf43ea07401696d35089fca08f53a48accc66355fc9229c"
+
+[[files]]
+file = "kubejs/server_scripts/immersive_weathering/recipes.js"
+hash = "277ac331d4d883fedfdc8d576f99b2cdc76b0c56102b8d29a169176bf30a9dc2"
+
+[[files]]
+file = "kubejs/server_scripts/immersive_weathering/tags.js"
+hash = "8931240c9221b48103a860cc3556fd8fc0eb46efdceacebc2dc96b9efa8c2522"
+
+[[files]]
+file = "kubejs/server_scripts/immersive_weathering/worldgen.js"
+hash = "6ff38e1acb06e5edf748b172f6220f2a25f993c4e8d0fe33712464c5fdfbd279"
+
+[[files]]
+file = "kubejs/server_scripts/immersiveenchanting/enchants.js"
+hash = "d65db646e77e9b3fdbf41390d1defc55b27d96426caebfc7ceb1dbc33df8860f"
+
+[[files]]
+file = "kubejs/server_scripts/immersiveenchanting/loot_tables.js"
+hash = "ca2467a1fdca1a70a98b46a6f2865e8e0c278ef39aa6fa103ca8167f69db233e"
+
+[[files]]
 file = "kubejs/server_scripts/jsconfig.json"
 hash = "12705212f0c48b394d88b785cf82c95ca7955b308e1180d966b5762da3b4e0c1"
 
 [[files]]
-file = "kubejs/server_scripts/src/_core/_server_main.js"
-hash = "ec1da4bc7c3f2a153efc5c9df797ae921ecd9511376c1a57e95dca956ab7a7a7"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/advancements.js"
-hash = "5fb7435dd2ffbf42df0964418981337f3926a0323b9f1546635f59ea93d44e06"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/commands.js"
-hash = "cfa6077c87c8e2f88402ff317d02b692be33431252f014fbbf71f8b1176788a9"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/entity.js"
-hash = "c5440d60b65f7f316ad34c23854eef811829d8af9817802344e977229ee205b0"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/events.js"
-hash = "6a1b3b52c52a7b1fa0a6f8633674ac7f22d199ede5de1fe9832a693d97c3c7a2"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/loot_tables.js"
-hash = "6c2e3ab5e5c641f6323d38604d63aae90b3714c0e8e701a4b6d52a8315404c09"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/player.js"
-hash = "7392ec08e67eec55afcf2d02cffe8c33ae5d92c6f048cf65202391d195709f46"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/recipes.js"
-hash = "8bd27ff57404fcccf2d6fa1d2ccba57dc9117f29551c031c9b963b35fd7f5d7c"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/tags.js"
-hash = "a67a85659f575ef45d9081a3936fdffdb6c755fc2b46d8f908dc330a7cb7c03a"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/trades.js"
-hash = "2948f97cad6a733ab88989e349209c6692ff3657f896b804ba9dbbf82bc261b8"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/vars.js"
-hash = "c5a4b00e1ab6bf1ce04f060046e7902d4e8485bd488a536ef4da171212958bf4"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/worldgen.js"
-hash = "2a1b9614af582094e54c87174e11096451863ece24f5c43252776d1abfdcb062"
-
-[[files]]
-file = "kubejs/server_scripts/src/_core/worldgen_utils.js"
-hash = "cb0f475f63b4332b5896536489d221a54f1fbd7ec0caac304602a3c9275c477c"
-
-[[files]]
-file = "kubejs/server_scripts/src/aetherworks/recipes.js"
-hash = "dd3123f80fac68181ee0f6bf067a9372a7c3849ad660a4af7fa2c1211790a45d"
-
-[[files]]
-file = "kubejs/server_scripts/src/alexscaves/enchants.js"
-hash = "17bbf2700cf296ecd06efd0aee8192d7aaaa1a1fb07a5520b4ae6dda9fa5dea0"
-
-[[files]]
-file = "kubejs/server_scripts/src/alexscaves/tags.js"
-hash = "c2adda9b7e6a0753215666c10853075a080f70e91cfdcbe48e5e6ff0ac97d26b"
-
-[[files]]
-file = "kubejs/server_scripts/src/alexsmobs/enchants.js"
-hash = "cb8b3f988cd41273f1ef7ed9fb71a8b629ec2b8b65aaff0ac63a30ab7327ea22"
-
-[[files]]
-file = "kubejs/server_scripts/src/alexsmobs/recipes.js"
-hash = "4d8c0ddc9eaaf04b93daf6479f1a180fd491dfc7fc99d711bc4ae89c11a7799a"
-
-[[files]]
-file = "kubejs/server_scripts/src/alexsmobs/tags.js"
-hash = "75767c176a89726b2139c022c3e2dc3064a904e5196b870c9dc385d6ee8a5571"
-
-[[files]]
-file = "kubejs/server_scripts/src/allurement/enchants.js"
-hash = "ab177e0c7737ca45e2e7d999802c6f187f5e4bc81206f7f096a50b4c4abf78ba"
-
-[[files]]
-file = "kubejs/server_scripts/src/atmospheric/recipes.js"
-hash = "5620b26df1e71312c96e8bfb04a138dddbff73fd3955e4fc808e756d218dac48"
-
-[[files]]
-file = "kubejs/server_scripts/src/atmospheric/tags.js"
-hash = "7c340620c7d0522d40a3915019fb53554764168478cdfe8f90863d1d3da20f7a"
-
-[[files]]
-file = "kubejs/server_scripts/src/atmospheric/worldgen.js"
-hash = "306b75086d19fc4b01bdb185dca5be9cb7f296d692de64ea16cebda884da6033"
-
-[[files]]
-file = "kubejs/server_scripts/src/autumnity/tags.js"
-hash = "6e0dd9d2b2e5e5d7338bcd56812bdfdc79ade7f47f5d6469aad71891ae424e69"
-
-[[files]]
-file = "kubejs/server_scripts/src/autumnity/worldgen.js"
-hash = "ab80d7a1accbe27782d522d38c1f26ed139b40517aa6fc0bdf4337276ce84447"
-
-[[files]]
-file = "kubejs/server_scripts/src/autumnity/worldgen_utils.js"
-hash = "f3d2f7a4e048b2617f78060c3166c10371c911c6907543f492af6ce1d8197b1b"
-
-[[files]]
-file = "kubejs/server_scripts/src/backpacked/enchants.js"
-hash = "504e1c0e2c4245d18ce5de510f35ce54ddec3334cc04be546d3cb8974d2f39fd"
-
-[[files]]
-file = "kubejs/server_scripts/src/biomancy/enchants.js"
-hash = "ba932ba04d156fb17b78011195f17b20fd9c6fe3f7b63e13c34523bd947e9cd3"
-
-[[files]]
-file = "kubejs/server_scripts/src/biomancy/tags.js"
-hash = "a69940658a4405efbf7dbb05e9b8e18fafa681b6bbf04eaabb14e7db9518cd5b"
-
-[[files]]
-file = "kubejs/server_scripts/src/brewinandchewin/recipes.js"
-hash = "d3b165f30ae53d220792376fb170c94b49b2bc2c5217e440e76e574c16067e9a"
-
-[[files]]
-file = "kubejs/server_scripts/src/call_of_yucutan/enchants.js"
-hash = "4569711a32a06b12f10998646d2ed6faa9de5cf6564241cd77f0d5fe1747678c"
-
-[[files]]
-file = "kubejs/server_scripts/src/call_of_yucutan/tags.js"
-hash = "24efbb0a1ee9d9673b41256d52c3d45c37e1f4ca7ef421a667f1f9eb66d4edfa"
-
-[[files]]
-file = "kubejs/server_scripts/src/call_of_yucutan/worldgen.js"
-hash = "066c37e49971b8d06a420e92ef680f96629b96f5a08255dee4997dc5ddb121c7"
-
-[[files]]
-file = "kubejs/server_scripts/src/cataclysm/events.js"
-hash = "48622296e1d9e02e440883d893febe42eb5262e69a4be8f37493f9b73bc22865"
-
-[[files]]
-file = "kubejs/server_scripts/src/cataclysm/recipes.js"
-hash = "b4edbcd2b34a60bf35802642d979dd95b75a48684776b30b32aaec8eb7e83118"
-
-[[files]]
-file = "kubejs/server_scripts/src/caverns_and_chasms/recipes.js"
-hash = "0d2634fac074a34b6a024b4d1b2ccb0a8fa93f9be1e89643d8f10f2d55f12519"
-
-[[files]]
-file = "kubejs/server_scripts/src/caverns_and_chasms/tags.js"
-hash = "52ae906f26b1e36172140725335d923457ab9a6636754f50672232c7b2866b5e"
-
-[[files]]
-file = "kubejs/server_scripts/src/caverns_and_chasms/worldgen.js"
-hash = "0a58dc46627eb917a791b6865f3dcc76dd518d3b046128924cb4eb563aa9fd23"
-
-[[files]]
-file = "kubejs/server_scripts/src/collectorsreap/tags.js"
-hash = "e655a355194e8219fbccd8c11ce116f527b5deba1a56923f1fe2d9d960d4731a"
-
-[[files]]
-file = "kubejs/server_scripts/src/collectorsreap/worldgen.js"
-hash = "6ff4dc56d433cdb5986de92b1e4f2d7b06506404a9748a9bf3c3b3e010fa76ef"
-
-[[files]]
-file = "kubejs/server_scripts/src/create/enchants.js"
-hash = "4bf251a8ed484f8458c83f2780ed7e5671c13138581f53624ece46495e2ef9f2"
-
-[[files]]
-file = "kubejs/server_scripts/src/createdeco/recipes.js"
-hash = "315685bf74a81bb4d1d930cb7f1e2f1e6b813fc6b4b225b5378ca2a9c5ef1daa"
-
-[[files]]
-file = "kubejs/server_scripts/src/darkerdepths/tags.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "kubejs/server_scripts/src/doom_and_gloom/worldgen.js"
-hash = "3d995281f83a41924b140a5889fe19d0daeec495c6d78f4b1b80a276fa210f19"
-
-[[files]]
-file = "kubejs/server_scripts/src/embers/recipes.js"
-hash = "5aa01501fdf56d4405776b98ea19c2f400152fe9df13704f84f079e3d4bc6235"
-
-[[files]]
-file = "kubejs/server_scripts/src/embers/worldgen.js"
-hash = "d1486d18da79defb0db501a3b99bd9e3a68ebb7f566d8436887f3974081a33e9"
-
-[[files]]
-file = "kubejs/server_scripts/src/endrem/loot_tables.js"
-hash = "9d2e000007639ea985713a4eb91e45856792d9024fad30e281d6c5cc00ea2c87"
-
-[[files]]
-file = "kubejs/server_scripts/src/endrem/recipes.js"
-hash = "7daada0bf82b24bf9069519fd49243d4e8dcbed755672a1c57a8bdb8bb5ed9ab"
-
-[[files]]
-file = "kubejs/server_scripts/src/environmental/recipes.js"
-hash = "18a7c9ac9297331d3558573c557de97f471b330719b7fa3f0d26c45e97d21459"
-
-[[files]]
-file = "kubejs/server_scripts/src/environmental/tags.js"
-hash = "53a61950bd71cb4f1834da3acf7cfd661167d8d20cab918b44550c001e0b7e84"
-
-[[files]]
-file = "kubejs/server_scripts/src/environmental/worldgen.js"
-hash = "4b141f7fbf7ad16da8a967ff43bf53a64ef0a22e9ac34dc6627364480486e9b2"
-
-[[files]]
-file = "kubejs/server_scripts/src/evenbetternether/worldgen.js"
-hash = "c686cbad90a05373b2125673fc6753a3c8c566738bddbbbb5ffc4c6a9747973d"
-
-[[files]]
-file = "kubejs/server_scripts/src/everycomp/recipes.js"
-hash = "ce4552bb2b91c9ba59a1745411684b6155e1b40ab433d48d7810dfd759f684f5"
-
-[[files]]
-file = "kubejs/server_scripts/src/farmersdelight/enchants.js"
-hash = "cf872edac0e3654e51f5abd0e0694f920604117133d0bf50dab980705516db09"
-
-[[files]]
-file = "kubejs/server_scripts/src/farmersdelight/recipes.js"
-hash = "7fa80acd5004619df56811af5a54edae1b2ef6a8a0f48c130f541583731078bd"
-
-[[files]]
-file = "kubejs/server_scripts/src/farmersdelight/tags.js"
-hash = "48e9fab7876881ca1d5a58efd0fdc6b1d25c9a262d20df09f103cf13d9832f9b"
-
-[[files]]
-file = "kubejs/server_scripts/src/ftbchunks/tags.js"
-hash = "d0d56b230f32a3c63175a91b4e284050b71978a2bfb34a6ab42711f3536fb311"
-
-[[files]]
-file = "kubejs/server_scripts/src/galosphere/enchants.js"
-hash = "e70ec68458084f0a3ff1857cd843730293666dbbb188daa2096efec16a2ed965"
-
-[[files]]
-file = "kubejs/server_scripts/src/galosphere/tags.js"
-hash = "12c147e0f9828ffa0aaf58d349caa3e99b9e30539fbc927cdf44aada7906059e"
-
-[[files]]
-file = "kubejs/server_scripts/src/galosphere/worldgen.js"
-hash = "b51b8fab9f4a5c236b1bb52ee91cc4149179e64ab610962068ddb6e2c6bed3d8"
-
-[[files]]
-file = "kubejs/server_scripts/src/goety/enchants.js"
-hash = "af4949935f18af3ffaa414f73e80cd2ef4ba0888d5917d5cae81acfa090dbc59"
-
-[[files]]
-file = "kubejs/server_scripts/src/goety/recipes.js"
-hash = "8cb5fde5a3b6998582e031abe92d7ed1659f35b18595f9360bdfdf6970e81d8b"
-
-[[files]]
-file = "kubejs/server_scripts/src/goety/worldgen.js"
-hash = "c7125aef36135a21ae4f2c0ac06529137518513dbfd29416652f9193a4b3ae48"
-
-[[files]]
-file = "kubejs/server_scripts/src/idas/worldgen.js"
-hash = "a3fb39a04f38b40fccf43ea07401696d35089fca08f53a48accc66355fc9229c"
-
-[[files]]
-file = "kubejs/server_scripts/src/immersive_weathering/recipes.js"
-hash = "277ac331d4d883fedfdc8d576f99b2cdc76b0c56102b8d29a169176bf30a9dc2"
-
-[[files]]
-file = "kubejs/server_scripts/src/immersive_weathering/tags.js"
-hash = "8931240c9221b48103a860cc3556fd8fc0eb46efdceacebc2dc96b9efa8c2522"
-
-[[files]]
-file = "kubejs/server_scripts/src/immersive_weathering/worldgen.js"
-hash = "6ff38e1acb06e5edf748b172f6220f2a25f993c4e8d0fe33712464c5fdfbd279"
-
-[[files]]
-file = "kubejs/server_scripts/src/immersiveenchanting/enchants.js"
-hash = "d65db646e77e9b3fdbf41390d1defc55b27d96426caebfc7ceb1dbc33df8860f"
-
-[[files]]
-file = "kubejs/server_scripts/src/immersiveenchanting/loot_tables.js"
-hash = "ca2467a1fdca1a70a98b46a6f2865e8e0c278ef39aa6fa103ca8167f69db233e"
-
-[[files]]
-file = "kubejs/server_scripts/src/malum/enchants.js"
+file = "kubejs/server_scripts/malum/enchants.js"
 hash = "3c72c8856ecddc2902721d9490c370171671db38e7e8a5eb2276cd6e85feb2ad"
 
 [[files]]
-file = "kubejs/server_scripts/src/malum/tags.js"
+file = "kubejs/server_scripts/malum/tags.js"
 hash = "590fd47614e8c9ae4245d769e23a960fbcc4c6b5d9cd2e89789c9073358ce0fd"
 
 [[files]]
-file = "kubejs/server_scripts/src/moreminecarts/recipes.js"
+file = "kubejs/server_scripts/moreminecarts/recipes.js"
 hash = "84336f7c5aead9188930a2cdf3a08f7743efd4ff6c3e5d89f1126a9fc09e5b21"
 
 [[files]]
-file = "kubejs/server_scripts/src/moreminecarts/worldgen.js"
+file = "kubejs/server_scripts/moreminecarts/worldgen.js"
 hash = "45d601f717b322a4707420f398e45a829fc2178ee3ba98cb135a4a47c801cc3a"
 
 [[files]]
-file = "kubejs/server_scripts/src/mynethersdelight/tags.js"
+file = "kubejs/server_scripts/mynethersdelight/tags.js"
 hash = "c3ae6d2d9b7dc5c9b524b864e55531491f31cf04b0c39eb91561704464db10fb"
 
 [[files]]
-file = "kubejs/server_scripts/src/mynethersdelight/worldgen.js"
+file = "kubejs/server_scripts/mynethersdelight/worldgen.js"
 hash = "8e1a13fa3d07587fe4605233e2e932d03339ef8c787939f1e9321357e3a9154d"
 
 [[files]]
-file = "kubejs/server_scripts/src/natures_spirit/tags.js"
+file = "kubejs/server_scripts/natures_spirit/tags.js"
 hash = "baade732cf3e8e67a6b9fffd33f38ed1e665ad5115e378867cc8fc2407fc4d54"
 
 [[files]]
-file = "kubejs/server_scripts/src/natures_spirit/worldgen.js"
+file = "kubejs/server_scripts/natures_spirit/worldgen.js"
 hash = "90bd3da53caaf2857aa90d4c5516a998350511e0042f64b834caaa94ee9f09b9"
 
 [[files]]
-file = "kubejs/server_scripts/src/neapolitan/recipes.js"
+file = "kubejs/server_scripts/neapolitan/recipes.js"
 hash = "c8ddf76a2a8c9f5d35f8c6d49df372b0fe043636c2c9dbfd44ba4a8eb212f420"
 
 [[files]]
-file = "kubejs/server_scripts/src/neapolitan/tags.js"
+file = "kubejs/server_scripts/neapolitan/tags.js"
 hash = "0de1c0263ae283ee958cf7420beda33d9a9c89a77a143606332e361aeaa03d85"
 
 [[files]]
-file = "kubejs/server_scripts/src/netherexp/enchants.js"
+file = "kubejs/server_scripts/netherexp/enchants.js"
 hash = "d686f6977efefd7ff0d02de4f312be80d797f5e81de1178e2b074a82847656b8"
 
 [[files]]
-file = "kubejs/server_scripts/src/numismaticoverhaul/numismatic_trades.js"
+file = "kubejs/server_scripts/numismaticoverhaul/numismatic_trades.js"
 hash = "7664d51929f183e485902352b1e6e140d4c640b3e59e5b032edf0050d450846e"
 
 [[files]]
-file = "kubejs/server_scripts/src/numismaticoverhaul/tags.js"
+file = "kubejs/server_scripts/numismaticoverhaul/tags.js"
 hash = "2312f151a018fd1a7a3e6465418599f9e301a61795c8ac8d38680238c8bcbb2a"
 
 [[files]]
-file = "kubejs/server_scripts/src/oddsnends/loot_tables.js"
+file = "kubejs/server_scripts/oddsnends/loot_tables.js"
 hash = "2a259a7d7c5f9c43cd837c35b3edd52e74292226827f48da2b26010d11887310"
 
 [[files]]
-file = "kubejs/server_scripts/src/oddsnends/recipes.js"
+file = "kubejs/server_scripts/oddsnends/recipes.js"
 hash = "04252be4ef452058db35735bf0c0431afde93cb726e6362bb8d396eb17c5934a"
 
 [[files]]
-file = "kubejs/server_scripts/src/oddsnends/tags.js"
+file = "kubejs/server_scripts/oddsnends/tags.js"
 hash = "2d5eec93a57f8ee9b019a8c6235559e8b4c86e6c63ee36cf8ff453bd200189a8"
 
 [[files]]
-file = "kubejs/server_scripts/src/oddsnends/worldgen.js"
-hash = "c5761547c4460ea0ada41b8b5e2687c7aff1ee3a0e40c5191040d2d48b0b92ce"
+file = "kubejs/server_scripts/oddsnends/worldgen.js"
+hash = "eda5d3a0f6e1c0b0d2679ccec053828cf64f7d9fb1492409f495c219aba04242"
 
 [[files]]
-file = "kubejs/server_scripts/src/oreganized/tags.js"
+file = "kubejs/server_scripts/oreganized/tags.js"
 hash = "20f9d5beaf3d5fa6fe9727c9fbce03f99735707e90bf11c42086787d2cbd53a2"
 
 [[files]]
-file = "kubejs/server_scripts/src/oreganized/worldgen.js"
+file = "kubejs/server_scripts/oreganized/worldgen.js"
 hash = "5ab49d1640057ba8818ce5c490cb4252c63bb4b99c97c7abab83f0435a865cd3"
 
 [[files]]
-file = "kubejs/server_scripts/src/origins/_main_origins.js"
+file = "kubejs/server_scripts/origins/_main_origins.js"
 hash = "7c80cb6743797a183b67c5cd61e98f05b2be03ef370669a5478ae5d206aac017"
 
 [[files]]
-file = "kubejs/server_scripts/src/origins/dryad.js"
-hash = "61871022666480c6325690d01ad40ce7d0d8508abd0a47d5cc29ee400583a014"
+file = "kubejs/server_scripts/origins/dryad.js"
+hash = "ee24df80311e85026d14a00eb8f6421d9e86b5cc7b3c58a228ed4df40c3d1a30"
 
 [[files]]
-file = "kubejs/server_scripts/src/origins/dwarf.js"
+file = "kubejs/server_scripts/origins/dwarf.js"
 hash = "c79e461a2b67495391c8f47e0edf9149d8e25533de31136564e4553e1f478083"
 
 [[files]]
-file = "kubejs/server_scripts/src/origins/pyke.js"
-hash = "5d6767e11c308ef287614da1263896eeed1f6a8a515d6615489af870f4b57ddb"
+file = "kubejs/server_scripts/origins/pyke.js"
+hash = "cd1de5a3273afe3015c93ef39f2b1ab54e5c1dc1e722de9ec79b47775f367608"
 
 [[files]]
-file = "kubejs/server_scripts/src/origins/tags.js"
+file = "kubejs/server_scripts/origins/tags.js"
 hash = "69d5cd91a0e4218534392b55d847c41776506dee138ba01a7a0d8a1d988afc8b"
 
 [[files]]
-file = "kubejs/server_scripts/src/quark/recipes.js"
+file = "kubejs/server_scripts/quark/recipes.js"
 hash = "c1aa20e5696a5c5b9bebf9b98d3dbc571d5d97ab52be3bdefb93ea2518dcff78"
 
 [[files]]
-file = "kubejs/server_scripts/src/sawmill/moonlight_trades.js"
+file = "kubejs/server_scripts/sawmill/moonlight_trades.js"
 hash = "df8af061228005704bcb713dbe1f62b2b94574f1cf210e9271ff08a567f3355d"
 
 [[files]]
-file = "kubejs/server_scripts/src/scguns/enchants.js"
+file = "kubejs/server_scripts/scguns/enchants.js"
 hash = "7a24f541ae2684ade985df199b621a7697f32a3bd233bcf92923e74a78ac9fc8"
 
 [[files]]
-file = "kubejs/server_scripts/src/scguns/recipes.js"
+file = "kubejs/server_scripts/scguns/recipes.js"
 hash = "f9042f96147ae420aa933963de8ee64050eeda92c68e42cf446188dcd88a9ef5"
 
 [[files]]
-file = "kubejs/server_scripts/src/scguns/tags.js"
+file = "kubejs/server_scripts/scguns/tags.js"
 hash = "e9ebb3f4bfb00cf3f5e28cddffe6cd716dd3f4e84eee781a7f6196ab455586b5"
 
 [[files]]
-file = "kubejs/server_scripts/src/scguns/worldgen.js"
+file = "kubejs/server_scripts/scguns/worldgen.js"
 hash = "59a0704a61829f1be35ec9c0cf67863a0ae91f4cc0a60238d29a80f3efe0c310"
 
 [[files]]
-file = "kubejs/server_scripts/src/snowrealmagic/tags.js"
+file = "kubejs/server_scripts/snowrealmagic/tags.js"
 hash = "fa87f50321ba535b12172f93d1550df17397dc778148e9b2cb8870ccf08c7341"
 
 [[files]]
-file = "kubejs/server_scripts/src/snowyspirit/worldgen.js"
+file = "kubejs/server_scripts/snowyspirit/worldgen.js"
 hash = "57022961bcdb8692d87cd05d3a34bbe65c2cc7bb2e306850c010ac1492634098"
 
 [[files]]
-file = "kubejs/server_scripts/src/sootychimneys/loot_tables.js"
+file = "kubejs/server_scripts/sootychimneys/loot_tables.js"
 hash = "e4b644e0e93d359ae1816960c6f69e62c824cd34c57dbc0799396f12e296a362"
 
 [[files]]
-file = "kubejs/server_scripts/src/sootychimneys/recipes.js"
+file = "kubejs/server_scripts/sootychimneys/recipes.js"
 hash = "8ab2143992d16070a876c05991073dcf8de70acd29f6401188cc9cce590b5103"
 
 [[files]]
-file = "kubejs/server_scripts/src/soulbound/enchants.js"
+file = "kubejs/server_scripts/soulbound/enchants.js"
 hash = "d78b2b360c7b739f6e8644ef1611de50ece59d1a6339fcdda0c5c7a805fa54ee"
 
 [[files]]
-file = "kubejs/server_scripts/src/supplementaries/enchants.js"
+file = "kubejs/server_scripts/supplementaries/enchants.js"
 hash = "aec1aec25a2f642b8d917f0742f0e63acbc92f392f68aa1d550e76a2fb49eed9"
 
 [[files]]
-file = "kubejs/server_scripts/src/supplementaries/moonlight_trades.js"
+file = "kubejs/server_scripts/supplementaries/moonlight_trades.js"
 hash = "cb8ba270273fb3d9c6d0ff279e31de7ace43355ba86a2f4ff20e8098a9abf1fd"
 
 [[files]]
-file = "kubejs/server_scripts/src/supplementaries/recipes.js"
+file = "kubejs/server_scripts/supplementaries/recipes.js"
 hash = "29ee7e2133fed87bc5a732a850511ea462451fec68544bcff6aa8a995f9c504d"
 
 [[files]]
-file = "kubejs/server_scripts/src/supplementaries/tags.js"
-hash = "68e7b1487aa5f4bbb7467796d2bbcc96cc455c5c09dbf1c3a46724dc95cce2ed"
+file = "kubejs/server_scripts/supplementaries/tags.js"
+hash = "2147e9556291ea2c9a15cb5e7343f0341d2d00f6bfa561ecb0e083ede9436185"
 
 [[files]]
-file = "kubejs/server_scripts/src/unusualend/enchants.js"
+file = "kubejs/server_scripts/unusualend/enchants.js"
 hash = "76c2fecdcb86f36bcd77bc547c9c98a24a341f27d8a69809b08bd2789865afc9"
 
 [[files]]
-file = "kubejs/server_scripts/src/upgrade_aquatic/tags.js"
+file = "kubejs/server_scripts/upgrade_aquatic/tags.js"
 hash = "9a43e0bcb420a292211160be180f9538ec5c138484eb884469f79c6a8e43d987"
 
 [[files]]
-file = "kubejs/server_scripts/src/veinmining/enchants.js"
+file = "kubejs/server_scripts/veinmining/enchants.js"
 hash = "36c8a88c483e51a81a4fb8dde913bd5ac89357a3542694af7eaca15f1e47801d"
 
 [[files]]
-file = "kubejs/server_scripts/src/windswept/recipes.js"
+file = "kubejs/server_scripts/windswept/recipes.js"
 hash = "e98543f514f6647d3337a464cbfb7c6267dd5561acca3106535044e35e9221ae"
 
 [[files]]
-file = "kubejs/server_scripts/src/windswept/tags.js"
+file = "kubejs/server_scripts/windswept/tags.js"
 hash = "2f64dd48fcf1aac49d4e8fe1a085b25d50bf97516bc9ade9361f54ef67079c28"
 
 [[files]]
-file = "kubejs/server_scripts/src/windswept/worldgen.js"
+file = "kubejs/server_scripts/windswept/worldgen.js"
 hash = "6106d5a89ea1852c8c5a580b2bc21b422e9c8b28ce65e2da07a3de2f5355d09d"
 
 [[files]]
-file = "kubejs/server_scripts/src/woodworks/recipes.js"
+file = "kubejs/server_scripts/woodworks/recipes.js"
 hash = "79e2f300c8320122c08fab891ed5734ac6ceefb6fb802741578d5d24a70685f7"
+
+[[files]]
+file = "kubejs/startup_scripts/_core/_startup_main.js"
+hash = "71be5f32c65a495880f8fcb8c97d85219ee5b5b57b2838835322a0973e176fb3"
+
+[[files]]
+file = "kubejs/startup_scripts/_core/blockswap.js"
+hash = "b5d2cb77089390338d007096ee74719118f6178e1185250aafeb5401a8faadde"
+
+[[files]]
+file = "kubejs/startup_scripts/_core/dev.js"
+hash = "679c84372a4633afbe1b9201c9c697c86cea093427a6e6953fd864b3c1a5f852"
+
+[[files]]
+file = "kubejs/startup_scripts/_core/portals.js"
+hash = "704ba75794cc200b5d42d649a211c23dbd5e1dbe8600316f4ec7f85f43f3f789"
+
+[[files]]
+file = "kubejs/startup_scripts/_core/read_json_from_mod.js"
+hash = "434f15cb4b2cd415aa0d28e7e69b38daabe202afbe89817a3186f3ea8f91ddee"
+
+[[files]]
+file = "kubejs/startup_scripts/_core/registry.js"
+hash = "d3aac395692a2870f79ae72211ae4556f89d641ce3b0d9aebc7040028c254271"
+
+[[files]]
+file = "kubejs/startup_scripts/_core/removals.js"
+hash = "23684241d4b0465c5b0996ff8b101067914059da894b8f1d87e48a83bd7d3503"
+
+[[files]]
+file = "kubejs/startup_scripts/_core/vars.js"
+hash = "a611a9aba7f1d5f2648aac334c16056913f5a4838f4b3fdcc954837a33091361"
+
+[[files]]
+file = "kubejs/startup_scripts/_core/wood_types.js"
+hash = "80182ed06440e9fbdad2e42918b53db1a9367f0f66cb3b779ec6de606e96cc6c"
+
+[[files]]
+file = "kubejs/startup_scripts/alexscaves/registry.js"
+hash = "6d2ca0e848ee7ba0e0c6e7c16b4bd7c1de7869c09767b2866708117f91f7b1df"
+
+[[files]]
+file = "kubejs/startup_scripts/alexscaves/removals.js"
+hash = "16ca008085130314d16db1dd43194f8c3a920a3e9e21232b14f97dbd19bdae60"
+
+[[files]]
+file = "kubejs/startup_scripts/alexsmobs/registry.js"
+hash = "eb2b3422c4a6875947279b8fdad07c94cc6569f781adb8c67ff6831360f6e1b9"
+
+[[files]]
+file = "kubejs/startup_scripts/alexsmobs/removals.js"
+hash = "9dbd0958e8eb908e5b9239ca557464c9041ccc63927cf1c5f5c5798df66a3bc2"
+
+[[files]]
+file = "kubejs/startup_scripts/atmospheric/registry.js"
+hash = "5542ab12a320c72fbf3496a06cf14fcab395d8457f3e221cbbeac498c751b24e"
+
+[[files]]
+file = "kubejs/startup_scripts/atmospheric/removals.js"
+hash = "8a9b56875a6f6fc029273de42aab108d3cd02f61f931b4f12e786198ff2c6245"
+
+[[files]]
+file = "kubejs/startup_scripts/autumnity/removals.js"
+hash = "c663512d1519b6585a22030ca7763e18aac32d1748a1996e2a830212fe1a965a"
+
+[[files]]
+file = "kubejs/startup_scripts/berry_good/registry.js"
+hash = "56f9dbef2039dfab2a67f4583938cf83974e8c6e9199a4d998b65b843fa200ee"
+
+[[files]]
+file = "kubejs/startup_scripts/berry_good/removals.js"
+hash = "62b539ddd68872dfce79ade7e2382d95f6f2c3cfd7ed19ddf4ee90de4bfa5aca"
+
+[[files]]
+file = "kubejs/startup_scripts/cataclysm/removal.js"
+hash = "6595cc7122995bbf10e9ff6748c92c9f512ba6cec0a97783dc53a2634c2f9b3d"
+
+[[files]]
+file = "kubejs/startup_scripts/caverns_and_chasms/removals.js"
+hash = "a8e716715fbf068297c971bccf4dcc4315c2e702cf068b6563837afc8c49f177"
+
+[[files]]
+file = "kubejs/startup_scripts/collectorsreap/registry.js"
+hash = "13cdcffee8e48b15c6079809f16a2b52abb5018096dd5f4472499bbc81e94d33"
+
+[[files]]
+file = "kubejs/startup_scripts/collectorsreap/removals.js"
+hash = "fd093d9f772d82661e78dcc065a1273f8e4f1ad9596dc1bda07086e24140a712"
+
+[[files]]
+file = "kubejs/startup_scripts/create_power_loader/removals.js"
+hash = "2124d8466ef275206c1681256a24ea675345b2993d6c626bbe87478b5860473a"
+
+[[files]]
+file = "kubejs/startup_scripts/createdeco/removals.js"
+hash = "de73697f7689cd13f0b1b3f678299cf1e2bf4475060ab92411954a7067de56fa"
+
+[[files]]
+file = "kubejs/startup_scripts/darkerdepths/removals.js"
+hash = "29fb09fa896a02df13813c51b97cad1868c83789c0d1ca439d625bf656c58b32"
+
+[[files]]
+file = "kubejs/startup_scripts/decorative_blocks/removals.js"
+hash = "58162e5ae4379460f1492503937b2d3e347390d9a9dd99ed86e84f334ed17e68"
+
+[[files]]
+file = "kubejs/startup_scripts/embers/removals.js"
+hash = "f9c39e87bcab7cce84e9845fbe9aa71d14401ef5e660c558d047d6092c6ba74d"
+
+[[files]]
+file = "kubejs/startup_scripts/endrem/removals.js"
+hash = "2afb61e8cdc6c667eea479d796654a60b86841165a989baca41c1c9276578af1"
+
+[[files]]
+file = "kubejs/startup_scripts/environmental/removals.js"
+hash = "8b76bd2363eb2b843a31493c9a467d12d8ca6ee86461f6358d203e3d3f0f0c2e"
+
+[[files]]
+file = "kubejs/startup_scripts/evenbetternether/removals.js"
+hash = "abee6981227ad8bfa20ee88b6b2b18ec67ff4cc0963200cbb6e4a13a68de274e"
+
+[[files]]
+file = "kubejs/startup_scripts/farmersdelight/removals.js"
+hash = "9e219e2e7be127a7292aaf7c4a0663df43dcdaa69d8ae872b0047b2cf268cf66"
+
+[[files]]
+file = "kubejs/startup_scripts/galosphere/removals.js"
+hash = "89746ab3a8396201f537c62212364767bedbf21f189607bd3f2934ff0469f2c8"
+
+[[files]]
+file = "kubejs/startup_scripts/goety/removals.js"
+hash = "4fb62c8826540990c1f04d7ad6b2b6f2d5c3834360e57d1caf65841e00079b75"
+
+[[files]]
+file = "kubejs/startup_scripts/immersive_weathering/removals.js"
+hash = "637b36a93523ab1d225ab8a5aa4c61927fb758c872b8545b32bcc347a198fa9c"
+
+[[files]]
+file = "kubejs/startup_scripts/incubation/registry.js"
+hash = "6b6eb6cdd7b0781044b5635e8489d753416c53209551dab2e316d81dadc0cff9"
+
+[[files]]
+file = "kubejs/startup_scripts/incubation/removals.js"
+hash = "815ed7ba9f9f22232f4c109efb7e0ccb3507da7781ff4e7e9bf7c7f55358deab"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
 hash = "e680a37a83cabda8ae970e3e9a57298aef637c4dbb755089dab7ebe1b2e9d70f"
 
 [[files]]
-file = "kubejs/startup_scripts/src/_core/_startup_main.js"
-hash = "71be5f32c65a495880f8fcb8c97d85219ee5b5b57b2838835322a0973e176fb3"
-
-[[files]]
-file = "kubejs/startup_scripts/src/_core/blockswap.js"
-hash = "b5d2cb77089390338d007096ee74719118f6178e1185250aafeb5401a8faadde"
-
-[[files]]
-file = "kubejs/startup_scripts/src/_core/portals.js"
-hash = "704ba75794cc200b5d42d649a211c23dbd5e1dbe8600316f4ec7f85f43f3f789"
-
-[[files]]
-file = "kubejs/startup_scripts/src/_core/read_json_from_mod.js"
-hash = "434f15cb4b2cd415aa0d28e7e69b38daabe202afbe89817a3186f3ea8f91ddee"
-
-[[files]]
-file = "kubejs/startup_scripts/src/_core/registry.js"
-hash = "d3aac395692a2870f79ae72211ae4556f89d641ce3b0d9aebc7040028c254271"
-
-[[files]]
-file = "kubejs/startup_scripts/src/_core/removals.js"
-hash = "23684241d4b0465c5b0996ff8b101067914059da894b8f1d87e48a83bd7d3503"
-
-[[files]]
-file = "kubejs/startup_scripts/src/_core/vars.js"
-hash = "a611a9aba7f1d5f2648aac334c16056913f5a4838f4b3fdcc954837a33091361"
-
-[[files]]
-file = "kubejs/startup_scripts/src/_core/wood_types.js"
-hash = "80182ed06440e9fbdad2e42918b53db1a9367f0f66cb3b779ec6de606e96cc6c"
-
-[[files]]
-file = "kubejs/startup_scripts/src/alexscaves/registry.js"
-hash = "6d2ca0e848ee7ba0e0c6e7c16b4bd7c1de7869c09767b2866708117f91f7b1df"
-
-[[files]]
-file = "kubejs/startup_scripts/src/alexscaves/removals.js"
-hash = "16ca008085130314d16db1dd43194f8c3a920a3e9e21232b14f97dbd19bdae60"
-
-[[files]]
-file = "kubejs/startup_scripts/src/alexsmobs/registry.js"
-hash = "eb2b3422c4a6875947279b8fdad07c94cc6569f781adb8c67ff6831360f6e1b9"
-
-[[files]]
-file = "kubejs/startup_scripts/src/alexsmobs/removals.js"
-hash = "9dbd0958e8eb908e5b9239ca557464c9041ccc63927cf1c5f5c5798df66a3bc2"
-
-[[files]]
-file = "kubejs/startup_scripts/src/atmospheric/registry.js"
-hash = "5542ab12a320c72fbf3496a06cf14fcab395d8457f3e221cbbeac498c751b24e"
-
-[[files]]
-file = "kubejs/startup_scripts/src/atmospheric/removals.js"
-hash = "8a9b56875a6f6fc029273de42aab108d3cd02f61f931b4f12e786198ff2c6245"
-
-[[files]]
-file = "kubejs/startup_scripts/src/autumnity/removals.js"
-hash = "c663512d1519b6585a22030ca7763e18aac32d1748a1996e2a830212fe1a965a"
-
-[[files]]
-file = "kubejs/startup_scripts/src/berry_good/registry.js"
-hash = "56f9dbef2039dfab2a67f4583938cf83974e8c6e9199a4d998b65b843fa200ee"
-
-[[files]]
-file = "kubejs/startup_scripts/src/berry_good/removals.js"
-hash = "62b539ddd68872dfce79ade7e2382d95f6f2c3cfd7ed19ddf4ee90de4bfa5aca"
-
-[[files]]
-file = "kubejs/startup_scripts/src/cataclysm/removal.js"
-hash = "6595cc7122995bbf10e9ff6748c92c9f512ba6cec0a97783dc53a2634c2f9b3d"
-
-[[files]]
-file = "kubejs/startup_scripts/src/caverns_and_chasms/removals.js"
-hash = "a8e716715fbf068297c971bccf4dcc4315c2e702cf068b6563837afc8c49f177"
-
-[[files]]
-file = "kubejs/startup_scripts/src/collectorsreap/registry.js"
-hash = "13cdcffee8e48b15c6079809f16a2b52abb5018096dd5f4472499bbc81e94d33"
-
-[[files]]
-file = "kubejs/startup_scripts/src/collectorsreap/removals.js"
-hash = "fd093d9f772d82661e78dcc065a1273f8e4f1ad9596dc1bda07086e24140a712"
-
-[[files]]
-file = "kubejs/startup_scripts/src/create_power_loader/removals.js"
-hash = "2124d8466ef275206c1681256a24ea675345b2993d6c626bbe87478b5860473a"
-
-[[files]]
-file = "kubejs/startup_scripts/src/createdeco/removals.js"
-hash = "de73697f7689cd13f0b1b3f678299cf1e2bf4475060ab92411954a7067de56fa"
-
-[[files]]
-file = "kubejs/startup_scripts/src/darkerdepths/removals.js"
-hash = "29fb09fa896a02df13813c51b97cad1868c83789c0d1ca439d625bf656c58b32"
-
-[[files]]
-file = "kubejs/startup_scripts/src/decorative_blocks/removals.js"
-hash = "58162e5ae4379460f1492503937b2d3e347390d9a9dd99ed86e84f334ed17e68"
-
-[[files]]
-file = "kubejs/startup_scripts/src/embers/removals.js"
-hash = "f9c39e87bcab7cce84e9845fbe9aa71d14401ef5e660c558d047d6092c6ba74d"
-
-[[files]]
-file = "kubejs/startup_scripts/src/endrem/removals.js"
-hash = "2afb61e8cdc6c667eea479d796654a60b86841165a989baca41c1c9276578af1"
-
-[[files]]
-file = "kubejs/startup_scripts/src/environmental/removals.js"
-hash = "8b76bd2363eb2b843a31493c9a467d12d8ca6ee86461f6358d203e3d3f0f0c2e"
-
-[[files]]
-file = "kubejs/startup_scripts/src/evenbetternether/removals.js"
-hash = "abee6981227ad8bfa20ee88b6b2b18ec67ff4cc0963200cbb6e4a13a68de274e"
-
-[[files]]
-file = "kubejs/startup_scripts/src/farmersdelight/removals.js"
-hash = "9e219e2e7be127a7292aaf7c4a0663df43dcdaa69d8ae872b0047b2cf268cf66"
-
-[[files]]
-file = "kubejs/startup_scripts/src/galosphere/removals.js"
-hash = "89746ab3a8396201f537c62212364767bedbf21f189607bd3f2934ff0469f2c8"
-
-[[files]]
-file = "kubejs/startup_scripts/src/goety/removals.js"
-hash = "4fb62c8826540990c1f04d7ad6b2b6f2d5c3834360e57d1caf65841e00079b75"
-
-[[files]]
-file = "kubejs/startup_scripts/src/immersive_weathering/removals.js"
-hash = "637b36a93523ab1d225ab8a5aa4c61927fb758c872b8545b32bcc347a198fa9c"
-
-[[files]]
-file = "kubejs/startup_scripts/src/incubation/registry.js"
-hash = "6b6eb6cdd7b0781044b5635e8489d753416c53209551dab2e316d81dadc0cff9"
-
-[[files]]
-file = "kubejs/startup_scripts/src/incubation/removals.js"
-hash = "815ed7ba9f9f22232f4c109efb7e0ccb3507da7781ff4e7e9bf7c7f55358deab"
-
-[[files]]
-file = "kubejs/startup_scripts/src/malum/removals.js"
+file = "kubejs/startup_scripts/malum/removals.js"
 hash = "d312ae5820d96a74cf3aa2725698ea4fb392a074ea46e391e95910e22a6605a5"
 
 [[files]]
-file = "kubejs/startup_scripts/src/moreminecarts/removals.js"
+file = "kubejs/startup_scripts/moreminecarts/removals.js"
 hash = "3c696bf48a2f9a3c705e46df36726365bbe7373980b2223b976fee65a33903e0"
 
 [[files]]
-file = "kubejs/startup_scripts/src/mowziesmobs/removals.js"
+file = "kubejs/startup_scripts/mowziesmobs/removals.js"
 hash = "54e47637fefe80c891d3807f5d526545fabc69277a2a585fe63bffbb231a9399"
 
 [[files]]
-file = "kubejs/startup_scripts/src/natures_spirit/removals.js"
+file = "kubejs/startup_scripts/natures_spirit/removals.js"
 hash = "5632fba375b802498dea46670f006e9f57a67f53c8b8462b91f736350576e0c0"
 
 [[files]]
-file = "kubejs/startup_scripts/src/neapolitan/registry.js"
+file = "kubejs/startup_scripts/neapolitan/registry.js"
 hash = "e32214b761e05f9ab8555962c17c9173fd7699d03a9bd6034fab94b981d401be"
 
 [[files]]
-file = "kubejs/startup_scripts/src/neapolitan/removals.js"
+file = "kubejs/startup_scripts/neapolitan/removals.js"
 hash = "59101350a39ed5407cecf9d09804f251fe45ad1c469b07da12189bf3dc8dbf30"
 
 [[files]]
-file = "kubejs/startup_scripts/src/oddsnends/removals.js"
+file = "kubejs/startup_scripts/oddsnends/removals.js"
 hash = "4360f85b348157af7c56cc568efa69dcd9cbeef70d5587bec81aef72df5e65ef"
 
 [[files]]
-file = "kubejs/startup_scripts/src/oreganized/removals.js"
+file = "kubejs/startup_scripts/oreganized/removals.js"
 hash = "38fb3cf54ad32db09ac96ae98f72fb38555dca126e1ee652378c57e3c26004d3"
 
 [[files]]
-file = "kubejs/startup_scripts/src/quark/removals.js"
+file = "kubejs/startup_scripts/quark/removals.js"
 hash = "6f31a8b1f1d40525111f1d9db34bd2ea518766347c5ab2cb1aaf9025ee549038"
 
 [[files]]
-file = "kubejs/startup_scripts/src/railways/removals.js"
+file = "kubejs/startup_scripts/railways/removals.js"
 hash = "9ed5070b637bc08a92fc425ce45089a759b10dee860194dbba62efb0c8f9e1c1"
 
 [[files]]
-file = "kubejs/startup_scripts/src/relics/removals.js"
+file = "kubejs/startup_scripts/relics/removals.js"
 hash = "73b236bbc2cad7abe9f2454f980bff3309a239a356e7002ae58581891b4946e1"
 
 [[files]]
-file = "kubejs/startup_scripts/src/respiteful/registry.js"
+file = "kubejs/startup_scripts/respiteful/registry.js"
 hash = "8597d1f069c9b00504ef7c65798a3a704ddd2d2adecd8221a8ae6fe47fe9b72e"
 
 [[files]]
-file = "kubejs/startup_scripts/src/scguns/removals.js"
+file = "kubejs/startup_scripts/scguns/removals.js"
 hash = "023460e48ac6ab3e46d26d0718dc67355490ca2ff4d20d62fc141a2621c5ede3"
 
 [[files]]
-file = "kubejs/startup_scripts/src/snowyspirit/removals.js"
+file = "kubejs/startup_scripts/snowyspirit/removals.js"
 hash = "26340fbf31c72c90438ee3cf8b193623378472a424a1058e2a50a0454f4fe5e4"
 
 [[files]]
-file = "kubejs/startup_scripts/src/supplementaries/removals.js"
-hash = "5e25b65e948bea4c866838afb951a19aa079a247a2bdf3dc43da153913c1aace"
+file = "kubejs/startup_scripts/supplementaries/removals.js"
+hash = "b8466f8a200f18a082b893390bb0b6e303c36ab6a2390ad8584ed40c92ac6cac"
 
 [[files]]
-file = "kubejs/startup_scripts/src/unusual_prehistory/removals.js"
+file = "kubejs/startup_scripts/unusual_prehistory/removals.js"
 hash = "8b7768b972bb755d0d2ea8cd8ec8adfd7a2e96c5b02af76423ec563d0286e33b"
 
 [[files]]
-file = "kubejs/startup_scripts/src/unusualend/registry.js"
+file = "kubejs/startup_scripts/unusualend/registry.js"
 hash = "38333c7f6733c826917a500fbc4b76d5fd4166d5c992753d1a02f07a134ee3f9"
 
 [[files]]
-file = "kubejs/startup_scripts/src/upgrade_aquatic/removals.js"
+file = "kubejs/startup_scripts/upgrade_aquatic/removals.js"
 hash = "20ea21b507eda65279d85506438abab95efe1a25edcab41b601fc4b8a0f4b136"
 
 [[files]]
-file = "kubejs/startup_scripts/src/windswept/removals.js"
+file = "kubejs/startup_scripts/windswept/removals.js"
 hash = "428c6f373fe652a3fb0c457306c5154abc1165eccbe78ed399288734edfd9e55"
 
 [[files]]
-file = "kubejs/startup_scripts/src/woodworks/removals.js"
+file = "kubejs/startup_scripts/woodworks/removals.js"
 hash = "b44c261db8e02aec924d485ab57363f91ecf924a85b190ca39f36880b5e43bc0"
 
 [[files]]
@@ -3980,7 +3996,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "e6fc9a9ec6481860595801578d4efccbfe7fcd393db2f5253d41663c0265e9c4"
+hash = "fa31b0506f5f4bdd08826ca5b3c22775986d23ff42405216037d285848f620bc"
 metafile = true
 
 [[files]]
@@ -4215,7 +4231,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-alexs-caves-compat.pw.toml"
-hash = "79ece2a7e6664cd3a14e7ae10cd47fb69df053af81feb2828521fa2ee6f87973"
+hash = "ce30bfa79fab647d80c94d5c7ab040652518d54fd8e31e5f7a4d7ba017459b1c"
 metafile = true
 
 [[files]]
@@ -4265,7 +4281,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "10ff57a05166b2c6454d271697428cfdf01dcae3e33138aa96d83ad93ff1c4d6"
+hash = "a432e8775c2bdec53fca88146917905c5c82273e1b66af48b5ace0809433c8fe"
 metafile = true
 
 [[files]]
@@ -4425,7 +4441,7 @@ metafile = true
 
 [[files]]
 file = "mods/embers-underground-rooms.pw.toml"
-hash = "78d48716f0851cfa0d65c1bc26783a6133ba9856bdde02198ad0fa0427a5da09"
+hash = "574f53be65b66ff1a630ca80d223674ba50133b42954b09a961e289cef32e932"
 metafile = true
 
 [[files]]
@@ -4435,7 +4451,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-plus-backport.pw.toml"
-hash = "d01b5b2935318afbe81746df6a8c2b492f43873174d6aeec966fcd5270cd01b1"
+hash = "98576ba1332a86ff7c6917cfcd13fb8694015b3b479444ab4b9c8555ca9f1949"
 metafile = true
 
 [[files]]
@@ -4485,7 +4501,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "25d3f272639cef595de126a2c51faff793dc03bcde63ef060e1277c315583ce7"
+hash = "36a828ae63ac3773de72f0a3a5d334585638c9db2cd43706b7304f094b05e0f3"
 metafile = true
 
 [[files]]
@@ -4505,7 +4521,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "8e8c29a8ccd54f4e94ed84932d3c4067ad697ac62e10c2cd051a004735d5ea4c"
+hash = "37025c2896cf52fa7190c9cc305cd730fff6f5688a2569517966c5a4e2a1c036"
 metafile = true
 
 [[files]]
@@ -4515,7 +4531,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "c912a4378567ef582842c0b12eae93596bc8d4a6fb9fb4d7382d3b82d3a3ee53"
+hash = "2b7e34feead35203c6637b7c8afb49cb823ff6ddade568b131ca07c35ad02845"
 metafile = true
 
 [[files]]
@@ -4525,7 +4541,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "fd26706fd4da11e5421f19398d4a5e23aeed594b1de41da8e2db7a3c84506f1e"
+hash = "a02b72ee2511b1b0c34df97c841b4fe1e1c7033d0b411328371a426c97fe5d42"
 metafile = true
 
 [[files]]
@@ -4640,12 +4656,12 @@ metafile = true
 
 [[files]]
 file = "mods/goety-cataclysm.pw.toml"
-hash = "b889b96f0188158c40add39f90ef0ddb374f26c73946b527082f6f7e61977811"
+hash = "6a44754768792fa1024474c8552362d382c857e952811a14c2562ed79842f9d0"
 metafile = true
 
 [[files]]
 file = "mods/goety.pw.toml"
-hash = "d1511f2fa9bdb181f0558a18c387f23a2b0c3ee94bc1403cb1c28ee78cb2aaf9"
+hash = "b62ba512e1bda92ccb0491a2ade4f96b1578264a0ec5078eac76b629a9b3f52a"
 metafile = true
 
 [[files]]
@@ -4675,7 +4691,7 @@ metafile = true
 
 [[files]]
 file = "mods/idas.pw.toml"
-hash = "610f503efd40d471552a9abceb56ea0d2c98982f186e1a68b6b832961b3a26d8"
+hash = "56e2d042f5d49a155e38b8d6a29cc621044c50fa82a4bd322396272c0deac223"
 metafile = true
 
 [[files]]
@@ -4710,7 +4726,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-paintings.pw.toml"
-hash = "1aab56c626112744359ffb5e37a6e8caa10d4ce6f9b6c2efe7d3e4d519271644"
+hash = "ccf6d52a94bf0fff992e04de5af14bf59a919746d3bde329ea7a34ca31d03f66"
 metafile = true
 
 [[files]]
@@ -4725,7 +4741,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-api.pw.toml"
-hash = "73f0fb77d1827b8571a4a17f39920b813c356fe2c8647ae1195de50792e5bc7c"
+hash = "f9512564b0e251e4f9b7a0fef004a26c05c9272cbe5ce272730eba63179c00eb"
 metafile = true
 
 [[files]]
@@ -4830,7 +4846,7 @@ metafile = true
 
 [[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
-hash = "2077e6d69a10bbe27b402aa52e5a21ba1abec55b7b573e173e703908a85518ad"
+hash = "a08ba8cde14694b00b6859683852a71ca7d4cd6fd0c60cb5fa43cc0f1fc1bbd0"
 metafile = true
 
 [[files]]
@@ -4855,7 +4871,7 @@ metafile = true
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
-hash = "75199fa3b762c5aa781e3cb2aab7779d19128b2a1c5b15798d5e613df8d16573"
+hash = "b31c815e4c1a5f69faada073cfef2d859c411e0bd2a3e4cbed6e7401ab975140"
 metafile = true
 
 [[files]]
@@ -5005,7 +5021,7 @@ metafile = true
 
 [[files]]
 file = "mods/mowzies-mobs.pw.toml"
-hash = "6ff4dfc30b3df634c6a2e587742ad381aa5988a50a646003369331749882c0a9"
+hash = "69c100deb9011e828b3f11a0df754316829b751833ac30bc4726710c082f9808"
 metafile = true
 
 [[files]]
@@ -5135,7 +5151,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "4063b849f554fa9708ac3317f17c4ce84aa573f7499baefcff5f8b34de160f20"
+hash = "ee213139b33b4b697d395ec4d6318097650172d52d9a4bb1511533cacf13e8ea"
 metafile = true
 
 [[files]]
@@ -5171,6 +5187,11 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "8df897c0f7831e919aa528c3c1e5239f39439c123d99761230ab2357132bad98"
+metafile = true
+
+[[files]]
+file = "mods/quarkponders.pw.toml"
+hash = "aba59fd89c4085dc61a0106abdb9a673928021a0f8f99467337779bd06d8cceb"
 metafile = true
 
 [[files]]
@@ -5391,7 +5412,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "a93bbbf1929bc59daef763ee66cd87f7eb3bc7dbc4746dd7341da013aa1184de"
+hash = "232a5988879bc072638900cdbf08bcd14a6b5ba7ab7743190e630562d2006620"
 metafile = true
 
 [[files]]
@@ -5486,7 +5507,7 @@ metafile = true
 
 [[files]]
 file = "mods/unusual-prehistory-2.pw.toml"
-hash = "830c1d2348fc13c505c259510bbc651840b1642e55bbf94cf12caa92a8b81dfe"
+hash = "70365d2c5d2ae535f330007a9337e9df0a30610e6e7ea5ba7489d76388227122"
 metafile = true
 
 [[files]]
@@ -5496,7 +5517,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "b1326696040e6b20aa480ffaf3c605559a21221df6ece3b655569fa18609056c"
+hash = "62fcda7e8cf9d852d37f7a6356bc04afdc8dbf3be5e015f5f8897447eb49791f"
 metafile = true
 
 [[files]]
@@ -5521,7 +5542,7 @@ metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "a978767bd60a3f3f4e9f423046b3192def6ae2a3be1ab491e161825b4e76a350"
+hash = "b3e67f588dc2abe65b343d1efda548b502641369fab896df8495f68716bb5728"
 metafile = true
 
 [[files]]
@@ -5556,7 +5577,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeroplus.pw.toml"
-hash = "1bdbdbe4e7b16b9c8d09ad9277c3f05aa557844ebd66ee2c9e279ac3336e5cb8"
+hash = "7e253a21b9036a81d57bb1f74d730ef2dca064168e8c438814cb3f7fe7149e1a"
 metafile = true
 
 [[files]]

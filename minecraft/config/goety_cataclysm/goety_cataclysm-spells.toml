@@ -90,7 +90,7 @@
 		#Sandstorm Spell Cooldown, Default: 500
 		#Range: > 0
 		sandstormCoolDown = 500
-		#Sandstorm Spell Damage, Default: 5.0
+		#Sandstorm Spell Damage, Default: 7.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		sandstormDamage = 5.0
 
