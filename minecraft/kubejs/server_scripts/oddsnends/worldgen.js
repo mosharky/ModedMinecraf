@@ -10,7 +10,7 @@ function worldgen_OddsNEnds(e) {
         feature: 'oddsnends:lush_ciderine_tree',
         placement: [
             { type: 'minecraft:in_square' },
-            { type: 'minecraft:rarity_filter', chance: 100 },
+            { type: 'minecraft:rarity_filter', chance: 1000 },
             { type: 'minecraft:heightmap', heightmap: 'MOTION_BLOCKING_NO_LEAVES' },
             { type: 'minecraft:biome' },
             wouldSurvive('oddsnends:ciderine_sapling')
@@ -21,7 +21,7 @@ function worldgen_OddsNEnds(e) {
     registerFeature(e, PLACED, 'oddsnends:patch_giant_padma', {
         feature: 'oddsnends:patch_giant_padma',
         placement: [
-            { type: 'minecraft:rarity_filter', chance: 60 },
+            { type: 'minecraft:rarity_filter', chance: 800 },
             { type: 'minecraft:in_square' },
             { type: 'minecraft:heightmap', heightmap: 'MOTION_BLOCKING' },
             { type: 'minecraft:biome' }
@@ -30,7 +30,7 @@ function worldgen_OddsNEnds(e) {
     registerFeature(e, PLACED, 'oddsnends:patch_rusty_clovers', {
         feature: 'oddsnends:patch_rusty_clovers',
         placement: [
-            { type: 'minecraft:rarity_filter', chance: 50 },
+            { type: 'minecraft:rarity_filter', chance: 800 },
             { type: 'minecraft:in_square' },
             { type: 'minecraft:heightmap', heightmap: 'MOTION_BLOCKING' },
             { type: 'minecraft:biome' }
@@ -39,7 +39,7 @@ function worldgen_OddsNEnds(e) {
     registerFeature(e, PLACED, 'oddsnends:patch_trapped_rusty_clovers', {
         feature: 'oddsnends:patch_trapped_rusty_clovers',
         placement: [
-            { type: 'minecraft:rarity_filter', chance: 50 },
+            { type: 'minecraft:rarity_filter', chance: 800 },
             { type: 'minecraft:in_square' },
             { type: 'minecraft:heightmap', heightmap: 'MOTION_BLOCKING' },
             { type: 'minecraft:biome' }
@@ -48,7 +48,7 @@ function worldgen_OddsNEnds(e) {
     registerFeature(e, PLACED, 'oddsnends:cave_branches', {
         feature: 'oddsnends:patch_cave_branches',
         placement: [
-            { type: 'minecraft:rarity_filter', chance: 50 },
+            { type: 'minecraft:rarity_filter', chance: 800 },
             { type: 'minecraft:in_square' },
             {
                 type: 'minecraft:height_range',
@@ -64,7 +64,7 @@ function worldgen_OddsNEnds(e) {
     registerFeature(e, PLACED, 'oddsnends:wild_laco', {
         feature: 'oddsnends:patch_wild_laco',
         placement: [
-            { type: 'minecraft:rarity_filter', chance: 80 },
+            { type: 'minecraft:rarity_filter', chance: 800 },
             { type: 'minecraft:in_square' },
             { type: 'minecraft:heightmap', heightmap: 'MOTION_BLOCKING' },
             { type: 'minecraft:biome' }

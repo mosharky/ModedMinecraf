@@ -124,6 +124,9 @@
 			shale = false
 			shorestone = true
 
+		[types.stone_type.botania]
+			livingrock = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -254,6 +257,10 @@
 
 		[types.wood_type.oddsnends]
 			ciderine = true
+
+		[types.wood_type.botania]
+			livingwood = true
+			dreamwood = true
 
 	[types.leaves_type]
 
@@ -1320,6 +1327,58 @@
 			shale_brick = false
 			rough_quartz = true
 			shorestone_brick = true
+
+		[types.cut_block_type.botania]
+			livingrock = true
+			polished_livingrock = true
+			livingrock_bricks = true
+			mossy_livingrock_bricks = true
+			livingwood = true
+			stripped_livingwood = true
+			livingwood_planks = true
+			dreamwood = true
+			stripped_dreamwood = true
+			dreamwood_planks = true
+			corporea_brick = true
+			shimmerrock = true
+			shimmerwood_planks = true
+			dark_quartz = true
+			mana_quartz = true
+			blaze_quartz = true
+			lavender_quartz = true
+			red_quartz = true
+			elf_quartz = true
+			sunny_quartz = true
+			white_pavement = true
+			black_pavement = true
+			blue_pavement = true
+			yellow_pavement = true
+			red_pavement = true
+			green_pavement = true
+			metamorphic_forest_stone = true
+			metamorphic_forest_cobblestone = true
+			metamorphic_forest_bricks = true
+			metamorphic_plains_stone = true
+			metamorphic_plains_cobblestone = true
+			metamorphic_plains_bricks = true
+			metamorphic_mountain_stone = true
+			metamorphic_mountain_cobblestone = true
+			metamorphic_mountain_bricks = true
+			metamorphic_fungal_stone = true
+			metamorphic_fungal_cobblestone = true
+			metamorphic_fungal_bricks = true
+			metamorphic_swamp_stone = true
+			metamorphic_swamp_cobblestone = true
+			metamorphic_swamp_bricks = true
+			metamorphic_desert_stone = true
+			metamorphic_desert_cobblestone = true
+			metamorphic_desert_bricks = true
+			metamorphic_taiga_stone = true
+			metamorphic_taiga_cobblestone = true
+			metamorphic_taiga_bricks = true
+			metamorphic_mesa_stone = true
+			metamorphic_mesa_cobblestone = true
+			metamorphic_mesa_bricks = true
 
 	[types.mud_type]
 

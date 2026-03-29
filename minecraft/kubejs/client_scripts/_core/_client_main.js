@@ -72,4 +72,5 @@ JEIEvents.information(e => {
 ClientEvents.highPriorityAssets(e => {
     clientData_EMI(e)
     clientData_Quark(e)
+    clientData_EMIxx(e)
 })

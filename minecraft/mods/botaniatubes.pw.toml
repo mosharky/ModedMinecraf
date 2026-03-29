@@ -1,0 +1,13 @@
+name = "BotaniaTubes"
+filename = "botaniatubes-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8e32dba6572127f6185b93610fe3ef09eab8c08f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6107887
+project-id = 1183923

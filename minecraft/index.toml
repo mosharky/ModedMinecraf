@@ -526,7 +526,7 @@ hash = "5b5284747e68c84d70a6b5293cc572109e602e26092d5cce27309cc06db47d93"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "0316b34174529256128e343924a9ce31da436530ebe6d7f02098e1ca06849bea"
+hash = "45919ec5fd1c24c15f7a1c904394e0efd5b8fbe392f466d983d5c1a79cd4fb7c"
 
 [[files]]
 file = "config/autumnity-common.toml"
@@ -619,6 +619,14 @@ hash = "89ef9f568d793018db983b9f944e85876a4cebd408f8f4d2182b3c38fa44ef7e"
 [[files]]
 file = "config/blueprint-common.toml"
 hash = "d335fd00458005d989d55a6615073d5b390ea08d5e1d129229518f90d5d3ef9b"
+
+[[files]]
+file = "config/botania-client.toml"
+hash = "3e96d7f471846a8349c319e8ea876146e8216530b977f830c86b016b5a76ab89"
+
+[[files]]
+file = "config/botania-common.toml"
+hash = "35c54cc03dbfdc948bfaee6c45a3f5ac0156abff12abf879f91337497ee865db"
 
 [[files]]
 file = "config/brewinandchewin-client.toml"
@@ -746,7 +754,7 @@ hash = "5cf51284c7995de33d82fcf3f45fbbeb8b7f25a7ae87bc67d27364fa7c44d091"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/cobblemonintegrations-common.toml"
@@ -838,7 +846,7 @@ hash = "2b94526494fc5aee3fb801a0e5827585d39f028b1383bae85cfb7ca18dae00bb"
 
 [[files]]
 file = "config/crunchy_crunchy_advancements.toml"
-hash = "d424dfb2c65422d63ab470361caf2e2f92cf6d8c1f49bc40a5c9e2a2a510f3f8"
+hash = "69814bcfbba0339cd0d41189acbc7a18ee7fc191243614ced3dcfed7dd4eab6b"
 
 [[files]]
 file = "config/cull-less-leaves.json"
@@ -986,7 +994,7 @@ hash = "cc1d43497f2c78d2bf9ad1a988822d3c3c12fab18e87b499f918c61f472dc1ef"
 
 [[files]]
 file = "config/emi.css"
-hash = "9937b9408b77716edb40aae37a427242bdc73fe135821317e887d5649b680712"
+hash = "4c3ef9a07416042e544c427cd799cef5aa0bf2ceb11e90bcc0a09acc38557962"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -1062,7 +1070,7 @@ hash = "15b54c90409aabee45afc63e59d459c378615b98355334ba5be39ae7537979ba"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "30a046cecd525af40e95c9975529f1799fedb167a72f80c9c8ff78631b5435e3"
+hash = "961620e41d9058d853d68b3c0ab38445edad664c0fac39aac1d02b2cf829f111"
 
 [[files]]
 file = "config/everycomp-hazardous.toml"
@@ -1346,11 +1354,11 @@ hash = "deddcab928fe284cce4916e976f838382a2f0d117d0181f420f7bb45d6dd81cf"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "bc5f08011f7c32f1fa8ddf41e77c1d77585f988e9d38b03a33829887185981a0"
+hash = "8f29a61e6e3387fed9de8c766b5f3bba6bc0903a5569e4a3c35abc7a55a21727"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "dd1dbf7c6f9b684f860a3fc7e112d252674c38d0a2221b781eade25710422dd1"
+hash = "8d187b431a31f6c126d5b25b2f60eb653758f4ddfaf3f75b01689c40545b9f6c"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -1374,7 +1382,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "f9b67592fd19212fecaacb842a638cfe396dc1619748c19f3e41946fd3228058"
+hash = "a894f4f72208e360e96438e2f8eee81334de31c62eef285a8973d3b759749f9b"
 
 [[files]]
 file = "config/kiwi-client.yaml"
@@ -1886,7 +1894,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "123a744170759b6a0fe244372c2b5cf3b6f89896e1d0aafeb19e2110adabae4c"
+hash = "c92b07ff3357280ad3102c9451d03fca067ca1f2cd8296297000ed209072cf85"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2325,6 +2333,11 @@ hash = "e384e714feda0be69f7e85b37a03deecb6e84358dae3bd158b4ec4ac75e20f17"
 metafile = true
 
 [[files]]
+file = "kubejs/assets/botania-revamped.pw.toml"
+hash = "fda5296edd408438aef5013da62bb44aec85f1d23c87e23d09f02152c7e6d702"
+metafile = true
+
+[[files]]
 file = "kubejs/assets/cataclysm-reimagined.pw.toml"
 hash = "adb08e747b3bed64a6a44165c85a90ed6133204d2c5596c0fa6358fbc6adc351"
 metafile = true
@@ -2693,15 +2706,23 @@ metafile = true
 
 [[files]]
 file = "kubejs/client_scripts/_core/_client_main.js"
-hash = "c0949cba7192a9b7529a02c4ca4036ad25e3d6913bd71a46af7377ebef236953"
+hash = "946c071ce293cd23d5d579f8734d548767312c59937d8a34555c840866de3bbc"
 
 [[files]]
 file = "kubejs/client_scripts/_core/lang.js"
 hash = "2137c6e98c34747c770f4d2db1fd3fa28902711b72b44712fbafe76b82ae300c"
 
 [[files]]
+file = "kubejs/client_scripts/_core/vars.js"
+hash = "89d962a21c782c9327edd411ab30de5b9331ffbda30da41480fb838cea942d73"
+
+[[files]]
 file = "kubejs/client_scripts/emi/emi.js"
-hash = "2125b132fe41fabc0ab9ceb42099406a46814684a4b4a6011cfb2f05b598e822"
+hash = "3cd8357f676172e3a3583f440dadbe79a80e93fe60d1b94214affb20d83911f1"
+
+[[files]]
+file = "kubejs/client_scripts/emi/emixx.js"
+hash = "ce7bba4eab432bd55d89243a859c4ae4deb3ee288a838904bef1237faf8dec5a"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -2709,7 +2730,7 @@ hash = "6bee73fad09d618056fe3fe860588246e98bc82fd14c2bed0daf183b95f66421"
 
 [[files]]
 file = "kubejs/client_scripts/quark/attribute_tooltips.js"
-hash = "d5fe2cab3148841057cb4ada19d43116c55bf04aa273c0a8a288a13c784f7948"
+hash = "36979b5d990af9ebc036c3410598acee11a730a3e5b92553f4780fe49e1be43c"
 
 [[files]]
 file = "kubejs/data/CavsCobblemon1.2.zip"
@@ -3129,7 +3150,7 @@ hash = "5478e777b0c1dd148043e405c5fdef68bda18fd48ecd9fa26a467da0196af2cf"
 
 [[files]]
 file = "kubejs/server_scripts/_core/_server_main.js"
-hash = "e2ef7b2f9ae1ef6481e6a17b947d7eb9d1bd19ecfa8cb215d84828034ee36afe"
+hash = "2ebc1883fe8079cc483d7e2685894cacefa4038b219b12eee5dfc4fda97ab1fe"
 
 [[files]]
 file = "kubejs/server_scripts/_core/advancements.js"
@@ -3153,11 +3174,11 @@ hash = "6c2e3ab5e5c641f6323d38604d63aae90b3714c0e8e701a4b6d52a8315404c09"
 
 [[files]]
 file = "kubejs/server_scripts/_core/player.js"
-hash = "7392ec08e67eec55afcf2d02cffe8c33ae5d92c6f048cf65202391d195709f46"
+hash = "32c91d67a9c3a68cf6136403683d7fb40d44ae8dd597a96eb5b3c806b96015d5"
 
 [[files]]
 file = "kubejs/server_scripts/_core/recipes.js"
-hash = "8bd27ff57404fcccf2d6fa1d2ccba57dc9117f29551c031c9b963b35fd7f5d7c"
+hash = "55052d00ab25f556660fcb3fb9b306a577715cc24b7184640b152bfd234d2e6a"
 
 [[files]]
 file = "kubejs/server_scripts/_core/tags.js"
@@ -3242,6 +3263,14 @@ hash = "ba932ba04d156fb17b78011195f17b20fd9c6fe3f7b63e13c34523bd947e9cd3"
 [[files]]
 file = "kubejs/server_scripts/biomancy/tags.js"
 hash = "a69940658a4405efbf7dbb05e9b8e18fafa681b6bbf04eaabb14e7db9518cd5b"
+
+[[files]]
+file = "kubejs/server_scripts/botania/recipes.js"
+hash = "badbc742a11e9f78839d32631f80f65a0564945c48ba82e0bb21b55127b807b5"
+
+[[files]]
+file = "kubejs/server_scripts/botania/worldgen.js"
+hash = "9a515d1566237f6f9768bc5187868e6b19cdcad08ad168e0f6dae8d62630dfdb"
 
 [[files]]
 file = "kubejs/server_scripts/brewinandchewin/recipes.js"
@@ -3345,11 +3374,11 @@ hash = "cf872edac0e3654e51f5abd0e0694f920604117133d0bf50dab980705516db09"
 
 [[files]]
 file = "kubejs/server_scripts/farmersdelight/recipes.js"
-hash = "45bb5359f011c7f70cd1d8cb6ffcff0d74f1f8a75a57372f96de87ef43b8e11c"
+hash = "d885544031e56a84286d491c8da2d8a2a9501659385334c187c6e9fbf1c0812c"
 
 [[files]]
 file = "kubejs/server_scripts/farmersdelight/tags.js"
-hash = "48e9fab7876881ca1d5a58efd0fdc6b1d25c9a262d20df09f103cf13d9832f9b"
+hash = "7d1c7e187fdacfb1c19d2ca7bf5c12846ad7c01c4fee46e461dfee2c922e91c5"
 
 [[files]]
 file = "kubejs/server_scripts/ftbchunks/tags.js"
@@ -3473,7 +3502,7 @@ hash = "2d5eec93a57f8ee9b019a8c6235559e8b4c86e6c63ee36cf8ff453bd200189a8"
 
 [[files]]
 file = "kubejs/server_scripts/oddsnends/worldgen.js"
-hash = "eda5d3a0f6e1c0b0d2679ccec053828cf64f7d9fb1492409f495c219aba04242"
+hash = "17b8b673506f1c336ffaeba4eca8f616c216027eed6646262d888b1cd4374529"
 
 [[files]]
 file = "kubejs/server_scripts/oreganized/tags.js"
@@ -4022,6 +4051,16 @@ metafile = true
 [[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "49f9d94df22724949d2ce1ae70b73461dfe7d92ce6ad6ceae9739cef0b34a089"
+metafile = true
+
+[[files]]
+file = "mods/botania.pw.toml"
+hash = "95594ca0d16f96341b95c5c7ddf65b84f879a27985f1bf4b63ade8bbaddaf8a2"
+metafile = true
+
+[[files]]
+file = "mods/botaniatubes.pw.toml"
+hash = "be9e116b115fe327043e6c6f8381aa44829fad5e20bda0a895fe563574c9c0bd"
 metafile = true
 
 [[files]]
@@ -4830,6 +4869,11 @@ hash = "4ff8a3b2534e1baddb070511dc8208aa26fba2baf7a17ec2bbf066e8d762eef6"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-botania.pw.toml"
+hash = "e7487953f43437713f12546e228607f3cc713d51d6130860d4d99f6ef3541aae"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "7e9ef26310359f482e595815664b3d08381b30c6517c32a58078b0999e1d953a"
 metafile = true
@@ -4947,6 +4991,16 @@ metafile = true
 [[files]]
 file = "mods/man-of-many-planes.pw.toml"
 hash = "b482e3d990ca0981e6a9204436745869b77b4870ea9c5afa95e6301da1d871b6"
+metafile = true
+
+[[files]]
+file = "mods/mana-jade.pw.toml"
+hash = "0fa617ee44c5e5b75696dd97ad6ee300b56c575a29eeef68f0e6eb5ccf6de772"
+metafile = true
+
+[[files]]
+file = "mods/mana-peeper.pw.toml"
+hash = "7614da6fed204f94e2af0d75e01a651d68ef9d6e0c700fb04a8b059b4da233e0"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Mana Peeper"
+filename = "ManaPeeper-1.4+1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/qujAl2To/versions/qno0zLoX/ManaPeeper-1.4%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "74dfc02b337f38c50973e5520e43cd33b13fe63d487d2d49fd3cc49fda4411f4974e0fe7c8826d2382ce7442b4c1d4184f25312f4bfddfc1fab9d33f14d5640c"
+
+[update]
+[update.modrinth]
+mod-id = "qujAl2To"
+version = "qno0zLoX"

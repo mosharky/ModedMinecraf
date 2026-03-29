@@ -1,4 +1,4 @@
-/** @param {$GenerateClientAssetsEventJS_} e */
+/** @param {$GenerateClientAssetsEventJS} e */
 function clientData_EMI(e) {
     e.add('emi:category/properties/emi', {
         'emi:info':                     { order: -1001 },
