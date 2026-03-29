@@ -13,5 +13,5 @@ function removals_Supplementaries() {
     global.ITEM_SWAPPER.set('supplementaries:wild_flax', 'oddsnends:flax_flowers')
     global.ITEM_SWAPPER.set('supplementaries:flax_seeds', 'oddsnends:flax_seeds')
     global.ITEM_SWAPPER.set('supplementaries:flax', 'oddsnends:flax_fibers')
-    global.ITEM_SWAPPER.set('supplementaries:flax_bale', 'oddsnends:flax_bale')
+    global.ITEM_SWAPPER.set('supplementaries:flax_block', 'oddsnends:flax_bale')
 }

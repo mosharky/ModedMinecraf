@@ -123,7 +123,7 @@
 		[Attributes."Summoned Mobs".Factory]
 
 			[Attributes."Summoned Mobs".Factory."Watcher Servant"]
-				#How much damage Watcher Servants range attack deals, Default: 5.0
+				#How much damage Watcher Servants range attack deals, Default: 7.0
 				#Range: 1.0 ~ 1.7976931348623157E308
 				watcherRangeDamage = 5.0
 				#How much natural Armor Watcher Servants have, Default: 5.0
@@ -143,7 +143,7 @@
 				#How much Max Health Prowler Servants have, Default: 160.0
 				#Range: 1.0 ~ 1.7976931348623157E308
 				prowlerHealth = 160.0
-				#How much damage Prowler Servants missiles deals, Default: 3.0
+				#How much damage Prowler Servants missiles deals, Default: 5.0
 				#Range: 1.0 ~ 1.7976931348623157E308
 				prowlerMissileDamage = 3.0
 				#How much natural Armor Prowler Servants have, Default: 10.0
@@ -300,7 +300,7 @@
 				hippocamtusArmor = 15.0
 
 			[Attributes."Summoned Mobs".Acropolis."Cindaria Servant"]
-				#How much damage Cindaria Servants water spears deals, Default: 8.0
+				#How much damage Cindaria Servants water spears deals, Default: 7.0
 				#Range: 1.0 ~ 1.7976931348623157E308
 				cindariaRangeDamage = 8.0
 				#How much natural Armor Cindaria Servants have, Default: 0.0

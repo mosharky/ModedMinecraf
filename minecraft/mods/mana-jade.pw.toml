@@ -1,0 +1,13 @@
+name = "Mana Jade"
+filename = "mana_jade-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SWV6q3Lo/versions/mYI83pXR/mana_jade-1.2.1.jar"
+hash-format = "sha512"
+hash = "96c852174128269c74b01212f8a003a70f888f74413f999d93e47e45ab3b5ffdc375c32fb4a477f633fab0d78757f51274423b88abf23ef081dc12fe5be86d33"
+
+[update]
+[update.modrinth]
+mod-id = "SWV6q3Lo"
+version = "mYI83pXR"

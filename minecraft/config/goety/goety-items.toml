@@ -293,9 +293,12 @@
 	tesseractDurability = 16
 	#If soulRepair is enabled, the cost of Soul Energy multiplies per item's enchantments, Default: true
 	soulRepairEnchant = true
-	#How many seconds until a revival item can be used, ie, Soul Jars, Howling Souls, Default: 300
+	#How many seconds until a revival item can be used when the servant dies, ie, Soul Jars, Howling Souls, Default: 90
 	#Range: > 0
 	reviveSecondsCool = 300
+	#How far the diameter of Command Horns reach, Default: 8.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	commandHornDiameter = 8.0
 
 ["Tools & Weapons"]
 

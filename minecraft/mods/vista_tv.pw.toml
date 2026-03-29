@@ -1,13 +1,13 @@
 name = "vista"
-filename = "vista-1.20-3.0.16-forge.jar"
+filename = "vista-1.20-3.0.17-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/zuARv1N7/versions/geo2YRD4/vista-1.20-3.0.16-forge.jar"
+url = "https://cdn.modrinth.com/data/zuARv1N7/versions/RuK9v2Wg/vista-1.20-3.0.17-forge.jar"
 hash-format = "sha512"
-hash = "4809da26ca9de786df78a94041771b5e5342b4c249cecb6071204428352bc8df27bf0053d3036bf941d064b40553e3459b0e4b0774f850efabb19c75cda1e9ba"
+hash = "a9ed42d8acbd752f7490da9c3bbc09471d9358cfc800d9211a5f8b9e4a3a454721ff44e6cc09557b867b2e97272a16de610d52bcb70748944886904e30df1d0e"
 
 [update]
 [update.modrinth]
 mod-id = "zuARv1N7"
-version = "geo2YRD4"
+version = "RuK9v2Wg"

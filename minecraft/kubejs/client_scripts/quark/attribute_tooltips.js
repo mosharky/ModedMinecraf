@@ -1,4 +1,4 @@
-/** @param {$GenerateClientAssetsEventJS_} e */
+/** @param {$GenerateClientAssetsEventJS} e */
 function clientData_Quark(e) {
     e.add('quark:attribute_tooltips', {
         'minecraft:generic.max_health': {

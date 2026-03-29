@@ -8,7 +8,7 @@ preventAdvancementBroadcasts = true
 # default: BLACKLIST
 filterMode = "WHITELIST"
 # Namespaces to be entirely filtered, e.g. 'minecraft' or 'antique_atlas'
-filterNamespaces = ["goety", "malum", "unusual_prehistory", "cobblepedia", "megamons", "embers", "aether", "cobbledex"]
+filterNamespaces = ["goety", "malum", "unusual_prehistory", "cobblepedia", "megamons", "embers", "aether", "cobbledex", "botania"]
 # Namespace-inclusive paths to be filtered, e.g. 'minecraft:recipes/' or 'tconstruct:foundry/'
 filterPaths = ["minecraft:adventure/", "minecraft:end/", "minecraft:husbandry/", "minecraft:nether/", "minecraft:story/"]
 # Whether to filter advancements that are triggered when obtaining a recipe, used for recipe advancements

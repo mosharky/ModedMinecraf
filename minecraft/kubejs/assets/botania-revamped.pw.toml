@@ -1,0 +1,13 @@
+name = "Botania Revamped"
+filename = "BotaniaRevamped_1.1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0027636af1a258f13c028810c8ee6bea5a608a2e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3855793
+project-id = 581872

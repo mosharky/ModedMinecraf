@@ -1069,7 +1069,9 @@
 		"suppsquared:quark/item_shelf_ancient",
 		"suppsquared:quark/item_shelf_azalea",
 		"suppsquared:quark/item_shelf_blossom",
+		"unusual_prehistory:petrified_bush",
 		"unusual_prehistory:petrified_log",
+		"unusual_prehistory:petrified_luca",
 		"unusual_prehistory:petrified_wood",
 		"unusual_prehistory:polished_petrified_wood",
 		"unusual_prehistory:polished_petrified_wood_button",
@@ -1136,7 +1138,7 @@
 		"supplementaries:wild_flax": "oddsnends:flax_flowers",
 		"supplementaries:flax_seeds": "oddsnends:flax_seeds",
 		"supplementaries:flax": "oddsnends:flax_fibers",
-		"supplementaries:flax_bale": "oddsnends:flax_bale"
+		"supplementaries:flax_block": "oddsnends:flax_bale"
 	},
 	"block_swapper": {
 		"cataclysm:stone_pillar": "create:andesite_pillar",
