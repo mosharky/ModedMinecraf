@@ -1,4 +1,14 @@
+function blockTags_Supplementaries(e) {
+    e.add('forge:relocation_not_supported', [
+        'supplementaries:timber_brace',
+        'supplementaries:timber_cross_brace',
+        'supplementaries:metal_brace',
+        'supplementaries:metal_cross_brace',
+    ])
+}
+
 function entityTags_Supplementaries(e) {
+
     e.add('supplementaries:cage_catchable', [
         'minecraft:allay',
         'minecraft:axolotl',

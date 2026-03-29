@@ -1,6 +1,7 @@
 // priority: -1
 ItemEvents.tooltip(e => {
     e.add(global.REMOVALS.arr, Text.red('DISABLED. Report to momo if you obtained this.').append(Text.darkGray('\nThis item is supposed to be replaced; ignore if found in a menu').italic()))
+    e.add('quark:crate', Text.red('WARNING: RANDOMLY REMOVES ITEMS STORED IN IT').bold())
     /*
     e.add([
         'scguns:gun_bench',

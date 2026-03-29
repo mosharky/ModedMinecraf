@@ -21,6 +21,7 @@ ServerEvents.tags('block', e => {
     blockTags_AlexsMobs(e)
     blockTags_SnowRealMagic(e)
     blockTags_Origins(e)
+    blockTags_Supplementaries(e)
 })
 
 ServerEvents.tags('entity_type', e => {

@@ -4,12 +4,11 @@ function recipes_FarmersDelight(e) {
     e.replaceInput({}, 'farmersdelight:rope', 'supplementaries:rope')
     e.replaceOutput({}, 'farmersdelight:rope', 'supplementaries:rope')
     
-    e.replaceInput({}, 'incubation:fried_egg', 'farmersdelight:fried_egg')
-    e.replaceOutput({}, 'incubation:fried_egg', 'farmersdelight:fried_egg')
-
     e.remove({ id: 'farmersdelight:bread_from_smelting' })
     e.remove({ id: 'farmersdelight:bread_from_smoking' })
-
+    
+    // base FD egg recipes were disabled by Incubation
+    e.recipes.farmersdelight.cooking('minecraft:egg', 'farmersdelight:fried_egg', 1, 100)
 
     e.stonecutting('farmersdelight:rope', 'supplementaries:rope')
 

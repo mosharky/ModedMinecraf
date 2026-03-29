@@ -12,7 +12,7 @@ function origins_Dryad(e) {
             'kubejs:dryad/vine_whip',
             'kubejs:dryad/old_friends',
             'kubejs:dryad/bioluminescence',
-            'kubejs:dryad/ursus_family',
+            // 'kubejs:dryad/ursus_family',
             'kubejs:dryad/dryad_particles'
         ],
         impact: 1
@@ -579,6 +579,13 @@ function origins_Dryad(e) {
         name: 'Old Friends',
         description: 'Plants soften your falls.',
         type: 'origins:multiple',
+        bees_ignore: {
+            type: 'apugli:mobs_ignore',
+            mob_condition: {
+                type: 'origins:entity_type',
+                entity_type: 'minecraft:bee',
+            }
+        },
         leaves_phasing: {
             type: 'origins:phasing',
             block_condition: {

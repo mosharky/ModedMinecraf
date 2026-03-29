@@ -133,7 +133,7 @@ function origins_Pyke(e) {
                 type: 'origins:entity_type',
                 entity_type: 'alexsmobs:skelewag',
             }
-        },
+        }
     })
 
 
@@ -211,10 +211,19 @@ function origins_Pyke(e) {
     // Insomnia
     e.addJson('kubejs:powers/pyke/insomniac', {
         name: 'Insomniac',
-        description: 'You cannot sleep.',
-        type: 'origins:prevent_sleep',
-        set_spawn_point: true,
-        message: 'Pyke doesn\'t sleep, idiot.',
+        description: 'You cannot sleep. Phantoms no longer haunt your dreams.',
+        prevent_sleep: {
+            type: 'origins:prevent_sleep',
+            set_spawn_point: true,
+            message: 'Pyke doesn\'t sleep, idiot.',
+        },
+        disable_insomnia: {
+            type: 'origins:modify_insomnia_ticks',
+            modifier: {
+                operation: 'set_total',
+                value: 0
+            }
+        },
     })
 
 
