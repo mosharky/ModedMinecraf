@@ -3150,7 +3150,7 @@ hash = "e003f7e221bc29dbc50b10fc902577a50cfe6f988a4e4859b98fcb3f819efdca"
 
 [[files]]
 file = "kubejs/data/structures.zip"
-hash = "5478e777b0c1dd148043e405c5fdef68bda18fd48ecd9fa26a467da0196af2cf"
+hash = "05a04dc5376f53017d31ebc95085ac15695ae1cea02f0ebb0da3c6e6c840d9e8"
 
 [[files]]
 file = "kubejs/server_scripts/_core/_server_main.js"
