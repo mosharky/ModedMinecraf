@@ -2218,7 +2218,7 @@ hash = "6eccc702431fd40b6a2ab45c6d9e15b881324a2cb3ff6e0dbb0a8c1ebf465409"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "8a8acfb4f76dd00dda7f1a06b2504c24d6e234eec8780999d95163ffeac54fc1"
+hash = "82e98ba538e2f9d31cddddc843c8903fc9396e7fa883238f33e4367b7b81ae0e"
 
 [[files]]
 file = "defaultconfigs/create_aquatic_ambitions-server.toml"
