@@ -1618,7 +1618,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "7acd2ec19c9ed1d66c1e5c9b1e51bbd80208c2ae6821a0b4264163e59c4430d8"
+hash = "b9ffe493471b99f8d8b54c12400f0d3acc4317d88abb2d00ed5c824caeb9078f"
 
 [[files]]
 file = "config/quark_ponders-client.toml"
@@ -3222,7 +3222,7 @@ hash = "4d8c0ddc9eaaf04b93daf6479f1a180fd491dfc7fc99d711bc4ae89c11a7799a"
 
 [[files]]
 file = "kubejs/server_scripts/alexsmobs/tags.js"
-hash = "75767c176a89726b2139c022c3e2dc3064a904e5196b870c9dc385d6ee8a5571"
+hash = "b261a28c90f1be0051a53bb726316552c76a03652eeb9ea04fe8b6c3633231e7"
 
 [[files]]
 file = "kubejs/server_scripts/allurement/enchants.js"
@@ -3629,10 +3629,6 @@ file = "kubejs/startup_scripts/_core/blockswap.js"
 hash = "b5d2cb77089390338d007096ee74719118f6178e1185250aafeb5401a8faadde"
 
 [[files]]
-file = "kubejs/startup_scripts/_core/dev.js"
-hash = "679c84372a4633afbe1b9201c9c697c86cea093427a6e6953fd864b3c1a5f852"
-
-[[files]]
 file = "kubejs/startup_scripts/_core/portals.js"
 hash = "704ba75794cc200b5d42d649a211c23dbd5e1dbe8600316f4ec7f85f43f3f789"
 
@@ -4004,6 +4000,11 @@ hash = "0f53b68912df649f51684bf9ee43657354a1b1a6052986f3690af5d666395158"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "ab91ecc56cc8ab62ffc54e4d5571b129d4a17dcc3b084b6089bc018307cbe816"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "fec49033058ced91f7668d4e305e599f5527501ef37c1f30f96d8927d6202d32"
 metafile = true
@@ -4261,6 +4262,21 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
+metafile = true
+
+[[files]]
+file = "mods/corpse-x-cosmetic-armor-reworked-compat.pw.toml"
+hash = "23cc8ba244b6413e0dca8f29c1d4752b58c3f3edcfea0e8677380b9d674ca0e6"
+metafile = true
+
+[[files]]
+file = "mods/corpse-x-curios-api-compat.pw.toml"
+hash = "c287631064c1179bea1c515d8f6202f7c18595498242110bc882e8a1aed8382a"
+metafile = true
+
+[[files]]
+file = "mods/corpse.pw.toml"
+hash = "2fba2317a375669ccb1376525d4d4e0d1903cc5dc44fc70dce1d0e3dbb6aacb1"
 metafile = true
 
 [[files]]
@@ -5336,11 +5352,6 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "8c1ddc34636bfb9ab2209a4d387900f03682a65ed5fcf8b5027ffdd9ba49880f"
-metafile = true
-
-[[files]]
-file = "mods/separatedleaves.pw.toml"
-hash = "4a6bc910264e00d9dc48a8c04a440c30cca7221d88c68b6ccfe9ba9c4fe35389"
 metafile = true
 
 [[files]]
