@@ -1,0 +1,13 @@
+name = "L_Ender 's Cataclysm"
+filename = "L_Enders_Cataclysm-3.26-laserfix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4ad5af4fa8973d25636107619eb8274ab174dc87"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7849424
+project-id = 551586
