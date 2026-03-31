@@ -4917,11 +4917,6 @@ hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
 metafile = true
 
 [[files]]
-file = "mods/l_enders-cataclysm.pw.toml"
-hash = "a08ba8cde14694b00b6859683852a71ca7d4cd6fd0c60cb5fa43cc0f1fc1bbd0"
-metafile = true
-
-[[files]]
 file = "mods/labels.pw.toml"
 hash = "3f46c69d55ff321765b0bdd51b2a9854983babc177cac10b3e7eef74a373c3c1"
 metafile = true
@@ -4939,6 +4934,11 @@ metafile = true
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "9a5e498a9c596fb0bfbab74173aa854257466e8c538d15c1966ce268b3267575"
+metafile = true
+
+[[files]]
+file = "mods/lendercataclysm.pw.toml"
+hash = "bfc34fffd4daadc67a4f8c19282e4e4852d8861c08b7722671aba9bed79523ce"
 metafile = true
 
 [[files]]
