@@ -29,8 +29,8 @@ function clientData_EMI(e) {
 
         for (let level = 1; level < maxLevel; level++) {
             enchantedBooks.push({
-                type: "item",
-                id: "minecraft:enchanted_book",
+                type: 'item',
+                id: 'minecraft:enchanted_book',
                 nbt: `{StoredEnchantments:[{id:"${id}",lvl:${level}s}]}`
             });
 
