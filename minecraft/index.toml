@@ -662,7 +662,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "188cda6a23a878d5149cc7d91c07e179db680ec51ad1038e3eadd30f7cfd423a"
+hash = "eedf1e738a5c364573863b6895487059b38b8e219678b8a374f6d35e58df29c1"
 
 [[files]]
 file = "config/cataclysm-client.toml"
@@ -793,6 +793,10 @@ file = "config/copycats-common.toml"
 hash = "6eae5e6f03453087e9493c578bce1f1a8d33d13191a8827651e52d37797555af"
 
 [[files]]
+file = "config/corpsecurioscompat-common.toml"
+hash = "55245c61420b1403ebe9c37bf63a4c4ccb98b234cdb128a5bf14c1f46370889a"
+
+[[files]]
 file = "config/cosmeticarmorreworked-client.toml"
 hash = "1f09257bc11babe19b5e78bce02ed7dcade4efab2a9353008bacb96ddd6bd75f"
 
@@ -846,7 +850,7 @@ hash = "2b94526494fc5aee3fb801a0e5827585d39f028b1383bae85cfb7ca18dae00bb"
 
 [[files]]
 file = "config/crunchy_crunchy_advancements.toml"
-hash = "69814bcfbba0339cd0d41189acbc7a18ee7fc191243614ced3dcfed7dd4eab6b"
+hash = "66071c56dfa0e7526a98defdb35259aa0c64b751742d42f896a102b97fd743b7"
 
 [[files]]
 file = "config/cull-less-leaves.json"
@@ -1354,11 +1358,11 @@ hash = "deddcab928fe284cce4916e976f838382a2f0d117d0181f420f7bb45d6dd81cf"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "8f29a61e6e3387fed9de8c766b5f3bba6bc0903a5569e4a3c35abc7a55a21727"
+hash = "5992e1918586855945d38cc1127215b3a3276b0706de5b8c5d06bffa27be683e"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "8d187b431a31f6c126d5b25b2f60eb653758f4ddfaf3f75b01689c40545b9f6c"
+hash = "012d7a1d630f925e21a1dffb07bce05e409d307cf0e22b8ebf4c1586192cca0b"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -1618,7 +1622,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "7acd2ec19c9ed1d66c1e5c9b1e51bbd80208c2ae6821a0b4264163e59c4430d8"
+hash = "b9ffe493471b99f8d8b54c12400f0d3acc4317d88abb2d00ed5c824caeb9078f"
 
 [[files]]
 file = "config/quark_ponders-client.toml"
@@ -2218,7 +2222,7 @@ hash = "6eccc702431fd40b6a2ab45c6d9e15b881324a2cb3ff6e0dbb0a8c1ebf465409"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "8a8acfb4f76dd00dda7f1a06b2504c24d6e234eec8780999d95163ffeac54fc1"
+hash = "82e98ba538e2f9d31cddddc843c8903fc9396e7fa883238f33e4367b7b81ae0e"
 
 [[files]]
 file = "defaultconfigs/create_aquatic_ambitions-server.toml"
@@ -2718,11 +2722,11 @@ hash = "89d962a21c782c9327edd411ab30de5b9331ffbda30da41480fb838cea942d73"
 
 [[files]]
 file = "kubejs/client_scripts/emi/emi.js"
-hash = "3cd8357f676172e3a3583f440dadbe79a80e93fe60d1b94214affb20d83911f1"
+hash = "2398959fe2b9746a02465f0e9ad7ed35cfd75ee28386579c9eed2d7d78e663fb"
 
 [[files]]
 file = "kubejs/client_scripts/emi/emixx.js"
-hash = "ce7bba4eab432bd55d89243a859c4ae4deb3ee288a838904bef1237faf8dec5a"
+hash = "311e157382c343f2e98344eca16b11e159b696a30b8d1744fb8c2bf5c6b9a4f5"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -3146,11 +3150,11 @@ hash = "e003f7e221bc29dbc50b10fc902577a50cfe6f988a4e4859b98fcb3f819efdca"
 
 [[files]]
 file = "kubejs/data/structures.zip"
-hash = "5478e777b0c1dd148043e405c5fdef68bda18fd48ecd9fa26a467da0196af2cf"
+hash = "05a04dc5376f53017d31ebc95085ac15695ae1cea02f0ebb0da3c6e6c840d9e8"
 
 [[files]]
 file = "kubejs/server_scripts/_core/_server_main.js"
-hash = "2ebc1883fe8079cc483d7e2685894cacefa4038b219b12eee5dfc4fda97ab1fe"
+hash = "aa0a8edabbbf5a7af696d6e9d445cc1ca0bd663574d3ebb39a3c9866ad223178"
 
 [[files]]
 file = "kubejs/server_scripts/_core/advancements.js"
@@ -3222,7 +3226,7 @@ hash = "4d8c0ddc9eaaf04b93daf6479f1a180fd491dfc7fc99d711bc4ae89c11a7799a"
 
 [[files]]
 file = "kubejs/server_scripts/alexsmobs/tags.js"
-hash = "75767c176a89726b2139c022c3e2dc3064a904e5196b870c9dc385d6ee8a5571"
+hash = "b261a28c90f1be0051a53bb726316552c76a03652eeb9ea04fe8b6c3633231e7"
 
 [[files]]
 file = "kubejs/server_scripts/allurement/enchants.js"
@@ -3295,6 +3299,10 @@ hash = "48622296e1d9e02e440883d893febe42eb5262e69a4be8f37493f9b73bc22865"
 [[files]]
 file = "kubejs/server_scripts/cataclysm/recipes.js"
 hash = "b4edbcd2b34a60bf35802642d979dd95b75a48684776b30b32aaec8eb7e83118"
+
+[[files]]
+file = "kubejs/server_scripts/cataclysm/tags.js"
+hash = "492ad88582ffaec78b7b16384f4ecb0e0b89e86ab2b7ff29e35192cfe4faa6b0"
 
 [[files]]
 file = "kubejs/server_scripts/caverns_and_chasms/recipes.js"
@@ -3518,7 +3526,7 @@ hash = "7c80cb6743797a183b67c5cd61e98f05b2be03ef370669a5478ae5d206aac017"
 
 [[files]]
 file = "kubejs/server_scripts/origins/dryad.js"
-hash = "ee24df80311e85026d14a00eb8f6421d9e86b5cc7b3c58a228ed4df40c3d1a30"
+hash = "31bbe58f873d00b97cf76417200b4a428261ee2a62c0df724fd4590a286a7f58"
 
 [[files]]
 file = "kubejs/server_scripts/origins/dwarf.js"
@@ -3526,11 +3534,11 @@ hash = "c79e461a2b67495391c8f47e0edf9149d8e25533de31136564e4553e1f478083"
 
 [[files]]
 file = "kubejs/server_scripts/origins/pyke.js"
-hash = "cd1de5a3273afe3015c93ef39f2b1ab54e5c1dc1e722de9ec79b47775f367608"
+hash = "81235304cff7012ff6f477a6ec3242f33800b239cb30cd60d70edfb715b43f55"
 
 [[files]]
 file = "kubejs/server_scripts/origins/tags.js"
-hash = "69d5cd91a0e4218534392b55d847c41776506dee138ba01a7a0d8a1d988afc8b"
+hash = "a13702ef7a577773be38830b7661e2dddc367111b5fad42a7d33ef53eb7aea61"
 
 [[files]]
 file = "kubejs/server_scripts/quark/recipes.js"
@@ -3555,6 +3563,10 @@ hash = "e9ebb3f4bfb00cf3f5e28cddffe6cd716dd3f4e84eee781a7f6196ab455586b5"
 [[files]]
 file = "kubejs/server_scripts/scguns/worldgen.js"
 hash = "59a0704a61829f1be35ec9c0cf67863a0ae91f4cc0a60238d29a80f3efe0c310"
+
+[[files]]
+file = "kubejs/server_scripts/simpletms/tags.js"
+hash = "439f9d3336fb8aa8c4be8b93461363844a0993caa578d24e7fd17be007e77be0"
 
 [[files]]
 file = "kubejs/server_scripts/snowrealmagic/tags.js"
@@ -3627,10 +3639,6 @@ hash = "71be5f32c65a495880f8fcb8c97d85219ee5b5b57b2838835322a0973e176fb3"
 [[files]]
 file = "kubejs/startup_scripts/_core/blockswap.js"
 hash = "b5d2cb77089390338d007096ee74719118f6178e1185250aafeb5401a8faadde"
-
-[[files]]
-file = "kubejs/startup_scripts/_core/dev.js"
-hash = "679c84372a4633afbe1b9201c9c697c86cea093427a6e6953fd864b3c1a5f852"
 
 [[files]]
 file = "kubejs/startup_scripts/_core/portals.js"
@@ -4004,6 +4012,11 @@ hash = "0f53b68912df649f51684bf9ee43657354a1b1a6052986f3690af5d666395158"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "ab91ecc56cc8ab62ffc54e4d5571b129d4a17dcc3b084b6089bc018307cbe816"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "fec49033058ced91f7668d4e305e599f5527501ef37c1f30f96d8927d6202d32"
 metafile = true
@@ -4261,6 +4274,21 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
+metafile = true
+
+[[files]]
+file = "mods/corpse-x-cosmetic-armor-reworked-compat.pw.toml"
+hash = "23cc8ba244b6413e0dca8f29c1d4752b58c3f3edcfea0e8677380b9d674ca0e6"
+metafile = true
+
+[[files]]
+file = "mods/corpse-x-curios-api-compat.pw.toml"
+hash = "c287631064c1179bea1c515d8f6202f7c18595498242110bc882e8a1aed8382a"
+metafile = true
+
+[[files]]
+file = "mods/corpse.pw.toml"
+hash = "2fba2317a375669ccb1376525d4d4e0d1903cc5dc44fc70dce1d0e3dbb6aacb1"
 metafile = true
 
 [[files]]
@@ -4914,11 +4942,6 @@ hash = "9a5e498a9c596fb0bfbab74173aa854257466e8c538d15c1966ce268b3267575"
 metafile = true
 
 [[files]]
-file = "mods/lendercataclysm.pw.toml"
-hash = "b31c815e4c1a5f69faada073cfef2d859c411e0bd2a3e4cbed6e7401ab975140"
-metafile = true
-
-[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "60af8798dbf3e300a5af44125595afcd5d1e70072448444156364f222cc03e98"
 metafile = true
@@ -5336,11 +5359,6 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "8c1ddc34636bfb9ab2209a4d387900f03682a65ed5fcf8b5027ffdd9ba49880f"
-metafile = true
-
-[[files]]
-file = "mods/separatedleaves.pw.toml"
-hash = "4a6bc910264e00d9dc48a8c04a440c30cca7221d88c68b6ccfe9ba9c4fe35389"
 metafile = true
 
 [[files]]

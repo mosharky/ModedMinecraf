@@ -31,6 +31,9 @@ function itemTags_AlexsMobs(e) {
     e.add('alexsmobs:tarantula_hawk_foodstuffs', [
         'windswept:mimosa',
     ])
+    e.add('alexsmobs:komodo_dragon_tameables', [
+        'minecraft:rotten_flesh'
+    ])
 }
 
 /** @param {$TagEventJS} e */

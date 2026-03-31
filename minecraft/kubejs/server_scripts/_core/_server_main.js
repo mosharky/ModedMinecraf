@@ -7,6 +7,7 @@ ServerEvents.tags('item', e => {
     itemTags_Neapolitan(e)
     itemTags_Origins(e)
     itemTags_OddsNEnds(e)
+    itemTags_SimpleTMs(e)
 
     if (!global.DEBUG_MODE) {
         e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
@@ -55,6 +56,10 @@ ServerEvents.tags('worldgen/biome', e => {
     // biomeTags_ScGuns(e)
     biomeTags_Oreganized(e)
     biomeTags_OddsNEnds(e)
+})
+
+ServerEvents.tags('worldgen/structure', e => {
+    structureTags_Cataclysm(e)
 })
 
 

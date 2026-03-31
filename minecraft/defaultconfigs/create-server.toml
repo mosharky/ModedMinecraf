@@ -166,11 +166,11 @@
 		rollerFillDepth = 12
 		#.
 		#Whether minecart contraptions can be picked up in survival mode.
-		survivalContraptionPickup = false
+		survivalContraptionPickup = true
 		#.
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableSpawners = "UNMOVABLE"
+		movableSpawners = "NO_PICKUP"
 		#.
 		#Configure how Budding Amethyst can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE

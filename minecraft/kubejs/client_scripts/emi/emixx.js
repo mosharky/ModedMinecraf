@@ -33,4 +33,7 @@ function clientData_EMIxx(e) {
     createGroup('another_furniture:bench')
     createGroup('dramaticdoors:short_wooden_doors')
     createGroup('dramaticdoors:tall_wooden_doors')
+    // custom tags
+    createGroup('kubejs:tms')
+    createGroup('kubejs:trs')
 }

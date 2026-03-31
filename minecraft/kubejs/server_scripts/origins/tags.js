@@ -3,6 +3,7 @@ function blockTags_Origins(e) {
     e.add('kubejs:vine_whip_plants', [
         '#minecraft:mineable/hoe',
         '#minecraft:leaves',
+        'environmental:giant_tall_grass',
         '#minecraft:flowers',
         '#minecraft:replaceable_plants',
         '#minecraft:replaceable_by_trees',
@@ -38,21 +39,17 @@ function blockTags_Origins(e) {
         'minecraft:flowering_azalea',
         'minecraft:big_dripleaf'
     ])
-    e.add('kubejs:old_friends_leaves', '#minecraft:leaves')
+    e.add('kubejs:old_friends_leaves', ['#minecraft:leaves', '#minecraft:logs'])
 }
 
 /** @param {$TagEventJS} e */
 function itemTags_Origins(e) {
-    e.add('kubejs:sunlight_smallest_fill_food', [
+    e.add('kubejs:dryad_foods', [
         'minecraft:honey_bottle',
-    ])
-    e.add('kubejs:sunlight_small_fill_food', [
         'buzzier_bees:honey_apple',
         'create:honeyed_apple',
         'farmersdelight:honey_cookie',
         'supplementaries:candy',
-    ])
-    e.add('kubejs:sunlight_medium_fill_food', [
         'buzzier_bees:honey_bread',
         'buzzier_bees:glazed_porkchop',
         'brewinandchewin:mead',
@@ -62,8 +59,6 @@ function itemTags_Origins(e) {
         /collectorsreap:.*gummy/,
         /abnormals_delight:passion_aloe_nectar/,
         'windswept_delights:snow_cone',
-    ])
-    e.add('kubejs:sunlight_large_fill_food', [
         'collectorsreap:salmon_wrapped_prawn',
         'collectorsreap:pomegranate_pork',
         'collectorsreap:honey_lime_chicken',

@@ -107,7 +107,7 @@ minecraftinstance.json
 kubejs/wip_data/
 kubejs/config/
 kubejs/_mod_data/
-kubejs/startup_scripts/src/_core/dev.js
+kubejs/startup_scripts/_core/dev.js
 globalresources/excavated_variants/
 
 # assets

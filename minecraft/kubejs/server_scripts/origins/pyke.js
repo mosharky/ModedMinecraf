@@ -212,6 +212,7 @@ function origins_Pyke(e) {
     e.addJson('kubejs:powers/pyke/insomniac', {
         name: 'Insomniac',
         description: 'You cannot sleep. Phantoms no longer haunt your dreams.',
+        type: 'origins:multiple',
         prevent_sleep: {
             type: 'origins:prevent_sleep',
             set_spawn_point: true,
