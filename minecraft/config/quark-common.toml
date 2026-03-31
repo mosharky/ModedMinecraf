@@ -1822,12 +1822,12 @@
 
 [oddities]
 	Backpack = false
-	Crate = true
+	Crate = false
 	Magnets = false
 	"Matrix Enchanting" = false
 	Pipes = false
 	"Tiny Potato" = false
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
