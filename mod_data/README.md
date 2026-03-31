@@ -2,7 +2,7 @@
 Most of this probably could've been done better..
 
 ## Structure swaps - `structure_swap.py`
-- Example usage at https://github.com/mosharky/ModedMinecraf/blob/dev/minecraft/kubejs/config/swaps.json
+- Example usage in https://github.com/mosharky/ModedMinecraf
 - Might only work on Windows
 - It can currently handle the following swaps:
     - Blocks swaps
@@ -53,7 +53,7 @@ Desired swaps/removals should be in `swaps.json` (by default expected in `minecr
 - `structure_swapper` - Used for swapping blocks on a per-structure basis. The key can be a string or a regex string that point to where the structure **.nbt file** is, not the actual structure (this is different from the structure path you'll see in-game with `/locate structure`)
 - `state_swapper` - For mapping a block with a specific blockstate to a different block with a specific blockstate. This uses the same format as the Block Swap mod.
 
-Highly recommend that you check [how I used it](https://github.com/mosharky/ModedMinecraf/blob/dev/minecraft/kubejs/config/swaps.json). I filled my `swaps.json` with KubeJS scripts.
+Highly recommend that you check [how I used it](https://github.com/mosharky/ModedMinecraf/blob/dev/minecraft/kubejs/config/swaps.json). I filled my `swaps.json` with KubeJS scripts; check my startup scripts.
 
 #### Script loop
 This script loops through every mod/datapack file (`.jar` or `.zip`) found in (with this order/priority):
