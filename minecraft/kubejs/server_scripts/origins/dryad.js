@@ -8,7 +8,7 @@ function origins_Dryad(e) {
         icon: 'raccompat:vine_ring',
         powers: [
             'kubejs:dryad/sunlight',
-            'kubejs:dryad/no_hunger',
+            // 'kubejs:dryad/no_hunger',
             'kubejs:dryad/vine_whip',
             'kubejs:dryad/old_friends',
             'kubejs:dryad/bioluminescence',
@@ -47,342 +47,58 @@ function origins_Dryad(e) {
                 }
             }
         ],
-        res: {
-            type: 'origins:resource',
-            min: 0,
-            max: 280,
-            start_value: 280,
-            hud_render: {
-                should_render: true,
-                sprite_location: 'origins:textures/gui/community/spiderkolo/resource_bar_02.png',
-                bar_index: 24,
-                condition: {
-                    type: 'origins:or',
-                    inverted: true,
-                    conditions: [
-                        {
-                            type: 'origins:gamemode',
-                            gamemode: 'creative'
-                        },
-                        {
-                            type: 'origins:gamemode',
-                            gamemode: 'spectator'
-                        }
-                    ]
-                }
-            }
-        },
-        fill_on_spawn: {
-            type: 'origins:action_on_callback',
-            entity_action_respawned: {
-                type: 'origins:and',
-                actions: [
-                    {
-                        type: 'origins:change_resource',
-                        resource: '*:*_res',
-                        change: 280
-                    }
-                ]
-            }
-        },
-        drain_sprint: {
-            type: 'origins:action_over_time',
-            interval: 140,
-            entity_action: {
-                type: 'origins:change_resource',
-                resource: '*:*_res',
-                change: -1
-            },
-            condition: {
-                type: 'origins:and',
-                conditions: [
-                    {
-                        type: 'origins:sprinting'
-                    },
-                    {
-                        type: 'origins:resource',
-                        resource: '*:*_res',
-                        comparison: '>',
-                        compare_to: 40
-                    },
-                    {
-                        type: 'origins:or',
-                        inverted: true,
-                        conditions: [
-                            {
-                                type: 'origins:gamemode',
-                                gamemode: 'creative'
-                            },
-                            {
-                                type: 'origins:gamemode',
-                                gamemode: 'spectator'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        drain_sprint_jump: {
-            type: 'origins:active_self',
-            entity_action: {
-                type: 'origins:chance',
-                chance: 0.01,
-                action: {
-                    type: 'origins:change_resource',
-                    resource: '*:*_res',
-                    change: -1
-                }
-            },
-            cooldown: 15,
-            key: {
-                key: 'key.jump'
-            },
-            condition: {
-                type: 'origins:and',
-                conditions: [
-                    {
-                        type: 'origins:sprinting'
-                    },
-                    {
-                        type: 'origins:resource',
-                        resource: '*:*_res',
-                        comparison: '>',
-                        compare_to: 40
-                    },
-                    {
-                        type: 'origins:or',
-                        inverted: true,
-                        conditions: [
-                            {
-                                type: 'origins:gamemode',
-                                gamemode: 'creative'
-                            },
-                            {
-                                type: 'origins:gamemode',
-                                gamemode: 'spectator'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        regeneration_high: {
-            type: 'origins:action_over_time',
-            interval: 10,
-            entity_action: {
-                type: 'origins:and',
-                actions: [
-                    {
-                        type: 'origins:heal',
-                        amount: 1
-                    },
-                    {
-                        type: 'origins:change_resource',
-                        resource: '*:*_res',
-                        change: -3
-                    }
-                ]
-            },
-            condition: {
-                type: 'origins:and',
-                conditions: [
-                    {
-                        type: 'origins:resource',
-                        resource: '*:*_res',
-                        comparison: '>',
-                        compare_to: 100
-                    },
-                    {
-                        type: 'origins:relative_health',
-                        comparison: '<',
-                        compare_to: 1
-                    }
-                ]
-            }
-        },
-        regeneration_mid: {
-            type: 'origins:action_over_time',
-            interval: 80,
-            entity_action: {
-                type: 'origins:and',
-                actions: [
-                    {
-                        type: 'origins:heal',
-                        amount: 1
-                    },
-                    {
-                        type: 'origins:change_resource',
-                        resource: '*:*_res',
-                        change: -2
-                    }
-                ]
-            },
-            condition: {
-                type: 'origins:and',
-                conditions: [
-                    {
-                        type: 'origins:resource',
-                        resource: '*:*_res',
-                        comparison: '>',
-                        compare_to: 40
-                    },
-                    {
-                        type: 'origins:resource',
-                        resource: '*:*_res',
-                        comparison: '<=',
-                        compare_to: 100
-                    },
-                    {
-                        type: 'origins:relative_health',
-                        comparison: '<',
-                        compare_to: 1
-                    }
-                ]
-            }
-        },
-        regeneration_low: {
-            type: 'origins:action_over_time',
-            interval: 160,
-            entity_action: {
-                type: 'origins:and',
-                actions: [
-                    {
-                        type: 'origins:heal',
-                        amount: 1
-                    },
-                    {
-                        type: 'origins:change_resource',
-                        resource: '*:*_res',
-                        change: -1
-                    }
-                ]
-            },
-            condition: {
-                type: 'origins:and',
-                conditions: [
-                    {
-                        type: 'origins:resource',
-                        resource: '*:*_res',
-                        comparison: '>',
-                        compare_to: 0
-                    },
-                    {
-                        type: 'origins:resource',
-                        resource: '*:*_res',
-                        comparison: '<=',
-                        compare_to: 40
-                    },
-                    {
-                        type: 'origins:relative_health',
-                        comparison: '<',
-                        compare_to: 1
-                    }
-                ]
-            }
-        },
-        prevent_sprinting: {
-            type: 'origins:prevent_sprinting',
-            condition: {
-                type: 'origins:and',
-                conditions: [
-                    {
-                        type: 'origins:resource',
-                        resource: '*:*_res',
-                        comparison: '<=',
-                        compare_to: 80
-                    },
-                    {
-                        type: 'origins:or',
-                        inverted: true,
-                        conditions: [
-                            {
-                                type: 'origins:gamemode',
-                                gamemode: 'creative'
-                            },
-                            {
-                                type: 'origins:gamemode',
-                                gamemode: 'spectator'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
         fill_sun: {
             type: 'origins:action_over_time',
-            interval: 40,
+            interval: 400,  // 20 seconds
             entity_action: {
-                type: 'origins:change_resource',
-                resource: '*:*_res',
-                change: 1
+                type: 'origins:feed',
+                food: 1,
+                saturation: 1
             },
             condition: {
                 type: 'origins:exposed_to_sun'
             }
         },
-        smallest_fill_food: {
-            type: 'origins:action_on_item_use',
-            entity_action: {
-                type: 'origins:change_resource',
-                resource: '*:*_res',
-                change: 20
-            },
-            item_condition: {
-                type: 'origins:ingredient',
-                ingredient: {
-                    tag: 'kubejs:sunlight_smallest_fill_food'
-                }
+        more_healing: {
+            // Doubled
+            type: 'origins:modify_healing',
+            modifier: {
+                operation: 'multiply_total',
+                value: 1
             }
         },
-        small_fill_food: {
-            type: 'origins:action_on_item_use',
-            entity_action: {
-                type: 'origins:change_resource',
-                resource: '*:*_res',
-                change: 40
-            },
-            item_condition: {
-                type: 'origins:ingredient',
-                ingredient: {
-                    tag: 'kubejs:sunlight_small_fill_food'
-                }
+        reduced_exhaustion: {
+            // Reduced by 90%
+            type: 'origins:modify_exhaustion',
+            modifier: {
+                operation: 'multiply_total',
+                value: -0.9
             }
         },
-        medium_fill_food: {
-            type: 'origins:action_on_item_use',
-            entity_action: {
-                type: 'origins:change_resource',
-                resource: '*:*_res',
-                change: 80
-            },
+        honeyed_food_only: {
+            type: 'origins:prevent_item_use',
             item_condition: {
-                type: 'origins:ingredient',
-                ingredient: {
-                    tag: 'kubejs:sunlight_medium_fill_food'
-                }
-            }
-        },
-        large_fill_food: {
-            type: 'origins:action_on_item_use',
-            entity_action: {
-                type: 'origins:change_resource',
-                resource: '*:*_res',
-                change: 120
-            },
-            item_condition: {
-                type: 'origins:ingredient',
-                ingredient: {
-                    tag: 'kubejs:sunlight_large_fill_food'
-                }
+                type: 'origins:and',
+                conditions: [
+                    {
+                        inverted: true,
+                        type: 'origins:ingredient',
+                        ingredient: { tag: 'kubejs:dryad_foods' }
+                    },
+                    { type: 'origins:food' },
+                    {
+                        type: 'origins:ingredient',
+                        inverted: true,
+                        ingredient: { tag: 'origins:ignore_diet' },
+                    }
+                ]
             }
         },
         tooltips: {
             type: 'origins:tooltip',
             item_condition: {
                 type: 'origins:ingredient',
-                ingredient: {
-                    tag: 'kubejs:sunlight_smallest_fill_food'
-                }
+                ingredient: { tag: 'kubejs:dryad_foods' }
             },
             text: {
                 type: 'translatable',
@@ -391,50 +107,6 @@ function origins_Dryad(e) {
         }
     })
 
-
-
-    e.addJson('kubejs:powers/dryad/no_hunger', {
-        hidden: true,
-        type: 'origins:multiple',
-        no_exhaustion: {
-            type: 'origins:modify_exhaustion',
-            modifier: { operation: 'multiply_base', value: -1 }
-        },
-        no_starving: {
-            type: 'origins:invulnerability',
-            damage_condition: { type: 'origins:name', name: 'starve' }
-        },
-        no_regen: {
-            type: 'origins:disable_regen'
-        },
-        hunger_immunity: {
-            type: 'origins:effect_immunity',
-            effect: 'minecraft:hunger'
-        },
-        no_saturation_on_spawn: {
-            type: 'origins:action_on_callback',
-            entity_action_gained: {
-                type: 'origins:feed',
-                food: 20,
-                saturation: -20
-            },
-            entity_action_respawned: {
-                type: 'origins:feed',
-                food: 20,
-                saturation: -20
-            }
-        },
-        snacking: {
-            type: 'origins:modify_food',
-            item_condition: { type: 'origins:food' },
-            saturation_modifier: { operation: 'multiply_total', value: -1 },
-            always_edible: true
-        },
-        no_bar: {
-            type: 'origins:status_bar_texture',
-            texture: 'kubejs:textures/gui/no_hunger.png'
-        }
-    })
 
 
 
