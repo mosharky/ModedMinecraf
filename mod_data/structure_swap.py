@@ -1,11 +1,12 @@
-# requires python 3
-# run or cd into PrismLauncher\instances\[modpack]
+# requires python 3.9+
+# run from or cd into PrismLauncher/instances/[modpack]
 # so this code should be running from the instance folder by default
 import json
 import re
 import traceback
 import logging
 import shutil
+# pip install "nbtlib==1.12.1"
 from nbtlib import schema, File, Int, String, List, Compound, Double
 from pathlib import Path
 from zipfile import ZipFile
@@ -25,6 +26,7 @@ generatedDir = Path('mod_data/generated')
 overridesPath = Path('mod_data/overrides')
 handledStructures = set()
 
+# change this to where your swaps.json file is 
 swapsJson = json.load(open('minecraft/kubejs/config/swaps.json', 'r'))
 swaps = {
     'removals': set(swapsJson.get('removals', [])),
@@ -112,7 +114,7 @@ def swapLoop(path: Path) -> bool:
             # ex: 'atmospheric'
             namespace = targetSplit[3]
             # ex: 'arid_garden/arid_garden_1.nbt
-            filepath = '/'.join(targetSplit[5:]).rstrip('.nbt')
+            filepath = '/'.join(targetSplit[5:]).removesuffix('.nbt')
             # ex: 'atmospheric:arid_garden/arid_garden_1.nbt'
             structureId = namespace + ':' + filepath
 
@@ -367,7 +369,7 @@ def zipStructures(outputPath: Path):
 
     mcmeta = {
         "pack": {
-            "description": "Generated structures with swapped blocks/items/entities for the modpack.",
+            "description": "Generated structures with swapped blocks/items/entities for this modpack.",
             "version": "1.0.0",
             "pack_format": 10,
             "supported_formats": [
