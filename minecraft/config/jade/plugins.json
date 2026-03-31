@@ -138,6 +138,9 @@
   "supplementaries": {
     "hat_stand": true
   },
+  "corpse": {
+    "corpse": true
+  },
   "goety": {
     "block_owner": true,
     "soul_energy": true,
