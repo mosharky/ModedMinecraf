@@ -25,6 +25,7 @@ function blockTags_Origins(e) {
     ])
     e.add('kubejs:old_friends_plants', [
         '#minecraft:dirt',
+        '#minecraft:logs',
         'minecraft:cactus',
         'minecraft:mangrove_roots',
         '#mineable/hoe',
@@ -39,7 +40,7 @@ function blockTags_Origins(e) {
         'minecraft:flowering_azalea',
         'minecraft:big_dripleaf'
     ])
-    e.add('kubejs:old_friends_leaves', ['#minecraft:leaves', '#minecraft:logs'])
+    e.add('kubejs:old_friends_leaves', '#minecraft:leaves')
 }
 
 /** @param {$TagEventJS} e */
