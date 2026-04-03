@@ -2492,7 +2492,7 @@ hash = "a66c8373d297aa56a2e8e60180eb276c8875d9b6d011fba6ba6a4467ff372aa2"
 
 [[files]]
 file = "kubejs/assets/mod-descriptions.pw.toml"
-hash = "e6f13d24132521ffcf361e7bb30f35580dbfa77d714add7525b958563fd50828"
+hash = "ee6875d563832c7d3eb382e3ca1d93b8f8cf73888f21a9a861f4fe2e00809d5c"
 metafile = true
 
 [[files]]
@@ -3294,7 +3294,7 @@ hash = "066c37e49971b8d06a420e92ef680f96629b96f5a08255dee4997dc5ddb121c7"
 
 [[files]]
 file = "kubejs/server_scripts/cataclysm/events.js"
-hash = "48622296e1d9e02e440883d893febe42eb5262e69a4be8f37493f9b73bc22865"
+hash = "26c4c6dd415516bd7a9505fa519f81e2a54e2c24bf11a9514f70e3bcab6e6290"
 
 [[files]]
 file = "kubejs/server_scripts/cataclysm/recipes.js"
@@ -3538,7 +3538,7 @@ hash = "81235304cff7012ff6f477a6ec3242f33800b239cb30cd60d70edfb715b43f55"
 
 [[files]]
 file = "kubejs/server_scripts/origins/tags.js"
-hash = "a13702ef7a577773be38830b7661e2dddc367111b5fad42a7d33ef53eb7aea61"
+hash = "b57b5713352cde3112a222e35863c78504828dcc7d15c7d822744c91a4636463"
 
 [[files]]
 file = "kubejs/server_scripts/quark/recipes.js"
@@ -4008,7 +4008,7 @@ metafile = true
 
 [[files]]
 file = "mods/backpacked.pw.toml"
-hash = "0f53b68912df649f51684bf9ee43657354a1b1a6052986f3690af5d666395158"
+hash = "4d150027e39f0055823580b807b54f442967e6968ece531f561aa9afee757da3"
 metafile = true
 
 [[files]]
@@ -4118,7 +4118,7 @@ metafile = true
 
 [[files]]
 file = "mods/caverns-and-chasms.pw.toml"
-hash = "e6c378f7499864c5634525a2ec77ec14f3152abd095aab66512d59131c852a7a"
+hash = "ba0203df4e641c6b16c46c671ae58f2ae9814356ced53c39216dc1912a8a7d26"
 metafile = true
 
 [[files]]
@@ -4313,7 +4313,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-compatible-storage.pw.toml"
-hash = "1656364454d2e9c9cd65bc0a729b30e67c23fd26566ff4135439a4196bc71f06"
+hash = "b516fa5b4adeac9e6b5280c025d62f3043613d613807c42eb7c886eddc9aa566"
 metafile = true
 
 [[files]]
@@ -4588,7 +4588,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "37025c2896cf52fa7190c9cc305cd730fff6f5688a2569517966c5a4e2a1c036"
+hash = "426df5fa044bc79dbb09a2b403276189e69da4255731bd8622a61dd1cf070ab9"
 metafile = true
 
 [[files]]
@@ -4808,7 +4808,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-api.pw.toml"
-hash = "f9512564b0e251e4f9b7a0fef004a26c05c9272cbe5ce272730eba63179c00eb"
+hash = "9ca7fdea10bd35d39e4aae88debce4d2a5cac378bb5cfaaccbbb77fc0b2dadba"
 metafile = true
 
 [[files]]
@@ -4938,7 +4938,7 @@ metafile = true
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
-hash = "bfc34fffd4daadc67a4f8c19282e4e4852d8861c08b7722671aba9bed79523ce"
+hash = "9b3cd1825ce6c4ff7271ae8866840937f759b22eea515decb821c426b05c800a"
 metafile = true
 
 [[files]]
@@ -5579,7 +5579,7 @@ metafile = true
 
 [[files]]
 file = "mods/unusual-prehistory-2.pw.toml"
-hash = "70365d2c5d2ae535f330007a9337e9df0a30610e6e7ea5ba7489d76388227122"
+hash = "1527a528fe35e68244dc251e95168ba037e0c54025058dd10b72a794e5ee2adb"
 metafile = true
 
 [[files]]

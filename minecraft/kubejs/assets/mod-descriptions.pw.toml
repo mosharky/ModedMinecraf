@@ -1,13 +1,13 @@
 name = "Mod Descriptions"
-filename = "mod-descriptions-v10.0.zip"
+filename = "mod-descriptions-v11.1.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/DkF7ssGR/versions/4InnCdzz/mod-descriptions-v10.0.zip"
+url = "https://cdn.modrinth.com/data/DkF7ssGR/versions/6ldReJK7/mod-descriptions-v11.1.zip"
 hash-format = "sha512"
-hash = "0c91c8a0de2b9fff4ead1daba3251923f1ccb147610d4fd7c9eb318289d7315c047c7b328e63bc718b49a6cec1ba058f6dd778ca6ca0c2ff35364e2e35d6a1fb"
+hash = "3a13cf2e486dc5c3d08ab2d018f5913a93f3f981aee226c54e4bb024e94d55d3fb26552213a1b151dd2cefc765dae1eaf7a01eb47e1f9020e32589a42444df0d"
 
 [update]
 [update.modrinth]
 mod-id = "DkF7ssGR"
-version = "4InnCdzz"
+version = "6ldReJK7"
