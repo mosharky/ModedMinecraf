@@ -9,6 +9,7 @@
         "module": "commonjs",
         "skipDefaultLibCheck": true,
         "moduleResolution": "classic",
+        "ignoreDeprecations": "6.0",
         "composite": true,
         "isolatedModules": true,
         "lib": [

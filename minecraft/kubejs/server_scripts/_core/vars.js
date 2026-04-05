@@ -109,3 +109,12 @@ function autoImmersiveEnchanting(e, enchantment, levels) {
     }
     e.addJson(`immersiveenchanting:enchantment_costs/${modId}/${enchantmentId}`, enchantmentObj)
 }
+
+
+// Turns an item id into readable text
+function prettyItem(item) {
+    let modName = Platform.getMods()[item.split(':')[0]].name
+    let itemName = Item.of(item).getDisplayName().getString().replace('[', '"').replace(']', '"')
+
+    return `${modName}'s ${itemName}`
+}

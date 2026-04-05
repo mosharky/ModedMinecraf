@@ -8,7 +8,7 @@
     "fluidMode": "NONE",
     "reachDistance": 0.0,
     "displayEntities": true,
-    "displayBosses": true,
+    "displayBosses": false,
     "displayMode": "TOGGLE",
     "displayTooltip": true,
     "displayBlocks": true,

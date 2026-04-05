@@ -30,6 +30,9 @@
 
 		[types.stone_type.caverns_and_chasms]
 			sugilite = true
+			cylindrite = true
+			cassiterite = true
+			rhyolite = true
 
 		[types.stone_type.natures_spirit]
 			pink_sandstone = false
@@ -800,6 +803,45 @@
 			dripstone_shingle = true
 			cut_amethyst_brick = true
 			azalea = true
+			turquoise_tile = true
+			granite_brick = true
+			granite_tile = true
+			diorite_brick = true
+			diorite_tile = true
+			andesite_brick = true
+			andesite_tile = true
+			calcite_brick = true
+			tuff_brick = true
+			smooth_tuff = true
+			sugilite_brick = true
+			smooth_cylindrite = true
+			cylindrite_brick = true
+			polished_cylindrite = true
+			cassiterite = true
+			smooth_cassiterite = true
+			cassiterite_brick = true
+			polished_cassiterite = true
+			rhyolite = true
+			polished_rhyolite = true
+			rhyolite_brick = true
+			magmatic_rhyolite = true
+			polished_magmatic_rhyolite = true
+			magmatic_rhyolite_brick = true
+			smooth_dripstone = true
+			polished_dripstone = true
+			dripstone_brick = true
+			iron_brick = true
+			tin_brick = true
+			gold_brick = true
+			silver_brick = true
+			copper_brick = true
+			exposed_copper_brick = true
+			weathered_copper_brick = true
+			oxidized_copper_brick = true
+			waxed_copper_brick = true
+			waxed_exposed_copper_brick = true
+			waxed_weathered_copper_brick = true
+			waxed_oxidized_copper_brick = true
 
 		[types.cut_block_type.buzzier_bees]
 			honeycomb_brick = true
@@ -1412,7 +1454,7 @@
 
 		[entries.stone_type.quark]
 			polished_vertical_slab = true
-			pillar = true
+			pillar = false
 			vertical_slab = true
 
 		[entries.stone_type.decorative_blocks]
@@ -1422,7 +1464,7 @@
 
 		[entries.mud_type.quark]
 			carved_bricks = true
-			pillar = true
+			pillar = false
 			brick_lattice = true
 
 	[entries.wood_type]

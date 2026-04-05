@@ -132,7 +132,7 @@
 	Shingles = true
 	"Soul Sandstone" = true
 	Stools = false
-	"Sturdy Stone" = true
+	"Sturdy Stone" = false
 	Thatch = false
 	"Variant Bookshelves" = false
 	"Variant Chests" = true
@@ -141,7 +141,7 @@
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
-	"More Stone Variants" = false
+	"More Stone Variants" = true
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -261,7 +261,7 @@
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 
 	[building.variant_ladders]
 		"Change Names" = true
@@ -277,9 +277,9 @@
 		"Allow Side Connections" = true
 
 	[building.more_stone_variants]
-		"Enable Bricks" = false
-		"Enable Chiseled Bricks" = false
-		"Enable Pillar" = false
+		"Enable Bricks" = true
+		"Enable Chiseled Bricks" = true
+		"Enable Pillar" = true
 
 [management]
 	"Automatic Tool Restock" = true
@@ -581,9 +581,9 @@
 		#List of changes to apply to repair items, format is "<item>=<repair_item>" as seen in the defualt.
 		#Multiple repair items can be applied for the same base item, and as long as at least one is provided, any vanilla option will be removed.
 		#To use multiple items, comma separate them (e.g. "minecraft:diamond_sword=minecraft:diamond,minecraft:emerald")If you want the vanilla option back, you must add it again manually.
-		"Repair Item Changes" = ["minecraft:netherite_sword=minecraft:diamond", "minecraft:netherite_pickaxe=minecraft:diamond", "minecraft:netherite_axe=minecraft:diamond", "minecraft:netherite_shovel=minecraft:diamond", "minecraft:netherite_hoe=minecraft:diamond", "minecraft:netherite_helmet=minecraft:diamond", "minecraft:netherite_chestplate=minecraft:diamond", "minecraft:netherite_leggings=minecraft:diamond", "minecraft:netherite_boots=minecraft:diamond"]
+		"Repair Item Changes" = []
 		"Unrepairable Items" = []
-		"Enable Jei Hints" = true
+		"Enable Jei Hints" = false
 
 	[tweaks.double_door_opening]
 		"Enable Doors" = true
