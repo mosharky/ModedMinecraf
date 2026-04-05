@@ -562,6 +562,7 @@ function itemTags_Origins(e) {
         'minecraft:suspicious_stew',
         'obscure_api:vial_of_knowledge',
         'supplementaries:soap',
+        'malum:chunk_of_brilliance',
     ])
 
     // debug carnivore/vegetarian fix
