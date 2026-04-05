@@ -490,7 +490,7 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "e8bdd6375b2c6bd2bcff72b3769f7dab45946ebf39416c0ae621d900e28c59ba"
+hash = "6e25e8a5d6f536cd529e83f3968f55bb898db495cdcec85c19a22d5d7312e89b"
 
 [[files]]
 file = "config/amendments-client.toml"
@@ -526,7 +526,7 @@ hash = "5b5284747e68c84d70a6b5293cc572109e602e26092d5cce27309cc06db47d93"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "45919ec5fd1c24c15f7a1c904394e0efd5b8fbe392f466d983d5c1a79cd4fb7c"
+hash = "f91983ea893c3203f0101641f99539994529f81f496b935aff48c9bf4ea06ae2"
 
 [[files]]
 file = "config/autumnity-common.toml"
@@ -714,7 +714,7 @@ hash = "ac4fad73b20151ee9f0de09dcc137310e5dcb44b68164c1d739eb562de848992"
 
 [[files]]
 file = "config/caverns_and_chasms-common.toml"
-hash = "2697f81d15401de3729b765a4f5e80095e70710cfa4236c1e280cfaa9d1471fd"
+hash = "7558a8a17987b14542b2f59c1dcdfc22e8a670331afcb6c447d09ad9ec0e1d3b"
 
 [[files]]
 file = "config/charmofundying-server.toml"
@@ -1074,11 +1074,11 @@ hash = "15b54c90409aabee45afc63e59d459c378615b98355334ba5be39ae7537979ba"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "961620e41d9058d853d68b3c0ab38445edad664c0fac39aac1d02b2cf829f111"
+hash = "89c166645a85116d2af7057aa32c89af017999ab7872d7911222c0d4f4cdce02"
 
 [[files]]
 file = "config/everycomp-hazardous.toml"
-hash = "4cf2069ac85a339ac045c7ba84716c0f0a9cb0e620dfd3d1d6c7cb2d9b57f793"
+hash = "3a757d7d8c617e6845f2adbfe4a52b8d71c088ecbf8f80e0bde003ac988ccd15"
 
 [[files]]
 file = "config/excavated_variants.toml"
@@ -1354,7 +1354,7 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "deddcab928fe284cce4916e976f838382a2f0d117d0181f420f7bb45d6dd81cf"
+hash = "96beb223c0916bce457b0222ee4e661486e13efa53f4322e73e9faa672af2b88"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -1510,7 +1510,7 @@ hash = "b2ed15f55eb1b57f7e1b4a81b99edd02d98d9000d319d72d73caae13e5fc4cc4"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
-hash = "13018762f1f626d82e41e9c5c4f19592065c01deaab48798d5e4883600c4bd40"
+hash = "c9472f5caa1316594013d0cd2b22458b7b7f3ad420420eaa0e3199338ae5a346"
 
 [[files]]
 file = "config/natures_spirit-common.toml"
@@ -1622,7 +1622,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "b9ffe493471b99f8d8b54c12400f0d3acc4317d88abb2d00ed5c824caeb9078f"
+hash = "f6e374892610dc46dc9065a035eb7d63f4bb84697db3e0a7dcf0ea9eecf2f71e"
 
 [[files]]
 file = "config/quark_ponders-client.toml"
@@ -1854,7 +1854,7 @@ hash = "34909564dc66fb400f716437577c349965144e46febfb432a388aed3b0fe81e9"
 
 [[files]]
 file = "config/snowrealmagic-common.yaml"
-hash = "5a8b5e5eca6cee82b97a45811975a9487749803b714f9489e1741e51c60964d8"
+hash = "19090d61b980b677d2c361ed47a0e4639571586e092623ce931bd153b3487d1e"
 
 [[files]]
 file = "config/snowundertrees-common.toml"
@@ -1898,7 +1898,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "c92b07ff3357280ad3102c9451d03fca067ca1f2cd8296297000ed209072cf85"
+hash = "1bdc5f2c1577d597b4dce22349e92ba8f5a9beb8d9e6807250911497760c8367"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2730,7 +2730,7 @@ hash = "311e157382c343f2e98344eca16b11e159b696a30b8d1744fb8c2bf5c6b9a4f5"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
-hash = "6bee73fad09d618056fe3fe860588246e98bc82fd14c2bed0daf183b95f66421"
+hash = "6fc552001b4c92ba2f6691ea5b188d1e0ff74e50dabfd3efdfa8a05c3df21db1"
 
 [[files]]
 file = "kubejs/client_scripts/quark/attribute_tooltips.js"
@@ -3150,11 +3150,11 @@ hash = "e003f7e221bc29dbc50b10fc902577a50cfe6f988a4e4859b98fcb3f819efdca"
 
 [[files]]
 file = "kubejs/data/structures.zip"
-hash = "05a04dc5376f53017d31ebc95085ac15695ae1cea02f0ebb0da3c6e6c840d9e8"
+hash = "bb298a94b4faccf4c6fb13a9efc4370598cd7938a06e6c1355b75369829fc0b9"
 
 [[files]]
 file = "kubejs/server_scripts/_core/_server_main.js"
-hash = "aa0a8edabbbf5a7af696d6e9d445cc1ca0bd663574d3ebb39a3c9866ad223178"
+hash = "4eaa93daafae0a9241bfa20c178a313edeea002497ec6be5cf75ad63c3751bf9"
 
 [[files]]
 file = "kubejs/server_scripts/_core/advancements.js"
@@ -3174,11 +3174,11 @@ hash = "6a1b3b52c52a7b1fa0a6f8633674ac7f22d199ede5de1fe9832a693d97c3c7a2"
 
 [[files]]
 file = "kubejs/server_scripts/_core/loot_tables.js"
-hash = "6c2e3ab5e5c641f6323d38604d63aae90b3714c0e8e701a4b6d52a8315404c09"
+hash = "0f53e45aaf6edc2f3e79d27b1ef83635a21f42cd58ae31711cde23919f12c366"
 
 [[files]]
 file = "kubejs/server_scripts/_core/player.js"
-hash = "32c91d67a9c3a68cf6136403683d7fb40d44ae8dd597a96eb5b3c806b96015d5"
+hash = "94ff6dcb3acc8d5026effd7fb586356a924a8563268a846ccb93f39c6199ff4b"
 
 [[files]]
 file = "kubejs/server_scripts/_core/recipes.js"
@@ -3194,7 +3194,7 @@ hash = "2948f97cad6a733ab88989e349209c6692ff3657f896b804ba9dbbf82bc261b8"
 
 [[files]]
 file = "kubejs/server_scripts/_core/vars.js"
-hash = "c5a4b00e1ab6bf1ce04f060046e7902d4e8485bd488a536ef4da171212958bf4"
+hash = "318509f02ccc25d9fc20e6cccdf47dc44489a2af395c4c6ef47c3f48cfc0bf87"
 
 [[files]]
 file = "kubejs/server_scripts/_core/worldgen.js"
@@ -3270,7 +3270,7 @@ hash = "a69940658a4405efbf7dbb05e9b8e18fafa681b6bbf04eaabb14e7db9518cd5b"
 
 [[files]]
 file = "kubejs/server_scripts/botania/recipes.js"
-hash = "badbc742a11e9f78839d32631f80f65a0564945c48ba82e0bb21b55127b807b5"
+hash = "210edce7923a233a84b6d19a62ecd4f7005cca0a37056d177eeea0dfeb4f9ffb"
 
 [[files]]
 file = "kubejs/server_scripts/botania/worldgen.js"
@@ -3314,7 +3314,7 @@ hash = "52ae906f26b1e36172140725335d923457ab9a6636754f50672232c7b2866b5e"
 
 [[files]]
 file = "kubejs/server_scripts/caverns_and_chasms/worldgen.js"
-hash = "0a58dc46627eb917a791b6865f3dcc76dd518d3b046128924cb4eb563aa9fd23"
+hash = "07c55be549a1fbbd217460b4b99c8316989b42cb547e452b92f7e69b1d8348bd"
 
 [[files]]
 file = "kubejs/server_scripts/collectorsreap/tags.js"
@@ -3442,7 +3442,7 @@ hash = "ca2467a1fdca1a70a98b46a6f2865e8e0c278ef39aa6fa103ca8167f69db233e"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
-hash = "12705212f0c48b394d88b785cf82c95ca7955b308e1180d966b5762da3b4e0c1"
+hash = "8fbc28a13832fdac59b54428e038460d2370b67a79db1d11d547054696618091"
 
 [[files]]
 file = "kubejs/server_scripts/malum/enchants.js"
@@ -3510,7 +3510,7 @@ hash = "2d5eec93a57f8ee9b019a8c6235559e8b4c86e6c63ee36cf8ff453bd200189a8"
 
 [[files]]
 file = "kubejs/server_scripts/oddsnends/worldgen.js"
-hash = "17b8b673506f1c336ffaeba4eca8f616c216027eed6646262d888b1cd4374529"
+hash = "d09c75dbfd03259b826bb9c6448f7a992d8abb9a9b2c538c87a34587a436c477"
 
 [[files]]
 file = "kubejs/server_scripts/oreganized/tags.js"
@@ -3538,7 +3538,7 @@ hash = "81235304cff7012ff6f477a6ec3242f33800b239cb30cd60d70edfb715b43f55"
 
 [[files]]
 file = "kubejs/server_scripts/origins/tags.js"
-hash = "b57b5713352cde3112a222e35863c78504828dcc7d15c7d822744c91a4636463"
+hash = "a6e89c8678f5aec755d1eab454b2665e334d38a9edc19f95acda0a1a68ce35b0"
 
 [[files]]
 file = "kubejs/server_scripts/quark/recipes.js"
@@ -3634,11 +3634,7 @@ hash = "79e2f300c8320122c08fab891ed5734ac6ceefb6fb802741578d5d24a70685f7"
 
 [[files]]
 file = "kubejs/startup_scripts/_core/_startup_main.js"
-hash = "71be5f32c65a495880f8fcb8c97d85219ee5b5b57b2838835322a0973e176fb3"
-
-[[files]]
-file = "kubejs/startup_scripts/_core/blockswap.js"
-hash = "b5d2cb77089390338d007096ee74719118f6178e1185250aafeb5401a8faadde"
+hash = "db2a56a187ad5c11d5def5847ac9533f8e3d906a4f196e6ae9fd566574f788cd"
 
 [[files]]
 file = "kubejs/startup_scripts/_core/portals.js"
@@ -3657,8 +3653,12 @@ file = "kubejs/startup_scripts/_core/removals.js"
 hash = "23684241d4b0465c5b0996ff8b101067914059da894b8f1d87e48a83bd7d3503"
 
 [[files]]
+file = "kubejs/startup_scripts/_core/swappers.js"
+hash = "83ec8a70d12ca0e975e266f4fa1ce4f53829d6923eb41982c2105aaf9b0dbb7f"
+
+[[files]]
 file = "kubejs/startup_scripts/_core/vars.js"
-hash = "a611a9aba7f1d5f2648aac334c16056913f5a4838f4b3fdcc954837a33091361"
+hash = "c786c7db234580adc6106f20f3fbd3f65a65eade2dc00a41de4c3f2393f39ca2"
 
 [[files]]
 file = "kubejs/startup_scripts/_core/wood_types.js"
@@ -3706,7 +3706,7 @@ hash = "6595cc7122995bbf10e9ff6748c92c9f512ba6cec0a97783dc53a2634c2f9b3d"
 
 [[files]]
 file = "kubejs/startup_scripts/caverns_and_chasms/removals.js"
-hash = "a8e716715fbf068297c971bccf4dcc4315c2e702cf068b6563837afc8c49f177"
+hash = "3aa652e51ba870f857a77fe7c64ba18e14f49be1acd2b40943c1d0d5365778d7"
 
 [[files]]
 file = "kubejs/startup_scripts/collectorsreap/registry.js"
@@ -3737,6 +3737,10 @@ file = "kubejs/startup_scripts/embers/removals.js"
 hash = "f9c39e87bcab7cce84e9845fbe9aa71d14401ef5e660c558d047d6092c6ba74d"
 
 [[files]]
+file = "kubejs/startup_scripts/embersdelight/removals.js"
+hash = "69227cfbe598e37865676efd29223eaa63cf6eab98970e27fab9b72f0820a7f9"
+
+[[files]]
 file = "kubejs/startup_scripts/endrem/removals.js"
 hash = "2afb61e8cdc6c667eea479d796654a60b86841165a989baca41c1c9276578af1"
 
@@ -3754,11 +3758,11 @@ hash = "9e219e2e7be127a7292aaf7c4a0663df43dcdaa69d8ae872b0047b2cf268cf66"
 
 [[files]]
 file = "kubejs/startup_scripts/galosphere/removals.js"
-hash = "89746ab3a8396201f537c62212364767bedbf21f189607bd3f2934ff0469f2c8"
+hash = "4fa4fc3dcd8dad66c711d5d9fa720a99490a1f9dd66006632746960b2ab6e98e"
 
 [[files]]
 file = "kubejs/startup_scripts/goety/removals.js"
-hash = "4fb62c8826540990c1f04d7ad6b2b6f2d5c3834360e57d1caf65841e00079b75"
+hash = "64ae3c20c7365d1bdaec266fcde9974c36e74382be88d7fdac674fbc35d2f76d"
 
 [[files]]
 file = "kubejs/startup_scripts/immersive_weathering/removals.js"
@@ -3774,7 +3778,7 @@ hash = "815ed7ba9f9f22232f4c109efb7e0ccb3507da7781ff4e7e9bf7c7f55358deab"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
-hash = "e680a37a83cabda8ae970e3e9a57298aef637c4dbb755089dab7ebe1b2e9d70f"
+hash = "3f1890b2dbe3f28e5f61c785fe9a8ffaef68e6214f9aa05204f89747351af28a"
 
 [[files]]
 file = "kubejs/startup_scripts/malum/removals.js"
@@ -3810,7 +3814,7 @@ hash = "38fb3cf54ad32db09ac96ae98f72fb38555dca126e1ee652378c57e3c26004d3"
 
 [[files]]
 file = "kubejs/startup_scripts/quark/removals.js"
-hash = "6f31a8b1f1d40525111f1d9db34bd2ea518766347c5ab2cb1aaf9025ee549038"
+hash = "3713db60c28b6c8d49bf25edacf80fb95fd2757b0ec37e04e09920506386ec82"
 
 [[files]]
 file = "kubejs/startup_scripts/railways/removals.js"
@@ -3847,6 +3851,10 @@ hash = "38333c7f6733c826917a500fbc4b76d5fd4166d5c992753d1a02f07a134ee3f9"
 [[files]]
 file = "kubejs/startup_scripts/upgrade_aquatic/removals.js"
 hash = "20ea21b507eda65279d85506438abab95efe1a25edcab41b601fc4b8a0f4b136"
+
+[[files]]
+file = "kubejs/startup_scripts/v_slab_compat/removals.js"
+hash = "90e78c7a37288e7bf338e79059982d9351d5dcad0d9cb819f626a0227f2fea4f"
 
 [[files]]
 file = "kubejs/startup_scripts/windswept/removals.js"
