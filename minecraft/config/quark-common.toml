@@ -132,7 +132,7 @@
 	Shingles = true
 	"Soul Sandstone" = true
 	Stools = false
-	"Sturdy Stone" = true
+	"Sturdy Stone" = false
 	Thatch = false
 	"Variant Bookshelves" = false
 	"Variant Chests" = true
@@ -141,7 +141,7 @@
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
-	"More Stone Variants" = false
+	"More Stone Variants" = true
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -277,9 +277,9 @@
 		"Allow Side Connections" = true
 
 	[building.more_stone_variants]
-		"Enable Bricks" = false
-		"Enable Chiseled Bricks" = false
-		"Enable Pillar" = false
+		"Enable Bricks" = true
+		"Enable Chiseled Bricks" = true
+		"Enable Pillar" = true
 
 [management]
 	"Automatic Tool Restock" = true

@@ -52,37 +52,22 @@ function postInit() {
     // removals_EvenBetterNether()
     removals_Supplementaries()
     removals_OddsNEnds()
+    removals_EmbersDelight()
+
+    // Has to load after all other removals
+    removals_vSlabCompat()
 
     // Changing blockswap config with KubeJS!
     processBlockswapConfig()
     // Virtual blockwsap (without using the blockswap mod)
     processSwappers()
 
+    /*
     if (global.DEBUG_MODE) {
-        console.log('Processed RegExp removals!')
         console.log('Final removals set:')
         console.log(global.REMOVALS.arr)
-
-        let configObj = {
-            removals: global.REMOVALS.arr.sort(),
-            item_swapper: {},
-            block_swapper: {},
-            entity_swapper: {},
-            structure_swapper: {},
-            state_swapper: global.STATE_SWAPPER
-        }
-        // Convert maps to objects
-        global.ITEM_SWAPPER.forEach((value, key) => configObj.item_swapper[key] = value)
-        global.BLOCK_SWAPPER.forEach((value, key) => configObj.block_swapper[key] = value)
-        global.ENTITY_SWAPPER.forEach((value, key) => configObj.entity_swapper[key] = value)
-        global.STRUCTURE_BLOCK_SWAPPER.forEach((value, key) => {
-            configObj.structure_swapper[key] = {}
-            value.forEach((v, k) => {
-                configObj.structure_swapper[key][k] = v
-            })
-        })
-        JsonIO.write('kubejs/config/swaps.json', configObj)
     }
+    */
 }
 
 // For reloading

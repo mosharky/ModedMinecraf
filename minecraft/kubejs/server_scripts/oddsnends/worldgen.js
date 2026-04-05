@@ -45,6 +45,15 @@ function worldgen_OddsNEnds(e) {
             { type: 'minecraft:biome' }
         ]
     })
+    registerFeature(e, PLACED, 'oddsnends:patch_field_clovers', {
+        feature: 'oddsnends:patch_field_clovers',
+        placement: [
+            { type: 'minecraft:rarity_filter', chance: 800 },
+            { type: 'minecraft:in_square' },
+            { type: 'minecraft:heightmap', heightmap: 'MOTION_BLOCKING' },
+            { type: 'minecraft:biome' }
+        ]
+    })
     registerFeature(e, PLACED, 'oddsnends:cave_branches', {
         feature: 'oddsnends:patch_cave_branches',
         placement: [

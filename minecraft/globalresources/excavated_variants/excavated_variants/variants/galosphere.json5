@@ -32,26 +32,5 @@
             ]
         },
     ],
-    provided_ores: [
-        {
-            id: 'silver_ore',
-            lang: {
-                en_us: 'Silver Ore',
-            },
-            block_id: [
-                'galosphere:silver_ore',
-                'galosphere:deepslate_silver_ore',
-            ],
-            orename: [
-                'silver_ore',
-            ],
-            types: [
-                'stone',
-            ],
-            stone: [
-                'stone',
-                'deepslate',
-            ],
-        },
-    ],
+    provided_ores: [],
 }

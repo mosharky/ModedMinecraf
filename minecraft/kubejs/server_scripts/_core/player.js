@@ -1,14 +1,17 @@
-// PlayerEvents.inventoryChanged('minecraft:enchanted_book', e => {
-//     const slot = e.player.inventory.find('minecraft:enchanted_book')
-//     const enchantedBook = e.player.inventory.getStackInSlot(slot)
-//     if (enchantedBook.hasNBT()) {
-//         const enchantment = enchantedBook.nbt.StoredEnchantments[0].id
-//         if (enchantment != undefined) {
-//             const ancientBook = Item.of('immersiveenchanting:ancient_book', `{"immersiveenchanting:ancient_book_enchantment_type":"${enchantment}"}`)
-//             e.player.inventory.setStackInSlot(slot, ancientBook)
-//         }
-//     }
-// })
+global.COMMON_SWAPPER.forEach((replaceWith, toReplace) => {
+    PlayerEvents.inventoryChanged(toReplace, e => {
+        const slot = e.player.inventory.find(toReplace)
+        const stack = e.player.inventory.getStackInSlot(slot)
+        e.player.inventory.setStackInSlot(slot, Item.of(replaceWith, stack.count))
+        e.player.tell([
+            Text.gray('An item in your inventory, '),
+            Text.red(prettyItem(toReplace)),
+            Text.gray(' has been replaced with '),
+            Text.green(prettyItem(replaceWith)),
+            Text.gray('!')
+        ])
+    })
+})
 
 PlayerEvents.loggedIn(e => {
     if (!e.hasGameStage('starter_items')) {

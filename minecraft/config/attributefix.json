@@ -286,6 +286,17 @@
         "value": 2048
       }
     },
+    "caverns_and_chasms:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "goety:abyss_potency": {
       "enabled": false,
       "min": {

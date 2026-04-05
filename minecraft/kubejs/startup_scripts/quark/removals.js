@@ -1,6 +1,6 @@
 function removals_Quark() {
     global.REMOVALS.add([
-        /quark:.*(dirt_bricks|chest|ladder|bookshelf|leaf_carpet|thatch|blossom|permafrost|cobblestone_brick|limestone|andesite_brick|dripstone_bricks|tuff|calcite|shale).*/,
+        /quark:.*(dirt_bricks|chest|ladder|bookshelf|leaf_carpet|thatch|blossom|permafrost|cobblestone_brick|limestone|shale|pillar).*/,
         /quark:.*(crab|foxhound|shiba|wraith).*/,
         /quark:.*ancient(?!_tome|_fruit).*/,
         /quark:.*azalea(?!_hedge).*/,
@@ -14,11 +14,16 @@ function removals_Quark() {
         'quark:golden_carrot_crate',
         'quark:beetroot_crate',
         'quark:pipe',
+        // match everything except vertical slab
+        /quark:.*(andesite|granite|diorite|dripstone|tuff|calcite)(?!_vertical_slab)(?:_.+)?/,
+        /quark:polished_(andesite|granite|diorite|dripstone|tuff|calcite).*/,
+        'quark:sturdy_stone',
     ])
 
-    global.ITEM_SWAPPER.set('quark:crab_leg', 'minecraft:cod')
-    global.ITEM_SWAPPER.set('quark:crab_shell', 'minecraft:cod')
+    global.ITEM_SWAPPER.set('quark:crab_leg', 'collectorsreap:chieftain_leg')
+    global.ITEM_SWAPPER.set('quark:crab_shell', 'collectorsreap:chieftain_claw')
 
+    global.BLOCK_SWAPPER.set('quark:sturdy_stone', 'packedup:stone_pile')
     // IDAS structures need these swapped out
     global.BLOCK_SWAPPER.set('quark:thatch', 'packedup:grass_thatch')
     global.BLOCK_SWAPPER.set('quark:thatch_slab', 'packedup:grass_thatch_slab')
@@ -59,72 +64,37 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:mossy_cobblestone_bricks_slab', 'caverns_and_chasms:mossy_cobblestone_brick_slab')
     global.BLOCK_SWAPPER.set('quark:mossy_cobblestone_bricks_wall', 'caverns_and_chasms:mossy_cobblestone_brick_wall')
     global.BLOCK_SWAPPER.set('quark:mossy_cobblestone_bricks_vertical_slab', 'v_slab_compat:caverns_and_chasms/mossy_cobblestone_brick_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:granite_bricks', 'create:cut_granite_bricks')
-    global.BLOCK_SWAPPER.set('quark:granite_bricks_stairs', 'create:cut_granite_brick_stairs')
-    global.BLOCK_SWAPPER.set('quark:granite_bricks_slab', 'create:cut_granite_brick_slab')
-    global.BLOCK_SWAPPER.set('quark:granite_bricks_wall', 'create:cut_granite_brick_wall')
-    global.BLOCK_SWAPPER.set('quark:granite_bricks_vertical_slab', 'v_slab_compat:create/cut_granite_brick_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:chiseled_granite_bricks', 'create:small_granite_bricks')
-    global.BLOCK_SWAPPER.set('quark:granite_pillar', 'create:granite_pillar')
-    global.BLOCK_SWAPPER.set('quark:diorite_bricks', 'create:cut_diorite_bricks')
-    global.BLOCK_SWAPPER.set('quark:diorite_bricks_stairs', 'create:cut_diorite_brick_stairs')
-    global.BLOCK_SWAPPER.set('quark:diorite_bricks_slab', 'create:cut_diorite_brick_slab')
-    global.BLOCK_SWAPPER.set('quark:diorite_bricks_wall', 'create:cut_diorite_brick_wall')
-    global.BLOCK_SWAPPER.set('quark:diorite_bricks_vertical_slab', 'v_slab_compat:create/cut_diorite_brick_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:chiseled_diorite_bricks', 'create:small_diorite_bricks')
-    global.BLOCK_SWAPPER.set('quark:diorite_pillar', 'create:diorite_pillar')
-    global.BLOCK_SWAPPER.set('quark:andesite_bricks', 'create:cut_andesite_bricks')
-    global.BLOCK_SWAPPER.set('quark:andesite_bricks_stairs', 'create:cut_andesite_brick_stairs')
-    global.BLOCK_SWAPPER.set('quark:andesite_bricks_slab', 'create:cut_andesite_brick_slab')
-    global.BLOCK_SWAPPER.set('quark:andesite_bricks_wall', 'create:cut_andesite_brick_wall')
-    global.BLOCK_SWAPPER.set('quark:andesite_bricks_vertical_slab', 'v_slab_compat:create/cut_andesite_brick_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:chiseled_andesite_bricks', 'create:small_andesite_bricks')
-    global.BLOCK_SWAPPER.set('quark:andesite_pillar', 'create:andesite_pillar')
-    global.BLOCK_SWAPPER.set('quark:calcite_bricks', 'create:cut_calcite_bricks')
-    global.BLOCK_SWAPPER.set('quark:calcite_bricks_stairs', 'create:cut_calcite_brick_stairs')
-    global.BLOCK_SWAPPER.set('quark:calcite_bricks_slab', 'create:cut_calcite_brick_slab')
-    global.BLOCK_SWAPPER.set('quark:calcite_bricks_wall', 'create:cut_calcite_brick_wall')
-    global.BLOCK_SWAPPER.set('quark:calcite_bricks_vertical_slab', 'v_slab_compat:create/cut_calcite_brick_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:chiseled_calcite_bricks', 'create:small_calcite_bricks')
-    global.BLOCK_SWAPPER.set('quark:calcite_pillar', 'create:calcite_pillar')
-    global.BLOCK_SWAPPER.set('quark:calcite_slab', 'caverns_and_chasms:calcite_slab')
-    global.BLOCK_SWAPPER.set('quark:calcite_stairs', 'caverns_and_chasms:calcite_stairs')
-    global.BLOCK_SWAPPER.set('quark:calcite_vertical_slab', 'v_slab_compat:create/cut_calcite_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:calcite_wall', 'caverns_and_chasms:calcite_wall')
-    global.BLOCK_SWAPPER.set('quark:polished_calcite', 'create:polished_cut_calcite')
-    global.BLOCK_SWAPPER.set('quark:polished_calcite_slab', 'create:polished_cut_calcite_slab')
-    global.BLOCK_SWAPPER.set('quark:polished_calcite_vertical_slab', 'v_slab_compat:create/polished_cut_calcite_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:polished_calcite_stairs', 'create:polished_cut_calcite_stairs')
-    global.BLOCK_SWAPPER.set('quark:dripstone_bricks', 'create:cut_dripstone_bricks')
-    global.BLOCK_SWAPPER.set('quark:dripstone_bricks_stairs', 'create:cut_dripstone_brick_stairs')
-    global.BLOCK_SWAPPER.set('quark:dripstone_bricks_slab', 'create:cut_dripstone_brick_slab')
-    global.BLOCK_SWAPPER.set('quark:dripstone_bricks_wall', 'create:cut_dripstone_brick_wall')
-    global.BLOCK_SWAPPER.set('quark:dripstone_bricks_vertical_slab', 'v_slab_compat:create/cut_dripstone_brick_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:chiseled_dripstone_bricks', 'create:small_dripstone_bricks')
-    global.BLOCK_SWAPPER.set('quark:dripstone_block_pillar', 'create:dripstone_pillar')
-    global.BLOCK_SWAPPER.set('quark:dripstone_block_slab', 'create:cut_dripstone_slab')
-    global.BLOCK_SWAPPER.set('quark:dripstone_block_stairs', 'create:cut_dripstone_stairs')
-    global.BLOCK_SWAPPER.set('quark:dripstone_block_vertical_slab', 'v_slab_compat:create/cut_dripstone_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:dripstone_block_wall', 'create:cut_dripstone_wall')
-    global.BLOCK_SWAPPER.set('quark:polished_dripstone', 'create:polished_cut_dripstone')
-    global.BLOCK_SWAPPER.set('quark:polished_dripstone_slab', 'create:polished_cut_dripstone_slab')
-    global.BLOCK_SWAPPER.set('quark:polished_dripstone_vertical_slab', 'v_slab_compat:create/polished_cut_dripstone_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:polished_dripstone_stairs', 'create:polished_cut_dripstone_stairs')
-    global.BLOCK_SWAPPER.set('quark:tuff_bricks', 'create:cut_tuff_bricks')
-    global.BLOCK_SWAPPER.set('quark:tuff_bricks_stairs', 'create:cut_tuff_brick_stairs')
-    global.BLOCK_SWAPPER.set('quark:tuff_bricks_slab', 'create:cut_tuff_brick_slab')
-    global.BLOCK_SWAPPER.set('quark:tuff_bricks_wall', 'create:cut_tuff_brick_wall')
-    global.BLOCK_SWAPPER.set('quark:tuff_bricks_vertical_slab', 'v_slab_compat:create/cut_tuff_brick_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:chiseled_tuff_bricks', 'create:small_tuff_bricks')
-    global.BLOCK_SWAPPER.set('quark:tuff_pillar', 'create:tuff_pillar')
-    global.BLOCK_SWAPPER.set('quark:tuff_slab', 'caverns_and_chasms:tuff_slab')
-    global.BLOCK_SWAPPER.set('quark:tuff_stairs', 'caverns_and_chasms:tuff_stairs')
-    global.BLOCK_SWAPPER.set('quark:tuff_vertical_slab', 'v_slab_compat:create/cut_tuff_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:tuff_wall', 'caverns_and_chasms:tuff_wall')
-    global.BLOCK_SWAPPER.set('quark:polished_tuff', 'create:polished_cut_tuff')
-    global.BLOCK_SWAPPER.set('quark:polished_tuff_slab', 'create:polished_cut_tuff_slab')
-    global.BLOCK_SWAPPER.set('quark:polished_tuff_vertical_slab', 'v_slab_compat:create/polished_cut_tuff_vertical_slab')
-    global.BLOCK_SWAPPER.set('quark:polished_tuff_stairs', 'create:polished_cut_tuff_stairs')
+
+    const swapStone = (stone, extras) => {
+        global.BLOCK_SWAPPER.set(`quark:${stone}_bricks`, `caverns_and_chasms:${stone}_bricks`)
+        global.BLOCK_SWAPPER.set(`quark:${stone}_bricks_stairs`, `caverns_and_chasms:${stone}_brick_stairs`)
+        global.BLOCK_SWAPPER.set(`quark:${stone}_bricks_slab`, `caverns_and_chasms:${stone}_brick_slab`)
+        global.BLOCK_SWAPPER.set(`quark:${stone}_bricks_wall`, `caverns_and_chasms:${stone}_brick_wall`)
+        global.BLOCK_SWAPPER.set(`quark:${stone}_bricks_vertical_slab`, `v_slab_compat:caverns_and_chasms/${stone}_brick_vertical_slab`)
+        global.BLOCK_SWAPPER.set(`quark:chiseled_${stone}_bricks`, `caverns_and_chasms:chiseled_polished_${stone}`)
+
+        if (stone == 'dripstone' || stone == 'tuff') global.BLOCK_SWAPPER.set(`quark:${stone}_pillar`, `create:${stone}_pillar`)
+        else global.BLOCK_SWAPPER.set(`quark:${stone}_pillar`, `caverns_and_chasms:${stone}_pillar`)
+        if (extras) {
+            global.BLOCK_SWAPPER.set(`quark:chiseled_${stone}_bricks`, `caverns_and_chasms:chiseled_${stone}_bricks`)
+            global.BLOCK_SWAPPER.set(`quark:${stone == 'dripstone' ? stone + '_block' : stone}_slab`, `caverns_and_chasms:${stone}_slab`)
+            global.BLOCK_SWAPPER.set(`quark:${stone == 'dripstone' ? stone + '_block' : stone}_stairs`, `caverns_and_chasms:${stone}_stairs`)
+            //global.BLOCK_SWAPPER.set(`quark:${stone == 'dripstone' ? stone + '_block' : stone}_vertical_slab`, `v_slab_compat:caverns_and_chasms/${stone}_vertical_slab`)
+            global.BLOCK_SWAPPER.set(`quark:${stone == 'dripstone' ? stone + '_block' : stone}_wall`, `caverns_and_chasms:${stone}_wall`)
+            global.BLOCK_SWAPPER.set(`quark:polished_${stone}`, `caverns_and_chasms:polished_${stone}`)
+            global.BLOCK_SWAPPER.set(`quark:polished_${stone}_slab`, `caverns_and_chasms:polished_${stone}_slab`)
+            global.BLOCK_SWAPPER.set(`quark:polished_${stone}_vertical_slab`, `v_slab_compat:create/polished_cut_${stone}_vertical_slab`)
+            global.BLOCK_SWAPPER.set(`quark:polished_${stone}_stairs`, `caverns_and_chasms:polished_${stone}_stairs`)
+        }
+    }
+    swapStone('granite', false)
+    swapStone('diorite', false)
+    swapStone('andesite', false)
+    swapStone('calcite', true)
+    swapStone('dripstone', true)
+    swapStone('tuff', true)
+
+    // Limestone
     global.BLOCK_SWAPPER.set('quark:limestone', 'natures_spirit:travertine')
     global.BLOCK_SWAPPER.set('quark:limestone_wall', 'natures_spirit:cobbled_travertine_wall')
     global.BLOCK_SWAPPER.set('quark:limestone_slab', 'natures_spirit:travertine_slab')
@@ -141,15 +111,16 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:limestone_bricks_vertical_slab', 'v_slab_compat:natures_spirit/travertine_brick_vertical_slab')
     global.BLOCK_SWAPPER.set('quark:limestone_bricks_stairs', 'natures_spirit:travertine_brick_stairs')
     global.BLOCK_SWAPPER.set('quark:chiseled_limestone_bricks', 'natures_spirit:chiseled_travertine')
+    // Shale
     global.BLOCK_SWAPPER.set('quark:shale', 'windswept:shale')
     global.BLOCK_SWAPPER.set('quark:shale_wall', 'windswept:shale_wall')
     global.BLOCK_SWAPPER.set('quark:shale_slab', 'windswept:shale_slab')
-    global.BLOCK_SWAPPER.set('quark:shale_vertical_slab', 'v_slab_compat:windswept/shale_vertical_slab')
+    global.BLOCK_SWAPPER.set('quark:shale_vertical_slab', 'v_slab_compat:windswept/polished_shale_brick_vertical_slab')
     global.BLOCK_SWAPPER.set('quark:shale_stairs', 'windswept:shale_stairs')
     global.BLOCK_SWAPPER.set('quark:shale_pillar', 'stonezone:c/windswept/shale_pillar')
     global.BLOCK_SWAPPER.set('quark:polished_shale', 'windswept:polished_shale')
     global.BLOCK_SWAPPER.set('quark:polished_shale_slab', 'windswept:polished_shale_slab')
-    global.BLOCK_SWAPPER.set('quark:polished_shale_vertical_slab', 'v_slab_compat:windswept/polished_shale_vertical_slab')
+    global.BLOCK_SWAPPER.set('quark:polished_shale_vertical_slab', 'v_slab_compat:windswept/polished_shale_brick_vertical_slab')
     global.BLOCK_SWAPPER.set('quark:polished_shale_stairs', 'windswept:polished_shale_stairs')
     global.BLOCK_SWAPPER.set('quark:shale_bricks', 'windswept:polished_shale_bricks')
     global.BLOCK_SWAPPER.set('quark:shale_bricks_wall', 'windswept:polished_shale_brick_wall')
@@ -157,6 +128,7 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:shale_bricks_vertical_slab', 'v_slab_compat:windswept/polished_shale_brick_vertical_slab')
     global.BLOCK_SWAPPER.set('quark:shale_bricks_stairs', 'windswept:polished_shale_brick_stairs')
     global.BLOCK_SWAPPER.set('quark:chiseled_shale_bricks', 'windswept:chiseled_polished_shale_bricks')
+    // Storage blocks
     global.BLOCK_SWAPPER.set('quark:cocoa_beans_sack', 'packedup:cocoa_bean_bag')
     global.BLOCK_SWAPPER.set('quark:nether_wart_sack', 'packedup:nether_wart_bag')
     global.BLOCK_SWAPPER.set('quark:gunpowder_sack', 'packedup:gunpowder_crate')
@@ -166,9 +138,11 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:apple_crate', 'packedup:apple_basket')
     global.BLOCK_SWAPPER.set('quark:potato_crate', 'farmersdelight:potato_crate')
     global.BLOCK_SWAPPER.set('quark:carrot_crate', 'farmersdelight:carrot_crate')
-    global.BLOCK_SWAPPER.set('quark:golden_carrot_crate', 'farmersdelight:golden_carrot_crate')
+    global.BLOCK_SWAPPER.set('quark:golden_carrot_crate', 'packedup:golden_carrot_crate')
     global.BLOCK_SWAPPER.set('quark:beetroot_crate', 'farmersdelight:beetroot_crate')
-    global.BLOCK_SWAPPER.set('quark:pipe', 'minecraft:air')
+    // Quark Oddities
+    global.BLOCK_SWAPPER.set('quark:pipe', 'create:fluid_pipe')
+
     // Entities
     global.ENTITY_SWAPPER.set('quark:wraith', 'caverns_and_chasms:mime')
     global.ENTITY_SWAPPER.set('quark:foxhound', 'alexsmobs:dropbear')
@@ -180,48 +154,52 @@ function removals_Quark() {
         'quark:shiba',
         'quark:crab'
     )
+
     // Carpets
     global.BLOCK_SWAPPER.set('quark:red_blossom_leaf_carpet', 'immersive_weathering:natures_spirit/red_maple_leaf_pile')
     global.BLOCK_SWAPPER.set('quark:orange_blossom_leaf_carpet', 'immersive_weathering:natures_spirit/orange_maple_leaf_pile')
     global.BLOCK_SWAPPER.set('quark:yellow_blossom_leaf_carpet', 'immersive_weathering:natures_spirit/yellow_maple_leaf_pile')
     global.BLOCK_SWAPPER.set('quark:blue_blossom_leaf_carpet', 'immersive_weathering:natures_spirit/blue_wisteria_leaf_pile')
     global.BLOCK_SWAPPER.set('quark:lavender_blossom_leaf_carpet', 'immersive_weathering:natures_spirit/purple_wisteria_leaf_pile')
-    global.BLOCK_SWAPPER.set('quark:ancient_leaf_carpet', 'immersive_weathering:vanillabackport/pale_oak_leaf_pile')
+    global.BLOCK_SWAPPER.set('quark:ancient_leaf_carpet', 'immersive_weathering:minecraft/pale_oak_leaf_pile')
     // Hedges
     global.BLOCK_SWAPPER.set('quark:red_blossom_hedge', 'everycomp:q/natures_spirit/red_maple_hedge')
     global.BLOCK_SWAPPER.set('quark:orange_blossom_hedge', 'everycomp:q/natures_spirit/orange_maple_hedge')
     global.BLOCK_SWAPPER.set('quark:yellow_blossom_hedge', 'everycomp:q/natures_spirit/yellow_maple_hedge')
     global.BLOCK_SWAPPER.set('quark:blue_blossom_hedge', 'everycomp:q/natures_spirit/blue_wisteria_hedge')
     global.BLOCK_SWAPPER.set('quark:lavender_blossom_hedge', 'everycomp:q/natures_spirit/purple_wisteria_hedge')
-    global.BLOCK_SWAPPER.set('quark:ancient_hedge', 'everycomp:q/vanillabackport/pale_oak_hedge')
+    global.BLOCK_SWAPPER.set('quark:ancient_hedge', 'everycomp:q/minecraft/pale_oak_hedge')
     // Saplings
     global.BLOCK_SWAPPER.set('quark:red_blossom_sapling', 'natures_spirit:red_maple_sapling')
     global.BLOCK_SWAPPER.set('quark:orange_blossom_sapling', 'natures_spirit:orange_maple_sapling')
     global.BLOCK_SWAPPER.set('quark:yellow_blossom_sapling', 'natures_spirit:yellow_maple_sapling')
     global.BLOCK_SWAPPER.set('quark:blue_blossom_sapling', 'natures_spirit:blue_wisteria_sapling')
     global.BLOCK_SWAPPER.set('quark:lavender_blossom_sapling', 'natures_spirit:purple_wisteria_sapling')
-    global.BLOCK_SWAPPER.set('quark:ancient_sapling', 'vanillabackport:pale_oak_sapling')
+    global.BLOCK_SWAPPER.set('quark:ancient_sapling', 'minecraft:pale_oak_sapling')
     // Potted Saplings
     global.BLOCK_SWAPPER.set('quark:potted_red_blossom_sapling', 'natures_spirit:potted_red_maple_sapling')
     global.BLOCK_SWAPPER.set('quark:potted_orange_blossom_sapling', 'natures_spirit:potted_orange_maple_sapling')
     global.BLOCK_SWAPPER.set('quark:potted_yellow_blossom_sapling', 'natures_spirit:potted_yellow_maple_sapling')
     global.BLOCK_SWAPPER.set('quark:potted_blue_blossom_sapling', 'natures_spirit:potted_blue_wisteria_sapling')
     global.BLOCK_SWAPPER.set('quark:potted_lavender_blossom_sapling', 'natures_spirit:potted_purple_wisteria_sapling')
-    global.BLOCK_SWAPPER.set('quark:potted_ancient_sapling', 'vanillabackport:potted_pale_oak_sapling')
+    global.BLOCK_SWAPPER.set('quark:potted_ancient_sapling', 'minecraft:potted_pale_oak_sapling')
     // Leaves
     global.BLOCK_SWAPPER.set('quark:red_blossom_leaves', 'natures_spirit:red_maple_leaves')
     global.BLOCK_SWAPPER.set('quark:orange_blossom_leaves', 'natures_spirit:orange_maple_leaves')
     global.BLOCK_SWAPPER.set('quark:yellow_blossom_leaves', 'natures_spirit:yellow_maple_leaves')
     global.BLOCK_SWAPPER.set('quark:blue_blossom_leaves', 'natures_spirit:blue_wisteria_leaves')
     global.BLOCK_SWAPPER.set('quark:lavender_blossom_leaves', 'natures_spirit:purple_wisteria_leaves')
-    global.BLOCK_SWAPPER.set('quark:ancient_leaves', 'vanillabackport:pale_oak_leaves')
+    global.BLOCK_SWAPPER.set('quark:ancient_leaves', 'minecraft:pale_oak_leaves')
 
     // Swap Quark wooden blocks to woodworks variants
     for (const [woodType, woodTypeObj] of Object.entries(global.WOOD_TYPES.minecraft)) {
+        if (woodType == 'pale_oak') continue
         global.BLOCK_SWAPPER.set('quark:' + woodType + '_chest', woodTypeObj.woodworks.chest)
         global.BLOCK_SWAPPER.set('quark:' + woodType + '_trapped_chest', woodTypeObj.woodworks.trapped_chest)
-        global.BLOCK_SWAPPER.set('quark:' + woodType + '_bookshelf', woodTypeObj.woodworks.bookshelf)
-        global.BLOCK_SWAPPER.set('quark:' + woodType + '_ladder', woodTypeObj.woodworks.ladder)
+        if (woodType != 'oak') {
+            global.BLOCK_SWAPPER.set('quark:' + woodType + '_bookshelf', woodTypeObj.woodworks.bookshelf)
+            global.BLOCK_SWAPPER.set('quark:' + woodType + '_ladder', woodTypeObj.woodworks.ladder)
+        }
     }
 
     for (const woodType in woodTypesToConstruct.quark) {

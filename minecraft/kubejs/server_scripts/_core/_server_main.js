@@ -11,7 +11,7 @@ ServerEvents.tags('item', e => {
 
     if (!global.DEBUG_MODE) {
         e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
-            /excavated_variants:.*/,  // excavated variants' item models are fucked
+            /excavated_variants:.*/,
         ]))
     }
 })
@@ -100,12 +100,21 @@ ServerEvents.recipes(e => {
 ServerEvents.loaded(e => {
     // Default game rules
     if (e.server.persistentData.gameRules) return
-    e.server.gameRules.set("playersSleepingPercentage", 0)
-    e.server.gameRules.set("spawnRadius", 0)
-    e.server.gameRules.set("disableElytraMovementCheck", true)
-    e.server.gameRules.set("decorative_blocks:disableThatch", true)
-    e.server.gameRules.set("doShinyStarters", true)
-    e.server.persistentData.gameRules = true 
+    e.server.gameRules.set('playersSleepingPercentage', 0)
+    e.server.gameRules.set('spawnRadius', 0)
+    e.server.gameRules.set('disableElytraMovementCheck', true)
+    if (global.DEBUG_MODE) {
+        e.server.gameRules.set('doDaylightCycle', false)
+        e.server.gameRules.set('doWeatherCycle', false)
+    }
+    if (Platform.isLoaded('decorative_blocks')) {
+        e.server.gameRules.set('decorative_blocks:disableThatch', true)
+    }
+    if (Platform.isLoaded('cobblemon')) {
+        e.server.gameRules.set('doShinyStarters', true)
+    }
+
+    e.server.persistentData.gameRules = true
 })
 
 ServerEvents.highPriorityData(e => {
