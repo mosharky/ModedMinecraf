@@ -1,6 +1,6 @@
 function removals_Quark() {
     global.REMOVALS.add([
-        /quark:.*(dirt_bricks|chest|ladder|bookshelf|leaf_carpet|thatch|blossom|permafrost|cobblestone_brick|limestone|shale|pillar).*/,
+        /quark:.*(dirt_bricks|ladder|bookshelf|leaf_carpet|thatch|blossom|permafrost|cobblestone_brick|limestone|shale).*/,
         /quark:.*(crab|foxhound|shiba|wraith).*/,
         /quark:.*ancient(?!_tome|_fruit).*/,
         /quark:.*azalea(?!_hedge).*/,
@@ -15,9 +15,10 @@ function removals_Quark() {
         'quark:beetroot_crate',
         'quark:pipe',
         // match everything except vertical slab
-        /quark:.*(andesite|granite|diorite|dripstone|tuff|calcite)(?!_vertical_slab)(?:_.+)?/,
-        /quark:polished_(andesite|granite|diorite|dripstone|tuff|calcite).*/,
+        /quark:.*(andesite|granite|diorite|dripstone(?!_block)|tuff|calcite)(?!_vertical_slab)(?:_.+)?/,
+        /quark:polished_(dripstone|tuff|calcite).*/,
         'quark:sturdy_stone',
+        /quark:(?!lootr|purpur|nether_brick|prismarine).*chest/,
     ])
 
     global.ITEM_SWAPPER.set('quark:crab_leg', 'collectorsreap:chieftain_leg')
@@ -42,12 +43,12 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:flowering_azalea_leaf_carpet', 'immersive_weathering:flowering_azalea_leaf_pile')
     global.BLOCK_SWAPPER.set('quark:dark_oak_leaf_carpet', 'immersive_weathering:dark_oak_leaf_pile')
     global.BLOCK_SWAPPER.set('quark:acacia_leaf_carpet', 'immersive_weathering:acacia_leaf_pile')
-    global.BLOCK_SWAPPER.set('quark:nether_brick_trapped_chest', 'woodworks:trapped_crimson_chest')
-    global.BLOCK_SWAPPER.set('quark:nether_brick_chest', 'woodworks:crimson_chest')
-    global.BLOCK_SWAPPER.set('quark:purpur_trapped_chest', 'woodworks:trapped_crimson_chest')
-    global.BLOCK_SWAPPER.set('quark:purpur_chest', 'woodworks:crimson_chest')
-    global.BLOCK_SWAPPER.set('quark:prismarine_trapped_chest', 'woodworks:trapped_warped_chest')
-    global.BLOCK_SWAPPER.set('quark:prismarine_chest', 'woodworks:warped_chest')
+    // global.BLOCK_SWAPPER.set('quark:nether_brick_trapped_chest', 'woodworks:trapped_crimson_chest')
+    // global.BLOCK_SWAPPER.set('quark:nether_brick_chest', 'woodworks:crimson_chest')
+    // global.BLOCK_SWAPPER.set('quark:purpur_trapped_chest', 'woodworks:trapped_crimson_chest')
+    // global.BLOCK_SWAPPER.set('quark:purpur_chest', 'woodworks:crimson_chest')
+    // global.BLOCK_SWAPPER.set('quark:prismarine_trapped_chest', 'woodworks:trapped_warped_chest')
+    // global.BLOCK_SWAPPER.set('quark:prismarine_chest', 'woodworks:warped_chest')
     global.BLOCK_SWAPPER.set('quark:chute', 'create:chute')
     global.BLOCK_SWAPPER.set('quark:dirt_bricks', 'environmental:dirt_bricks')
     global.BLOCK_SWAPPER.set('quark:dirt_bricks_stairs', 'environmental:dirt_brick_stairs')

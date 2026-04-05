@@ -32,8 +32,8 @@ function processSwappers() {
         return false
     }
 
-    global.ITEM_SWAPPER.forEach((value, key) => global.COMMON_SWAPPER.set(key, value))
     global.BLOCK_SWAPPER.forEach((value, key) => global.COMMON_SWAPPER.set(key, value))
+    global.ITEM_SWAPPER.forEach((value, key) => global.COMMON_SWAPPER.set(key, value))
     global.COMMON_SWAPPER.forEach((value, key) => {
         if (!Item.exists(value) || !Item.exists(key)) global.COMMON_SWAPPER.delete(key)
     })
