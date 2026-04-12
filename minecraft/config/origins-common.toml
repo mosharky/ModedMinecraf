@@ -339,3 +339,31 @@
 		"kubejs:dryad/dryad_particles" = true
 		"kubejs:dryad/ursus_family" = true
 
+	[origins."kubejs:xayah"]
+		enabled = true
+		"kubejs:xayah/light_as_a_feather" = true
+		"kubejs:xayah/short" = true
+		"kubejs:xayah/wild_magic" = true
+		"kubejs:xayah/defoliated_surroundings" = true
+		"kubejs:xayah/air_out_those_feathers" = true
+		"kubejs:xayah/clean_cuts" = true
+		"kubejs:xayah/deady_plumage" = true
+		"kubejs:xayah/featherstorm" = true
+		"kubejs:xayah/feathered_hygiene" = true
+
+	[origins."kubejs:goblin"]
+		enabled = true
+		"kubejs:goblin/nocturnal" = true
+		"kubejs:goblin/gluttonous" = true
+		"kubejs:goblin/loot_n_scoot" = true
+		"kubejs:goblin/petite" = true
+
+	[origins."kubejs:froggie"]
+		enabled = true
+		"kubejs:froggie/anuras_ascension" = true
+		"kubejs:froggie/ponds_blessing" = true
+		"kubejs:froggie/pondering" = true
+		"kubejs:froggie/pond_lurkers_favour" = true
+		"kubejs:froggie/curse_of_squishy" = true
+		"kubejs:froggie/pond_mothers_lament" = true
+

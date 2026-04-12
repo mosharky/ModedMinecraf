@@ -39,4 +39,8 @@ ClientEvents.lang('en_us', e => {
     rename('moreminecarts:maglev_hologram_rail', 'Maglev Holograph Rail')
     rename('moreminecarts:wooden_hologram_rail', 'Wooden Holograph Rail')
     rename('moreminecarts:hologram_rail', 'Holograph Rail')
+
+    // Xayah origin
+    e.add('death.attack.xayahsFeather', '%s was plumed by Xayah\'s feathers')
+    e.add('entity.kubejs.xayahs_feather_arrow', 'Xayah\'s Feather')
 })

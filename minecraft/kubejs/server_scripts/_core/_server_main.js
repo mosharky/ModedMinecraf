@@ -58,6 +58,9 @@ ServerEvents.tags('worldgen/structure', e => {
     structureTags_Cataclysm(e)
 })
 
+ServerEvents.tags('damage_type', e => {
+    damageTypeTags_Origins(e)
+})
 
 ServerEvents.recipes(e => {
     recipes_Core(e)
@@ -162,9 +165,17 @@ ServerEvents.highPriorityData(e => {
 
     origins_Layer(e)
     origins_Overrides(e)
-    origins_Dwarf(e)
-    origins_Pyke(e)
     origins_Dryad(e)
+    origins_Dwarf(e)
+    origins_Froggie(e)
+    origins_Goblin(e)
+    origins_Pyke(e)
+    origins_Xayah(e)
+})
+
+ServerEvents.commandRegistry(event => {
+    commands_Core(event)
+    commands_Origins(event)
 })
 
 

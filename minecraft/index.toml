@@ -1582,7 +1582,7 @@ hash = "5f67817bc7f5904b7b87126a534b27889b131bd9582c769efa368c47533e6e24"
 
 [[files]]
 file = "config/origins-common.toml"
-hash = "d133ead9ccf984284fa9a1ac2c6c581560594baef5bcf82382aab7f209419937"
+hash = "18b2a26374b06f1f3b6956007edb5903bc67c650c4ccfda3531a37de3d7cf0ea"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -2394,6 +2394,10 @@ file = "kubejs/assets/kubejs/sounds/pyke_harpoon.ogg"
 hash = "cd6ce2dc6dd00b8371fcb5a6a7ff3dd344f66fa9f6a10f1212400aa81661d255"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/entity/projectiles/xayahs_feather_arrow.png"
+hash = "bf56bd2869c0702ae7a3b18d2d379dc694424d8c6550178b8052c35756b5b19e"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/gui/badge/anvil.png"
 hash = "3ee594b5cc56a65a41616c407603ac5a78441358e51059ec115c637ff02c6862"
 
@@ -2428,6 +2432,14 @@ hash = "1a2153676228ed355f1c8770b198a006889184230000a91756b816a36ddb5519"
 [[files]]
 file = "kubejs/assets/kubejs/textures/gui/resource_bar.png"
 hash = "0c9876e9171de3a6592b1a8bdf2baa28b5d132b9b1a296c6f9385f649d27b9de"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/goblin_icon.png"
+hash = "c269ae716dbf27589db8a089bd2620d606242b72c01917f934dc097251510d63"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/xayahs_feather.png"
+hash = "df3f20354d3bd6a71511277424953051ccaad36b4872a904a14d487ffde60617"
 
 [[files]]
 file = "kubejs/assets/legendary-tremorzilla-skin.pw.toml"
@@ -2723,7 +2735,7 @@ hash = "946c071ce293cd23d5d579f8734d548767312c59937d8a34555c840866de3bbc"
 
 [[files]]
 file = "kubejs/client_scripts/_core/lang.js"
-hash = "2137c6e98c34747c770f4d2db1fd3fa28902711b72b44712fbafe76b82ae300c"
+hash = "bca31cba57b7cb919adc27e875010f5dc270ec55d309825cba5aa2cf715e082b"
 
 [[files]]
 file = "kubejs/client_scripts/_core/vars.js"
@@ -3167,7 +3179,7 @@ hash = "bb298a94b4faccf4c6fb13a9efc4370598cd7938a06e6c1355b75369829fc0b9"
 
 [[files]]
 file = "kubejs/server_scripts/_core/_server_main.js"
-hash = "5178d6b4328433110172bf69f764fb964a7eff2eb76f2ef23c06848118d6490c"
+hash = "8616e94f6b9dad11a4404413c53f3da83b012e4c763564de84031a8df6e8284d"
 
 [[files]]
 file = "kubejs/server_scripts/_core/advancements.js"
@@ -3175,7 +3187,7 @@ hash = "5fb7435dd2ffbf42df0964418981337f3926a0323b9f1546635f59ea93d44e06"
 
 [[files]]
 file = "kubejs/server_scripts/_core/commands.js"
-hash = "cfa6077c87c8e2f88402ff317d02b692be33431252f014fbbf71f8b1176788a9"
+hash = "f701035ee49c6a6cc3b2a1f0444bee12cd77c33311d4da831625611b3ee903d8"
 
 [[files]]
 file = "kubejs/server_scripts/_core/entity.js"
@@ -3207,7 +3219,7 @@ hash = "2948f97cad6a733ab88989e349209c6692ff3657f896b804ba9dbbf82bc261b8"
 
 [[files]]
 file = "kubejs/server_scripts/_core/vars.js"
-hash = "318509f02ccc25d9fc20e6cccdf47dc44489a2af395c4c6ef47c3f48cfc0bf87"
+hash = "f56bbe614a2681d810438da83c41695ff5e525958f7a5d2d42e19e647dffcff8"
 
 [[files]]
 file = "kubejs/server_scripts/_core/worldgen.js"
@@ -3542,8 +3554,16 @@ file = "kubejs/server_scripts/oreganized/worldgen.js"
 hash = "5ab49d1640057ba8818ce5c490cb4252c63bb4b99c97c7abab83f0435a865cd3"
 
 [[files]]
+file = "kubejs/server_scripts/origins/_commands.js"
+hash = "c240c865b1c4d5b55499d7d22450606e6560c5c3fc4029bf545e59cc98cd6171"
+
+[[files]]
 file = "kubejs/server_scripts/origins/_main_origins.js"
-hash = "7c80cb6743797a183b67c5cd61e98f05b2be03ef370669a5478ae5d206aac017"
+hash = "c65bd3c24a84eaf6a7041e5b9f38f915af9e05048ad84612aee3b01ad3a1abc0"
+
+[[files]]
+file = "kubejs/server_scripts/origins/_tags.js"
+hash = "367f5195899b544ed7bbf57029807ddbc5bc21be2cc364ba0466b1ff4e1674d8"
 
 [[files]]
 file = "kubejs/server_scripts/origins/dryad.js"
@@ -3554,12 +3574,20 @@ file = "kubejs/server_scripts/origins/dwarf.js"
 hash = "c79e461a2b67495391c8f47e0edf9149d8e25533de31136564e4553e1f478083"
 
 [[files]]
+file = "kubejs/server_scripts/origins/froggie.js"
+hash = "22b44511e06a55c7f71db11593db15ff734bdead96adb24d2b39cdf4096774ad"
+
+[[files]]
+file = "kubejs/server_scripts/origins/goblin.js"
+hash = "cdbaeaff2339dbc5d3bf12c829daa67aed5a79dab56d0c52e57dcb8ca96705e7"
+
+[[files]]
 file = "kubejs/server_scripts/origins/pyke.js"
 hash = "81235304cff7012ff6f477a6ec3242f33800b239cb30cd60d70edfb715b43f55"
 
 [[files]]
-file = "kubejs/server_scripts/origins/tags.js"
-hash = "a6e89c8678f5aec755d1eab454b2665e334d38a9edc19f95acda0a1a68ce35b0"
+file = "kubejs/server_scripts/origins/xayah.js"
+hash = "fea3084228d8b7660375d643f538afe8fdc1522eb02399aa83564280d0b90fa6"
 
 [[files]]
 file = "kubejs/server_scripts/quark/recipes.js"
@@ -3667,7 +3695,7 @@ hash = "434f15cb4b2cd415aa0d28e7e69b38daabe202afbe89817a3186f3ea8f91ddee"
 
 [[files]]
 file = "kubejs/startup_scripts/_core/registry.js"
-hash = "d3aac395692a2870f79ae72211ae4556f89d641ce3b0d9aebc7040028c254271"
+hash = "3df809472f6d84150b1b0464896e87476720824a4ba47389ba6f6a9fcdffdf77"
 
 [[files]]
 file = "kubejs/startup_scripts/_core/removals.js"
@@ -4598,6 +4626,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "36a828ae63ac3773de72f0a3a5d334585638c9db2cd43706b7304f094b05e0f3"
+metafile = true
+
+[[files]]
+file = "mods/entityjs.pw.toml"
+hash = "2d9cf0ee07a1eb088a391780e4fef2995a2eb0bf64a91f773660a650e2dd2984"
 metafile = true
 
 [[files]]

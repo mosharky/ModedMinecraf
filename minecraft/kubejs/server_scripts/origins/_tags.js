@@ -572,3 +572,11 @@ function itemTags_Origins(e) {
     //     }
     // })
 }
+
+
+/** @param {$TagEventJS} e */
+function damageTypeTags_Origins(e) {
+    e.add('minecraft:bypasses_cooldown', [
+        'kubejs:xayahs_feather_arrow'
+    ])
+}
