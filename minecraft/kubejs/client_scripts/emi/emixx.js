@@ -1,39 +1,58 @@
 // EMI++ (EMI Plus Plus)
 /** @param {$GenerateClientAssetsEventJS} e */
 function clientData_EMIxx(e) {
-    function createGroup(tag) {
+    function createTagGroup(tag) {
         e.add(`kubejs:stack_groups/${tag.split(':')[1]}`, {
             type: 'emixx:tag',
             tag: tag
         })
     }
 
-    createGroup('quark:vertical_slabs')
-    createGroup('quark:hollow_logs')
-    createGroup('quark:hedges')
-    createGroup('quark:posts')
-    createGroup('forge:ladders')
-    createGroup('forge:chests/wooden')
-    createGroup('blueprint:wooden_beehives')
-    createGroup('blueprint:wooden_bookshelves')
-    createGroup('blueprint:wooden_chiseled_bookshelves')
-    createGroup('suppsquared:item_shelves')
-    createGroup('supplementaries:sign_posts')
-    createGroup('snowyspirit:sleds')
-    createGroup('immersive_weathering:bark')
-    createGroup('decorative_blocks:seats')
-    createGroup('decorative_blocks:supports')
-    createGroup('decorative_blocks:palisades')
-    createGroup('another_furniture:flower_boxes')
-    createGroup('another_furniture:shutters')
-    createGroup('another_furniture:tables')
-    createGroup('another_furniture:chairs')
-    createGroup('another_furniture:shelves')
-    createGroup('another_furniture:drawers')
-    createGroup('another_furniture:bench')
-    createGroup('dramaticdoors:short_wooden_doors')
-    createGroup('dramaticdoors:tall_wooden_doors')
+    function createItemGroup(itemsArray) {
+        let obj = { 
+            type: 'emixx:group', 
+            contents: [] 
+        }
+        itemsArray.forEach(item => {
+            let contentObj = { type: '', id: '' } 
+            if (item.charAt(0) == '#') contentObj.type = 'tag'  // idk if this would even work
+            else contentObj.type = 'item'
+            contentObj.id = item
+            obj.contents.push(contentObj)
+        })
+
+        e.add(`kubejs:stack_groups/${itemsArray[0].split(':')[1]}`, obj)
+    }
+
+    createTagGroup('quark:vertical_slabs')
+    createTagGroup('quark:hollow_logs')
+    createTagGroup('quark:hedges')
+    createTagGroup('quark:posts')
+    createTagGroup('forge:ladders')
+    createTagGroup('forge:chests/wooden')
+    createTagGroup('blueprint:wooden_beehives')
+    createTagGroup('blueprint:wooden_bookshelves')
+    createTagGroup('blueprint:wooden_chiseled_bookshelves')
+    createTagGroup('suppsquared:item_shelves')
+    createTagGroup('supplementaries:sign_posts')
+    createTagGroup('snowyspirit:sleds')
+    createTagGroup('immersive_weathering:bark')
+    createTagGroup('decorative_blocks:seats')
+    createTagGroup('decorative_blocks:supports')
+    createTagGroup('decorative_blocks:palisades')
+    createTagGroup('another_furniture:flower_boxes')
+    createTagGroup('another_furniture:shutters')
+    createTagGroup('another_furniture:tables')
+    createTagGroup('another_furniture:chairs')
+    createTagGroup('another_furniture:shelves')
+    createTagGroup('another_furniture:drawers')
+    createTagGroup('another_furniture:bench')
+    createTagGroup('dramaticdoors:short_wooden_doors')
+    createTagGroup('dramaticdoors:tall_wooden_doors')
     // custom tags
-    createGroup('kubejs:tms')
-    createGroup('kubejs:trs')
+    createTagGroup('kubejs:tms')
+    createTagGroup('kubejs:trs')
+
+    // Items
+    createItemGroup(['caverns_and_chasms:trail_potion'])
 }

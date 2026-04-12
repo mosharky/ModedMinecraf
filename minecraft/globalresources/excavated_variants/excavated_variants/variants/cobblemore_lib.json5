@@ -1,0 +1,23 @@
+{
+    mod_id: 'cobblemore_lib',
+    provided_stones: [],
+    provided_ores: [
+        {
+            id: 'candy_ore',
+            lang: {
+                en_us: 'Candy Ore'
+            },
+            block_id: [
+                'cobblemore_lib:candy_ore',
+                'cobblemore_lib:deepslate_candy_ore'
+            ],
+            stone: [
+                'stone',
+                'deepslate'
+            ],
+            types: [
+                'stone'
+            ]
+        }
+    ]
+}

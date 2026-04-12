@@ -1,3 +1,4 @@
+/** @param {$RecipesEventJS} e  */
 function recipes_CavernsAndChasms(e) {
-    e.remove({id: 'caverns_and_chasms:bundle'})
+    e.remove({ id: 'caverns_and_chasms:bundle' })
 }

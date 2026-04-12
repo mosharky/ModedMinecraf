@@ -8,12 +8,8 @@ ServerEvents.tags('item', e => {
     itemTags_Origins(e)
     itemTags_OddsNEnds(e)
     itemTags_SimpleTMs(e)
-
-    if (!global.DEBUG_MODE) {
-        e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
-            /excavated_variants:.*/,
-        ]))
-    }
+    itemTags_EveryComp(e)
+    itemTags_CavernsAndChasms(e)
 })
 
 ServerEvents.tags('block', e => {
@@ -88,6 +84,7 @@ ServerEvents.recipes(e => {
     recipes_EndRem(e)
     recipes_OddsNEnds(e)
     recipes_Botania(e)
+    recipes_FunctionalStorage(e)
 
     // Fully removing any recipe tied to items in REMOVALS
     global.REMOVALS.set.forEach(removal => {
