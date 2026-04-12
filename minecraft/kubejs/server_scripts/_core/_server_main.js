@@ -10,6 +10,7 @@ ServerEvents.tags('item', e => {
     itemTags_SimpleTMs(e)
     itemTags_EveryComp(e)
     itemTags_CavernsAndChasms(e)
+    itemTags_Hamsters(e)
 })
 
 ServerEvents.tags('block', e => {
@@ -52,6 +53,7 @@ ServerEvents.tags('worldgen/biome', e => {
     // biomeTags_ScGuns(e)
     biomeTags_Oreganized(e)
     biomeTags_OddsNEnds(e)
+    biomeTags_Hamsters(e)
 })
 
 ServerEvents.tags('worldgen/structure', e => {

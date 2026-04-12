@@ -3179,7 +3179,7 @@ hash = "bb298a94b4faccf4c6fb13a9efc4370598cd7938a06e6c1355b75369829fc0b9"
 
 [[files]]
 file = "kubejs/server_scripts/_core/_server_main.js"
-hash = "8616e94f6b9dad11a4404413c53f3da83b012e4c763564de84031a8df6e8284d"
+hash = "1f28edaba60d8c2516811aba469cf12e50abe725d2b1827100bcb21cf1afc0b4"
 
 [[files]]
 file = "kubejs/server_scripts/_core/advancements.js"
@@ -3448,6 +3448,10 @@ hash = "8cb5fde5a3b6998582e031abe92d7ed1659f35b18595f9360bdfdf6970e81d8b"
 [[files]]
 file = "kubejs/server_scripts/goety/worldgen.js"
 hash = "c7125aef36135a21ae4f2c0ac06529137518513dbfd29416652f9193a4b3ae48"
+
+[[files]]
+file = "kubejs/server_scripts/hamsters/tags.js"
+hash = "5790e5595e2b22484e4954264b5430ad72ed52fac1e921d376f187c50b084ab1"
 
 [[files]]
 file = "kubejs/server_scripts/idas/worldgen.js"
