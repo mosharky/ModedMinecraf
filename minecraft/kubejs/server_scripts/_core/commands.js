@@ -1,4 +1,5 @@
-ServerEvents.commandRegistry(event => {
+/** @param {$CommandRegistryEventJS} event  */
+function commands_Core(event) {
     const { commands: Commands, arguments: Arguments } = event
 
 
@@ -65,4 +66,4 @@ ServerEvents.commandRegistry(event => {
             return 1
         }))
     )
-})
+}

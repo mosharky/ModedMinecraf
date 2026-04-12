@@ -1,6 +1,20 @@
 /** @param {$TagEventJS} e */
 function itemTags_Core(e) {
     e.removeAllTagsFrom(global.REMOVALS.arr)
+
+    if (!global.DEBUG_MODE) {
+        e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
+            /excavated_variants:.*/,
+            // Debug items that shouldn't show in EMI
+            'create_jetpack:jetpack_placeable',
+            'create_jetpack:netherite_jetpack_placeable',
+            /citadel:.*/,
+            /structure_gel:.*/,
+            /knightlib:.*/,
+            /toomanyorigins:.*/,
+            'moonlight:placeable_item',
+        ]))
+    }
 }
 
 /** @param {$TagEventJS} e */

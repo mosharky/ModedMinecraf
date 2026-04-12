@@ -754,7 +754,7 @@ hash = "5cf51284c7995de33d82fcf3f45fbbeb8b7f25a7ae87bc67d27364fa7c44d091"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/cobblemonintegrations-common.toml"
@@ -1386,7 +1386,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "a894f4f72208e360e96438e2f8eee81334de31c62eef285a8973d3b759749f9b"
+hash = "34f1f7ece9bd17ff58f05607adbaadca818e75662867adb78afe9dee67ffc79c"
 
 [[files]]
 file = "config/kiwi-client.yaml"
@@ -1582,7 +1582,7 @@ hash = "5f67817bc7f5904b7b87126a534b27889b131bd9582c769efa368c47533e6e24"
 
 [[files]]
 file = "config/origins-common.toml"
-hash = "d133ead9ccf984284fa9a1ac2c6c581560594baef5bcf82382aab7f209419937"
+hash = "18b2a26374b06f1f3b6956007edb5903bc67c650c4ccfda3531a37de3d7cf0ea"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -1802,7 +1802,7 @@ hash = "e441a4d0d6f8ca65617c56691c044351fd49da819a39b251e8389d1a9be7e990"
 
 [[files]]
 file = "config/savage_and_ravage-common.toml"
-hash = "37a010528ae759bdda69a5c7770c5e0b0097d40f1071584352dba53f3852576f"
+hash = "3d3fc608f6fc0107c45aedebc05803b7b698b95719a50e1a023997a6027e93f2"
 
 [[files]]
 file = "config/sawmill-common.toml"
@@ -1898,7 +1898,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "1bdc5f2c1577d597b4dce22349e92ba8f5a9beb8d9e6807250911497760c8367"
+hash = "ac1c36cc4af1b92cd5a9e1d8513986eb52246aea729bb622782e7166230183a8"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2229,6 +2229,10 @@ file = "defaultconfigs/create_aquatic_ambitions-server.toml"
 hash = "6ccc387ed57c81a07c34604365ff5449502f2cb2d56230bc33c877691320c745"
 
 [[files]]
+file = "defaultconfigs/create_enchantment_industry-server.toml"
+hash = "16c2b6fbd8da6f0ec44a6b3c81cb95ab85805031c94f7f2c60aab3073006a2cb"
+
+[[files]]
 file = "defaultconfigs/create_hypertube-server.toml"
 hash = "84fb232549cedc836f20ee9a8dfe5b9ee38f88ca238228f715e301b36d6ab948"
 
@@ -2294,7 +2298,7 @@ hash = "eaafa3b0eff0875f1967ae1bcf95ffec69182ba24d5800ce087f4097b1abcc8d"
 
 [[files]]
 file = "globalresources/excavated_variants.zip"
-hash = "54adaabb7b72d2500670295656c9c45f9cf5f27620d950f96e704f17684ca3f0"
+hash = "f469dac1cca1827cf836cfdfa45534ed795ee16ad493af23e15b37d9e2b5f667"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -2351,6 +2355,11 @@ file = "kubejs/assets/cataclysm/models/item/purpur_void_rune_trap_block.json"
 hash = "4039cb1b61586b268c05d40f75f352e2abae4da2aa75fab827c61df2a6fb1641"
 
 [[files]]
+file = "kubejs/assets/create-immersive-aircrafts-resource-pack.pw.toml"
+hash = "19141afdc23ddd08b517b48b93c14fc416d5aedd775ee2d03eca9cd79f3d8c62"
+metafile = true
+
+[[files]]
 file = "kubejs/assets/emi-create-cobble-gen-compat.pw.toml"
 hash = "ce8343e483f2783a5a11b3b6ff49460a3cdd2f37b5aa95717154e61094a290df"
 metafile = true
@@ -2383,6 +2392,10 @@ hash = "f18e4f280968a0f47c809336a7a7ddaaab5d44b487993b1b2518df0cf9fe3da4"
 [[files]]
 file = "kubejs/assets/kubejs/sounds/pyke_harpoon.ogg"
 hash = "cd6ce2dc6dd00b8371fcb5a6a7ff3dd344f66fa9f6a10f1212400aa81661d255"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/entity/projectiles/xayahs_feather_arrow.png"
+hash = "bf56bd2869c0702ae7a3b18d2d379dc694424d8c6550178b8052c35756b5b19e"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/gui/badge/anvil.png"
@@ -2419,6 +2432,14 @@ hash = "1a2153676228ed355f1c8770b198a006889184230000a91756b816a36ddb5519"
 [[files]]
 file = "kubejs/assets/kubejs/textures/gui/resource_bar.png"
 hash = "0c9876e9171de3a6592b1a8bdf2baa28b5d132b9b1a296c6f9385f649d27b9de"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/goblin_icon.png"
+hash = "c269ae716dbf27589db8a089bd2620d606242b72c01917f934dc097251510d63"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/xayahs_feather.png"
+hash = "df3f20354d3bd6a71511277424953051ccaad36b4872a904a14d487ffde60617"
 
 [[files]]
 file = "kubejs/assets/legendary-tremorzilla-skin.pw.toml"
@@ -2714,7 +2735,7 @@ hash = "946c071ce293cd23d5d579f8734d548767312c59937d8a34555c840866de3bbc"
 
 [[files]]
 file = "kubejs/client_scripts/_core/lang.js"
-hash = "2137c6e98c34747c770f4d2db1fd3fa28902711b72b44712fbafe76b82ae300c"
+hash = "bca31cba57b7cb919adc27e875010f5dc270ec55d309825cba5aa2cf715e082b"
 
 [[files]]
 file = "kubejs/client_scripts/_core/vars.js"
@@ -2726,7 +2747,7 @@ hash = "2398959fe2b9746a02465f0e9ad7ed35cfd75ee28386579c9eed2d7d78e663fb"
 
 [[files]]
 file = "kubejs/client_scripts/emi/emixx.js"
-hash = "311e157382c343f2e98344eca16b11e159b696a30b8d1744fb8c2bf5c6b9a4f5"
+hash = "cc8adde8e56db2fc4e1eccb26cdc550f51c0a2acf9a156036de86df0b9b42783"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -2743,6 +2764,10 @@ hash = "5e7573dce8b9aa318b528a409c2d24dea75fa1af849bac3fadf4dc5476566397"
 [[files]]
 file = "kubejs/data/Cobblemon Biopshere Expanded.zip"
 hash = "b245ac061ed432713774a24e713ef2086de7ba19c28009e2fc3f488524174213"
+
+[[files]]
+file = "kubejs/data/Create Immersive Aircrafts Datapack 1.20.1 - 3.0.zip"
+hash = "19e00d9062cd3b52975a36586072a3cb59dd8c2f6ea71f9f41f6704443a9ee70"
 
 [[files]]
 file = "kubejs/data/Genomons [1.5.1].zip"
@@ -3154,7 +3179,7 @@ hash = "bb298a94b4faccf4c6fb13a9efc4370598cd7938a06e6c1355b75369829fc0b9"
 
 [[files]]
 file = "kubejs/server_scripts/_core/_server_main.js"
-hash = "4eaa93daafae0a9241bfa20c178a313edeea002497ec6be5cf75ad63c3751bf9"
+hash = "1f28edaba60d8c2516811aba469cf12e50abe725d2b1827100bcb21cf1afc0b4"
 
 [[files]]
 file = "kubejs/server_scripts/_core/advancements.js"
@@ -3162,7 +3187,7 @@ hash = "5fb7435dd2ffbf42df0964418981337f3926a0323b9f1546635f59ea93d44e06"
 
 [[files]]
 file = "kubejs/server_scripts/_core/commands.js"
-hash = "cfa6077c87c8e2f88402ff317d02b692be33431252f014fbbf71f8b1176788a9"
+hash = "f701035ee49c6a6cc3b2a1f0444bee12cd77c33311d4da831625611b3ee903d8"
 
 [[files]]
 file = "kubejs/server_scripts/_core/entity.js"
@@ -3186,7 +3211,7 @@ hash = "55052d00ab25f556660fcb3fb9b306a577715cc24b7184640b152bfd234d2e6a"
 
 [[files]]
 file = "kubejs/server_scripts/_core/tags.js"
-hash = "a67a85659f575ef45d9081a3936fdffdb6c755fc2b46d8f908dc330a7cb7c03a"
+hash = "0f66a44d183fc9bc6cc9805a0f841636ab41ad437945cab3f017368689df0a08"
 
 [[files]]
 file = "kubejs/server_scripts/_core/trades.js"
@@ -3194,7 +3219,7 @@ hash = "2948f97cad6a733ab88989e349209c6692ff3657f896b804ba9dbbf82bc261b8"
 
 [[files]]
 file = "kubejs/server_scripts/_core/vars.js"
-hash = "318509f02ccc25d9fc20e6cccdf47dc44489a2af395c4c6ef47c3f48cfc0bf87"
+hash = "f56bbe614a2681d810438da83c41695ff5e525958f7a5d2d42e19e647dffcff8"
 
 [[files]]
 file = "kubejs/server_scripts/_core/worldgen.js"
@@ -3306,11 +3331,11 @@ hash = "492ad88582ffaec78b7b16384f4ecb0e0b89e86ab2b7ff29e35192cfe4faa6b0"
 
 [[files]]
 file = "kubejs/server_scripts/caverns_and_chasms/recipes.js"
-hash = "0d2634fac074a34b6a024b4d1b2ccb0a8fa93f9be1e89643d8f10f2d55f12519"
+hash = "d7672910b46a6a4407698861725223b0dd4593b5b350971b68d310dc04d89edb"
 
 [[files]]
 file = "kubejs/server_scripts/caverns_and_chasms/tags.js"
-hash = "52ae906f26b1e36172140725335d923457ab9a6636754f50672232c7b2866b5e"
+hash = "d7c0b47db3721466f3f4d2cc943318563ff810a2ce1e5e755d08e1f153b6e9cf"
 
 [[files]]
 file = "kubejs/server_scripts/caverns_and_chasms/worldgen.js"
@@ -3377,6 +3402,10 @@ file = "kubejs/server_scripts/everycomp/recipes.js"
 hash = "ce4552bb2b91c9ba59a1745411684b6155e1b40ab433d48d7810dfd759f684f5"
 
 [[files]]
+file = "kubejs/server_scripts/everycomp/tags.js"
+hash = "943d172124dae134738f0086cdeeb312b652657898756a9d2cb6d72f69140403"
+
+[[files]]
 file = "kubejs/server_scripts/farmersdelight/enchants.js"
 hash = "cf872edac0e3654e51f5abd0e0694f920604117133d0bf50dab980705516db09"
 
@@ -3391,6 +3420,10 @@ hash = "7d1c7e187fdacfb1c19d2ca7bf5c12846ad7c01c4fee46e461dfee2c922e91c5"
 [[files]]
 file = "kubejs/server_scripts/ftbchunks/tags.js"
 hash = "d0d56b230f32a3c63175a91b4e284050b71978a2bfb34a6ab42711f3536fb311"
+
+[[files]]
+file = "kubejs/server_scripts/functionalstorage/recipes.js"
+hash = "74ee167bf630075e742e831c48330a63a10203dca11b5df5b0b6acabba1776bf"
 
 [[files]]
 file = "kubejs/server_scripts/galosphere/enchants.js"
@@ -3415,6 +3448,10 @@ hash = "8cb5fde5a3b6998582e031abe92d7ed1659f35b18595f9360bdfdf6970e81d8b"
 [[files]]
 file = "kubejs/server_scripts/goety/worldgen.js"
 hash = "c7125aef36135a21ae4f2c0ac06529137518513dbfd29416652f9193a4b3ae48"
+
+[[files]]
+file = "kubejs/server_scripts/hamsters/tags.js"
+hash = "5790e5595e2b22484e4954264b5430ad72ed52fac1e921d376f187c50b084ab1"
 
 [[files]]
 file = "kubejs/server_scripts/idas/worldgen.js"
@@ -3521,8 +3558,16 @@ file = "kubejs/server_scripts/oreganized/worldgen.js"
 hash = "5ab49d1640057ba8818ce5c490cb4252c63bb4b99c97c7abab83f0435a865cd3"
 
 [[files]]
+file = "kubejs/server_scripts/origins/_commands.js"
+hash = "c240c865b1c4d5b55499d7d22450606e6560c5c3fc4029bf545e59cc98cd6171"
+
+[[files]]
 file = "kubejs/server_scripts/origins/_main_origins.js"
-hash = "7c80cb6743797a183b67c5cd61e98f05b2be03ef370669a5478ae5d206aac017"
+hash = "c65bd3c24a84eaf6a7041e5b9f38f915af9e05048ad84612aee3b01ad3a1abc0"
+
+[[files]]
+file = "kubejs/server_scripts/origins/_tags.js"
+hash = "367f5195899b544ed7bbf57029807ddbc5bc21be2cc364ba0466b1ff4e1674d8"
 
 [[files]]
 file = "kubejs/server_scripts/origins/dryad.js"
@@ -3533,12 +3578,20 @@ file = "kubejs/server_scripts/origins/dwarf.js"
 hash = "c79e461a2b67495391c8f47e0edf9149d8e25533de31136564e4553e1f478083"
 
 [[files]]
+file = "kubejs/server_scripts/origins/froggie.js"
+hash = "22b44511e06a55c7f71db11593db15ff734bdead96adb24d2b39cdf4096774ad"
+
+[[files]]
+file = "kubejs/server_scripts/origins/goblin.js"
+hash = "cdbaeaff2339dbc5d3bf12c829daa67aed5a79dab56d0c52e57dcb8ca96705e7"
+
+[[files]]
 file = "kubejs/server_scripts/origins/pyke.js"
 hash = "81235304cff7012ff6f477a6ec3242f33800b239cb30cd60d70edfb715b43f55"
 
 [[files]]
-file = "kubejs/server_scripts/origins/tags.js"
-hash = "a6e89c8678f5aec755d1eab454b2665e334d38a9edc19f95acda0a1a68ce35b0"
+file = "kubejs/server_scripts/origins/xayah.js"
+hash = "fea3084228d8b7660375d643f538afe8fdc1522eb02399aa83564280d0b90fa6"
 
 [[files]]
 file = "kubejs/server_scripts/quark/recipes.js"
@@ -3646,7 +3699,7 @@ hash = "434f15cb4b2cd415aa0d28e7e69b38daabe202afbe89817a3186f3ea8f91ddee"
 
 [[files]]
 file = "kubejs/startup_scripts/_core/registry.js"
-hash = "d3aac395692a2870f79ae72211ae4556f89d641ce3b0d9aebc7040028c254271"
+hash = "3df809472f6d84150b1b0464896e87476720824a4ba47389ba6f6a9fcdffdf77"
 
 [[files]]
 file = "kubejs/startup_scripts/_core/removals.js"
@@ -4335,6 +4388,11 @@ hash = "fee58a333eaf51d4862fee34fe8ba7cb70140500023e06aca3c9fcf0e0f34719"
 metafile = true
 
 [[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "c670ae9055f10dafb61fe340583c361f4c41ed45671c9440bae1f0696b47252a"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "0a0533fddd34d04fd6551f5c352081b711662d12f2f2051fe7232a53172edf0e"
 metafile = true
@@ -4392,11 +4450,6 @@ metafile = true
 [[files]]
 file = "mods/darker-depths.pw.toml"
 hash = "b836bb9c9ab3776926af93073eb49145f4a4a356bcde59a17312d9d8612d4f31"
-metafile = true
-
-[[files]]
-file = "mods/death-count.pw.toml"
-hash = "afcb51fed6ac6291227864474b94bff71d9546e3bab9057c82904b07bfb0ef83"
 metafile = true
 
 [[files]]
@@ -4580,6 +4633,11 @@ hash = "36a828ae63ac3773de72f0a3a5d334585638c9db2cd43706b7304f094b05e0f3"
 metafile = true
 
 [[files]]
+file = "mods/entityjs.pw.toml"
+hash = "2d9cf0ee07a1eb088a391780e4fef2995a2eb0bf64a91f773660a650e2dd2984"
+metafile = true
+
+[[files]]
 file = "mods/environmental.pw.toml"
 hash = "9825060ebdf517eaa5e9d341fcb13816698aa0a39c21953439681e61c36943ff"
 metafile = true
@@ -4740,6 +4798,11 @@ hash = "b62ba512e1bda92ccb0491a2ade4f96b1578264a0ec5078eac76b629a9b3f52a"
 metafile = true
 
 [[files]]
+file = "mods/golden-dandelion-port.pw.toml"
+hash = "40b68e430dc01428fe1432b25ccfbed572d39bdeb716a10844892c7e7b816ea0"
+metafile = true
+
+[[files]]
 file = "mods/gputape.pw.toml"
 hash = "5e9d7c8fe15e7342aee0070e7e6dbf24659fe6d44fdc06c161f39830a98dce50"
 metafile = true
@@ -4747,6 +4810,11 @@ metafile = true
 [[files]]
 file = "mods/guideme.pw.toml"
 hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
+metafile = true
+
+[[files]]
+file = "mods/hamsters.pw.toml"
+hash = "b3ae1d475e25a4d792bc5812d0860ec28f369739ae205538d5f1bfb96c2171f7"
 metafile = true
 
 [[files]]
@@ -5130,8 +5198,13 @@ hash = "464e83a35e22e9bbdf7be38cf7a7a98c39462a0a50b01d2a1355bcae9167ea7a"
 metafile = true
 
 [[files]]
+file = "mods/natures-delight.pw.toml"
+hash = "d9c9bf10c41d6fa7194f8e79cc32044391b324649259f4ae33b5f6ac685cbdb9"
+metafile = true
+
+[[files]]
 file = "mods/natures-spirit.pw.toml"
-hash = "346f0e076332a93b689094d4afa81bd4476346f01190281106faf5c65eb7ceb0"
+hash = "8b3dc6fa116657eba16f3550bd6468ba4aab315c35952d1de7c2d165033b3a2d"
 metafile = true
 
 [[files]]

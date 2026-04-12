@@ -8,12 +8,9 @@ ServerEvents.tags('item', e => {
     itemTags_Origins(e)
     itemTags_OddsNEnds(e)
     itemTags_SimpleTMs(e)
-
-    if (!global.DEBUG_MODE) {
-        e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
-            /excavated_variants:.*/,
-        ]))
-    }
+    itemTags_EveryComp(e)
+    itemTags_CavernsAndChasms(e)
+    itemTags_Hamsters(e)
 })
 
 ServerEvents.tags('block', e => {
@@ -56,12 +53,16 @@ ServerEvents.tags('worldgen/biome', e => {
     // biomeTags_ScGuns(e)
     biomeTags_Oreganized(e)
     biomeTags_OddsNEnds(e)
+    biomeTags_Hamsters(e)
 })
 
 ServerEvents.tags('worldgen/structure', e => {
     structureTags_Cataclysm(e)
 })
 
+ServerEvents.tags('damage_type', e => {
+    damageTypeTags_Origins(e)
+})
 
 ServerEvents.recipes(e => {
     recipes_Core(e)
@@ -88,6 +89,7 @@ ServerEvents.recipes(e => {
     recipes_EndRem(e)
     recipes_OddsNEnds(e)
     recipes_Botania(e)
+    recipes_FunctionalStorage(e)
 
     // Fully removing any recipe tied to items in REMOVALS
     global.REMOVALS.set.forEach(removal => {
@@ -165,9 +167,17 @@ ServerEvents.highPriorityData(e => {
 
     origins_Layer(e)
     origins_Overrides(e)
-    origins_Dwarf(e)
-    origins_Pyke(e)
     origins_Dryad(e)
+    origins_Dwarf(e)
+    origins_Froggie(e)
+    origins_Goblin(e)
+    origins_Pyke(e)
+    origins_Xayah(e)
+})
+
+ServerEvents.commandRegistry(event => {
+    commands_Core(event)
+    commands_Origins(event)
 })
 
 

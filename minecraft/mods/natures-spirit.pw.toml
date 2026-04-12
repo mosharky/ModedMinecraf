@@ -3,11 +3,11 @@ filename = "natures_spirit-2.2.5-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "edd4d2ea52eed1ff90b412f10eb29f5e4650c147"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/WBvnqHfV/versions/ri5j4RHM/natures_spirit-2.2.5-1.20.1.jar"
+hash-format = "sha512"
+hash = "0098deac8cd66f8f388c134a7a44504fc9620d9fa0bfd9c0440b1ade2f95ad2bedb5f88519d779c28725c4d3740a3183223727b185100e4111fd8404ef9c9f40"
 
 [update]
-[update.curseforge]
-file-id = 6962783
-project-id = 1044992
+[update.modrinth]
+mod-id = "WBvnqHfV"
+version = "ri5j4RHM"

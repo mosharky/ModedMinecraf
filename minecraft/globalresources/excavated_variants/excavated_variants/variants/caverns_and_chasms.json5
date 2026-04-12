@@ -35,6 +35,23 @@
             types: [
                 'stone'
             ]
+        },
+        {
+            id: 'tin_ore',
+            lang: {
+                en_us: 'Tin Ore'
+            },
+            block_id: [
+                'caverns_and_chasms:tin_ore',
+                'caverns_and_chasms:deepslate_tin_ore'
+            ],
+            stone: [
+                'stone',
+                'deepslate'
+            ],
+            types: [
+                'stone'
+            ]
         }
     ]
 }

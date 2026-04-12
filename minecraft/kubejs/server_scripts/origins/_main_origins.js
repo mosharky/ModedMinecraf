@@ -6,6 +6,9 @@ function origins_Layer(e) {
         origins: [
             'kubejs:pyke',
             'kubejs:cave_dwarf',
+            'kubejs:goblin',
+            'kubejs:froggie',
+            'kubejs:xayah',
             'kubejs:dryad',
             // 'kubejs:debug'
         ]
