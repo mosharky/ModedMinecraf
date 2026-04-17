@@ -5293,6 +5293,11 @@ hash = "2242b76f7c4ee6d7f396a2d1380bee615d78408d00bff5cca38e4df777b18dc5"
 metafile = true
 
 [[files]]
+file = "mods/pehkui.pw.toml"
+hash = "1f92dd360908c1801848dcd4d14aca5640199545e7e22e76bfdb981b06fa9399"
+metafile = true
+
+[[files]]
 file = "mods/personality.pw.toml"
 hash = "e6bb4fed1cbfd16fc6c08655f39c3b1098010203dfc893b59dbc63306ad65996"
 metafile = true
