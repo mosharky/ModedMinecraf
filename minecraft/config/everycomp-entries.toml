@@ -428,9 +428,6 @@
 			mint_cake = true
 			adzuki_cake = true
 
-		[types.cake.galospheric_delight]
-			salted_caramel_cake = true
-
 		[types.cake.mynethersdelight]
 			magma_cake = true
 
@@ -951,9 +948,6 @@
 			ash_bricks = true
 			stone_tile = true
 			blackstone_tile = true
-
-		[types.cut_block_type.galospheric_delight]
-			salted_caramel_bricks = true
 
 		[types.cut_block_type.galosphere]
 			smooth_amethyst = true
