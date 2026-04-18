@@ -113,3 +113,5 @@ globalresources/excavated_variants/
 # assets
 kubejs/assets/*.zip
 !kubejs/assets/special-*.zip
+kubejs/data/*.zip
+!kubejs/data/special-*.zip

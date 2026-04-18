@@ -1,0 +1,13 @@
+name = "Cobblemon: Biosphere Expanded"
+filename = "Cobblemon Biopshere Expanded.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/X3MPimby/versions/LB0MBBM1/Cobblemon%20Biopshere%20Expanded.zip"
+hash-format = "sha512"
+hash = "129fa51966d970561c7798f92e0bba54bda0fc65a53639a00b87703eac91fb0092be15d552a438bd1fc9d2afa7fd3ed5cc9abd4710820ba252148a33bf0e3c62"
+
+[update]
+[update.modrinth]
+mod-id = "X3MPimby"
+version = "LB0MBBM1"

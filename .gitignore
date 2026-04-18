@@ -115,3 +115,5 @@ minecraft/mods/.index/
 # packwiz
 minecraft/kubejs/assets/*.zip
 !minecraft/kubejs/assets/special-*.zip
+minecraft/kubejs/data/*.zip
+!minecraft/kubejs/data/special-*.zip

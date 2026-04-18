@@ -2790,6 +2790,21 @@ file = "kubejs/data/MysticMons_v2.0.1.zip"
 hash = "053657d1cc18c4141f36827e24716cb68687469b59a0955c8016c64b8c353d0d"
 
 [[files]]
+file = "kubejs/data/additional-cobblemon-spawn-compat.pw.toml"
+hash = "87d73a01f24798fe4a3f99ce273096b919f66688816128490d9f2693baf745c9"
+metafile = true
+
+[[files]]
+file = "kubejs/data/allthemons.pw.toml"
+hash = "76f2dddd29b15fc6fca7d9ebf14de5ad1354f7c523c1838bf894b84108cbb6e2"
+metafile = true
+
+[[files]]
+file = "kubejs/data/golemancy-origins.pw.toml"
+hash = "e6da1d41b493eb194662f2ff0ff012792c823439bb2a1713d6e5ecb5f6668afd"
+metafile = true
+
+[[files]]
 file = "kubejs/data/idasalexsmobs-1.20.zip"
 hash = "8f1182f08d3b268fbaa4dbaea170d9c01fd70d2355854b6939e03ebb46029e77"
 
@@ -5796,6 +5811,26 @@ metafile = true
 [[files]]
 file = "mods/zetter-painting-mod.pw.toml"
 hash = "517ae1dacbe30711b7abccb4c2b4904eb0f1611454eb5836a7071c3a5a7b8996"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-immersive-aircrafts-data-pack.pw.toml"
+hash = "51c053c2747fe756b5d633e94e75a0d822c635c4dbefbd0f4b8aca4b49dc40a8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/idas-alexs-mobs.pw.toml"
+hash = "5b893e20f0533d7ebb4c5b2320f9d575b4abbe440a55be1827a457587284a0cd"
+metafile = true
+
+[[files]]
+file = "resourcepacks/integrated-stronghold-alexs-mobs-integration.pw.toml"
+hash = "ba2be961d15232a20164cf9d85f1f3b7300828859a091c69713c4a10ddc787a7"
+metafile = true
+
+[[files]]
+file = "resourcepacks/integrated-stronghold-end-remastered-integration.pw.toml"
+hash = "29d544acb1a7d3e280a911c3bf13d620a745690b901ea6cc9a5af3203f3f7b9c"
 metafile = true
 
 [[files]]

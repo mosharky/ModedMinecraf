@@ -1,0 +1,13 @@
+name = "Golemancy Origins"
+filename = "Golemancy-1.6.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uvll5hVT/versions/V3l1vIdm/Golemancy-1.6.1.zip"
+hash-format = "sha512"
+hash = "66821cbdb4f4462bfb83b9bf385af7b6bb5ed4b0e0b67e7d789c3b2072c3c3b30df29d7d39f13b7dffe5c3b2b67262f54a9b07c5289a031c201ac9d3583d97cc"
+
+[update]
+[update.modrinth]
+mod-id = "uvll5hVT"
+version = "V3l1vIdm"
