@@ -94,6 +94,7 @@
 			crypt_stone = true
 			highrock = true
 			siltstone = true
+			ominous_stone = true
 
 		[types.stone_type.aetherworks]
 			suevite = true
@@ -410,6 +411,9 @@
 		[types.leaves_type.oddsnends]
 			ciderine = true
 			flowering_ciderine = true
+
+		[types.leaves_type.galosphere]
+			opal = true
 
 	[types.cake]
 
@@ -952,8 +956,6 @@
 			salted_caramel_bricks = true
 
 		[types.cut_block_type.galosphere]
-			silver_tiles = true
-			silver_panel = true
 			smooth_amethyst = true
 			smooth_allurite = true
 			smooth_lumiere = true
@@ -969,6 +971,9 @@
 			pink_salt_brick = true
 			rose_pink_salt_brick = true
 			pastel_pink_salt_brick = true
+			palladium_tiles = true
+			palladium_panel = true
+			opal_brick = true
 
 		[types.cut_block_type.oreganized]
 			glance = true
@@ -1079,6 +1084,19 @@
 			smooth_end_stone = true
 			cobbled_end_stone = true
 			chorus_grass_block = true
+			mossy_cragrocks_slight = true
+			mossy_cragrocks = true
+			mossy_cragrocks_heavy = true
+			silt_highrock = true
+			ominous_stone = true
+			cobbled_ominous_stone = true
+			polished_ominous_stone = true
+			polished_dark_ominous_stone = true
+			ominous_stone_brick = true
+			ominous_stone_tile = true
+			ominous_stone_pavement = true
+			ominous_stone_pillar = true
+			dark_dirt = true
 
 		[types.cut_block_type.mowziesmobs]
 			painted_acacia = true
