@@ -121,6 +121,7 @@
         "**/minecraft/memorycatcher/": true,
         "minecraft/.gitignore": true,
         "minecraft/kubejs/data/*.zip": true,
-        "minecraft/kubejs/data/special-*.zip": false
+        "minecraft/kubejs/data/special-*.zip": false,
+        "minecraft/hs_err_pid*.log": true
     }
 }
