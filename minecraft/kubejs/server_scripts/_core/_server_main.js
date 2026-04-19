@@ -11,6 +11,8 @@ ServerEvents.tags('item', e => {
     itemTags_EveryComp(e)
     itemTags_CavernsAndChasms(e)
     itemTags_Hamsters(e)
+
+    itemTags_Core_Removals(e)
 })
 
 ServerEvents.tags('block', e => {
@@ -20,6 +22,7 @@ ServerEvents.tags('block', e => {
     blockTags_SnowRealMagic(e)
     blockTags_Origins(e)
     blockTags_Supplementaries(e)
+    blockTags_Sounds(e)
 })
 
 ServerEvents.tags('fluid', e => {

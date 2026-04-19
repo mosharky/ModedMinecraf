@@ -82,11 +82,11 @@ function enchants_ImmersiveEnchanting(e) {
 
     e.addJson('immersiveenchanting:enchantment_costs/minecraft/smite', {
         levels: {
-            '1': { item: 'galosphere:silver_ingot', amount: 1 },
+            '1': { item: 'caverns_and_chasms:silver_ingot', amount: 1 },
             '2': { item: 'minecraft:lightning_rod', amount: 1 },
             '3': { item: 'minecraft:glistering_melon_slice', amount: 1 },
             '4': { item: 'minecraft:ghast_tear', amount: 1 },
-            '5': { item: 'galosphere:silver_ingot', amount: 32 },
+            '5': { item: 'caverns_and_chasms:silver_ingot', amount: 32 },
         }
     })
 

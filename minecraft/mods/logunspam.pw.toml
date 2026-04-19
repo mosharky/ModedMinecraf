@@ -1,0 +1,13 @@
+name = "LogUnSpam"
+filename = "logunspam-1.0.0-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CfjQflYQ/versions/b2p8Y9wh/logunspam-1.0.0-forge.jar"
+hash-format = "sha512"
+hash = "9075a8612de30da4faee082e4128e49e6f9e6947c1a8e998ac5aab84d8df39c8cafa3f62706ce75c3fc316a3e5e08ef2a41db969633c19ce57004e5b8dd00275"
+
+[update]
+[update.modrinth]
+mod-id = "CfjQflYQ"
+version = "b2p8Y9wh"

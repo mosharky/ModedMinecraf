@@ -4464,7 +4464,7 @@ metafile = true
 
 [[files]]
 file = "mods/darker-depths.pw.toml"
-hash = "2b15d8f0034fd0a33c3107fb5a0528008c34e6fe9e5000db18ee27d42befd5e8"
+hash = "043a5acb2cd65e89e5d57ed2ed6c37b59a1810b63c7ffc263c6e7f10ff5e65a1"
 metafile = true
 
 [[files]]
@@ -4494,7 +4494,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "ae60db71a2fe23d36da58655be43c30389f0fe9f0d898992a6e7b86b20331013"
+hash = "022072cc3f4c4c4b80a63d3f70a70a952263a7775065c5d64b7eb570d381884e"
 metafile = true
 
 [[files]]
@@ -5060,6 +5060,11 @@ metafile = true
 [[files]]
 file = "mods/login-protection.pw.toml"
 hash = "0a96e881040a95b2543d18afc3f9e1727e64659ec1548ed2df4fcd7dafbfbbc7"
+metafile = true
+
+[[files]]
+file = "mods/logunspam.pw.toml"
+hash = "3dccc5ba3f7350cb94dea020c34c7c800e7269bf20df0d14cac9f4c91a4c5ffc"
 metafile = true
 
 [[files]]
@@ -5819,6 +5824,16 @@ hash = "51c053c2747fe756b5d633e94e75a0d822c635c4dbefbd0f4b8aca4b49dc40a8"
 metafile = true
 
 [[files]]
+file = "resourcepacks/hellims-xaeros-maps-mob-icons.pw.toml"
+hash = "3c807dc9c1db44e088e89328a1949c36f6c185b9a928c334000e82b0ba6adf55"
+metafile = true
+
+[[files]]
+file = "resourcepacks/icon-xaeros.pw.toml"
+hash = "0fb23766919c354cfb5c5348329e7bac823dfd58d1a9660fcbfc0ab1506dc233"
+metafile = true
+
+[[files]]
 file = "resourcepacks/idas-alexs-mobs.pw.toml"
 hash = "5b893e20f0533d7ebb4c5b2320f9d575b4abbe440a55be1827a457587284a0cd"
 metafile = true
@@ -5831,6 +5846,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/integrated-stronghold-end-remastered-integration.pw.toml"
 hash = "29d544acb1a7d3e280a911c3bf13d620a745690b901ea6cc9a5af3203f3f7b9c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/xaeroscobblemon.pw.toml"
+hash = "ec2d0af382ae5b0280e476a7fbaddc05184af39261106f5fcc377b31ef78219b"
 metafile = true
 
 [[files]]

@@ -85,7 +85,7 @@ function constructWoodTypes() {
                 }
                 case 'windswept': {
                     woodworksCompatId = mod + ':'
-                    farmersDelightCompatId = 'windswept_delights' + ':'
+                    farmersDelightCompatId = 'windswept_delights:'
                     break
                 }
                 case 'darkerdepths': {
@@ -100,6 +100,10 @@ function constructWoodTypes() {
                 case 'collectorsreap': {
                     farmersDelightCompatId = mod + ':'
                     woodworksCompatId = mod + ':'
+                    break
+                }
+                case 'natures_spirit': {
+                    farmersDelightCompatId = 'natures_delight:'
                     break
                 }
             }

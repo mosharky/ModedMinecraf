@@ -1,4 +1,5 @@
 function removals_Galosphere() {
+    /*
     global.REMOVALS.add([
         'galosphere:silver_block',
         'galosphere:silver_panel',
@@ -29,4 +30,5 @@ function removals_Galosphere() {
     global.ITEM_SWAPPER.set('galosphere:silver_nugget', 'caverns_and_chasms:silver_nugget')
 
     global.BLOCK_SWAPPER.set('galosphere:raw_silver_block', 'caverns_and_chasms:raw_silver_block')
+    */
 }

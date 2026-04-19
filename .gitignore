@@ -23,6 +23,7 @@ minecraft/config/xaerominimap_entities.json
 minecraft/config/ironchests/defaults.properties
 minecraft/config/resourceful-config-web.json
 minecraft/config/crash_assistant/modlist.json
+minecraft/config/memorycatcher-client.toml
 
 # mods
 minecraft/mods/.connector/
@@ -68,6 +69,7 @@ minecraft/Distant_Horizons_server_data/
 minecraft/emojiful/
 minecraft/showdown/
 minecraft/immersive_paintings_cache/
+minecraft/memorycatcher/
 
 # root files
 minecraft/knownkeys.txt
@@ -100,6 +102,9 @@ mod_data/generated/
 minecraft/kubejs/_mod_data/
 minecraft/.probe/*
 !minecraft/.probe/probe-settings.json
+minecraft/memorycatcher/
+# REMOVE IF MOVING GIT TO MINECRAFT FOLDER
+minecraft/.gitignore
 
 # launcher-related
 minecraft/.curseclient

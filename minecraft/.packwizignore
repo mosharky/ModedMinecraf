@@ -22,6 +22,7 @@ config/xaerominimap_entities.json
 config/ironchests/defaults.properties
 config/resourceful-config-web.json
 config/crash_assistant/modlist.json
+config/memorycatcher-client.toml
 
 # mods
 mods/.connector/
@@ -69,6 +70,7 @@ emojiful/
 showdown/
 .probe/*
 immersive_paintings_cache/
+memorycatcher/
 
 # root files
 knownkeys.txt

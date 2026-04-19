@@ -4,6 +4,7 @@ function recipes_Botania(e) {
     // Stone
     e.recipes.botania.orechid('create:zinc_ore', 'minecraft:stone', 29371)
     e.recipes.botania.orechid('oreganized:lead_ore', 'minecraft:stone', 2647)
+    e.recipes.botania.orechid('galosphere:palladium_ore', 'minecraft:stone', 2647)
     e.recipes.botania.orechid('caverns_and_chasms:silver_ore', 'minecraft:stone', 7654)
     e.recipes.botania.orechid('caverns_and_chasms:spinel_ore', 'minecraft:stone', 2647)
     e.recipes.botania.orechid('goety:jade_ore', 'minecraft:stone', 1239)
@@ -13,6 +14,7 @@ function recipes_Botania(e) {
     // Deepslate
     e.recipes.botania.orechid('create:deepslate_zinc_ore', 'minecraft:deepslate', 250)
     e.recipes.botania.orechid('oreganized:deepslate_lead_ore', 'minecraft:deepslate', 125)
+    e.recipes.botania.orechid('galosphere:deepslate_palladium_ore', 'minecraft:deepslate', 125)
     e.recipes.botania.orechid('caverns_and_chasms:deepslate_silver_ore', 'minecraft:deepslate', 125)
     e.recipes.botania.orechid('caverns_and_chasms:deepslate_spinel_ore', 'minecraft:deepslate', 100)
     e.recipes.botania.orechid('malum:deepslate_soulstone_ore', 'minecraft:deepslate', 100)

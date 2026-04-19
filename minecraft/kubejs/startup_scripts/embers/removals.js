@@ -4,6 +4,10 @@ function removals_Embers() {
         /embers:.*lead(?!_crystal_seed|_aspectus|_plate|_bucket).*/,
         'embers:copper_plate',
         'embers:iron_plate',
-        'embers:copper_nugget'
+        'embers:copper_nugget',
+        'embers:ash',
     ])
+
+    global.ITEM_SWAPPER.set('embers:ash', 'supplementaries:ash')
+    global.ITEM_SWAPPER.set('embers:lead_sword', 'oreganized:lead_bolt')
 }
