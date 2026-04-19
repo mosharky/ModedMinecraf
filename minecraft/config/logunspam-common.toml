@@ -2,7 +2,7 @@
 #General Settings
 [general]
 	#Words that will be filtered out
-	commonFilterWords = ["Couldn't load advancement", "Parsing error loading custom advancement", "Could not find living entity to sync hits on target with.", "Received balloons for unknown entity!", "Detected setBlock in a far chunk", "Failed to find block entries for tag key", "Unknown sound in sound rate config"]
+	commonFilterWords = ["Couldn't load advancement", "Parsing error loading custom advancement", "Could not find living entity to sync hits on target with.", "Received balloons for unknown entity!", "Detected setBlock in a far chunk", "Failed to find block entries for tag key", "Unknown sound in sound rate config", "Tried to add entity"]
 	#Regular expressions that will be filtered out
 	regexpFilterWords = []
 	#Fqcn that will be filtered out
