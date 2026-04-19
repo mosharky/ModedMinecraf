@@ -94,6 +94,7 @@ irisUpdateInfo.json
 .qmenu_opened.marker
 snr_favorite_styles.nbt
 servers.dat_old
+hs_err_pid*.log
 
 # launcher-related
 .curseclient

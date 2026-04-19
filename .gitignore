@@ -93,6 +93,7 @@ minecraft/irisUpdateInfo.json
 minecraft/.qmenu_opened.marker
 minecraft/snr_favorite_styles.nbt
 minecraft/servers.dat_old
+minecraft/hs_err_pid*.log
 
 # dev environment stuff
 .vscode/probe.code-snippets
