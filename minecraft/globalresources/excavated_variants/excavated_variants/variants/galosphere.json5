@@ -32,5 +32,23 @@
             ]
         },
     ],
-    provided_ores: [],
+    provided_ores: [
+        {
+            id: 'palladium_ore',
+            lang: {
+                en_us: 'Palladium Ore'
+            },
+            block_id: [
+                'galosphere:palladium_ore',
+                'galosphere:deepslate_palladium_ore'
+            ],
+            stone: [
+                'stone',
+                'deepslate'
+            ],
+            types: [
+                'stone'
+            ]
+        }
+    ]
 }
