@@ -22,6 +22,10 @@ ServerEvents.tags('block', e => {
     blockTags_Supplementaries(e)
 })
 
+ServerEvents.tags('fluid', e => {
+    fluidTags_Embers(e)
+})
+
 ServerEvents.tags('entity_type', e => {
     entityTags_Core(e)
     entityTags_AlexsMobs(e)
@@ -90,6 +94,7 @@ ServerEvents.recipes(e => {
     recipes_OddsNEnds(e)
     recipes_Botania(e)
     recipes_FunctionalStorage(e)
+    recipes_Aether(e)
 
     // Fully removing any recipe tied to items in REMOVALS
     global.REMOVALS.set.forEach(removal => {
