@@ -646,7 +646,7 @@ hash = "d5ced1e70770f0b38f9ff0ba4d394ba5ef3ba9cb3e9701808abbc26858bd3a99"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "381d44126b436f46b3717af63df070eb583544aa9537dca7e8b596d7ef12f111"
+hash = "ed3080051d359ceb1ca5a84dc038617df401535519f0265e87ded1b83bbae2bc"
 
 [[files]]
 file = "config/caelum-client.toml"
@@ -907,10 +907,6 @@ hash = "f24b44b3443f65f3549f76524ab972613f5785c24272f4be50851b3204cf9c80"
 [[files]]
 file = "config/despawntweaks-common.toml"
 hash = "2f9f18b0d4a18e80c19068340fd1d53b705100606b9ab0f0ed12400c26fe1874"
-
-[[files]]
-file = "config/dimthread-common.toml"
-hash = "3ca70f369f5f7ff35c694e62b23b0417bcc6ab22a4674e3600a52ad9e75961cd"
 
 [[files]]
 file = "config/distraction_free_recipes-client.toml"
@@ -1205,6 +1201,10 @@ file = "config/guideme.toml"
 hash = "89a3f43b3cb90476c75121fecdd5f77375e6a95bfbd7f8bb057574e70cec660c"
 
 [[files]]
+file = "config/harimt.toml"
+hash = "90a6a8afdf1f1124930acef84d042d9f5f84b743afce81c6db5415d3cf4693fe"
+
+[[files]]
 file = "config/horseman-client.toml"
 hash = "776496b78cebab610c160fbb6e08797e4cd6512f5bb717017b5551deafdd759d"
 
@@ -1421,6 +1421,10 @@ file = "config/leavesbegone-server.toml"
 hash = "d959f115d82689b7f6075b0af48e8be95a09b3f73b6a67319646aa4bfdc0b101"
 
 [[files]]
+file = "config/lithium.properties"
+hash = "40f2e9c7054ed0511bd7e480b3267203718f9e7499c79035607502d417f74e27"
+
+[[files]]
 file = "config/lithostitched.json"
 hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
 
@@ -1442,7 +1446,7 @@ hash = "5548e8fcf3ab17301d14c841ad51b76b872bcac6f698ab1706974334a493d87e"
 
 [[files]]
 file = "config/logunspam-common.toml"
-hash = "69c2cf0532069f9ff03afea4682c8cc29fb3b85e916a2db04f82f8c66f5e6e47"
+hash = "9e48219c57c4e8633746d736e13ffca0969e51fe881a2f09ecbbb21566df0444"
 
 [[files]]
 file = "config/lootintegrations.json"
@@ -1490,7 +1494,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "569fe74936063b6bc2d6c936d86e75f7f5e45ba93ea2086152bb26ac7316bd2c"
+hash = "b94915663dda3e65299d86452874bfa80c5bd562fe7fe506dba89694db10b1d6"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -2306,7 +2310,7 @@ hash = "eaafa3b0eff0875f1967ae1bcf95ffec69182ba24d5800ce087f4097b1abcc8d"
 
 [[files]]
 file = "globalresources/excavated_variants.zip"
-hash = "f469dac1cca1827cf836cfdfa45534ed795ee16ad493af23e15b37d9e2b5f667"
+hash = "b609ddd3fad07df467e36dc3e9a964b1095c287ad605c2c2a7bf0a02b03e9c4f"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -2361,6 +2365,207 @@ metafile = true
 [[files]]
 file = "kubejs/assets/cataclysm/models/item/purpur_void_rune_trap_block.json"
 hash = "4039cb1b61586b268c05d40f75f352e2abae4da2aa75fab827c61df2a6fb1641"
+
+[[files]]
+file = "kubejs/assets/cavscobblemons.pw.toml"
+hash = "af6906e4971bb4c9241b21c81015e2c560cadafc29b3d66b8e9433e0e5c2e358"
+metafile = true
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/axew/axew.animation.json"
+hash = "d452757fb565a54bb25c0b581b974958d6463375b1487243670ba15e33df185a"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/bisharp/bisharp.animation.json"
+hash = "8cc80f0b24e0c38cfea59a45b3e2dba3609bb088d922bac79badb0ff2b91ffdb"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/cresselia/cresselia.animation.json"
+hash = "981c0e7d1c8e356b40eebb53fc94623456f2e74a48f7d874ecca2780cd39c6fb"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/fraxure/fraxure.animation.json"
+hash = "1448192c098f59fd7244de11bacf1bf0c95534774ec8c266420f445a25472bc1"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/haxorus/haxorus.animation.json"
+hash = "244b41205444acc0fb1637b860df969f2c5c4855f1677db1102c5cc5678027e1"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/kubfu/kubfu.animation.json"
+hash = "a12edd1af64aee8d2f07d5bc540d263053640d003b05477c638c841b6a1d952a"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/marshadow/marshadow.animation.json"
+hash = "37403621635dee7ecf9254818c184078389baf1ebbd75a187773b99364e953fd"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/necrozma/necrozma.animation.json"
+hash = "809519597da913fadb52e1ab67bd4edeb6d005dc2c28b93de98e26985d908510"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/animations/pawniard/pawniard.animation.json"
+hash = "1dc0e38b51f5fd8561036e955f892e7ece26000864ed467e8d4409a577a6a7f7"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/axew/axew.geo.json"
+hash = "67255cb74ac5014b63db3a93fca1bad6a0d797c0031d4bfbe05cdf21097b20da"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/bisharp/bisharp.geo.json"
+hash = "6b0d8fd4ab6c8afc39d4de90afa9be20eb9a1c3a45ce4331c2146c87dfcede8f"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/cresselia.geo.json"
+hash = "b1b66c593a712101b4eae4308be975becc60d498f2818daedbe789e5207941d3"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/cresselia/cresselia.geo.json"
+hash = "b1b66c593a712101b4eae4308be975becc60d498f2818daedbe789e5207941d3"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/fraxure/fraxure.geo.json"
+hash = "44dce4a8b6edb52c2a8646711aa9d4605316e6ea04392fa8dd2da25ecc5a5d10"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/haxorus/haxorus.geo.json"
+hash = "b986207ca4228d7eeb89f08adf84be1fdd8cbfe7cf14fb500e31fb751029db94"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/kubfu/kubfu.geo.json"
+hash = "0b6b55c689287fadd15536f3ee69c3a756c8b36987164bcaf7ff08e5ecaf463d"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/marshadow/marshadow.geo.json"
+hash = "e2e63c4349e85f1f2d6d4d469037f546f8674c259f57bb438cc8c99f5c0065f0"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/necrozma.geo.json"
+hash = "de45c9534405882b79d16f84ae4e0cf704b7afc20d36fdfc38c2f3569c1b0c51"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/necrozma/necrozma.geo.json"
+hash = "de45c9534405882b79d16f84ae4e0cf704b7afc20d36fdfc38c2f3569c1b0c51"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/models/pawniard/pawniard.geo.json"
+hash = "7b0d696faba7545c6cccddedef8732b3b3c6f220fdd8881cdbe685de8c502916"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/axew.json"
+hash = "2c3b0c19e8d131addee8dfb35bbbbedbeac60f1c8ae26a4f76a3a30ed8914676"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/bisharp.json"
+hash = "ecb66d653865d9efe8ab6e7b63971343698d076bf43470c88e14e0863195d610"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/cresselia.json"
+hash = "ea1f7b3e6688539dd763c2973348c5f74bd95cb162451fe6fc749247691c3a39"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/fraxure.json"
+hash = "7e30a60ca97046631dc39605b6e298cbc1e5a7c175a95a8d2c208f01de6917dd"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/haxorus.json"
+hash = "74ffffe1607214d274252be3d2b4732b675494b790aadb7c878f6a0f3b28d69f"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/kubfu.json"
+hash = "d6a1092fbde0607f07e1e915aa21d17b486527a75037f25598fcdfa0c7b11a76"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/marshadow.json"
+hash = "e1b9a142cffed05a44e1d2d0e5edc27ddb359780e2e430d6197f7051b6ba0be9"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/necrozma.json"
+hash = "89824892e934ea82ecf8fb30495c0a102a1d3112781b852f4dd775953d353439"
+
+[[files]]
+file = "kubejs/assets/cobblemon/bedrock/pokemon/posers/pawniard.json"
+hash = "e92bf0548b56c5dae0ecb244de73736dccb460b38a963a459c6923d879130328"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/0610_axew/axew.png"
+hash = "ded6efd7a697b0ecae921290d0cd7b2bdf294c742a4055aeb21afee36c8005d1"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/0610_axew/axew_shiny.png"
+hash = "3496901775f9e874ce63b44437a3e5f4a03fb9887ea3afe56cf1d3b4a2534428"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/0611_fraxure/fraxure.png"
+hash = "cf1d8350a05409f5cd99feb8d9f65634a1443ecd35746d43be99e2a1fa7c3ef1"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/0611_fraxure/fraxure_shiny.png"
+hash = "449db106d2063969ac8e57bf227dd1863d58bbefe0ea09fe96f83418d58d386f"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/0612_haxorus/haxorus.png"
+hash = "2917275605c8a9f7a3562903c3e7d038220216cd0ea6c9fd30b26798d790ad10"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/0612_haxorus/haxorus_shiny.png"
+hash = "78df83259a7f93bae41d9accf6f291ba8f89c7e9f2940d43ec66ba10548970a9"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/bisharp/bisharp.png"
+hash = "f27234dfb46b81b6644101d96a05acfd1f468d5e110f85939853e5996450f8da"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/bisharp/bisharp_shiny.png"
+hash = "f1ac7da4329562178eba0ea10e870da719c0d09b0027328c3a7b7ccc8fbf112e"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/cresselia/cresselia.png"
+hash = "01b3c21fc66ee48a233359e1de2794fe8b78b4f2680ae413e32c597e9b2727a6"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/cresselia/cresselia_shiny.png"
+hash = "54625bd8b95f621d13b73940746d132dd1d05d35694fdbedf1d7bc9cc8173ec7"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/kubfu/kubfu.png"
+hash = "ff6fea07ee259bb2f9323cd9c03526aebddd9f8789da585cd0f9fa4e258683b8"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/kubfu/kubfu_shiny.png"
+hash = "dafe4257a1c7975912f92d37ef1a0286ecb8058c7466155e510f1d17adbcfe35"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/marshadow/marshadow.png"
+hash = "2f754abc2a1160998da30c2fab059938840c9de7e3a1e9fdef6be081852fd749"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/marshadow/marshadow_emissive.png"
+hash = "fee177efeb39feaf89faf3e87462787c390358613acdce943e09d1d4b95eeff1"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/marshadow/marshadow_shiny.png"
+hash = "080f8364a15c4b52ff465a6bd05b6d85d290ec7479816d3988a73414a2a93c9e"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/necrozma/necrozma.png"
+hash = "38415c4802e5b668f1096f4e799c637cffcb9ab69887bc7cf442c05c58dc62c8"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/necrozma/necrozma_emissive.png"
+hash = "8faf4947f97ac0a5f18b979f8460514f145840195703638dbf5b4e33ffe2ec73"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/necrozma/necrozma_shiny.png"
+hash = "1123561d772e6fe29083fd378b06e25aeb4ddaea0881ae29977870d7b1dd2f16"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/pawniard/pawniard.png"
+hash = "06a186f59a10738ebf1d16a8146b4af02258a2d966956dd9f5353b6f82296582"
+
+[[files]]
+file = "kubejs/assets/cobblemon/textures/pokemon/pawniard/pawniard_shiny.png"
+hash = "47746a23bbfa6e3203ba386802d9965cc4ed25abe01428ee5fbbb8247cb2eb61"
 
 [[files]]
 file = "kubejs/assets/create-immersive-aircrafts-resource-pack.pw.toml"
@@ -2542,6 +2747,11 @@ metafile = true
 [[files]]
 file = "kubejs/assets/music-and-melody.pw.toml"
 hash = "32241726bc3be7bafc106d965837565e41d08a61a49d75d0da407cde8a656e12"
+metafile = true
+
+[[files]]
+file = "kubejs/assets/mysticmons.pw.toml"
+hash = "268ab60cd8393c81e870d10277cf6bcacd78781db8bbecddcff8ed7beb3cca0b"
 metafile = true
 
 [[files]]
@@ -2788,6 +2998,63 @@ metafile = true
 file = "kubejs/data/allthemons.pw.toml"
 hash = "76f2dddd29b15fc6fca7d9ebf14de5ad1354f7c523c1838bf894b84108cbb6e2"
 metafile = true
+
+[[files]]
+file = "kubejs/data/cavscobblemons.pw.toml"
+hash = "af6906e4971bb4c9241b21c81015e2c560cadafc29b3d66b8e9433e0e5c2e358"
+metafile = true
+
+[[files]]
+file = "kubejs/data/cobblemon/spawn_pool_world/axew.json"
+hash = "8ca573d83cd1e2075b51d085f88d7a1a61b66fec8153c190939fc6208f891911"
+
+[[files]]
+file = "kubejs/data/cobblemon/spawn_pool_world/fraxure.json"
+hash = "fa8d8eb2003a13ab89e003d3316bf8350d64dcbcafb2f16c6d4193000d5d4f15"
+
+[[files]]
+file = "kubejs/data/cobblemon/spawn_pool_world/haxorus.json"
+hash = "8ad9cf267e114547739411fee294198440eaf386deaf701dede4d02416a849e4"
+
+[[files]]
+file = "kubejs/data/cobblemon/spawn_pool_world/pawniard.json"
+hash = "8280e2e3193ed95028e38ca8339f512b338cfc3f36a9b899d23268b40de393f7"
+
+[[files]]
+file = "kubejs/data/cobblemon/species/generation4/cresselia.json"
+hash = "c7741d2e0d9731378c45fb6b8415a2424df0c2fc0174dbf45bdb182105b33fea"
+
+[[files]]
+file = "kubejs/data/cobblemon/species/generation5/axew.json"
+hash = "04cfd57c147db3294b20e7b929c87a2738fb2f7fd8aafe21d82f566f1b5f81be"
+
+[[files]]
+file = "kubejs/data/cobblemon/species/generation5/bisharp.json"
+hash = "932c87e229bef53d4c946bdeb56bfc07e176b192ac33fa6b236b7a9650aea939"
+
+[[files]]
+file = "kubejs/data/cobblemon/species/generation5/fraxure.json"
+hash = "5232e336cc58122fc5d2e74bcf39578271f25332007042b5f70bb7a056eeec14"
+
+[[files]]
+file = "kubejs/data/cobblemon/species/generation5/haxorus.json"
+hash = "07bed6cae94b05d4170b255980533d798433789538333a3f14f2eac0c91928c8"
+
+[[files]]
+file = "kubejs/data/cobblemon/species/generation5/pawniard.json"
+hash = "a1f6cec752d9e9ef5c2ba5cee94290c809f27077f353479879e5ef757a0edcaa"
+
+[[files]]
+file = "kubejs/data/cobblemon/species/generation7/marshadow.json"
+hash = "07c9a6f4a29ad3405279ec004d2f864555f325b105aaab63311b7e06709d1dc1"
+
+[[files]]
+file = "kubejs/data/cobblemon/species/generation7/necrozma.json"
+hash = "75537a7daaf9a735cc768f11b53fed819b500e6c0c4055d0d00bde812297824b"
+
+[[files]]
+file = "kubejs/data/cobblemon/species/generation8/kubfu.json"
+hash = "9cb040169f722ca189d11ad7790dcd7828ec3be913e3d7a961462b13e138265b"
 
 [[files]]
 file = "kubejs/data/create-immersive-aircrafts-data-pack.pw.toml"
@@ -3119,6 +3386,11 @@ file = "kubejs/data/minecraft/worldgen/biome/wooded_badlands.json"
 hash = "9c26fd0ac7e857557958c5b66947e5ea81a237ec0c43650f75614b90ad3e20be"
 
 [[files]]
+file = "kubejs/data/mysticmons.pw.toml"
+hash = "268ab60cd8393c81e870d10277cf6bcacd78781db8bbecddcff8ed7beb3cca0b"
+metafile = true
+
+[[files]]
 file = "kubejs/data/natures_spirit/worldgen/biome/arid_highlands.json"
 hash = "802974376d4e101e8f31d61c1e1b2eb033027cfdcf5fa0a4ccc4ae7a36901ee1"
 
@@ -3184,7 +3456,7 @@ hash = "c26ae7a4b14ded86b5d40dffb086c6b904f365b9b82b381e9124f169e0bcd080"
 
 [[files]]
 file = "kubejs/data/special-structures.zip"
-hash = "bb298a94b4faccf4c6fb13a9efc4370598cd7938a06e6c1355b75369829fc0b9"
+hash = "5b0da5bd4b759a9fd727c847c781f08225c5c55d26c3b6b08c3b5d5ac7e35798"
 
 [[files]]
 file = "kubejs/server_scripts/_core/_server_main.js"
@@ -3660,7 +3932,7 @@ hash = "d78b2b360c7b739f6e8644ef1611de50ece59d1a6339fcdda0c5c7a805fa54ee"
 
 [[files]]
 file = "kubejs/server_scripts/sounds/tags.js"
-hash = "0221a16b1506b8806c5a35d2336ecb59e5b3d45febc0afdd0427e745dbe244fe"
+hash = "5d6f7730e9d592765c74cb40224de6e7993bda675e98b690eb737a6ef7829fd4"
 
 [[files]]
 file = "kubejs/server_scripts/supplementaries/enchants.js"
@@ -3736,7 +4008,7 @@ hash = "944d36e58f261a8d312d9bb37e6785c5c273a28f04a0cc84688a671f7ae9a118"
 
 [[files]]
 file = "kubejs/startup_scripts/_core/wood_types.js"
-hash = "459771639350e9ea8978651f47c1ad1a52368c36a83b17304a62b45879066fb7"
+hash = "1610929fd69bd01e671d8311a0cc86e85d8914d7c146a1f9bee237bb2e9e1124"
 
 [[files]]
 file = "kubejs/startup_scripts/alexscaves/registry.js"
@@ -3836,7 +4108,7 @@ hash = "5de0c0fdfb4a98eb473b09096606dc006b195fd1d576da692066c02051521c34"
 
 [[files]]
 file = "kubejs/startup_scripts/goety/removals.js"
-hash = "64ae3c20c7365d1bdaec266fcde9974c36e74382be88d7fdac674fbc35d2f76d"
+hash = "e4195b0cc06b9e909d7af1d8486d599d27a953474448ccf203ef1af176785db2"
 
 [[files]]
 file = "kubejs/startup_scripts/immersive_weathering/removals.js"
@@ -4324,11 +4596,6 @@ hash = "1b6367422f173fe11ba550fcf1e31e44f71bbe125727038542769384ea0c1b34"
 metafile = true
 
 [[files]]
-file = "mods/concurrent-chunk-management-engine-1-20-1.pw.toml"
-hash = "08597cbbcbe217a7061d1eb52e3401ec48584a7cd67721c5eebf79bc498503e3"
-metafile = true
-
-[[files]]
 file = "mods/connectivity.pw.toml"
 hash = "5b0eaf19630d6145093ae6ff9a21cf2dbdd0da53d9289673ad5ccb099afa18b7"
 metafile = true
@@ -4491,11 +4758,6 @@ metafile = true
 [[files]]
 file = "mods/despawn-tweaks.pw.toml"
 hash = "89d6ca9e975bf46aea3720dbc462e3cb7b15709db3cf4ef17c88332db53b5568"
-metafile = true
-
-[[files]]
-file = "mods/dimthreads.pw.toml"
-hash = "af6e9935fcfdc98b37c46d56e23ce9ca4f0c36be50c7e840a23e9908d248fca8"
 metafile = true
 
 [[files]]
@@ -4789,11 +5051,6 @@ hash = "740020ce7453a2461be9e15b06826c98bc8c5593ea9282fa16d7f860b5f0265c"
 metafile = true
 
 [[files]]
-file = "mods/geckoanimfix.pw.toml"
-hash = "61b403447b71effd33be76c2ecfa8eba93084a46cba9906d6fec63de1ae163f9"
-metafile = true
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "30fe947e95d8da536ea4ad3c959f07cc504dd739ea530f7f4187ac08f4afcbc0"
 metafile = true
@@ -4831,6 +5088,21 @@ metafile = true
 [[files]]
 file = "mods/hamsters.pw.toml"
 hash = "b3ae1d475e25a4d792bc5812d0860ec28f369739ae205538d5f1bfb96c2171f7"
+metafile = true
+
+[[files]]
+file = "mods/harimt.pw.toml"
+hash = "6a3257a320d51e3d9483ea3c16c17c2f8232bc0824642dcc27c59a5651787334"
+metafile = true
+
+[[files]]
+file = "mods/harium.pw.toml"
+hash = "0751db80feb1a492bfa6c3747de0f9d6fedc00e1401525be5963cb60d7cb09f4"
+metafile = true
+
+[[files]]
+file = "mods/hc-harichunk.pw.toml"
+hash = "47bab58ef8fe6cb272c87651d03fad60fc74be5d8e87d446fc98270d8493506c"
 metafile = true
 
 [[files]]
