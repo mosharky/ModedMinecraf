@@ -2,7 +2,9 @@
 function blockTags_Sounds(e) {
     e.add('kubejs:sounds/acacia_leaves', [
         'minecraft:acacia_leaves',
-        'minecraft:acacia_sapling'
+        'minecraft:acacia_sapling',
+        'windswept:flowering_acacia_leaves',
+        'windswept:flowering_acacia_sapling',
     ])
     e.add('kubejs:sounds/acacia_log', [
         'minecraft:acacia_log',
