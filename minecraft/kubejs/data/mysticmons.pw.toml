@@ -1,0 +1,13 @@
+name = "MysticMons"
+filename = "MysticMons_v2.0.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TiFXQSAQ/versions/OgaAllBB/MysticMons_v2.0.1.zip"
+hash-format = "sha512"
+hash = "4bb3961fa6c9b7d10fa452345193356951748b349f0a5887c5e09a83171f962878a0d754e2d46b87416c05ca1ea5c25944e0a4cc496962bcdf69cb3b68019585"
+
+[update]
+[update.modrinth]
+mod-id = "TiFXQSAQ"
+version = "OgaAllBB"

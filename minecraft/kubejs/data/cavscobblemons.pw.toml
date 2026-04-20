@@ -1,0 +1,13 @@
+name = "CavsCobbleMons"
+filename = "CavsCobblemon1.2.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2k9EDPO1/versions/Oyso4CcH/CavsCobblemon1.2.zip"
+hash-format = "sha512"
+hash = "0b97a0ca1aae7206aebd9c98281df651937e2fff55a60363e1ee02cefdbae4522c51c893f90acca5f135a1d79f5552ffbf3f7ba95acd1ffd1c0755cdffd76521"
+
+[update]
+[update.modrinth]
+mod-id = "2k9EDPO1"
+version = "Oyso4CcH"
