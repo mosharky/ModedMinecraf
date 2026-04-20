@@ -53,6 +53,7 @@ function constructWoodTypes() {
             let anotherFurnitureCompatId        = `everycomp:af/${mod}/`
             let backpackedCompatId              = `everycomp:bp/${mod}/`
             let decorativeBlocksCompatId        = `everycomp:db/${mod}/`
+            let dramaticDoorsCompatId           = 'unsupported' // special case
 
             switch (mod) {
                 case 'minecraft': {
@@ -70,17 +71,20 @@ function constructWoodTypes() {
                         anotherFurnitureCompatId      = 'another_furniture:'
                         backpackedCompatId            = 'backpacked:'
                         decorativeBlocksCompatId      = 'decorative_blocks:'
+                        dramaticDoorsCompatId         = ''
                     }
                     break
                 }
                 case 'quark': {
                     quarkCompatId = 'quark:'
+                    dramaticDoorsCompatId = 'quark_'
                     break
                 }
                 // Abnormals mods have native compat with woodworks and farmers delight
                 case 'autumnity': case 'atmospheric': case 'upgrade_aquatic': case 'environmental': case 'endergetic': case 'caverns_and_chasms': {
                     woodworksCompatId = mod + ':'
                     farmersDelightCompatId = 'abnormals_delight:'
+                    dramaticDoorsCompatId = ''
                     break
                 }
                 case 'windswept': {
@@ -95,6 +99,7 @@ function constructWoodTypes() {
                 }
                 case 'mynethersdelight': {
                     farmersDelightCompatId = mod + ':'
+                    dramaticDoorsCompatId = ''
                     break
                 }
                 case 'collectorsreap': {
@@ -104,6 +109,15 @@ function constructWoodTypes() {
                 }
                 case 'natures_spirit': {
                     farmersDelightCompatId = 'natures_delight:'
+                    dramaticDoorsCompatId = 'ns_'
+                    break
+                }
+                case 'deep_aether': case 'aether_redux': case 'gardens_of_the_dead': case 'malum': case 'cobblemon': {
+                    dramaticDoorsCompatId = ''
+                    break
+                }
+                case 'aether': {
+                    dramaticDoorsCompatId = 'aether_'
                     break
                 }
             }
@@ -177,6 +191,10 @@ function constructWoodTypes() {
                     support:                decorativeBlocksCompatId + woodType + '_support',
                     seat:                   decorativeBlocksCompatId + woodType + '_seat',
                     palisade:               decorativeBlocksCompatId + woodType + '_palisade',
+                },
+                dramaticdoors: {
+                    short_door:             'dramaticdoors:short_' + dramaticDoorsCompatId + woodType + '_door',
+                    tall_door:              'dramaticdoors:tall_' + dramaticDoorsCompatId + woodType + '_door',
                 }
             }
 
@@ -215,10 +233,15 @@ function constructWoodTypes() {
                 }
                 case 'petrified': {
                     woodTypeObj.quark.hollow_log        = 'everycomp:q/darkerdepths/hollow_petrified_log'
+                    break
                 }
                 case 'runewood': case 'soulwood': {
                     woodTypeObj.woodworks.boards        = mod + ':' + woodType + '_boards'
                     woodTypeObj.quark.vertical_planks   = mod + ':' + 'vertical_' + woodType + '_planks'
+                    break
+                }
+                case 'skyroot': {
+                    woodTypeObj.woodworks.bookshelf     = 'aether:skyroot_bookshelf'
                     break
                 }
             }
@@ -235,7 +258,7 @@ function constructWoodTypes() {
                 case 'goety': {
                     woodTypeObj.woodworks.chest         = mod + ':' + woodType + '_chest'
                     woodTypeObj.woodworks.trapped_chest = mod + ':trapped_' + woodType + '_chest'
-                    woodTypeObj.woodworks.bookshelf = mod + ':' + woodType + '_bookshelf'
+                    woodTypeObj.woodworks.bookshelf     = mod + ':' + woodType + '_bookshelf'
                     break
                 }
             }
