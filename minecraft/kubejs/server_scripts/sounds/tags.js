@@ -20,8 +20,7 @@ function blockTags_Sounds(e) {
         'minecraft:acacia_slab',
         'minecraft:acacia_stairs',
         'minecraft:stripped_acacia_log',
-        'minecraft:stripped_acacia_wood',
-        'minecraft:smooth_stone'
+        'minecraft:stripped_acacia_wood'
     ])
     e.add('kubejs:sounds/barrel', [
         'minecraft:barrel',
@@ -33,10 +32,10 @@ function blockTags_Sounds(e) {
         '#blueprint:wooden_beehives'
     ])
     e.add('kubejs:sounds/birch_leaves', [
-        'minecraft:birch_leaves',
-        'minecraft:birch_sapling',
         /environmental:.*plum_leaves/,
         /environmental:.*plum_sapling/,
+        'natures_spirit:yellow_aspen_leaves',
+        'natures_spirit:yellow_aspen_sapling',
     ])
     e.add('kubejs:sounds/birch_log', [
         'minecraft:birch_door',
@@ -69,7 +68,33 @@ function blockTags_Sounds(e) {
         'minecraft:brick_slab',
         'minecraft:brick_stairs',
         'minecraft:brick_wall',
-        'minecraft:bricks'
+        'minecraft:bricks',
+        'quark:brick_vertical_slab',
+        'clayworks:chiseled_bricks',
+        'immersive_weathering:cracked_bricks',
+        'immersive_weathering:cracked_brick',
+        'immersive_weathering:cracked_brick_slab',
+        'immersive_weathering:cracked_brick_stairs',
+        'immersive_weathering:cracked_brick_wall',
+        'v_slab_compat:immersive_weathering/cracked_brick_vertical_slab',
+        'autumnity:snail_shell_block',
+        'autumnity:snail_shell_bricks',
+        'autumnity:snail_shell_brick_stairs',
+        'autumnity:snail_shell_brick_slab',
+        'autumnity:snail_shell_brick_wall',
+        'v_slab_compat:autumnity/snail_shell_brick_vertical_slab',
+        'autumnity:snail_shell_tiles',
+        'autumnity:snail_shell_tile_stairs',
+        'autumnity:snail_shell_tile_slab',
+        'autumnity:snail_shell_tile_wall',
+        'v_slab_compat:autumnity/snail_shell_tile_vertical_slab',
+        'autumnity:chiseled_snail_shell_bricks',
+        'autumnity:chiseled_snail_shell_tiles',
+        /clayworks:.*terracotta_brick.*/,
+        /v_slab_compat:clayworks\/.*terracotta_brick_vertical_slab/,
+        /quark:.*shingles.*/,
+        'sootychimneys:dirty_brick_chimney',
+        'sootychimneys:brick_chimney',
     ])
     e.add('kubejs:sounds/clay', [
         'minecraft:clay'
@@ -83,11 +108,25 @@ function blockTags_Sounds(e) {
         'minecraft:mossy_cobblestone',
         'minecraft:mossy_cobblestone_slab',
         'minecraft:mossy_cobblestone_stairs',
-        'minecraft:mossy_cobblestone_wall'
+        'minecraft:mossy_cobblestone_wall',
+        'quark:cobblestone_vertical_slab',
+        'quark:mossy_cobblestone_vertical_slab',
+        'sootychimneys:cobblestone_chimney',
+        'sootychimneys:dirty_cobblestone_chimney',
+        /caverns_and_chasms:\/.*cobblestone_brick.*/,
+        /v_slab_compat:caverns_and_chasms\/.*cobblestone_brick_vertical_slab/,
+        /caverns_and_chasms:.*cobblestone_tile.*/,
+        /v_slab_compat:caverns_and_chasms\/.*cobblestone_tile_vertical_slab/,
+        /windswept:dry_mossy_cobblestone.*/,
+        /v_slab_compat:windswept\/dry_mossy_cobblestone.*vertical_slab/,
+        /updated_aquatic:kelpy_cobblestone.*/,
+        /v_slab_compat:updated_aquatic\/kelpy_cobblestone.*vertical_slab/,
+        /immersive_weathering:.*cobblestone.*/,
+        /v_slab_compat:immersive_weathering\/.*cobblestone.*vertical_slab/
+
     ])
     e.add('kubejs:sounds/copper_ore', [
         'minecraft:copper_ore'
-
     ])
     e.add('kubejs:sounds/dark_prismarine', [
         'minecraft:dark_prismarine',
@@ -104,11 +143,9 @@ function blockTags_Sounds(e) {
     ])
     e.add('kubejs:sounds/deepslate_iron_ore', [
         'minecraft:deepslate_iron_ore'
-
     ])
     e.add('kubejs:sounds/emerald_block', [
         'minecraft:emerald_block'
-
     ])
     e.add('kubejs:sounds/end_stone_bricks', [
         'minecraft:end_stone_brick_slab',
@@ -119,7 +156,6 @@ function blockTags_Sounds(e) {
     ])
     e.add('kubejs:sounds/end_stone', [
         'minecraft:end_stone'
-
     ])
     e.add('kubejs:sounds/glass', [
         'minecraft:beacon',
@@ -164,32 +200,37 @@ function blockTags_Sounds(e) {
     ])
     e.add('kubejs:sounds/gold_ore', [
         'minecraft:gold_ore'
-
     ])
     e.add('kubejs:sounds/gold', [
         'minecraft:gold_block',
         'minecraft:light_weighted_pressure_plate'
     ])
     e.add('kubejs:sounds/gravel', [
-        'minecraft:gravel'
-
+        'minecraft:gravel',
+        'supplementaries:raked_gravel'
     ])
     e.add('kubejs:sounds/hay_block', [
-        'minecraft:hay_block'
-
+        'minecraft:hay_block',
+        'supplementaries:fodder'
     ])
     e.add('kubejs:sounds/ice', [
-        'minecraft:frosted_ice',
-        'minecraft:ice'
+        'minecraft:ice',
+        'oreganized:grooved_ice',
+        'windswept:ice_sheet',
     ])
     e.add('kubejs:sounds/iron_ore', [
         'minecraft:iron_ore'
-
     ])
     e.add('kubejs:sounds/iron', [
         'minecraft:heavy_weighted_pressure_plate',
         'minecraft:iron_block',
-        'minecraft:iron_door'
+        'minecraft:iron_door',
+        'ironchests:iron_chest',
+        /immersive_weathering:.*iron_door/,
+        /.*immersive_weathering:.*plate_iron.*/,
+        /.*immersive_weathering:.*cut_iron.*/,
+        /.*caverns_and_chasms:.*iron_brick.*/,
+        /dramaticdoors:.*iron_door/,
     ])
     e.add('kubejs:sounds/jungle_leaves', [
         'minecraft:jungle_leaves',
@@ -232,15 +273,12 @@ function blockTags_Sounds(e) {
     ])
     e.add('kubejs:sounds/loom', [
         'minecraft:loom'
-
     ])
     e.add('kubejs:sounds/magma_block', [
         'minecraft:magma_block'
-
     ])
     e.add('kubejs:sounds/mangrove_leaves', [
         'minecraft:mangrove_leaves'
-
     ])
     e.add('kubejs:sounds/mangrove_log', [
         'minecraft:mangrove_log',
@@ -285,14 +323,25 @@ function blockTags_Sounds(e) {
     e.add('kubejs:sounds/packed_ice', [
         'minecraft:blue_ice',
         'minecraft:frosted_ice',
-        'minecraft:packed_ice'
+        'minecraft:packed_ice',
+        /windswept:packed_ice.*/,
+        /windswept:blue_ice.*/,
+        'v_slab_compat:windswept/blue_ice_brick_vertical_slab',
+        'v_slab_compat:windswept/blue_ice_vertical_slab',
+        'v_slab_compat:windswept/packed_ice_vertical_slab',
+        'v_slab_compat:windswept/packed_ice_brick_vertical_slab',
+        'windswept:chiseled_blue_ice_bricks',
+        'windswept:chiseled_packed_ice_bricks',
+        'oreganized:grooved_packed_ice',
+        'oreganized:grooved_blue_ice',
+        'immersive_weathering:thin_ice',
     ])
     e.add('kubejs:sounds/prismarine', [
-        'minecraft:end_stone',
         'minecraft:prismarine',
         'minecraft:prismarine_slab',
         'minecraft:prismarine_stairs',
-        'minecraft:prismarine_wall'
+        'minecraft:prismarine_wall',
+        'quark:prismarine_vertical_slab',
     ])
     e.add('kubejs:sounds/quartz', [
         'minecraft:chiseled_quartz_block',
@@ -310,7 +359,13 @@ function blockTags_Sounds(e) {
         'minecraft:smooth_quartz_stairs'
     ])
     e.add('kubejs:sounds/raw_gold_block', [
-        'minecraft:raw_gold_block'
+        'minecraft:raw_gold_block',
+        'quark:raw_gold_bricks',
+        'quark:raw_gold_bricks_stairs',
+        'quark:raw_gold_bricks_slab',
+        'quark:raw_gold_bricks_vertical_slab',
+        'quark:raw_gold_bricks_wall',
+        'caverns_and_chasms:raw_silver_block',
     ])
     e.add('kubejs:sounds/sandstone', [
         'minecraft:chiseled_red_sandstone',
@@ -332,21 +387,43 @@ function blockTags_Sounds(e) {
         'minecraft:smooth_red_sandstone_stairs',
         'minecraft:smooth_sandstone',
         'minecraft:smooth_sandstone_slab',
-        'minecraft:smooth_sandstone_stairs'
+        'minecraft:smooth_sandstone_stairs',
+        'quark:sandstone_vertical_slab',
+        'quark:smooth_sandstone_vertical_slab',
+        'quark:cut_sandstone_vertical_slab',
+        'quark:red_sandstone_vertical_slab',
+        'quark:smooth_red_sandstone_vertical_slab',
+        'quark:cut_red_sandstone_vertical_slab',
+        'quark:sandstone_bricks',
+        'quark:sandstone_bricks_stairs',
+        'quark:sandstone_bricks_slab',
+        'quark:sandstone_bricks_vertical_slab',
+        'quark:sandstone_bricks_wall',
+        'quark:red_sandstone_bricks',
+        'quark:red_sandstone_bricks_stairs',
+        'quark:red_sandstone_bricks_slab',
+        'quark:red_sandstone_bricks_vertical_slab',
+        'quark:red_sandstone_bricks_wall',
+        'cataclysm:polished_sandstone',
+        'cataclysm:sandstone_poison_dart_trap',
+        'cataclysm:sandstone_ignite_trap',
+        'cataclysm:sandstone_falling_trap',
     ])
     e.add('kubejs:sounds/sheet_metal', [
         'minecraft:hopper',
         'minecraft:iron_bars',
         'minecraft:iron_trapdoor',
-        '#minecraft:cauldrons'
+        '#minecraft:cauldrons',
+        /immersive_weathering:.*iron_bars/,
+        /immersive_weathering:.*iron_trapdoor/,
     ])
     e.add('kubejs:sounds/spruce_leaves', [
         'minecraft:spruce_leaves',
-        'minecraft:spruce_sapling'
+        'minecraft:spruce_sapling',
+        'environmental:dwarf_spruce_plant',
+        'environmental:dwarf_spruce',
     ])
     e.add('kubejs:sounds/spruce_log', [
-        'minecraft:spruce_log',
-        'minecraft:spruce_wood',
         'windswept:weathered_pine_log',
     ])
     e.add('kubejs:sounds/spruce_object', [
@@ -451,8 +528,12 @@ function blockTags_Sounds(e) {
 
         mapWoodTypeToLogsSoundsTag(mod, woodType, logs)
         e.add(`kubejs:sounds/${leaves}`, leavesArr)
-        e.add(`kubejs:sounds/${planks}`, planksArr)
-        e.add(`kubejs:sounds/${objects}`, objectsArr)
+        if (planks == objects) {
+            e.add(`kubejs:sounds/${planks}`, planksArr)
+        } else {
+            e.add(`kubejs:sounds/${planks}`, planksArr)
+            e.add(`kubejs:sounds/${objects}`, objectsArr)
+        }
     }
 
     // Vanilla
@@ -499,4 +580,39 @@ function blockTags_Sounds(e) {
     mapWoodTypeToSoundTag('natures_spirit', 'fir', 'spruce_log', 'spruce_leaves', 'spruce_planks', 'spruce_object')
     mapWoodTypeToSoundTag('natures_spirit', 'larch', 'spruce_log', 'spruce_leaves', 'spruce_planks', 'spruce_object')
     mapWoodTypeToSoundTag('goety', 'windswept', 'spruce_log', 'spruce_leaves', 'spruce_planks', 'spruce_object')
+
+
+    const mapOreToSoundTag = (mod, oreType, soundTag) => {
+        let stoneOres = [
+            `${mod}:${oreType}_ore`,
+            `excavated_variants:andesite_${oreType}_ore`,
+            `excavated_variants:diorite_${oreType}_ore`,
+            `excavated_variants:granite_${oreType}_ore`,
+            `excavated_variants:sandstone_${oreType}_ore`,
+            `excavated_variants:red_sandstone_${oreType}_ore`,
+            `excavated_variants:quark_jasper_${oreType}_ore`,
+            `excavated_variants:darkerdepths_aridrock_${oreType}_ore`,
+            `excavated_variants:natures_spirit_chert_${oreType}_ore`,
+            `excavated_variants:natures_spirit_travertine_${oreType}_ore`,
+            `excavated_variants:natures_spirit_kaolin_${oreType}_ore`,
+            `excavated_variants:darkerdepths_aridrock_${oreType}_ore`,
+        ]
+        let deepslateOres = [
+            `${mod}:deepslate_${oreType}_ore`,
+            `excavated_variants:darkerdepths_grimestone_${oreType}_ore`,
+        ]
+
+        e.add(`kubejs:sounds/${soundTag}_ore`, stoneOres)
+        e.add(`kubejs:sounds/deepslate_${soundTag}_ore`, deepslateOres)
+    }
+    mapOreToSoundTag('minecraft', 'iron', 'iron')
+    mapOreToSoundTag('minecraft', 'copper', 'copper')
+    mapOreToSoundTag('minecraft', 'gold', 'gold')
+    mapOreToSoundTag('create', 'zinc', 'copper')
+    mapOreToSoundTag('cobblemore_lib', 'candy', 'copper')
+    mapOreToSoundTag('oreganized', 'lead', 'iron')
+    // mapOreToSoundTag('caverns_and_chasms', 'tin', 'iron') has its own sounds
+    mapOreToSoundTag('caverns_and_chasms', 'silver', 'gold')
+    mapOreToSoundTag('caverns_and_chasms', 'spinel', 'gold')
+    mapOreToSoundTag('galosphere', 'palladium', 'gold')
 }
