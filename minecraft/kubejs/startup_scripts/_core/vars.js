@@ -69,6 +69,13 @@ global.COLOURS = [
     'black'
 ]
 
+/**
+ * Convert a non-JS JSON Object to a JS Object
+ * @param {*} json - the weird built in JSON thing
+ * @returns {Object} JS Object
+ */
+global.json2js = (json) => JSON.parse(JsonIO.toString(json))
+
 // Collect all strings in a nested object with recursion
 function collectStrings(obj) {
     const result = []

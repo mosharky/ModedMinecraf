@@ -11,6 +11,8 @@ ServerEvents.tags('item', e => {
     itemTags_EveryComp(e)
     itemTags_CavernsAndChasms(e)
     itemTags_Hamsters(e)
+
+    itemTags_Core_Removals(e)
 })
 
 ServerEvents.tags('block', e => {
@@ -20,6 +22,11 @@ ServerEvents.tags('block', e => {
     blockTags_SnowRealMagic(e)
     blockTags_Origins(e)
     blockTags_Supplementaries(e)
+    blockTags_Sounds(e)
+})
+
+ServerEvents.tags('fluid', e => {
+    fluidTags_Embers(e)
 })
 
 ServerEvents.tags('entity_type', e => {
@@ -90,6 +97,7 @@ ServerEvents.recipes(e => {
     recipes_OddsNEnds(e)
     recipes_Botania(e)
     recipes_FunctionalStorage(e)
+    recipes_Aether(e)
 
     // Fully removing any recipe tied to items in REMOVALS
     global.REMOVALS.set.forEach(removal => {

@@ -22,6 +22,7 @@ config/xaerominimap_entities.json
 config/ironchests/defaults.properties
 config/resourceful-config-web.json
 config/crash_assistant/modlist.json
+config/memorycatcher-client.toml
 
 # mods
 mods/.connector/
@@ -69,6 +70,7 @@ emojiful/
 showdown/
 .probe/*
 immersive_paintings_cache/
+memorycatcher/
 
 # root files
 knownkeys.txt
@@ -92,6 +94,7 @@ irisUpdateInfo.json
 .qmenu_opened.marker
 snr_favorite_styles.nbt
 servers.dat_old
+hs_err_pid*.log
 
 # launcher-related
 .curseclient
@@ -113,3 +116,5 @@ globalresources/excavated_variants/
 # assets
 kubejs/assets/*.zip
 !kubejs/assets/special-*.zip
+kubejs/data/*.zip
+!kubejs/data/special-*.zip

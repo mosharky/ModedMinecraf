@@ -6,11 +6,12 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "78764cde434cf1182a866381fde7c08b1ec237f3f9d83ceba361e50553b8b409"
+hash = "4335c50f3116773db763883aeb7314a4a0e2710448feb037037b244d08c7a6b5"
 
 [versions]
 forge = "47.4.10"
 minecraft = "1.20.1"
+neoforge = "47.1.106"
 
 [options]
 datapack-folder = "kubejs/data"

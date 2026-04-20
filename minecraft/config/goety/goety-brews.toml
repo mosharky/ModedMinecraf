@@ -458,6 +458,9 @@
 		#Wild Rage Extra Capacity, Default: 2
 		#Range: > 0
 		wildRageCapacity = 2
+		#Void Touched Extra Capacity, Default: 4
+		#Range: > 0
+		voidTouchedCapacity = 4
 
 	["Modded Capacity"."Block/Other Effects"]
 		#Bat Burst Extra Capacity, Default: 2

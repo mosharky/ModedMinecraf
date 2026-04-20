@@ -113,6 +113,15 @@
         "**/minecraft/kubejs/_mod_data/": true,
         "**/minecraft/mods/.index/": true,
         "minecraft/kubejs/assets/*.zip": true,
-        "minecraft/kubejs/assets/special-*.zip": false
+        "minecraft/kubejs/assets/special-*.zip": false,
+        "minecraft/config/memorycatcher-client.toml": true,
+        "minecraft/kubejs/data/!": true,
+        "minecraft/config/xaero/!": true,
+        "**/minecraft/immersive_paintings_cache/": true,
+        "**/minecraft/memorycatcher/": true,
+        "minecraft/.gitignore": true,
+        "minecraft/kubejs/data/*.zip": true,
+        "minecraft/kubejs/data/special-*.zip": false,
+        "minecraft/hs_err_pid*.log": true
     }
 }

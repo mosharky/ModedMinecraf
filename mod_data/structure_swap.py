@@ -416,7 +416,7 @@ def main():
     gatherStructures(modsPath)
     gatherStructures(overridesPath)
     swapLoop(generatedDir / 'data')
-    zipStructures(Path('minecraft/kubejs/data/structures.zip'))
+    zipStructures(Path('minecraft/kubejs/data/special-structures.zip'))
 
 
 if __name__ == '__main__':

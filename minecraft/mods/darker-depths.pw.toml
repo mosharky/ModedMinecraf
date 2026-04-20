@@ -3,11 +3,11 @@ filename = "Darker Depths-1.20.1-2.0.9.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d84ee106301c379a2597e3c65c7cf151001224f8"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/wCbFXJKH/versions/Um0baOU8/Darker%20Depths-1.20.1-2.0.9.jar"
+hash-format = "sha512"
+hash = "039b9316a53bf44c85407fa0a0770107193ce2367540d4fb616ba15898ac5e6f1c9482982244c8d85e0eb6a7d1f3e563a9f86d1edfc044b6bcff865a5d41975d"
 
 [update]
-[update.curseforge]
-file-id = 7716706
-project-id = 460681
+[update.modrinth]
+mod-id = "wCbFXJKH"
+version = "Um0baOU8"

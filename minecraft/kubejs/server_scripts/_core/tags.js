@@ -1,7 +1,5 @@
 /** @param {$TagEventJS} e */
 function itemTags_Core(e) {
-    e.removeAllTagsFrom(global.REMOVALS.arr)
-
     if (!global.DEBUG_MODE) {
         e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
             /excavated_variants:.*/,
@@ -15,6 +13,11 @@ function itemTags_Core(e) {
             'moonlight:placeable_item',
         ]))
     }
+}
+
+/** @param {$TagEventJS} e */
+function itemTags_Core_Removals(e) {
+    e.removeAllTagsFrom(global.REMOVALS.arr)
 }
 
 /** @param {$TagEventJS} e */

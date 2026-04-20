@@ -1,13 +1,13 @@
 name = "Goety Cataclysm"
-filename = "goety_cataclysm-1.20-1.8.0.jar"
+filename = "goety_cataclysm-1.20-1.8.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "94c9f0b2a764f7ea9ae039824b4ba49781b509d1"
+hash = "7654114bff23ecda72220e6342ed4181fb330bb9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7828589
+file-id = 7888550
 project-id = 1224214
