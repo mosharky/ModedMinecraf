@@ -1,0 +1,13 @@
+name = "AllTheMons [Cobblemon]"
+filename = "AllTheMons Release 1.8.2 V129.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JV5dvqVX/versions/OVJTguDq/AllTheMons%20Release%201.8.2%20V129.zip"
+hash-format = "sha512"
+hash = "2288d317a8141285704e71b9a9e769c0a18c42da83b84dd4b3d3c51b4f7a1a3119de27f459556f9fd837b6b4cbec34fe52a1f0e61e11c61426e42a4e1a15be48"
+
+[update]
+[update.modrinth]
+mod-id = "JV5dvqVX"
+version = "OVJTguDq"

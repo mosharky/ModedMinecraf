@@ -2330,6 +2330,11 @@ file = "kubejs/assets/alexscaves/textures/item/caramel_sheet.png"
 hash = "5fee3ae1c66abb6aa10e87564d0347d86618def3506685a8c6c9b2bf8b6c1164"
 
 [[files]]
+file = "kubejs/assets/allthemons.pw.toml"
+hash = "76f2dddd29b15fc6fca7d9ebf14de5ad1354f7c523c1838bf894b84108cbb6e2"
+metafile = true
+
+[[files]]
 file = "kubejs/assets/alpha-particles-trasparent-particles.pw.toml"
 hash = "e7eb0893b29254cd8c18f0359dd3b717da823ac72f5b124c63bcb3b72c6cea5c"
 metafile = true
