@@ -520,7 +520,14 @@ function blockTags_Sounds(e) {
             global.WOOD_TYPES[mod][woodType].another_furniture.chair,
             global.WOOD_TYPES[mod][woodType].backpacked.backpack_shelf,
             global.WOOD_TYPES[mod][woodType].decorative_blocks.seat,
+            global.WOOD_TYPES[mod][woodType].dramaticdoors.short_door,
+            global.WOOD_TYPES[mod][woodType].dramaticdoors.tall_door,
         ]
+
+        if (global.WOOD_TYPES[mod][woodType].dramaticdoors.short_door != undefined) {
+            objectsArr.push(global.WOOD_TYPES[mod][woodType].dramaticdoors.short_door)
+            objectsArr.push(global.WOOD_TYPES[mod][woodType].dramaticdoors.tall_door)
+        }
 
         // Leaves
         if (Item.exists(`${mod}:${woodType}_leaves`)) leavesArr.push(`${mod}:${woodType}_leaves`)
