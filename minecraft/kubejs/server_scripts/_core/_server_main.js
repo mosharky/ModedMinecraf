@@ -11,6 +11,8 @@ ServerEvents.tags('item', e => {
     itemTags_EveryComp(e)
     itemTags_CavernsAndChasms(e)
     itemTags_Hamsters(e)
+    itemTags_Cataclysm(e)
+    itemTags_Goety(e)
 
     itemTags_Core_Removals(e)
 })

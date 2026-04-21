@@ -12,7 +12,8 @@ function removals_Cataclysm() {
         'cataclysm:stone_tiles',
         /cataclysm:(?!.*void.*).*purpur.*/,
         'cataclysm:blackstone_pillar',
-        'cataclysm:prismarine_brick_wall'
+        'cataclysm:prismarine_brick_wall',
+        'cataclysm:belt_of_beginner',
     ])
 
     global.BLOCK_SWAPPER.set('cataclysm:stone_pillar', 'create:andesite_pillar')
