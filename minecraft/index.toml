@@ -4446,6 +4446,11 @@ hash = "6cb57650a207cc3b9c758f05fd59261187567fc5f5ee879ace7550cbe69b9f27"
 metafile = true
 
 [[files]]
+file = "mods/c2mef.pw.toml"
+hash = "92f000167f0c5665fa6f4a351889a58db7235ed8ebdb086a21a28a7024d347ad"
+metafile = true
+
+[[files]]
 file = "mods/cactus-flower-compat.pw.toml"
 hash = "ce539340ef81f0d4934e1809e2ad12239d4c50aa6dcd6bcae07b70810ab6da74"
 metafile = true
