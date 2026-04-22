@@ -874,7 +874,7 @@ hash = "ebc96c813d601e9c61b6929a8490e71fa990dc64918c19e1f9937bb275510abc"
 
 [[files]]
 file = "config/curios-common.toml"
-hash = "5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea"
+hash = "9a420a9028fd1e89bcd686a2884ed790c31d096f3747b326e133ee891556dba6"
 
 [[files]]
 file = "config/darkerdepths-common.toml"
@@ -1446,7 +1446,7 @@ hash = "5548e8fcf3ab17301d14c841ad51b76b872bcac6f698ab1706974334a493d87e"
 
 [[files]]
 file = "config/logunspam-common.toml"
-hash = "9e48219c57c4e8633746d736e13ffca0969e51fe881a2f09ecbbb21566df0444"
+hash = "b3e6fa70d1e6ef4d859cd7a0482fa7db100a8fc73aab383f645fab0c5337c2a8"
 
 [[files]]
 file = "config/lootintegrations.json"
@@ -3465,7 +3465,7 @@ hash = "5b0da5bd4b759a9fd727c847c781f08225c5c55d26c3b6b08c3b5d5ac7e35798"
 
 [[files]]
 file = "kubejs/server_scripts/_core/_server_main.js"
-hash = "3eba63135bf4ae6f7bee16663704ac9371441c9d3ce7194217da708d3ced05f1"
+hash = "622402bed26dca7578719f48e0880c2d3c38ba5070c7894b8abb8dc72a8cb983"
 
 [[files]]
 file = "kubejs/server_scripts/_core/advancements.js"
@@ -3489,7 +3489,7 @@ hash = "0f53e45aaf6edc2f3e79d27b1ef83635a21f42cd58ae31711cde23919f12c366"
 
 [[files]]
 file = "kubejs/server_scripts/_core/player.js"
-hash = "174dfff7279a89a0cc471278edcbcdd8ff88915cdfe4adb5a61786199a177251"
+hash = "927e31b74b9169283a803253743202ea171d55130a275d31351651eb8aa085ae"
 
 [[files]]
 file = "kubejs/server_scripts/_core/recipes.js"
@@ -3617,7 +3617,7 @@ hash = "b4edbcd2b34a60bf35802642d979dd95b75a48684776b30b32aaec8eb7e83118"
 
 [[files]]
 file = "kubejs/server_scripts/cataclysm/tags.js"
-hash = "492ad88582ffaec78b7b16384f4ecb0e0b89e86ab2b7ff29e35192cfe4faa6b0"
+hash = "5ffcc9f1015bc31ad4d45a9e96c5b38dbf2c8a1d73df9ea75858b05e0d51a650"
 
 [[files]]
 file = "kubejs/server_scripts/caverns_and_chasms/recipes.js"
@@ -3738,6 +3738,10 @@ hash = "af4949935f18af3ffaa414f73e80cd2ef4ba0888d5917d5cae81acfa090dbc59"
 [[files]]
 file = "kubejs/server_scripts/goety/recipes.js"
 hash = "8cb5fde5a3b6998582e031abe92d7ed1659f35b18595f9360bdfdf6970e81d8b"
+
+[[files]]
+file = "kubejs/server_scripts/goety/tags.js"
+hash = "0e13e837a7f5af2cd409511c4d9dbbef6169da78198b9fd00ade74f81609103e"
 
 [[files]]
 file = "kubejs/server_scripts/goety/worldgen.js"
@@ -4053,7 +4057,7 @@ hash = "62b539ddd68872dfce79ade7e2382d95f6f2c3cfd7ed19ddf4ee90de4bfa5aca"
 
 [[files]]
 file = "kubejs/startup_scripts/cataclysm/removal.js"
-hash = "6595cc7122995bbf10e9ff6748c92c9f512ba6cec0a97783dc53a2634c2f9b3d"
+hash = "121d640ec9c7f770d0d9af6ac3590f70d80905cc90dcfab2e9bd46273b7db95a"
 
 [[files]]
 file = "kubejs/startup_scripts/caverns_and_chasms/removals.js"
@@ -4816,11 +4820,6 @@ hash = "70eb6e1674e173285168b5b5e4a44bc2a6d588033585c66fecb5e496b734c88c"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-view.pw.toml"
-hash = "9503bfd7d59bb3f50232a6c5ea90e5790e178cc96b2463eb3e9775f65d1ef4ea"
-metafile = true
-
-[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "0c91bda0e9a61b15ac8a729678c70af9b9630c8ea6cadf591750b129caa10000"
 metafile = true
@@ -5318,11 +5317,6 @@ metafile = true
 [[files]]
 file = "mods/lodestone.pw.toml"
 hash = "a484a0a768e886244dab01dd9793d979ca5d57b8327f9f4caa36a3031fc46d63"
-metafile = true
-
-[[files]]
-file = "mods/login-protection.pw.toml"
-hash = "0a96e881040a95b2543d18afc3f9e1727e64659ec1548ed2df4fcd7dafbfbbc7"
 metafile = true
 
 [[files]]
@@ -5831,14 +5825,6 @@ hash = "af5ad1503083ce88a6e269f5aa334c22b8246941c8b40f87fbd25bfe25d4aafc"
 [[files]]
 file = "mods/special-fastboot-1.20.x-1.2.jar"
 hash = "66c44b0648a3e3d4115c37593208b85668a97ce012355bad3d33f3cd8142a11f"
-
-[[files]]
-file = "mods/special-harichunk-mc1.20.1-1.0.5.jar"
-hash = "c3a4ad82f9476af8535ae4809802dd12c16bcc3e7f58556b29ffa68c648caeb7"
-
-[[files]]
-file = "mods/special-harimt-forge-1.20.1-1.0.2.jar"
-hash = "36ad4e5a6fa6e79c4ff9da98f66a8d6d9e26713b4f2738532824925697424517"
 
 [[files]]
 file = "mods/special-nameless-1.0.0.jar"
