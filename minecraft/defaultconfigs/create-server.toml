@@ -414,17 +414,17 @@
 	#.
 	#The amount of Schematics a player can upload until previous ones are overwritten.
 	#Range: > 1
-	maxSchematics = 10
+	maxSchematics = 100
 	#.
 	#[in KiloBytes]
 	#The maximum allowed file size of uploaded Schematics.
 	#Range: > 16
-	maxTotalSchematicSize = 256
+	maxTotalSchematicSize = 262144
 	#.
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
 	#Range: 256 ~ 32767
-	maxSchematicPacketSize = 1024
+	maxSchematicPacketSize = 32766
 	#.
 	#Amount of game ticks without new packets arriving until an active schematic upload process is discarded.
 	#Range: > 100
