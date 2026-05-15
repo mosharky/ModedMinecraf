@@ -2238,7 +2238,7 @@ hash = "6eccc702431fd40b6a2ab45c6d9e15b881324a2cb3ff6e0dbb0a8c1ebf465409"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "974d0be219b4a46d2ed0b76eaea1acd1cef6070e563554bd57479523b836c708"
+hash = "925f1d6c85865e39b7b6222823325299f0c9295e1c55cda39933e4f48c3f4cfd"
 
 [[files]]
 file = "defaultconfigs/create_aquatic_ambitions-server.toml"
@@ -3485,7 +3485,7 @@ hash = "c5440d60b65f7f316ad34c23854eef811829d8af9817802344e977229ee205b0"
 
 [[files]]
 file = "kubejs/server_scripts/_core/events.js"
-hash = "6a1b3b52c52a7b1fa0a6f8633674ac7f22d199ede5de1fe9832a693d97c3c7a2"
+hash = "c952bbbab4f5b8439350b9032d5cfc99870420050416fcfc18ab9943941a4d9d"
 
 [[files]]
 file = "kubejs/server_scripts/_core/loot_tables.js"
@@ -3613,7 +3613,7 @@ hash = "066c37e49971b8d06a420e92ef680f96629b96f5a08255dee4997dc5ddb121c7"
 
 [[files]]
 file = "kubejs/server_scripts/cataclysm/events.js"
-hash = "26c4c6dd415516bd7a9505fa519f81e2a54e2c24bf11a9514f70e3bcab6e6290"
+hash = "2d28f66a2491ab886fcace943f9f4cc048dbd7492dd9ff2c49a5aaf238475d69"
 
 [[files]]
 file = "kubejs/server_scripts/cataclysm/recipes.js"
