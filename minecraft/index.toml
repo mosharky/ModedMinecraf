@@ -789,6 +789,10 @@ file = "config/connectorextras_energy_bridge-common.toml"
 hash = "4075f057d848f2a33f0bff9f44cce49f8d8340001d7b2afe3431ba1d999c4400"
 
 [[files]]
+file = "config/constructionwand-client.toml"
+hash = "49dab16d69ef53b3846431d403918762dc0b22a4efba307c80894eeec64a1118"
+
+[[files]]
 file = "config/copycats-client.toml"
 hash = "9c4e1c84d2cd936b850b7d69ab97e4b617e464551cc3ce44aeb0aaed4eb6c6c5"
 
@@ -2234,7 +2238,7 @@ hash = "6eccc702431fd40b6a2ab45c6d9e15b881324a2cb3ff6e0dbb0a8c1ebf465409"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "82e98ba538e2f9d31cddddc843c8903fc9396e7fa883238f33e4367b7b81ae0e"
+hash = "974d0be219b4a46d2ed0b76eaea1acd1cef6070e563554bd57479523b836c708"
 
 [[files]]
 file = "defaultconfigs/create_aquatic_ambitions-server.toml"
@@ -4622,6 +4626,11 @@ metafile = true
 [[files]]
 file = "mods/connector.pw.toml"
 hash = "68a935746aad424891dcb36fa705cdafd652ea1170ecb8144b1db0c87e30297b"
+metafile = true
+
+[[files]]
+file = "mods/construction-wand.pw.toml"
+hash = "f0a3b2a75840024a3dfc03dc073b20e61aa41cf939cef2698308029a5f870c35"
 metafile = true
 
 [[files]]
