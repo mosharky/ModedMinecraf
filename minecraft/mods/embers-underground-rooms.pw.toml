@@ -1,13 +1,13 @@
 name = "Ember's Underground Rooms"
-filename = "underground_rooms-2.1.9-1.20.1.jar"
+filename = "underground_rooms-2.2-1.20.1.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/xzodQEJb/versions/BeLxl5Ml/underground_rooms-2.1.9-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/xzodQEJb/versions/lm6Yt4tp/underground_rooms-2.2-1.20.1.jar"
 hash-format = "sha512"
-hash = "ccc77d6e77ebfff3af51357032839d002f936d7de025aaa4daa2d164da95d1f9b1f591a2a2b1580ee4718534f932f207328812aa33c17a72a275cbd1fc85cf83"
+hash = "8cd2cee00673cc416a21d3367eac657651592889723e78d0e20ef6276c4a5c9be013b20c598813bfe036b2bd1e624d9912bdc13ce88cf818b6db0158cff3fbeb"
 
 [update]
 [update.modrinth]
 mod-id = "xzodQEJb"
-version = "BeLxl5Ml"
+version = "lm6Yt4tp"

@@ -1,13 +1,13 @@
 name = "Integrated Dungeons Arise"
-filename = "IDA-v2.0.5.jar"
+filename = "IDA v2.1.1-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/uG4njWFR/versions/jW1GsmJn/IDA-v2.0.5.jar"
+url = "https://cdn.modrinth.com/data/uG4njWFR/versions/B4HIVX8Z/IDA%20v2.1.1-1.20.1.jar"
 hash-format = "sha512"
-hash = "10f14bca0c56f7e0dfd160a6d21747ef25616f3e9ba78133917148416adf51079253938ef76d23e0f0e658266bf6d01409a8e60ed07bff116506ebea5d3df1a7"
+hash = "d494e2fa55bc39bb1c1b721645b83e4f4c088a964bb608b216709403399e43875189cca335d3d100cf40ba7fa93794ba3120257dc35928f6e61e1fde1676a729"
 
 [update]
 [update.modrinth]
 mod-id = "uG4njWFR"
-version = "jW1GsmJn"
+version = "B4HIVX8Z"

@@ -1,13 +1,13 @@
 name = "Mana Jade"
-filename = "mana_jade-1.2.1.jar"
+filename = "mana_jade-1.2.1-fix.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SWV6q3Lo/versions/mYI83pXR/mana_jade-1.2.1.jar"
+url = "https://cdn.modrinth.com/data/SWV6q3Lo/versions/YzE8ve7D/mana_jade-1.2.1-fix.jar"
 hash-format = "sha512"
-hash = "96c852174128269c74b01212f8a003a70f888f74413f999d93e47e45ab3b5ffdc375c32fb4a477f633fab0d78757f51274423b88abf23ef081dc12fe5be86d33"
+hash = "131a79b7df3b78a931cd0fd9e7eb7d4d5ef7044a7493bead2ce9ab271dec45466d8db73acc63a7593f4696024ab8ad88dc1300140446ecf53918c4b00e63824a"
 
 [update]
 [update.modrinth]
 mod-id = "SWV6q3Lo"
-version = "mYI83pXR"
+version = "YzE8ve7D"

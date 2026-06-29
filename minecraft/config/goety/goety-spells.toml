@@ -434,7 +434,7 @@
 		meteorShowerShots = 20
 
 	[Spells."Quaking Spell"]
-		#Earth Fist Spell Cooldown, Default: 100
+		#Earth Fist Spell Cooldown, Default: 60
 		#Range: > 0
 		earthFistCoolDown = 60
 		#How much base damage Earth Fists deals, Default: 6.0
@@ -1748,6 +1748,54 @@
 		#How much base damage Surging Orbs deals, Default: 3.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		surgingDamage = 3.0
+
+	[Spells."Hogging Spell"]
+		#Hogging Spell Cost, Default: 24
+		#Range: > 0
+		hoggingCost = 24
+		#Time to cast Hogging Spell, Default: 40
+		#Range: 0 ~ 72000
+		hoggingDuration = 40
+		#Hogging Spell Cooldown, Default: 300
+		#Range: > 0
+		hoggingCoolDown = 300
+		#Hogging Spell Summon Down, Default: 100
+		#Range: 0 ~ 72000
+		hoggingSummonDown = 100
+		#Number of Blazing Hoglins that can exist around the player, Default: 4
+		#Range: > 1
+		hoggingLimit = 4
+
+	[Spells."Smack Stone Spell"]
+		#Smack Stone Spell Cost, Default: 4
+		#Range: > 0
+		smackStoneCost = 4
+		#Time to cast Smack Stone Spell, Default: 0
+		#Range: 0 ~ 72000
+		smackStoneTime = 0
+		#Smack Stone Spell Cooldown, Default: 40
+		#Range: > 0
+		smackStoneCoolDown = 40
+		#How much base damage Smack Stones deals, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		smackStoneDamage = 4.0
+
+	[Spells."Sprightly Spell"]
+		#Sprightly Spell Cost, Default: 24
+		#Range: > 0
+		spriteCost = 24
+		#Time to cast Sprightly Spell, Default: 100
+		#Range: 0 ~ 72000
+		spriteDuration = 100
+		#Sprightly Spell Cooldown, Default: 200
+		#Range: > 0
+		spriteCoolDown = 200
+		#Sprightly Spell Summon Down, Default: 200
+		#Range: 0 ~ 72000
+		spriteSummonDown = 200
+		#Number of Sprites that can exist around the player, Default: 8
+		#Range: > 1
+		spriteLimit = 8
 
 [Enchantments]
 	#Soul Eater Maximum Enchantment Level, Default: 5

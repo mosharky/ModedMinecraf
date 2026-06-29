@@ -1,13 +1,13 @@
 name = "EMI++ Backport"
-filename = "emixx-forge-1.4.0.jar"
+filename = "emixx-forge-1.5.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/N9WucjHL/versions/ua4zA5Jn/emixx-forge-1.4.0.jar"
+url = "https://cdn.modrinth.com/data/N9WucjHL/versions/IjNM5KeY/emixx-forge-1.5.1.jar"
 hash-format = "sha512"
-hash = "99c5b06ab0cfde695f4d1b9c66455eb101ca0f4ca749b71d2bac4bdc6baba73943fe2e8621ec1f6db6b9e8e7cd0ed23230b8d10a69ee501e7a80b0f580bd9adb"
+hash = "5c74e5d8bca6f2911fa060f47dac70fbbe98c694cc4abe429f92acea569abf2ef4af6604ad3ecbbba2dca93dae3648d2274595fc43f4ef0a9627ca10fdb49ed7"
 
 [update]
 [update.modrinth]
 mod-id = "N9WucjHL"
-version = "ua4zA5Jn"
+version = "IjNM5KeY"

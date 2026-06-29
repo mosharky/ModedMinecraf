@@ -1,13 +1,13 @@
 name = "Hellim's Xaero's Maps Mob Icons"
-filename = "Hellim's Xaero's Maps Mob Icons v1.6.zip"
+filename = "Hellim's Xaero's Maps Mob Icons v1.8.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/g6UiPfKR/versions/4jHT1pUo/Hellim%27s%20Xaero%27s%20Maps%20Mob%20Icons%20v1.6.zip"
+url = "https://cdn.modrinth.com/data/g6UiPfKR/versions/yZhN66de/Hellim%27s%20Xaero%27s%20Maps%20Mob%20Icons%20v1.8.zip"
 hash-format = "sha512"
-hash = "5e76a8b3fbbd174f93cb2adf8bedf37d409ed9ee6253df3b18318f2a1171c5634fd6e8f0bcdf118101fe049af50f3b6c9dc9a1db3666442ddc583188a8b599da"
+hash = "2a269272aaa5d069f5fbfaab85a5c66b4b52ccc3c17f38111fa0d4e5e0a6cb725e330dea6ef58ed93ec3b722d5f5f1d53c8739a808b81b3fb1b547927fc0e308"
 
 [update]
 [update.modrinth]
 mod-id = "g6UiPfKR"
-version = "4jHT1pUo"
+version = "yZhN66de"
