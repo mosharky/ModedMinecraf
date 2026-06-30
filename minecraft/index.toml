@@ -898,7 +898,7 @@ hash = "9a420a9028fd1e89bcd686a2884ed790c31d096f3747b326e133ee891556dba6"
 
 [[files]]
 file = "config/darkerdepths-common.toml"
-hash = "b9cccfef3ac8622a0e313b098e4a1de661c08407e8097ec40352d13f2413d49d"
+hash = "01493e45b0d35b781cd1e02ffb4449f723d709774e341d7f5bfa35d919d33b09"
 
 [[files]]
 file = "config/de/mari_023/ae2wtlib.json5"
@@ -4784,7 +4784,7 @@ metafile = true
 
 [[files]]
 file = "mods/darker-depths.pw.toml"
-hash = "4870e487c5f4370fe91f70bc6b0fec05239f035f6d980be7284b89b0df169273"
+hash = "043a5acb2cd65e89e5d57ed2ed6c37b59a1810b63c7ffc263c6e7f10ff5e65a1"
 metafile = true
 
 [[files]]
