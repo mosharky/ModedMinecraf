@@ -6,7 +6,7 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "ed365d97fed55fae49f833460301c754d29b0960e709a08820fc2abe74b48f75"
+hash = "c3d8fcd71d49078fe51e6989ba746bdddb22bcd94f21b189bd4c7c3ee85cc021"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -1018,7 +1018,7 @@ hash = "cc1d43497f2c78d2bf9ad1a988822d3c3c12fab18e87b499f918c61f472dc1ef"
 
 [[files]]
 file = "config/emi.css"
-hash = "9937b9408b77716edb40aae37a427242bdc73fe135821317e887d5649b680712"
+hash = "52dccca3885d029c04bb4afa912523c783e06d5ec224879cdb89958acb612d47"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -1914,7 +1914,7 @@ hash = "b9226f3edabcf1a4198240cc2b2b602d0ccd2a1111d5f17948cea4ce057b16ad"
 
 [[files]]
 file = "config/sodiumextras-client.toml"
-hash = "b945f942972f39358c5afcd46ff306e6ca599df22a96ee1cfeabb58019145f43"
+hash = "dd5361f977b65de74f5bee793eba75fcf585f478ee065d737c72f69ae800ba44"
 
 [[files]]
 file = "config/sootychimneys-client.toml"
@@ -1938,7 +1938,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "b71607a58547558e43209f32bdbf4b87ab980432dce676bce233f72e6b0d492a"
+hash = "54a804262b2c263cd66aba405731d0eff4aff04418e0089cf48e36fbd47dea11"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2174,11 +2174,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "627c145f66ce40faf1fe469dffa81af42e6133859defb748c0dfc0319501623b"
+hash = "dc0dd6504c282af6d9e76adc4324a59f08d77b489544334126ac3e2f3e28535a"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "d44155ad6524baf93af689dcc2f7bab16d1989475f4c91a88ee526687e4957ec"
+hash = "50b7f24881400d3f192242a1ce207aedddf8db3a478b6c42491b19d637e14316"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -2198,7 +2198,7 @@ hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
-hash = "e013ef288851dce90cd77970aac13b6469db20a702a0fd8ba3a6a8e4b9b6125c"
+hash = "7b24c882801bcc7f0a8aedc625d419f661fa490fa0e9d5ebe39599a1ce2dcbd5"
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
@@ -2214,7 +2214,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/xaeroplus.txt"
-hash = "edb1179c85d54aa0d5d54f589499b50a40a2d401c8fa8be1c71b54ce3c8c8f08"
+hash = "ac3441faa023ac6ff342c42fe8a46329d09c9dcfbbf26b71ef567cad301441e3"
 
 [[files]]
 file = "config/yacl.json5"
@@ -2606,6 +2606,11 @@ hash = "19141afdc23ddd08b517b48b93c14fc416d5aedd775ee2d03eca9cd79f3d8c62"
 metafile = true
 
 [[files]]
+file = "kubejs/assets/e19_cobblemon_minimap_icons.pw.toml"
+hash = "8578c45c2f6ffa4ba08c014ac1e9ea26dad8bfffd40b3e73f145312e926ca054"
+metafile = true
+
+[[files]]
 file = "kubejs/assets/emi-create-cobble-gen-compat.pw.toml"
 hash = "ce8343e483f2783a5a11b3b6ff49460a3cdd2f37b5aa95717154e61094a290df"
 metafile = true
@@ -2986,11 +2991,6 @@ hash = "3745b2a7d56f3e2f8cfccb3c47c208068f2825c3448b4fc1a41e53d3e7fae741"
 metafile = true
 
 [[files]]
-file = "kubejs/assets/xaeroscobblemon.pw.toml"
-hash = "ec2d0af382ae5b0280e476a7fbaddc05184af39261106f5fcc377b31ef78219b"
-metafile = true
-
-[[files]]
 file = "kubejs/client_scripts/_core/_client_main.js"
 hash = "99fac673b3d04031bc3da858f83bb4c853db228406723a39f8dff0ff2e854083"
 
@@ -3008,7 +3008,7 @@ hash = "2398959fe2b9746a02465f0e9ad7ed35cfd75ee28386579c9eed2d7d78e663fb"
 
 [[files]]
 file = "kubejs/client_scripts/emi/emixx.js"
-hash = "cc8adde8e56db2fc4e1eccb26cdc550f51c0a2acf9a156036de86df0b9b42783"
+hash = "690e339a2018933291a83e038609fc14dc0116f6c763790ed53ed7127c8c0bf4"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -6116,16 +6116,6 @@ metafile = true
 [[files]]
 file = "mods/zetter-painting-mod.pw.toml"
 hash = "517ae1dacbe30711b7abccb4c2b4904eb0f1611454eb5836a7071c3a5a7b8996"
-metafile = true
-
-[[files]]
-file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "ea258ed5bf495d9017eeadc3cbf9bd67b1e672d843826bc077135548b5bc699e"
-metafile = true
-
-[[files]]
-file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "608b87f75b2387a9fbd340cb18a8238bbbe5a0afc54202634b34f3000246b6e7"
 metafile = true
 
 [[files]]
