@@ -9,6 +9,7 @@
 [XP] Baritone Path:true
 [XP] Baritone Path Color:0
 [XP] Baritone Path Opacity:150.0
+[XP] Beacons Overlay:false
 [XP] Breadcrumbs:false
 [XP] Breadcrumbs Chunk Radius:0.0
 [XP] Breadcrumbs Color:4
@@ -61,7 +62,9 @@
 [XP] Palette NewChunks:false
 [XP] Palette NewChunks Color:0
 [XP] Palette NewChunks Inverse:false
+[XP] Palette NewChunks Min Rescan Age:3
 [XP] Palette NewChunks Opacity:100.0
+[XP] Palette NewChunks Rescan:false
 [XP] Palette NewChunks Version Upgraded:true
 [XP] Pearl Waypoints:false
 [XP] Persist Dim Switch:true
@@ -83,6 +86,7 @@
 [XP] Region Grid Color:0
 [XP] Region Grid Text:false
 [XP] Region Writes While Dim Switched:false
+[XP] Render Game Behind WorldMap:false
 [XP] Roof Obsidian Opacity:150.0
 [XP] Roof Snow Opacity:10.0
 [XP] Roof Y Level:250.0

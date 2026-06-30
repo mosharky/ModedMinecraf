@@ -1,3 +1,16 @@
+# [2.1.0] - 29/06/2026
+- Updated mods
+- Added No Chat Reports
+- Added No Chat Restrictions
+- Added Moog's Structure Lib
+- Removed Draggable Lists
+- Created more EMI item groups
+- Fixed Create harvester prematurely harvesting crops (fr this time)
+- Changed entity radar to be on by default
+- Switched Xaero's Cobblemon to E19 - Cobblemon Minimap Icons
+  - Supports our addons!!
+
+
 # [2.0.0] - 14/03/2026
 rework
 

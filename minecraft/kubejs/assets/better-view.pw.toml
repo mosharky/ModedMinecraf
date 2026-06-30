@@ -3,11 +3,11 @@ filename = "Better View.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/PGZ4kn35/versions/zfCPRWA6/Better%20View.zip"
+url = "https://cdn.modrinth.com/data/PGZ4kn35/versions/u5KEYkpM/Better%20View.zip"
 hash-format = "sha512"
-hash = "3a41000c5b115f1d6cc8b6120ce9b93e4171f759cf00e06481ec09c321dca8718a91de9a7c8b57791dd4f884da9f9809040f98d965d2cb2e6dfb481e2a89a9bf"
+hash = "ad9768f09ab2e9870fbd3e0c8acc9b0b7fba9f97e5b5598e25b4c8243400edc02e4b0dee5f20857dddddcdfeb07c7aecee1435b7e5afae223b55ccdd2ab2da42"
 
 [update]
 [update.modrinth]
 mod-id = "PGZ4kn35"
-version = "zfCPRWA6"
+version = "u5KEYkpM"

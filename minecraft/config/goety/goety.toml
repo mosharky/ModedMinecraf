@@ -8,6 +8,8 @@
 	betterDragonFireball = false
 	#If L_Ender's Cataclysm is installed, pouring Lava onto Void Fluid source blocks will turn it into Void Stones. Default: true
 	cataclysmVoidStone = true
+	#If there's a Block of Lapis Lazuli below, Lava interacting with water will generate Ominous Stone. Default: true
+	ominousStoneGenerator = true
 
 [Blocks]
 	#How big of a range Dark Altars can count blocks to make a ritual and detect sacrifices/conversion victims, Default: 8

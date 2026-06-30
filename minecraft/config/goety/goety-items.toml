@@ -125,6 +125,25 @@
 			#Range: > 1
 			blackIronHead = 2
 
+	[Armor."Malefic Helm"]
+		#Define how much armor points wearing the Helmet provides, Default: 2
+		#Range: > 1
+		maleficHead = 2
+		#Define the Durability Multiplier for the armor, higher number the better, Default: 15
+		#Range: > 1
+		maleficDurability = 30
+		#Define the Enchantability for the armor, higher number the better, Default: 15
+		#Range: > 1
+		maleficEnchantability = 15
+		#Define the toughness for each armor piece, Default: 2.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		maleficToughness = 2.0
+		#Define how much knockback resistance each armor piece provides, Default: 0.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		maleficKnockResist = 0.0
+		#Whether armor pieces don't break but no longer provide armor, Default: true
+		maleficPersist = true
+
 [Curios]
 	#The total amount of Rotten Flesh a Pendant of Hunger can hold, Default: 1024
 	#Range: > 1

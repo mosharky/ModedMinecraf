@@ -74,11 +74,14 @@
 
 		[types.stone_type.windswept]
 			shale = true
+			gingerbread = true
 
 		[types.stone_type.galosphere]
 			pink_salt = true
 			rose_pink_salt = true
 			pastel_pink_salt = true
+			allurite = true
+			lumiere = true
 
 		[types.stone_type.oreganized]
 			glance = true
@@ -91,7 +94,6 @@
 
 		[types.stone_type.goety]
 			shade_stone = true
-			crypt_stone = true
 			highrock = true
 			siltstone = true
 			ominous_stone = true
@@ -104,12 +106,15 @@
 			radrock = true
 			abyssmarine = true
 			guanostone = true
+			limestone = true
+			gingerbread = true
 
 		[types.stone_type.unusualend]
 			gneiss = true
 			gloopstone = true
 			gloopslate = true
 			warped_stone = true
+			citrine = true
 
 		[types.stone_type.aether_redux]
 			driftshale = true
@@ -130,6 +135,16 @@
 
 		[types.stone_type.botania]
 			livingrock = true
+			corporea = true
+
+		[types.stone_type.upgrade_aquatic]
+			tooth = true
+
+		[types.stone_type.neapolitan]
+			chocolate = true
+
+		[types.stone_type.ae2]
+			quartz = true
 
 	[types.wood_type]
 

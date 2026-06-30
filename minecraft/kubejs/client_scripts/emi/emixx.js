@@ -55,4 +55,8 @@ function clientData_EMIxx(e) {
 
     // Items
     createItemGroup(['caverns_and_chasms:trail_potion'])
+    createItemGroup(['caverns_and_chasms:tether_potion'])
+    createItemGroup(['caverns_and_chasms:impact_potion'])
+    createItemGroup(['aetherworks:potion_gem'])
+    createItemGroup(['quark:seed_pouch'])
 }
